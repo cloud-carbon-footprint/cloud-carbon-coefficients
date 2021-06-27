@@ -1,0 +1,595 @@
+Instance Family,Series,Microarchitecture,vCPUS,Memory (GB)
+A1 v2,Av2 Standard,Unknown,1,2
+A2 v2,Av2 Standard,Unknown,2,4
+A2m v2,Av2 Standard,Unknown,2,16
+A4 v2,Av2 Standard,Unknown,4,8
+A4m v2,Av2 Standard,Unknown,4,32
+A8 v2,Av2 Standard,Unknown,8,16
+A8m v2,Av2 Standard,Unknown,8,64
+B12MS,Bs-series,Unknown,12,48
+B16MS,Bs-series,Unknown,16,64
+B1LS,Bs-series,Unknown,1,0.5
+B1MS,Bs-series,Unknown,1,2
+B1S,Bs-series,Unknown,1,1
+B20MS,Bs-series,Unknown,20,80
+B2MS,Bs-series,Unknown,2,8
+B2S,Bs-series,Unknown,2,4
+B4MS,Bs-series,Unknown,4,16
+B8MS,Bs-series,Unknown,8,32
+D1 v2,D1-5 v2,Cascade Lake,1,3.5
+D1 v2,D1-5 v2,Skylake,1,3.5
+D1 v2,D1-5 v2,Broadwell,1,3.5
+D1 v2,D1-5 v2,Haswell,1,3.5
+D11 v2,D11-15 v2,Cascade Lake,2,14
+D11 v2,D11-15 v2,Skylake,2,14
+D11 v2,D11-15 v2,Broadwell,2,14
+D11 v2,D11-15 v2,Haswell,2,14
+D12 v2,D11-15 v2,Cascade Lake,4,28
+D12 v2,D11-15 v2,Skylake,4,28
+D12 v2,D11-15 v2,Broadwell,4,28
+D12 v2,D11-15 v2,Haswell,4,28
+D13 v2,D11-15 v2,Cascade Lake,8,56
+D13 v2,D11-15 v2,Skylake,8,56
+D13 v2,D11-15 v2,Broadwell,8,56
+D13 v2,D11-15 v2,Haswell,8,56
+D14 v2,D11-15 v2,Cascade Lake,16,112
+D14 v2,D11-15 v2,Skylake,16,112
+D14 v2,D11-15 v2,Broadwell,16,112
+D14 v2,D11-15 v2,Haswell,16,112
+D15 v2,D11-15 v2,Cascade Lake,20,140
+D15 v2,D11-15 v2,Skylake,20,140
+D15 v2,D11-15 v2,Broadwell,20,140
+D15 v2,D11-15 v2,Haswell,20,140
+D15i v2 1,D11-15 v2,Cascade Lake,20,140
+D15i v2 1,D11-15 v2,Skylake,20,140
+D15i v2 1,D11-15 v2,Broadwell,20,140
+D15i v2 1,D11-15 v2,Haswell,20,140
+D16 v3,D2-64 v3,Cascade Lake,16,64
+D16 v3,D2-64 v3,Skylake,16,64
+D16 v3,D2-64 v3,Broadwell,16,64
+D16 v3,D2-64 v3,Haswell,16,64
+D16 v4,D2 – D64 v4,Cascade Lake,16,64
+D16a v4,D2a – D96a v4,AMD EPYC 2nd Gen,16,64
+D16as v4,D2as – D96as v4,AMD EPYC 2nd Gen,16,64
+D16d v4,D2d – D64d v4,Cascade Lake,16,64
+D16ds v4,D2ds – D64ds v4,Cascade Lake,16,64
+D16s v3,D2s-64s v3,Cascade Lake,16,64
+D16s v3,D2s-64s v3,Skylake,16,64
+D16s v3,D2s-64s v3,Broadwell,16,64
+D16s v3,D2s-64s v3,Haswell,16,64
+D16s v4,D2s – D64s v4,Cascade Lake,16,64
+D16s v4,D2s – D64s v4,Skylake,16,64
+D16s v4,D2s – D64s v4,Broadwell,16,64
+D16s v4,D2s – D64s v4,Haswell,16,64
+D2 v2,D1-5 v2,Cascade Lake,2,7
+D2 v2,D1-5 v2,Skylake,2,7
+D2 v2,D1-5 v2,Broadwell,2,7
+D2 v2,D1-5 v2,Haswell,2,7
+D2 v3,D2-64 v3,Cascade Lake,2,8
+D2 v3,D2-64 v3,Skylake,2,8
+D2 v3,D2-64 v3,Broadwell,2,8
+D2 v3,D2-64 v3,Haswell,2,8
+D2 v4,D2 – D64 v4,Cascade Lake,2,8
+D2a v4,D2a – D96a v4,AMD EPYC 2nd Gen,2,8
+D2as v4,D2as – D96as v4,AMD EPYC 2nd Gen,2,8
+D2d v4,D2d – D64d v4,Cascade Lake,2,8
+D2ds v4,D2ds – D64ds v4,Cascade Lake,2,8
+D2s v3,D2s-64s v3,Cascade Lake,2,8
+D2s v3,D2s-64s v3,Skylake,2,8
+D2s v3,D2s-64s v3,Broadwell,2,8
+D2s v3,D2s-64s v3,Haswell,2,8
+D2s v4,D2s – D64s v4,Cascade Lake,2,8
+D2s v4,D2s – D64s v4,Skylake,2,8
+D2s v4,D2s – D64s v4,Broadwell,2,8
+D2s v4,D2s – D64s v4,Haswell,2,8
+D3 v2,D1-5 v2,Cascade Lake,4,14
+D3 v2,D1-5 v2,Skylake,4,14
+D3 v2,D1-5 v2,Broadwell,4,14
+D3 v2,D1-5 v2,Haswell,4,14
+D32 v3,D2-64 v3,Cascade Lake,32,128
+D32 v3,D2-64 v3,Skylake,32,128
+D32 v3,D2-64 v3,Broadwell,32,128
+D32 v3,D2-64 v3,Haswell,32,128
+D32 v4,D2 – D64 v4,Cascade Lake,32,128
+D32a v4,D2a – D96a v4,AMD EPYC 2nd Gen,32,128
+D32as v4,D2as – D96as v4,AMD EPYC 2nd Gen,32,128
+D32d v4,D2d – D64d v4,Cascade Lake,32,128
+D32ds v4,D2ds – D64ds v4,Cascade Lake,32,128
+D32s v3,D2s-64s v3,Cascade Lake,32,128
+D32s v3,D2s-64s v3,Skylake,32,128
+D32s v3,D2s-64s v3,Broadwell,32,128
+D32s v3,D2s-64s v3,Haswell,32,128
+D32s v4,D2s – D64s v4,Cascade Lake,32,128
+D32s v4,D2s – D64s v4,Skylake,32,128
+D32s v4,D2s – D64s v4,Broadwell,32,128
+D32s v4,D2s – D64s v4,Haswell,32,128
+D4 v2,D1-5 v2,Cascade Lake,8,28
+D4 v2,D1-5 v2,Skylake,8,28
+D4 v2,D1-5 v2,Broadwell,8,28
+D4 v2,D1-5 v2,Haswell,8,28
+D4 v3,D2-64 v3,Cascade Lake,4,16
+D4 v3,D2-64 v3,Skylake,4,16
+D4 v3,D2-64 v3,Broadwell,4,16
+D4 v3,D2-64 v3,Haswell,4,16
+D4 v4,D2 – D64 v4,Cascade Lake,4,16
+D48 v3,D2-64 v3,Cascade Lake,48,192
+D48 v3,D2-64 v3,Skylake,48,192
+D48 v3,D2-64 v3,Broadwell,48,192
+D48 v3,D2-64 v3,Haswell,48,192
+D48 v4,D2 – D64 v4,Cascade Lake,48,192
+D48a v4,D2a – D96a v4,AMD EPYC 2nd Gen,48,192
+D48as v4,D2as – D96as v4,AMD EPYC 2nd Gen,48,192
+D48d v4,D2d – D64d v4,Cascade Lake,48,192
+D48ds v4,D2ds – D64ds v4,Cascade Lake,48,192
+D48s v3,D2s-64s v3,Cascade Lake,48,192
+D48s v3,D2s-64s v3,Skylake,48,192
+D48s v3,D2s-64s v3,Broadwell,48,192
+D48s v3,D2s-64s v3,Haswell,48,192
+D48s v4,D2s – D64s v4,Cascade Lake,48,192
+D48s v4,D2s – D64s v4,Skylake,48,192
+D48s v4,D2s – D64s v4,Broadwell,48,192
+D48s v4,D2s – D64s v4,Haswell,48,192
+D4a v4,D2a – D96a v4,AMD EPYC 2nd Gen,4,16
+D4as v4,D2as – D96as v4,AMD EPYC 2nd Gen,4,16
+D4d v4,D2d – D64d v4,Cascade Lake,4,16
+D4ds v4,D2ds – D64ds v4,Cascade Lake,4,16
+D4s v3,D2s-64s v3,Cascade Lake,4,16
+D4s v3,D2s-64s v3,Skylake,4,16
+D4s v3,D2s-64s v3,Broadwell,4,16
+D4s v3,D2s-64s v3,Haswell,4,16
+D4s v4,D2s – D64s v4,Cascade Lake,4,16
+D4s v4,D2s – D64s v4,Skylake,4,16
+D4s v4,D2s – D64s v4,Broadwell,4,16
+D4s v4,D2s – D64s v4,Haswell,4,16
+D5 v2,D1-5 v2,Cascade Lake,16,56
+D5 v2,D1-5 v2,Skylake,16,56
+D5 v2,D1-5 v2,Broadwell,16,56
+D5 v2,D1-5 v2,Haswell,16,56
+D64 v3,D2-64 v3,Cascade Lake,64,256
+D64 v3,D2-64 v3,Skylake,64,256
+D64 v3,D2-64 v3,Broadwell,64,256
+D64 v3,D2-64 v3,Haswell,64,256
+D64 v4,D2 – D64 v4,Cascade Lake,64,256
+D64a v4,D2a – D96a v4,AMD EPYC 2nd Gen,64,256
+D64as v4,D2as – D96as v4,AMD EPYC 2nd Gen,64,256
+D64d v4,D2d – D64d v4,Cascade Lake,64,256
+D64ds v4,D2ds – D64ds v4,Cascade Lake,64,256
+D64s v3,D2s-64s v3,Cascade Lake,64,256
+D64s v3,D2s-64s v3,Skylake,64,256
+D64s v3,D2s-64s v3,Broadwell,64,256
+D64s v3,D2s-64s v3,Haswell,64,256
+D64s v4,D2s – D64s v4,Cascade Lake,64,256
+D64s v4,D2s – D64s v4,Skylake,64,256
+D64s v4,D2s – D64s v4,Broadwell,64,256
+D64s v4,D2s – D64s v4,Haswell,64,256
+D8 v3,D2-64 v3,Cascade Lake,8,32
+D8 v3,D2-64 v3,Skylake,8,32
+D8 v3,D2-64 v3,Broadwell,8,32
+D8 v3,D2-64 v3,Haswell,8,32
+D8 v4,D2 – D64 v4,Cascade Lake,8,32
+D8a v4,D2a – D96a v4,AMD EPYC 2nd Gen,8,32
+D8as v4,D2as – D96as v4,AMD EPYC 2nd Gen,8,32
+D8d v4,D2d – D64d v4,Cascade Lake,8,32
+D8ds v4,D2ds – D64ds v4,Cascade Lake,8,32
+D8s v3,D2s-64s v3,Cascade Lake,8,32
+D8s v3,D2s-64s v3,Skylake,8,32
+D8s v3,D2s-64s v3,Broadwell,8,32
+D8s v3,D2s-64s v3,Haswell,8,32
+D8s v4,D2s – D64s v4,Cascade Lake,8,32
+D8s v4,D2s – D64s v4,Skylake,8,32
+D8s v4,D2s – D64s v4,Broadwell,8,32
+D8s v4,D2s – D64s v4,Haswell,8,32
+D96a v4,D2a – D96a v4,AMD EPYC 2nd Gen,96,384
+D96as v4,D2as – D96as v4,AMD EPYC 2nd Gen,96,384
+DC1s v2,DCsv2-series,Coffee Lake,1,4
+DC2s v2,DCsv2-series,Coffee Lake,2,8
+DC4s v2,DCsv2-series,Coffee Lake,4,16
+DC8 v2,DCsv2-series,Coffee Lake,8,32
+DS1 v2,D1s-5s v2,Cascade Lake,1,3.5
+DS1 v2,D1s-5s v2,Skylake,1,3.5
+DS1 v2,D1s-5s v2,Broadwell,1,3.5
+DS1 v2,D1s-5s v2,Haswell,1,3.5
+DS11 v2,D11S-15S v2,Cascade Lake,2,14
+DS11 v2,D11S-15S v2,Skylake,2,14
+DS11 v2,D11S-15S v2,Broadwell,2,14
+DS11 v2,D11S-15S v2,Haswell,2,14
+DS11-1 v2,Constrained vCPUs capable,Unknown,0.5,14
+DS12 v2,D11S-15S v2,Cascade Lake,4,28
+DS12 v2,D11S-15S v2,Skylake,4,28
+DS12 v2,D11S-15S v2,Broadwell,4,28
+DS12 v2,D11S-15S v2,Haswell,4,28
+DS12-1 v2,Constrained vCPUs capable,Unknown,0.25,28
+DS12-2 v2,Constrained vCPUs capable,Unknown,0.5,28
+DS13 v2,D11S-15S v2,Cascade Lake,8,56
+DS13 v2,D11S-15S v2,Skylake,8,56
+DS13 v2,D11S-15S v2,Broadwell,8,56
+DS13 v2,D11S-15S v2,Haswell,8,56
+DS13-2 v2,Constrained vCPUs capable,Unknown,0.25,56
+DS13-4 v2,Constrained vCPUs capable,Unknown,0.5,56
+DS14 v2,D11S-15S v2,Cascade Lake,16,112
+DS14 v2,D11S-15S v2,Skylake,16,112
+DS14 v2,D11S-15S v2,Broadwell,16,112
+DS14 v2,D11S-15S v2,Haswell,16,112
+DS14-4 v2,Constrained vCPUs capable,Unknown,0.25,112
+DS14-8 v2,Constrained vCPUs capable,Unknown,0.5,112
+DS15 v2,D11S-15S v2,Cascade Lake,20,140
+DS15 v2,D11S-15S v2,Skylake,20,140
+DS15 v2,D11S-15S v2,Broadwell,20,140
+DS15 v2,D11S-15S v2,Haswell,20,140
+DS15i v2 1,D11S-15S v2,Cascade Lake,20,140
+DS15i v2 1,D11S-15S v2,Skylake,20,140
+DS15i v2 1,D11S-15S v2,Broadwell,20,140
+DS15i v2 1,D11S-15S v2,Haswell,20,140
+DS2 v2,D1s-5s v2,Cascade Lake,2,7
+DS2 v2,D1s-5s v2,Skylake,2,7
+DS2 v2,D1s-5s v2,Broadwell,2,7
+DS2 v2,D1s-5s v2,Haswell,2,7
+DS3 v2,D1s-5s v2,Cascade Lake,4,14
+DS3 v2,D1s-5s v2,Skylake,4,14
+DS3 v2,D1s-5s v2,Broadwell,4,14
+DS3 v2,D1s-5s v2,Haswell,4,14
+DS4 v2,D1s-5s v2,Cascade Lake,8,28
+DS4 v2,D1s-5s v2,Skylake,8,28
+DS4 v2,D1s-5s v2,Broadwell,8,28
+DS4 v2,D1s-5s v2,Haswell,8,28
+DS5 v2,D1s-5s v2,Cascade Lake,16,56
+DS5 v2,D1s-5s v2,Skylake,16,56
+DS5 v2,D1s-5s v2,Broadwell,16,56
+DS5 v2,D1s-5s v2,Haswell,16,56
+E16 v3,E2-64 v3,Cascade Lake,16,128
+E16 v3,E2-64 v3,Skylake,16,128
+E16 v3,E2-64 v3,Broadwell,16,128
+E16 v4,E2 – E64 v4,Cascade Lake,16,128
+E16 v5,E2 – E96 v5,Unknown,16,128
+E16-4as v4,Constrained vCPUs capable,Unknown,0.25,128
+E16-4ds v4,Constrained vCPUs capable,Unknown,0.25,128
+E16-4s v3,Constrained vCPUs capable,Unknown,0.25,128
+E16-4s v4,Constrained vCPUs capable,Unknown,0.25,128
+E16-8as v4,Constrained vCPUs capable,Unknown,0.5,128
+E16-8ds v4,Constrained vCPUs capable,Unknown,0.5,128
+E16-8s v3,Constrained vCPUs capable,Unknown,0.5,128
+E16-8s v4,Constrained vCPUs capable,Unknown,0.5,128
+E16a v4,E2a – E96a v4,AMD EPYC 2nd Gen,16,128
+E16as v4,E2as – E96as v4,AMD EPYC 2nd Gen,16,128
+E16d v4,E2d – E64d v4,Cascade Lake,16,128
+E16ds v4,E2ds – E64ds v4,Cascade Lake,16,128
+E16s v3,E2s-64s v3,Cascade Lake,16,128
+E16s v3,E2s-64s v3,Skylake,16,128
+E16s v3,E2s-64s v3,Broadwell,16,128
+E16s v4,E2s – E64s v4,Cascade Lake,16,128
+E2 v3,E2-64 v3,Cascade Lake,2,16
+E2 v3,E2-64 v3,Skylake,2,16
+E2 v3,E2-64 v3,Broadwell,2,16
+E2 v4,E2 – E64 v4,Cascade Lake,2,16
+E2 v5,E2 – E96 v5,Unknown,2,16
+E20 v3,E2-64 v3,Cascade Lake,20,160
+E20 v3,E2-64 v3,Skylake,20,160
+E20 v3,E2-64 v3,Broadwell,20,160
+E20 v5,E2 – E96 v5,Unknown,20,160
+E20a v4,E2a – E96a v4,AMD EPYC 2nd Gen,20,160
+E20as v4,E2as – E96as v4,AMD EPYC 2nd Gen,20,160
+E20d v4,E2d – E64d v4,Cascade Lake,20,160
+E20ds v4,E2ds – E64ds v4,Cascade Lake,20,160
+E20s v3,E2s-64s v3,Cascade Lake,20,160
+E20s v3,E2s-64s v3,Skylake,20,160
+E20s v3,E2s-64s v3,Broadwell,20,160
+E20s v4,E2s – E64s v4,Cascade Lake,20,160
+E2a v4,E2a – E96a v4,AMD EPYC 2nd Gen,2,16
+E2as v4,E2as – E96as v4,AMD EPYC 2nd Gen,2,16
+E2d v4,E2d – E64d v4,Cascade Lake,2,16
+E2ds v4,E2ds – E64ds v4,Cascade Lake,2,16
+E2s v3,E2s-64s v3,Cascade Lake,2,16
+E2s v3,E2s-64s v3,Skylake,2,16
+E2s v3,E2s-64s v3,Broadwell,2,16
+E2s v4,E2s – E64s v4,Cascade Lake,2,16
+E32 v3,E2-64 v3,Cascade Lake,32,256
+E32 v3,E2-64 v3,Skylake,32,256
+E32 v3,E2-64 v3,Broadwell,32,256
+E32 v4,E2 – E64 v4,Cascade Lake,32,256
+E32 v5,E2 – E96 v5,Unknown,32,256
+E32-16as v4,Constrained vCPUs capable,Unknown,0.5,256
+E32-16ds v4,Constrained vCPUs capable,Unknown,0.5,256
+E32-16s v3,Constrained vCPUs capable,Unknown,0.5,256
+E32-16s v4,Constrained vCPUs capable,Unknown,0.5,256
+E32-8as v4,Constrained vCPUs capable,Unknown,0.25,256
+E32-8ds v4,Constrained vCPUs capable,Unknown,0.25,256
+E32-8s v3,Constrained vCPUs capable,Unknown,0.25,256
+E32-8s v4,Constrained vCPUs capable,Unknown,0.25,256
+E32a v4,E2a – E96a v4,AMD EPYC 2nd Gen,32,256
+E32as v4,E2as – E96as v4,AMD EPYC 2nd Gen,32,256
+E32d v4,E2d – E64d v4,Cascade Lake,32,256
+E32ds v4,E2ds – E64ds v4,Cascade Lake,32,256
+E32s v3,E2s-64s v3,Cascade Lake,32,256
+E32s v3,E2s-64s v3,Skylake,32,256
+E32s v3,E2s-64s v3,Broadwell,32,256
+E32s v4,E2s – E64s v4,Cascade Lake,32,256
+E4 v3,E2-64 v3,Cascade Lake,4,32
+E4 v3,E2-64 v3,Skylake,4,32
+E4 v3,E2-64 v3,Broadwell,4,32
+E4 v4,E2 – E64 v4,Cascade Lake,4,32
+E4 v5,E2 – E96 v5,Unknown,4,32
+E4-2as v4,Constrained vCPUs capable,Unknown,0.5,32
+E4-2ds v4,Constrained vCPUs capable,Unknown,0.5,32
+E4-2s v3,Constrained vCPUs capable,Unknown,0.5,32
+E4-2s v4,Constrained vCPUs capable,Unknown,0.5,32
+E48 v3,E2-64 v3,Cascade Lake,48,384
+E48 v3,E2-64 v3,Skylake,48,384
+E48 v3,E2-64 v3,Broadwell,48,384
+E48 v4,E2 – E64 v4,Cascade Lake,48,384
+E48 v5,E2 – E96 v5,Unknown,48,384
+E48a v4,E2a – E96a v4,AMD EPYC 2nd Gen,48,384
+E48as v4,E2as – E96as v4,AMD EPYC 2nd Gen,48,384
+E48d v4,E2d – E64d v4,Cascade Lake,48,384
+E48ds v4,E2ds – E64ds v4,Cascade Lake,48,384
+E48s v3,E2s-64s v3,Cascade Lake,48,384
+E48s v3,E2s-64s v3,Skylake,48,384
+E48s v3,E2s-64s v3,Broadwell,48,384
+E48s v4,E2s – E64s v4,Cascade Lake,48,384
+E4a v4,E2a – E96a v4,AMD EPYC 2nd Gen,4,32
+E4as v4,E2as – E96as v4,AMD EPYC 2nd Gen,4,32
+E4d v4,E2d – E64d v4,Cascade Lake,4,32
+E4ds v4,E2ds – E64ds v4,Cascade Lake,4,32
+E4s v3,E2s-64s v3,Cascade Lake,4,32
+E4s v3,E2s-64s v3,Skylake,4,32
+E4s v3,E2s-64s v3,Broadwell,4,32
+E4s v4,E2s – E64s v4,Cascade Lake,4,32
+E64 v3,E2-64 v3,Cascade Lake,64,432
+E64 v3,E2-64 v3,Skylake,64,432
+E64 v3,E2-64 v3,Broadwell,64,432
+E64 v4,E2 – E64 v4,Cascade Lake,64,504
+E64 v5,E2 – E96 v5,Unknown,64,512
+E64-16as v4,Constrained vCPUs capable,Unknown,0.25,512
+E64-16ds v4,Constrained vCPUs capable,Unknown,0.25,504
+E64-16s v3,Constrained vCPUs capable,Unknown,0.25,432
+E64-16s v4,Constrained vCPUs capable,Unknown,0.25,504
+E64-32as v4,Constrained vCPUs capable,Unknown,0.5,512
+E64-32ds v4,Constrained vCPUs capable,Unknown,0.5,504
+E64-32s v3,Constrained vCPUs capable,Unknown,0.5,432
+E64-32s v4,Constrained vCPUs capable,Unknown,0.5,504
+E64a v4,E2a – E96a v4,AMD EPYC 2nd Gen,64,512
+E64as v4,E2as – E96as v4,AMD EPYC 2nd Gen,64,512
+E64d v4,E2d – E64d v4,Cascade Lake,64,504
+E64ds v4,E2ds – E64ds v4,Cascade Lake,64,504
+E64i v3 1,E2-64 v3,Cascade Lake,64,432
+E64i v3 1,E2-64 v3,Skylake,64,432
+E64i v3 1,E2-64 v3,Broadwell,64,432
+E64is v3 1,E2s-64s v3,Cascade Lake,64,432
+E64is v3 1,E2s-64s v3,Skylake,64,432
+E64is v3 1,E2s-64s v3,Broadwell,64,432
+E64s v3,E2s-64s v3,Cascade Lake,64,432
+E64s v3,E2s-64s v3,Skylake,64,432
+E64s v3,E2s-64s v3,Broadwell,64,432
+E64s v4,E2s – E64s v4,Cascade Lake,64,504
+E8 v3,E2-64 v3,Cascade Lake,8,64
+E8 v3,E2-64 v3,Skylake,8,64
+E8 v3,E2-64 v3,Broadwell,8,64
+E8 v4,E2 – E64 v4,Cascade Lake,8,64
+E8 v5,E2 – E96 v5,Unknown,8,64
+E8-2as v4,Constrained vCPUs capable,Unknown,0.25,64
+E8-2ds v4,Constrained vCPUs capable,Unknown,0.25,64
+E8-2s v3,Constrained vCPUs capable,Unknown,0.25,64
+E8-2s v4,Constrained vCPUs capable,Unknown,0.25,64
+E8-4as v4,Constrained vCPUs capable,Unknown,0.5,64
+E8-4ds v4,Constrained vCPUs capable,Unknown,0.5,64
+E8-4s v3,Constrained vCPUs capable,Unknown,0.5,64
+E8-4s v4,Constrained vCPUs capable,Unknown,0.5,64
+E80ids v4 1,E2ds – E64ds v4,Cascade Lake,80,504
+E80is v4 1,E2s – E64s v4,Cascade Lake,80,504
+E8a v4,E2a – E96a v4,AMD EPYC 2nd Gen,8,64
+E8as v4,E2as – E96as v4,AMD EPYC 2nd Gen,8,64
+E8d v4,E2d – E64d v4,Cascade Lake,8,64
+E8ds v4,E2ds – E64ds v4,Cascade Lake,8,64
+E8s v3,E2s-64s v3,Cascade Lake,8,64
+E8s v3,E2s-64s v3,Skylake,8,64
+E8s v3,E2s-64s v3,Broadwell,8,64
+E8s v4,E2s – E64s v4,Cascade Lake,8,64
+E96 v5,E2 – E96 v5,Unknown,96,672
+E96-24as v4,Constrained vCPUs capable,Unknown,0.25,672
+E96-48as v4,Constrained vCPUs capable,Unknown,0.5,672
+E96a v4,E2a – E96a v4,AMD EPYC 2nd Gen,96,672
+E96as v4,E2as – E96as v4,AMD EPYC 2nd Gen,96,672
+F1,F-series,Cascade Lake,1,2
+F1,F-series,Skylake,1,2
+F1,F-series,Broadwell,1,2
+F1,F-series,Haswell,1,2
+F16,F-series,Cascade Lake,16,32
+F16,F-series,Skylake,16,32
+F16,F-series,Broadwell,16,32
+F16,F-series,Haswell,16,32
+F16s,Fs-Series,Unknown,16,32
+F16s v2,Fsv2-series,Cascade Lake,16,32
+F16s v2,Fsv2-series,Skylake,,
+F1s,Fs-Series,Unknown,1,2
+F2,F-series,Cascade Lake,2,4
+F2,F-series,Skylake,2,4
+F2,F-series,Broadwell,2,4
+F2,F-series,Haswell,2,4
+F2s,Fs-Series,Unknown,2,4
+F2s v2,Fsv2-series,Cascade Lake,2,4
+F2s v2,Fsv2-series,Skylake,,
+F32s v2,Fsv2-series,Cascade Lake,32,64
+F32s v2,Fsv2-series,Skylake,,
+F4,F-series,Cascade Lake,4,8
+F4,F-series,Skylake,4,8
+F4,F-series,Broadwell,4,8
+F4,F-series,Haswell,4,8
+F48s v2,Fsv2-series,Cascade Lake,48,96
+F48s v2,Fsv2-series,Skylake,,
+F4s,Fs-Series,Unknown,4,8
+F4s v2,Fsv2-series,Cascade Lake,4,8
+F4s v2,Fsv2-series,Skylake,,
+F64s v2,Fsv2-series,Cascade Lake,64,128
+F64s v2,Fsv2-series,Skylake,,
+F72s v2,Fsv2-series,Cascade Lake,72,144
+F72s v2,Fsv2-series,Skylake,,
+F8,F-series,Cascade Lake,8,16
+F8,F-series,Skylake,8,16
+F8,F-series,Broadwell,8,16
+F8,F-series,Haswell,8,16
+F8s,Fs-Series,Unknown,8,16
+F8s v2,Fsv2-series,Cascade Lake,8,16
+F8s v2,Fsv2-series,Skylake,,
+G1,G-series,Haswell,2,28
+G2,G-series,Haswell,4,56
+G3,G-series,Haswell,8,112
+G4,G-series,Haswell,16,224
+G5,G-series,Haswell,32,448
+Gs1,Gs-Series,Unknown,2,28
+Gs2,Gs-Series,Unknown,4,56
+Gs3,Gs-Series,Unknown,8,112
+Gs4,Gs-Series,Unknown,16,224
+Gs4-4,Constrained vCPUs capable,Unknown,0.25,224
+Gs4-8,Constrained vCPUs capable,Unknown,0.5,224
+Gs5,Gs-Series,Unknown,32,448
+Gs5-16,Constrained vCPUs capable,Unknown,0.5,448
+Gs5-8,Constrained vCPUs capable,Unknown,0.25,448
+H16,H-series,Haswell,16,112
+H16 Promo,H-series promo,Haswell,16,112
+H16m,H-series,Haswell,16,224
+H16m Promo,H-series promo,Haswell,16,224
+H16mr,H-series,Haswell,16,224
+H16mr Promo,H-series promo,Haswell,16,224
+H16r,H-series,Haswell,16,112
+H16r Promo,H-series promo,Haswell,16,112
+H8,H-series,Haswell,8,56
+H8 Promo,H-series promo,Haswell,8,56
+H8m,H-series,Haswell,8,112
+H8m Promo,H-series promo,Haswell,8,112
+HB120-16rs v3,Constrained vCPUs capable,Unknown,0.1333333333,448
+HB120-32rs v3,Constrained vCPUs capable,Unknown,0.2666666667,448
+HB120-64rs v3,Constrained vCPUs capable,Unknown,0.5333333333,448
+HB120-96rs v3,Constrained vCPUs capable,Unknown,0.8,448
+HB120rs v2,HBv2-series,AMD EPYC 2nd Gen,120,480
+L16s,Ls-series,Haswell,16,128
+L16s v2,Lsv2-series,AMD EPYC 1st Gen,16,128
+L32s,Ls-series,Haswell,32,256
+L32s v2,Lsv2-series,AMD EPYC 1st Gen,32,256
+L48s v2,Lsv2-series,AMD EPYC 1st Gen,48,384
+L4s,Ls-series,Haswell,4,32
+L64s v2,Lsv2-series,AMD EPYC 1st Gen,64,512
+L80s v2,Lsv2-series,AMD EPYC 1st Gen,80,640
+L8s,Ls-series,Haswell,8,64
+L8s v2,Lsv2-series,AMD EPYC 1st Gen,8,64
+M128 1,M-series,Haswell,128,2048
+M128 1,M-series,Cascade Lake,128,2048
+M128-32ms,Constrained vCPUs capable,Unknown,0.25,3800
+M128-64ms,Constrained vCPUs capable,Unknown,0.5,3800
+M128dms v2,Mdsv2-series,Cascade Lake,128,3892
+M128ds v2,Mdsv2-series,Cascade Lake,128,2048
+M128m 1,M-series,Haswell,128,3892
+M128m 1,M-series,Cascade Lake,128,3892
+M128ms,M-series,Haswell,128,3892
+M128ms,M-series,Cascade Lake,128,3892
+M128ms v2,Msv2-series,Cascade Lake,128,3892
+M128s,M-series,Haswell,128,2048
+M128s,M-series,Cascade Lake,128,2048
+M128s v2,Msv2-series,Cascade Lake,128,2048
+M16-4ms,Constrained vCPUs capable,Unknown,0.25,438
+M16-8ms,Constrained vCPUs capable,Unknown,0.5,438
+M16ms,M-series,Haswell,16,438
+M16ms,M-series,Cascade Lake,16,438
+M192idms v2,Mdsv2-series,Cascade Lake,192,4096
+M192ids v2,Mdsv2-series,Cascade Lake,192,2048
+M192ims v2,Msv2-series,Cascade Lake,192,4096
+M192is v2,Msv2-series,Cascade Lake,192,2048
+M208ms v2,Mv2-series,Skylake,208,5700
+M208s v2,Mv2-series,Skylake,208,2850
+M32-16ms,Constrained vCPUs capable,Unknown,0.5,875
+M32-8ms,Constrained vCPUs capable,Unknown,0.25,875
+M32dms v2,Mdsv2-series,Cascade Lake,32,875
+M32ls,M-series,Haswell,32,256
+M32ls,M-series,Cascade Lake,32,256
+M32ms,M-series,Haswell,32,875
+M32ms,M-series,Cascade Lake,32,875
+M32ms v2,Msv2-series,Cascade Lake,32,875
+M32ts,M-series,Haswell,32,192
+M32ts,M-series,Cascade Lake,32,192
+M416ms v2,Mv2-series,Skylake,416,11400
+M416s v2,Mv2-series,Skylake,416,5700
+M64 1,M-series,Haswell,64,1024
+M64 1,M-series,Cascade Lake,64,1024
+M64-16ms,Constrained vCPUs capable,Unknown,0.25,1750
+M64-32ms,Constrained vCPUs capable,Unknown,0.5,1750
+M64dms v2,Mdsv2-series,Cascade Lake,64,1792
+M64ds v2,Mdsv2-series,Cascade Lake,64,1024
+M64ls,M-series,Haswell,64,512
+M64ls,M-series,Cascade Lake,64,512
+M64m 1,M-series,Haswell,64,1792
+M64m 1,M-series,Cascade Lake,64,1792
+M64ms,M-series,Haswell,64,1792
+M64ms,M-series,Cascade Lake,64,1792
+M64ms v2,Msv2-series,Cascade Lake,64,1792
+M64s,M-series,Haswell,64,1024
+M64s,M-series,Cascade Lake,64,1024
+M64s v2,Msv2-series,Cascade Lake,64,1024
+M8-2ms,Constrained vCPUs capable,Unknown,0.25,219
+M8-4ms,Constrained vCPUs capable,Unknown,0.5,219
+M8ms,M-series,Haswell,8,219
+M8ms,M-series,Cascade Lake,8,219
+NC12,NC-series,Unknown,12,112
+NC12 Promo,NC-series Promo,Unknown,12,112
+NC12s v2,NCsv2-series,Unknown,12,224
+NC12s v3,NCsv3-series,Unknown,12,224
+NC16as T4 v3,NCas_T4_v3 Series,Unknown,16,112
+NC24,NC-series,Unknown,24,224
+NC24 Promo,NC-series Promo,Unknown,24,224
+NC24r,NC-series,Unknown,24,224
+NC24r Promo,NC-series Promo,Unknown,24,224
+NC24rs v2,NCsv2-series,Unknown,24,448
+NC24rs v3,NCsv3-series,Unknown,24,448
+NC24s v2,NCsv2-series,Unknown,24,448
+NC24s v3,NCsv3-series,Unknown,24,448
+NC4as T4 v3,NCas_T4_v3 Series,Unknown,4,28
+NC6,NC-series,Unknown,6,56
+NC6 Promo,NC-series Promo,Unknown,6,56
+NC64as T4 v3,NCas_T4_v3 Series,Unknown,64,448
+NC6s v2,NCsv2-series,Unknown,6,112
+NC6s v3,NCsv3-series,Unknown,6,112
+NC8as T4 v3,NCas_T4_v3 Series,Unknown,8,56
+ND12s,NDs-series,Unknown,12,224
+ND24rs,NDs-series,Unknown,24,448
+ND24s,NDs-series,Unknown,24,448
+ND40rs v2,NDv2 Series,Unknown,40,672
+ND6s,NDs-series,Unknown,6,112
+NP10s,NP-Series,Unknown,10,192
+NP20s,NP-Series,Unknown,20,384
+NP40s,NP-Series,Unknown,40,768
+NV12,NV-series,Unknown,12,112
+NV12s v3,NVv3-series,Unknown,12,112
+NV24,NV-series,Unknown,24,224
+NV24s v3,NVv3-series,Unknown,24,224
+NV48s v3,NVv3-series,Unknown,48,448
+NV6,NV-series,Unknown,6,56
+S192,SAP HANA on Azure Large Instances,Broadwell,192,2048
+S192m,SAP HANA on Azure Large Instances,Broadwell,192,4096
+S192xm,SAP HANA on Azure Large Instances,Broadwell,192,6144
+S224,SAP HANA on Azure Large Instances (second generation),Cascade Lake,224,3072
+S224m,SAP HANA on Azure Large Instances (second generation),Cascade Lake,224,6144
+S224om,SAP HANA on Azure Large Instances (second generation),Cascade Lake,224,6144
+S224oo,SAP HANA on Azure Large Instances (second generation),Cascade Lake,224,4608
+S224oom,SAP HANA on Azure Large Instances (second generation),Cascade Lake,224,9216
+S224ooo,SAP HANA on Azure Large Instances (second generation),Cascade Lake,224,7680
+S384,SAP HANA on Azure Large Instances,Broadwell,384,4096
+S384m,SAP HANA on Azure Large Instances,Broadwell,384,6144
+S384xm,SAP HANA on Azure Large Instances,Broadwell,384,8192
+S384xxm,SAP HANA on Azure Large Instances,Broadwell,384,12000
+S448,SAP HANA on Azure Large Instances (second generation),Cascade Lake,448,6144
+S448m,SAP HANA on Azure Large Instances (second generation),Cascade Lake,448,12288
+S448om,SAP HANA on Azure Large Instances (second generation),Cascade Lake,448,12288
+S448oo,SAP HANA on Azure Large Instances (second generation),Cascade Lake,448,9216
+S448oom,SAP HANA on Azure Large Instances (second generation),Cascade Lake,448,18432
+S448ooo,SAP HANA on Azure Large Instances (second generation),Cascade Lake,448,15360
+S576m,SAP HANA on Azure Large Instances,Broadwell,576,12000
+S672,SAP HANA on Azure Large Instances (second generation),Cascade Lake,672,9216
+S672m,SAP HANA on Azure Large Instances (second generation),Cascade Lake,672,18432
+S672om,SAP HANA on Azure Large Instances (second generation),Cascade Lake,672,18432
+S672oo,SAP HANA on Azure Large Instances (second generation),Cascade Lake,672,13824
+S672oom,SAP HANA on Azure Large Instances (second generation),Cascade Lake,672,27648
+S672ooo,SAP HANA on Azure Large Instances (second generation),Cascade Lake,672,23040
+S896,SAP HANA on Azure Large Instances (second generation),Cascade Lake,896,12288
+S896m,SAP HANA on Azure Large Instances (second generation),Cascade Lake,896,24576
+S896om,SAP HANA on Azure Large Instances (second generation),Cascade Lake,896,24576
+S896oo,SAP HANA on Azure Large Instances (second generation),Cascade Lake,896,18432
+S896oom,SAP HANA on Azure Large Instances (second generation),Cascade Lake,896,36864
+S896ooo,SAP HANA on Azure Large Instances (second generation),Cascade Lake,896,30720
+S96,SAP HANA on Azure Large Instances,Broadwell,96,768

@@ -1,0 +1,366 @@
+Instance Family,Microarchitecture,vCPUS,Memory (GB)
+a1.2xlarge,AWS Graviton,8,16
+a1.4xlarge,AWS Graviton,16,32
+a1.large,AWS Graviton,2,4
+a1.medium,AWS Graviton,1,2
+a1.metal,AWS Graviton,16,32
+a1.xlarge,AWS Graviton,4,8
+c1.medium,Unknown,2,1.7
+c1.xlarge,Unknown,8,7
+c2.8xlarge,Unknown,32,60.5
+c3.2xlarge,Unknown,8,15
+c3.4xlarge,Unknown,16,30
+c3.8xlarge,Unknown,32,60
+c3.large,Unknown,2,3.75
+c3.xlarge,Unknown,4,7.5
+c4.2xlarge,Haswell,8,15
+c4.4xlarge,Haswell,16,30
+c4.8xlarge,Haswell,36,60
+c4.large,Haswell,2,3.75
+c4.xlarge,Haswell,4,7.5
+c5.12xlarge,Cascade Lake,48,96
+c5.18xlarge,Cascade Lake,72,144
+c5.18xlarge,Skylake,72,144
+c5.24xlarge,Cascade Lake,96,192
+c5.2xlarge,Cascade Lake,8,16
+c5.2xlarge,Skylake,8,16
+c5.4xlarge,Cascade Lake,16,32
+c5.4xlarge,Skylake,16,32
+c5.9xlarge,Cascade Lake,36,72
+c5.9xlarge,Skylake,36,72
+c5.large,Cascade Lake,2,4
+c5.large,Skylake,2,4
+c5.metal,Cascade Lake,96,192
+c5.metal,Skylake,96,192
+c5.xlarge,Cascade Lake,4,8
+c5.xlarge,Skylake,4,8
+c5a.12xlarge,AMD EPYC 2nd Gen,48,96
+c5a.16xlarge,AMD EPYC 2nd Gen,64,128
+c5a.24xlarge,AMD EPYC 2nd Gen,96,192
+c5a.2xlarge,AMD EPYC 2nd Gen,8,16
+c5a.4xlarge,AMD EPYC 2nd Gen,16,32
+c5a.8xlarge,AMD EPYC 2nd Gen,32,64
+c5a.large,AMD EPYC 2nd Gen,2,4
+c5a.xlarge,AMD EPYC 2nd Gen,4,8
+c5ad.12xlarge,AMD EPYC 2nd Gen,48,96
+c5ad.16xlarge,AMD EPYC 2nd Gen,64,128
+c5ad.24xlarge,AMD EPYC 2nd Gen,96,192
+c5ad.2xlarge,AMD EPYC 2nd Gen,8,16
+c5ad.4xlarge,AMD EPYC 2nd Gen,16,32
+c5ad.8xlarge,AMD EPYC 2nd Gen,32,64
+c5ad.large,AMD EPYC 2nd Gen,2,4
+c5ad.xlarge,AMD EPYC 2nd Gen,4,8
+c5d.12xlarge,Cascade Lake,48,96
+c5d.18xlarge,Cascade Lake,72,144
+c5d.18xlarge,Skylake,72,144
+c5d.24xlarge,Cascade Lake,96,192
+c5d.2xlarge,Cascade Lake,8,16
+c5d.2xlarge,Skylake,8,16
+c5d.4xlarge,Cascade Lake,16,32
+c5d.4xlarge,Skylake,16,32
+c5d.9xlarge,Cascade Lake,36,72
+c5d.9xlarge,Skylake,36,72
+c5d.large,Cascade Lake,2,4
+c5d.large,Skylake,2,4
+c5d.metal,Cascade Lake,96,192
+c5d.metal,Skylake,96,192
+c5d.xlarge,Cascade Lake,4,8
+c5d.xlarge,Skylake,4,8
+c5n.18xlarge,Cascade Lake,72,192
+c5n.18xlarge,Skylake,72,192
+c5n.2xlarge,Cascade Lake,8,21
+c5n.2xlarge,Skylake,8,21
+c5n.4xlarge,Cascade Lake,16,42
+c5n.4xlarge,Skylake,16,42
+c5n.9xlarge,Cascade Lake,36,96
+c5n.9xlarge,Skylake,36,96
+c5n.large,Cascade Lake,2,5.25
+c5n.large,Skylake,2,5.25
+c5n.metal,Cascade Lake,72,192
+c5n.metal,Skylake,72,192
+c5n.xlarge,Cascade Lake,4,10.5
+c5n.xlarge,Skylake,4,10.5
+c6g.12xlarge,AWS Graviton2,48,96
+c6g.16xlarge,AWS Graviton2,64,128
+c6g.2xlarge,AWS Graviton2,8,16
+c6g.4xlarge,AWS Graviton2,16,32
+c6g.8xlarge,AWS Graviton2,32,64
+c6g.large,AWS Graviton2,2,4
+c6g.medium,AWS Graviton2,1,2
+c6g.metal,AWS Graviton2,64,128
+c6g.xlarge,AWS Graviton2,4,8
+c6gd.12xlarge,AWS Graviton2,48,96
+c6gd.16xlarge,AWS Graviton2,64,128
+c6gd.2xlarge,AWS Graviton2,8,16
+c6gd.4xlarge,AWS Graviton2,16,32
+c6gd.8xlarge,AWS Graviton2,32,64
+c6gd.large,AWS Graviton2,2,4
+c6gd.medium,AWS Graviton2,1,2
+c6gd.metal,AWS Graviton2,64,128
+c6gd.xlarge,AWS Graviton2,4,8
+cr1.8xlarge,Unknown,32,244
+dc1.8xlarge,Unknown,32,244
+dc1.large,Unknown,2,15
+dc2.8xlarge,Unknown,32,244
+dc2.large,Unknown,2,15
+ds2.8xlarge,Unknown,36,244
+ds2.xlarge,Unknown,4,31
+g2.2xlarge,Unknown,8,15
+g2.8xlarge,Unknown,32,60
+hs1.8xlarge,Unknown,16,117
+i2.2xlarge,Unknown,8,61
+i2.4xlarge,Unknown,16,122
+i2.8xlarge,Unknown,32,244
+i2.xlarge,Unknown,4,30.5
+m1.large,Unknown,2,7.5
+m1.medium,Unknown,1,3.75
+m1.small,Unknown,1,1.7
+m1.xlarge,Unknown,4,15
+m2.2xlarge,Unknown,4,34.2
+m2.4xlarge,Unknown,8,68.4
+m2.xlarge,Unknown,2,17.1
+m3.2xlarge,Unknown,8,30
+m3.large,Unknown,2,7.5
+m3.medium,Unknown,1,3.75
+m3.xlarge,Unknown,4,15
+m4.10xlarge,Haswell,40,160
+m4.10xlarge,Broadwell,40,160
+m4.16xlarge,Haswell,64,256
+m4.16xlarge,Broadwell,64,256
+m4.2xlarge,Haswell,8,32
+m4.2xlarge,Broadwell,8,32
+m4.4xlarge,Haswell,16,64
+m4.4xlarge,Broadwell,16,64
+m4.large,Haswell,2,8
+m4.large,Broadwell,2,8
+m4.xlarge,Haswell,4,16
+m4.xlarge,Broadwell,4,16
+m5.12xlarge,Skylake,48,192
+m5.16xlarge,Skylake,64,256
+m5.24xlarge,Skylake,96,384
+m5.2xlarge,Skylake,8,32
+m5.4xlarge,Skylake,16,64
+m5.8xlarge,Skylake,32,128
+m5.large,Skylake,2,8
+m5.metal,Skylake,96,384
+m5.xlarge,Skylake,4,16
+m5a.12xlarge,AMD EPYC 1st Gen,48,192
+m5a.16xlarge,AMD EPYC 1st Gen,64,256
+m5a.24xlarge,AMD EPYC 1st Gen,96,384
+m5a.2xlarge,AMD EPYC 1st Gen,8,32
+m5a.4xlarge,AMD EPYC 1st Gen,16,64
+m5a.8xlarge,AMD EPYC 1st Gen,32,128
+m5a.large,AMD EPYC 1st Gen,2,8
+m5a.xlarge,AMD EPYC 1st Gen,4,16
+m5ad.12xlarge,AMD EPYC 1st Gen,48,192
+m5ad.16xlarge,AMD EPYC 1st Gen,64,256
+m5ad.24xlarge,AMD EPYC 1st Gen,96,384
+m5ad.2xlarge,AMD EPYC 1st Gen,8,32
+m5ad.4xlarge,AMD EPYC 1st Gen,16,64
+m5ad.8xlarge,AMD EPYC 1st Gen,32,128
+m5ad.large,AMD EPYC 1st Gen,2,8
+m5ad.xlarge,AMD EPYC 1st Gen,4,16
+m5d.12xlarge,Skylake,48,192
+m5d.16xlarge,Skylake,64,256
+m5d.24xlarge,Skylake,96,384
+m5d.2xlarge,Skylake,8,32
+m5d.4xlarge,Skylake,16,64
+m5d.8xlarge,Skylake,32,128
+m5d.large,Skylake,2,8
+m5d.metal,Skylake,96,384
+m5d.xlarge,Skylake,4,16
+m5dn.12xlarge,Cascade Lake,48,192
+m5dn.16xlarge,Cascade Lake,64,256
+m5dn.24xlarge,Cascade Lake,96,384
+m5dn.2xlarge,Cascade Lake,8,32
+m5dn.4xlarge,Cascade Lake,16,64
+m5dn.8xlarge,Cascade Lake,32,128
+m5dn.large,Cascade Lake,2,8
+m5dn.xlarge,Cascade Lake,4,16
+m5n.12xlarge,Cascade Lake,48,192
+m5n.16xlarge,Cascade Lake,64,256
+m5n.24xlarge,Cascade Lake,96,384
+m5n.2xlarge,Cascade Lake,8,32
+m5n.4xlarge,Cascade Lake,16,64
+m5n.8xlarge,Cascade Lake,32,128
+m5n.large,Cascade Lake,2,8
+m5n.xlarge,Cascade Lake,4,16
+m5zn.12xlarge,Cascade Lake,48,192
+m5zn.2xlarge,Cascade Lake,8,32
+m5zn.3xlarge,Cascade Lake,12,48
+m5zn.6xlarge,Cascade Lake,24,96
+m5zn.large,Cascade Lake,2,8
+m5zn.metal,Cascade Lake,48,192
+m5zn.xlarge,Cascade Lake,4,16
+m6g.12xlarge,AWS Graviton2,48,192
+m6g.16xlarge,AWS Graviton2,64,256
+m6g.2xlarge,AWS Graviton2,8,32
+m6g.4xlarge,AWS Graviton2,16,64
+m6g.8xlarge,AWS Graviton2,32,128
+m6g.large,AWS Graviton2,2,8
+m6g.medium,AWS Graviton2,1,4
+m6g.metal,AWS Graviton2,64,256
+m6g.xlarge,AWS Graviton2,4,16
+m6gd.12xlarge,AWS Graviton2,48,192
+m6gd.16xlarge,AWS Graviton2,64,256
+m6gd.2xlarge,AWS Graviton2,8,32
+m6gd.4xlarge,AWS Graviton2,16,64
+m6gd.8xlarge,AWS Graviton2,32,128
+m6gd.large,AWS Graviton2,2,8
+m6gd.medium,AWS Graviton2,1,4
+m6gd.metal,AWS Graviton2,64,256
+m6gd.xlarge,AWS Graviton2,4,16
+mac1.metal,Coffee Lake,12,32
+r3.2xlarge,Unknown,8,61
+r3.4xlarge,Unknown,16,122
+r3.8xlarge,Unknown,32,244
+r3.large,Unknown,2,15.25
+r3.xlarge,Unknown,4,30.5
+r4.16xlarge,Broadwell,64,488
+r4.2xlarge,Broadwell,8,61
+r4.4xlarge,Broadwell,16,122
+r4.8xlarge,Broadwell,32,244
+r4.large,Broadwell,2,15.25
+r4.xlarge,Broadwell,4,30.5
+r5.12xlarge,Cascade Lake,48,384
+r5.12xlarge,Skylake,48,384
+r5.16xlarge,Cascade Lake,64,512
+r5.16xlarge,Skylake,64,512
+r5.24xlarge,Cascade Lake,96,768
+r5.24xlarge,Skylake,96,768
+r5.2xlarge,Cascade Lake,8,64
+r5.2xlarge,Skylake,8,64
+r5.4xlarge,Cascade Lake,16,128
+r5.4xlarge,Skylake,16,128
+r5.8xlarge,Cascade Lake,32,256
+r5.8xlarge,Skylake,32,256
+r5.large,Cascade Lake,2,16
+r5.large,Skylake,2,16
+r5.metal,Cascade Lake,96,768
+r5.metal,Skylake,96,768
+r5.xlarge,Cascade Lake,4,32
+r5.xlarge,Skylake,4,32
+r5a.12xlarge,AMD EPYC 1st Gen,48,384
+r5a.16xlarge,AMD EPYC 1st Gen,64,512
+r5a.24xlarge,AMD EPYC 1st Gen,96,768
+r5a.2xlarge,AMD EPYC 1st Gen,8,64
+r5a.4xlarge,AMD EPYC 1st Gen,16,128
+r5a.8xlarge,AMD EPYC 1st Gen,32,256
+r5a.large,AMD EPYC 1st Gen,2,16
+r5a.xlarge,AMD EPYC 1st Gen,4,32
+r5ad.12xlarge,AMD EPYC 1st Gen,48,384
+r5ad.16xlarge,AMD EPYC 1st Gen,64,512
+r5ad.24xlarge,AMD EPYC 1st Gen,96,768
+r5ad.2xlarge,AMD EPYC 1st Gen,8,64
+r5ad.4xlarge,AMD EPYC 1st Gen,16,128
+r5ad.8xlarge,AMD EPYC 1st Gen,32,256
+r5ad.large,AMD EPYC 1st Gen,2,16
+r5ad.xlarge,AMD EPYC 1st Gen,4,32
+r5b.12xlarge,Cascade Lake,48,384
+r5b.16xlarge,Cascade Lake,64,512
+r5b.24xlarge,Cascade Lake,96,768
+r5b.2xlarge,Cascade Lake,8,64
+r5b.4xlarge,Cascade Lake,16,128
+r5b.8xlarge,Cascade Lake,32,256
+r5b.large,Cascade Lake,2,16
+r5b.metal,Cascade Lake,96,768
+r5b.xlarge,Cascade Lake,4,32
+r5d.12xlarge,Cascade Lake,48,384
+r5d.12xlarge,Skylake,48,384
+r5d.16xlarge,Cascade Lake,64,512
+r5d.16xlarge,Skylake,64,512
+r5d.24xlarge,Cascade Lake,96,768
+r5d.24xlarge,Skylake,96,768
+r5d.2xlarge,Cascade Lake,8,64
+r5d.2xlarge,Skylake,8,64
+r5d.4xlarge,Cascade Lake,16,128
+r5d.4xlarge,Skylake,16,128
+r5d.8xlarge,Cascade Lake,32,256
+r5d.8xlarge,Skylake,32,256
+r5d.large,Cascade Lake,2,16
+r5d.large,Skylake,2,16
+r5d.metal,Cascade Lake,96,768
+r5d.metal,Skylake,96,768
+r5d.xlarge,Cascade Lake,4,32
+r5d.xlarge,Skylake,4,32
+r5dn.12xlarge,Cascade Lake,48,384
+r5dn.16xlarge,Cascade Lake,64,512
+r5dn.24xlarge,Cascade Lake,96,768
+r5dn.2xlarge,Cascade Lake,8,64
+r5dn.4xlarge,Cascade Lake,16,128
+r5dn.8xlarge,Cascade Lake,32,256
+r5dn.large,Cascade Lake,2,16
+r5dn.xlarge,Cascade Lake,4,32
+r5n.12xlarge,Cascade Lake,48,384
+r5n.16xlarge,Cascade Lake,64,512
+r5n.24xlarge,Cascade Lake,96,768
+r5n.2xlarge,Cascade Lake,8,64
+r5n.4xlarge,Cascade Lake,16,128
+r5n.8xlarge,Cascade Lake,32,256
+r5n.large,Cascade Lake,2,16
+r5n.xlarge,Cascade Lake,4,32
+r6g.12xlarge,AWS Graviton2,48,384
+r6g.16xlarge,AWS Graviton2,64,512
+r6g.2xlarge,AWS Graviton2,8,64
+r6g.4xlarge,AWS Graviton2,16,128
+r6g.8xlarge,AWS Graviton2,32,256
+r6g.large,AWS Graviton2,2,16
+r6g.medium,AWS Graviton2,1,8
+r6g.metal,AWS Graviton2,64,512
+r6g.xlarge,AWS Graviton2,4,32
+r6gd.12xlarge,AWS Graviton2,48,384
+r6gd.16xlarge,AWS Graviton2,64,512
+r6gd.2xlarge,AWS Graviton2,8,64
+r6gd.4xlarge,AWS Graviton2,16,128
+r6gd.8xlarge,AWS Graviton2,32,256
+r6gd.large,AWS Graviton2,2,16
+r6gd.medium,AWS Graviton2,1,8
+r6gd.metal,AWS Graviton2,64,512
+r6gd.xlarge,AWS Graviton2,4,32
+ra3.16xlarge,Unknown,48,384
+ra3.4xlarge,Unknown,12,96
+ra3.xlplus,Unknown,4,32
+t1.micro,Unknown,1,613
+t2.2xlarge,Cascade Lake,8,32
+t2.large,Cascade Lake,2,8
+t2.medium,Cascade Lake,2,4
+t2.micro,Cascade Lake,1,1
+t2.nano,Cascade Lake,1,0.5
+t2.small,Cascade Lake,1,2
+t2.xlarge,Cascade Lake,4,16
+t3.2xlarge,Cascade Lake,8,32
+t3.large,Cascade Lake,2,8
+t3.medium,Cascade Lake,2,4
+t3.micro,Cascade Lake,2,1
+t3.nano,Cascade Lake,2,0.5
+t3.small,Cascade Lake,2,2
+t3.xlarge,Cascade Lake,4,16
+t3a.2xlarge,AMD EPYC 1st Gen,8,32
+t3a.large,AMD EPYC 1st Gen,2,8
+t3a.medium,AMD EPYC 1st Gen,2,4
+t3a.micro,AMD EPYC 1st Gen,2,1
+t3a.nano,AMD EPYC 1st Gen,2,0.5
+t3a.small,AMD EPYC 1st Gen,2,2
+t3a.xlarge,AMD EPYC 1st Gen,4,16
+t4g.2xlarge,AWS Graviton2,8,32
+t4g.large,AWS Graviton2,2,8
+t4g.medium,AWS Graviton2,2,4
+t4g.micro,AWS Graviton2,2,1
+t4g.nano,AWS Graviton2,2,0.5
+t4g.small,AWS Graviton2,2,2
+t4g.xlarge,AWS Graviton2,4,16
+x1.16xlarge,Haswell,64,976
+x1.32xlarge,Haswell,128,1952
+x1e.16xlarge,Haswell,64,1952
+x1e.2xlarge,Haswell,8,244
+x1e.32xlarge,Haswell,128,3904
+x1e.4xlarge,Haswell,16,488
+x1e.8xlarge,Haswell,32,976
+x1e.xlarge,Haswell,4,122
+z1d.12xlarge,Cascade Lake,48,384
+z1d.2xlarge,Cascade Lake,8,64
+z1d.3xlarge,Cascade Lake,12,96
+z1d.6xlarge,Cascade Lake,24,192
+z1d.large,Cascade Lake,2,16
+z1d.metal,Cascade Lake,48,384
+z1d.xlarge,Cascade Lake,4,32
