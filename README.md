@@ -16,11 +16,11 @@ The recommended way to use this notebook is in Deepnote, which provides free
 environments and has a good UI. 
 
 1. Click the button below to create a a copy of the project in Deepnote.
-2. Open the `coefficients.ipynb` file in Deepnote, then press the "Run notebook"
-   button at the top.
+2. Press the "Run notebook" button at the top (open `coefficients.ipynb`
+   from the left menu if it does not open automatically).
 
 [<img
-src="https://deepnote.com/buttons/launch-in-deepnote-white.svg">](https://deepnote.com/launch?url=https://github.com/davidmytton/cloud-carbon-coefficients)
+src="https://deepnote.com/buttons/launch-in-deepnote-white.svg">](https://deepnote.com/launch?url=https://github.com/davidmytton/cloud-carbon-coefficients/blob/main/coefficients.ipynb)
 
 ## Setup - VS Code
 
