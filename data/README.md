@@ -18,6 +18,14 @@ supports.
 Each CPU belongs in an architecture group. These files list all the model
 numbers/names for every CPU within the group.
 
+### AMD
+
+- [AMD EPYC First Generation](https://www.amd.com/en/products/epyc-7000-series)
+- [AMD EPYC Second Generation](https://www.amd.com/en/processors/epyc-7002-series)
+- [AMD EPYC Third Generation](https://www.amd.com/en/processors/epyc-7003-series)
+
+### Intel
+
 - [Sandy
   Bridge](https://ark.intel.com/content/www/us/en/ark/products/codename/29900/sandy-bridge.html#@Server),
   [Sandy Bridge
