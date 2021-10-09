@@ -455,11 +455,12 @@ H8,H-series,Haswell,8,56
 H8 Promo,H-series promo,Haswell,8,56
 H8m,H-series,Haswell,8,112
 H8m Promo,H-series promo,Haswell,8,112
-HB120-16rs v3,Constrained vCPUs capable,Unknown,0.1333333333,448
-HB120-32rs v3,Constrained vCPUs capable,Unknown,0.2666666667,448
-HB120-64rs v3,Constrained vCPUs capable,Unknown,0.5333333333,448
-HB120-96rs v3,Constrained vCPUs capable,Unknown,0.8,448
 HB120rs v2,HBv2-series,AMD EPYC 2nd Gen,120,480
+HB120rs v3,HBv3-series,AMD EPYC 3rd Gen,120,448
+HB120-16rs v3,Constrained vCPUs capable,AMD EPYC 3rd Gen,0.1333333333,448
+HB120-32rs v3,Constrained vCPUs capable,AMD EPYC 3rd Gen,0.2666666667,448
+HB120-64rs v3,Constrained vCPUs capable,AMD EPYC 3rd Gen,0.5333333333,448
+HB120-96rs v3,Constrained vCPUs capable,AMD EPYC 3rd Gen,0.8,448
 L16s,Ls-series,Haswell,16,128
 L16s v2,Lsv2-series,AMD EPYC 1st Gen,16,128
 L32s,Ls-series,Haswell,32,256
