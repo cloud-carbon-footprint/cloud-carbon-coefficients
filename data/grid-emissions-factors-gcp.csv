@@ -1,0 +1,25 @@
+Region,Location,CO2e (metric ton/kWh),Source
+us-central1,Iowa,0.000479,Google
+us-east1,South Carolina,0.0005,Google
+us-east4,Northern Virginia,0.000383,Google
+us-west1,Oregon,0.000117,Google
+us-west2,Los Angeles,0.000248,Google
+us-west3,Salt Lake City,0.000561,Google
+us-west4,Las Vegas,0.000491,Google
+asia-east1,Taiwan,0.000541,Google
+asia-east2,Hong Kong,0.000626,Google
+asia-northeast1,Japan,0.000524,Google
+asia-northeast2,Japan,0.000524,Google
+asia-northeast3,South Korea,0.00054,Google
+asia-south1,India,0.000723,Google
+asia-southeast1,Singapore,0.000493,Google
+asia-southeast2,Indonesia,0.000772,Google
+australia-southeast1,Australia,0.000725,Google
+europe-north1,Finland,0.000181,Google
+europe-west1,Belgium,0.000196,Google
+europe-west2,England,0.000257,Google
+europe-west3,Germany,0.000319,Google
+europe-west4,Netherlands,0.000474,Google
+europe-west6,Switzerland,0.000029,Google
+northamerica-northeast1,Canada,0.000143,Google
+southamerica-east1,Brazil,0.000109,Google

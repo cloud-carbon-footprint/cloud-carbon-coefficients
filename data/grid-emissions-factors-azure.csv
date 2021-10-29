@@ -1,0 +1,20 @@
+Region,Location,NERC Region,CO2e (metric ton/kWh),Source
+Central US,Iowa,MRO,0.00047223,EPA
+East US,Virginia,SERC,0.000415755,EPA
+East US 2,Virginia,SERC,0.000415755,EPA
+East US 3,Georgia,SERC,0.000415755,EPA
+North Central US,Illinois,RFC,0.000440187,EPA
+South Central US,Texas,TRE,0.000396293,EPA
+West Central US,Wyoming,WECC,0.000350861,EPA
+West US,California,WECC,0.000350861,EPA
+West US 2,Washington,WECC,0.000350861,EPA
+West US 3,Arizona,WECC,0.000350861,EPA
+East Asia,Hong Kong,,0.00081,carbonfootprint.com
+Southeast Asia,Singapore,,0.0004085,EMA Singapore
+North Europe,Ireland,,0.000316,EEA
+West Europe,Netherlands,,0.00039,EEA
+Central India,Pune,,0.000708,carbonfootprint.com
+South India,Chennai,,0.000708,carbonfootprint.com
+West India,Mumbai,,0.000708,carbonfootprint.com
+UK South,London,,0.000228,EEA
+UK West,Cardiff,,0.000228,EEA
