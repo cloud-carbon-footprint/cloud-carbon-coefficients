@@ -46,6 +46,14 @@ and then open `coefficients.ipynb`.
 4. The final three sections of the notebook - Azure, AWS, GCP - explain where to
    place the values from the output tables.
 
+## Tests
+
+Basic tests exist in-line. They can also be executed from the terminal:
+
+```
+nbdev_test_nbs
+```
+
 ## Git hooks
 
 Git hooks from [`nbdev`](https://nbdev.fast.ai/) are used to clean notebooks
