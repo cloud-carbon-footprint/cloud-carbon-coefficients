@@ -11,7 +11,7 @@ jobs:
     - name: Install the library
       run: |
         pip install nbdev jupyter
-        pip install -e .
+        pip install -r requirements.txt
     - name: Read all notebooks
       run: |
         nbdev_read_nbs
