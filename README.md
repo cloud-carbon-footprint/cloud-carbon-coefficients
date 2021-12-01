@@ -45,3 +45,10 @@ and then open `coefficients.ipynb`.
 3. Run the notebook to calculate the new values.
 4. The final three sections of the notebook - Azure, AWS, GCP - explain where to
    place the values from the output tables.
+
+## Git hooks
+
+Git hooks from [`nbdev`](https://nbdev.fast.ai/) are used to clean notebooks
+before they're committed. This avoids committing all the metadata that changes
+on each run. See the [`nbdev` Git hooks
+docs](https://nbdev.fast.ai/cli.html#Git-hooks) for more details.
