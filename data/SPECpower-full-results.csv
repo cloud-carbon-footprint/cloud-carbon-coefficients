@@ -552,19 +552,19 @@ Fujitsu,FUJITSU Server PRIMERGY RX4770 M4,"Jan 10, 2018",1,Oracle Corporation,In
 Fujitsu,FUJITSU Server PRIMERGY RX2540 M4,"Jan 10, 2018",1,Oracle Corporation,Intel Xeon Platinum 8176M,2100,2,56,112,192,5079736,355,57.3,12842,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
 Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module HPE Synergy 12000 Frame,"Apr 25, 2018",12,Oracle Corporation,Intel Xeon Platinum 8180,2500,24,672,1344,2304,68782048,5816,901,10872,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
 Hewlett Packard Enterprise,Synergy 660 Gen10 Compute Module HPE Synergy 12000 Frame,"Apr 26, 2018",6,Oracle Corporation,Intel Xeon Platinum 8180,2500,24,672,1344,2304,69404522,5968,758,11021,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
-Hewlett Packard Enterprise,ProLiant DL385 Gen10,"May 1, 2018",1,Oracle Corporation,AMD EPYC 7601,2200,2,64,128,128,4295252,298,81.1,11044,,,,,,,
+Hewlett Packard Enterprise,ProLiant DL385 Gen10,"May 1, 2018",1,Oracle Corporation,EPYC 7601,2200,2,64,128,128,4295252,298,81.1,11044,,,,,,,
 Inspur Corporation,Inspur NF5280M5,"May 23, 2018",1,Oracle Corporation,Intel Xeon Platinum 8176,2100,2,56,112,192,5821446,454,49.4,13064,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
-Dell Inc.,PowerEdge R7425 (AMD EPYC 7601),"Jun 7, 2018",1,Oracle Corporation,AMD EPYC 7601,2200,2,64,128,128,4376919,287,84.9,11064,,,,,,,
-Sugon Parts Built Sugon,A620-G30,"Jul 5, 2018",1,Oracle Corporation.,AMD EPYC 7601,2200,2,64,128,128,4364495,296,94.9,10831,,,,,,,
+Dell Inc.,PowerEdge R7425 (EPYC 7601),"Jun 7, 2018",1,Oracle Corporation,EPYC 7601,2200,2,64,128,128,4376919,287,84.9,11064,,,,,,,
+Sugon Parts Built Sugon,A620-G30,"Jul 5, 2018",1,Oracle Corporation.,EPYC 7601,2200,2,64,128,128,4364495,296,94.9,10831,,,,,,,
 Dell Inc.,PowerEdge R840 (Intel Xeon Platinum 8180),"Jul 5, 2018",1,Oracle Corporation,Intel Xeon Platinum 8180,2500,4,112,224,384,11546450,939,89.8,11872,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
-Hewlett Packard Enterprise,ProLiant DL385 Gen10,"Jul 18, 2018",1,Oracle Corporation,AMD EPYC 7601,2200,2,64,128,128,4283406,295,88.3,11140,,,,,,,
+Hewlett Packard Enterprise,ProLiant DL385 Gen10,"Jul 18, 2018",1,Oracle Corporation,EPYC 7601,2200,2,64,128,128,4283406,295,88.3,11140,,,,,,,
 Dell Inc.,PowerEdge R840 (Intel Xeon Platinum 8180),"Jul 18, 2018",1,Oracle Corporation,Intel Xeon Platinum 8180,2500,4,112,224,384,11355761,923,85.6,11962,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
 Inspur Corporation,Inspur Yingxin NF8480M5,"Aug 1, 2018",1,Oracle Corporation,Intel Xeon Platinum 8176,2100,4,112,224,384,9920959,726,158,12198,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
 Inspur Corporation,Inspur NF5180M5,"Aug 1, 2018",1,Oracle Corporation,Intel Xeon Platinum 8176 CPU,2100,2,56,112,192,5802662,458,51.3,12167,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
-Sugon,A620-G30(AMD EPYC 7351),"Aug 8, 2018",1,Oracle Corporation,AMD EPYC 7351,2400,2,32,64,128,2721413,278,103,6507,,,,,,,
-Sugon,A620-G30(AMD EPYC 7501),"Aug 8, 2018",1,Oracle Corporation,AMD EPYC 7501,2000,2,64,128,128,4212617,307,103,9248,,,,,,,
+Sugon,A620-G30(EPYC 7351),"Aug 8, 2018",1,Oracle Corporation,EPYC 7351,2400,2,32,64,128,2721413,278,103,6507,,,,,,,
+Sugon,A620-G30(EPYC 7501),"Aug 8, 2018",1,Oracle Corporation,EPYC 7501,2000,2,64,128,128,4212617,307,103,9248,,,,,,,
 Sugon,I620-G30(Intel Xeon Platinum 8160),"Aug 8, 2018",1,Oracle Corporation,Intel Xeon Platinum 8160,2100,2,48,96,192,4386123,387,53.4,10255,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
-Hewlett Packard Enterprise,ProLiant DL325 Gen10,"Aug 15, 2018",1,Oracle Corporation,AMD EPYC 7551P,2000,1,32,64,128,2121736,181,61.7,8083,,,,,,,
+Hewlett Packard Enterprise,ProLiant DL325 Gen10,"Aug 15, 2018",1,Oracle Corporation,EPYC 7551P,2000,1,32,64,128,2121736,181,61.7,8083,,,,,,,
 Sugon,I620-G30 (Intel Xeon Gold 5117),"Aug 15, 2018",1,Oracle Corporation,Intel Xeon Gold 5117,2000,2,28,56,192,2446314,245,51.9,8079,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Sugon,I620-G30 (Intel Xeon Gold 6140),"Aug 15, 2018",1,Oracle Corporation,Intel Xeon Gold 6140,2300,2,36,72,192,3536666,343,52.4,9230,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
 Sugon,I620-G30 (Intel Xeon Gold 6152),"Aug 15, 2018",1,Oracle Corporation,Intel Xeon Gold 6152,2100,2,44,88,192,3976866,364,53.1,9825,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
@@ -587,18 +587,18 @@ Hewlett Packard Enterprise,ProLiant DL560 Gen10,"Sep 12, 2018",1,Oracle Corporat
 Hewlett Packard Enterprise,ProLiant DL380 Gen10,"Sep 12, 2018",1,Oracle Corporation,Intel Xeon Platinum 8180,2500,2,56,112,96,5758036,461,49.3,11540,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
 Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module HPE Synergy 12000 Frame,"Sep 12, 2018",5,Oracle Corporation,Intel Xeon Platinum 8180,2500,10,280,560,960,28585334,2495,466,10237,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
 Hewlett Packard Enterprise,ProLiant ML350 Gen10,"Sep 12, 2018",1,Oracle Corporation,Intel Xeon Platinum 8180,2500,2,56,112,192,5653296,471,59.4,10916,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
-Supermicro Inc.,Server 1123US-TR4,"Sep 27, 2018",1,Oracle Corporation,AMD EPYC 7501,2000,2,64,128,512,4406978,303,98.4,10206,,,,,,,
+Supermicro Inc.,Server 1123US-TR4,"Sep 27, 2018",1,Oracle Corporation,EPYC 7501,2000,2,64,128,512,4406978,303,98.4,10206,,,,,,,
 Lenovo Global Technology,ThinkSystem SN850 Lenovo Flex System Enterprise Chassis with CMM2 (00FJ669) standard (Model 8721),"Sep 27, 2018",7,Oracle Corporation,Intel Xeon Platinum 8176,2100,28,784,1568,2688,70603716,5366,820,11538,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
 Lenovo Global Technology,ThinkSystem SR950,"Sep 27, 2018",1,Oracle Corporation,Intel Xeon Platinum 8176,2100,8,224,448,768,20352398,1479,182,12377,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
 "Huawei Technologies Co., Ltd",Fusion Server 2288H V5,"Sep 27, 2018",1,Oracle Corporation,Intel Xeon Platinum 8180,2500,2,56,112,192,5835340,437,50.3,13478,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
-"GIGA-BYTE TECHNOLOGY CO., LTD. Parts Built GIGA-BYTE TECHNOLOGY CO., LTD.",R181-Z90,"Oct 17, 2018",1,Oracle Corporation,AMD EPYC 7601,2200,2,64,128,128,4512155,296,95.5,11207,,,,,,,
+"GIGA-BYTE TECHNOLOGY CO., LTD. Parts Built GIGA-BYTE TECHNOLOGY CO., LTD.",R181-Z90,"Oct 17, 2018",1,Oracle Corporation,EPYC 7601,2200,2,64,128,128,4512155,296,95.5,11207,,,,,,,
 Fujitsu,FUJITSU Server PRIMERGY RX1330 M4,"Dec 6, 2018",1,Oracle Corporation,Intel Xeon E-2176G,3700,1,6,12,16,651586,73.9,12.8,8924,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
 Fujitsu,FUJITSU Server PRIMERGY TX1320 M4,"Dec 6, 2018",1,Oracle Corporation,Intel Xeon E-2176G,3700,1,6,12,16,655699,71.7,10,9435,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
 Fujitsu,FUJITSU Server PRIMERGY TX1330 M4,"Dec 6, 2018",1,Oracle Corporation,Intel Xeon E-2176G,3700,1,6,12,16,652874,72.9,14.9,9031,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
 ASUSTeK Computer Inc.,RS720-E9/RS8,"Dec 6, 2018",1,Oracle Corporation,Intel Xeon Platinum 8180,2500,2,56,112,192,5386401,385,48.2,12727,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
 Quanta Computer Inc.,QuantaGrid D52BQ-2U,"Dec 6, 2018",1,Oracle Corporation,Intel Xeon Platinum 8180,2500,2,56,112,96,5604059,401,38.4,12801,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
 Lenovo Global Technology,ThinkSystem SR150,"Jan 17, 2019",1,Oracle Corporation,Intel Xeon E-2176G,3700,1,6,12,32,836281,87.2,16.8,10273,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
-Dell Inc.,PowerEdge R7425 (AMD EPYC 7601),"Feb 27, 2019",1,Oracle Corporation,AMD EPYC 7601,2200,2,64,128,128,4374583,268,77.5,11867,,,,,,,
+Dell Inc.,PowerEdge R7425 (EPYC 7601),"Feb 27, 2019",1,Oracle Corporation,EPYC 7601,2200,2,64,128,128,4374583,268,77.5,11867,,,,,,,
 Lenovo Global Technology,ThinkSystem SR650,"Apr 2, 2019",1,Oracle Corporation,Intel Xeon Platinum 8176,2100,2,56,112,192,4972543,352,67.7,12091,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
 Lenovo Global Technology,ThinkSystem SR630,"Apr 2, 2019",1,Oracle Corporation,Intel Xeon Platinum 8176,2100,2,56,112,192,4962317,355,72.3,11870,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
 Fujitsu,FUJITSU Server PRIMERGY RX2540 M5,"Apr 2, 2019",1,Oracle Corporation,Intel Xeon Platinum 8276L,2300,2,56,112,192,4657126,332,58.2,11991,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
@@ -678,53 +678,53 @@ Lenovo Global Technology,ThinkSystem SD530 ThinkSystem SD530,"Jul 17, 2019",4,Or
 Lenovo Global Technology,ThinkSystem SR850,"Jul 17, 2019",1,Oracle Corporation,Intel Xeon Platinum 8276L,2200,4,112,224,384,10221111,672,121,13357,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
 ASUSTeK Computer Inc.,RS720-E9-RS8,"Jul 17, 2019",1,Oracle Corporation,Intel Xeon Platinum 8280L,2700,2,56,112,192,5845032,405,47.4,14274,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
 Supermicro Inc.,SuperServer SYS-6029P-WTR,"Jul 23, 2019",1,Oracle Corporation,Intel Xeon Platinum 8280,2700,2,56,112,192,5545677,385,48.6,13623,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
-Hewlett Packard Enterprise,ProLiant DL385 Gen10,"Aug 7, 2019",1,Oracle Corporation,AMD EPYC 7702,2000,2,128,256,256,11092443,423,163,18294,,,,,,,
-Hewlett Packard Enterprise,ProLiant DL385 Gen10,"Aug 7, 2019",1,Oracle Corporation,AMD EPYC 7702,2000,2,128,256,256,10661631,422,111,18051,,,,,,,
-Hewlett Packard Enterprise,ProLiant DL325 Gen10,"Aug 7, 2019",1,Oracle Corporation,AMD EPYC 7702P,2000,1,64,128,128,5801076,230,78.7,17349,,,,,,,
-Hewlett Packard Enterprise,ProLiant DL325 Gen10,"Aug 7, 2019",1,Oracle Corporation,AMD EPYC 7702P,2000,1,64,128,128,5142018,224,70.3,15724,,,,,,,
-Lenovo Global Technology,Think System SR635,"Aug 7, 2019",1,Oracle Corporation,AMD EPYC 7742,2250,1,64,128,128,6370222,255,74.6,18555,,,,,,,
-Lenovo Global Technology,Think System SR655,"Aug 7, 2019",1,Oracle Corporation,AMD EPYC 7742,2250,1,64,128,128,6417037,243,76.8,19149,,,,,,,
-Hewlett Packard Enterprise,ProLiant DL325 Gen10,"Aug 14, 2019",1,Oracle Corporation,AMD EPYC 7702P,2000,1,64,128,128,5530830,231,79.5,16226,,,,,,,
+Hewlett Packard Enterprise,ProLiant DL385 Gen10,"Aug 7, 2019",1,Oracle Corporation,EPYC 7702,2000,2,128,256,256,11092443,423,163,18294,,,,,,,
+Hewlett Packard Enterprise,ProLiant DL385 Gen10,"Aug 7, 2019",1,Oracle Corporation,EPYC 7702,2000,2,128,256,256,10661631,422,111,18051,,,,,,,
+Hewlett Packard Enterprise,ProLiant DL325 Gen10,"Aug 7, 2019",1,Oracle Corporation,EPYC 7702P,2000,1,64,128,128,5801076,230,78.7,17349,,,,,,,
+Hewlett Packard Enterprise,ProLiant DL325 Gen10,"Aug 7, 2019",1,Oracle Corporation,EPYC 7702P,2000,1,64,128,128,5142018,224,70.3,15724,,,,,,,
+Lenovo Global Technology,Think System SR635,"Aug 7, 2019",1,Oracle Corporation,EPYC 7742,2250,1,64,128,128,6370222,255,74.6,18555,,,,,,,
+Lenovo Global Technology,Think System SR655,"Aug 7, 2019",1,Oracle Corporation,EPYC 7742,2250,1,64,128,128,6417037,243,76.8,19149,,,,,,,
+Hewlett Packard Enterprise,ProLiant DL325 Gen10,"Aug 14, 2019",1,Oracle Corporation,EPYC 7702P,2000,1,64,128,128,5530830,231,79.5,16226,,,,,,,
 Inspur Corporation,Inspur NF5280M5,"Aug 15, 2019",1,Oracle Corporation,Intel Xeon Platinum 8180,2500,2,56,112,192,5727527,432,49.5,13481,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
 Lenovo Global Technology,ThinkSystem SN850 Lenovo Flex System Enterprise Chassis with CMM2 (00FJ669) standard (Model 8721),"Aug 21, 2019",7,Oracle Corporation,Intel Xeon Platinum 8276L,2200,28,784,1568,2688,71032994,4985,1052,12295,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
-"GIGA-BYTE Technology Co., Ltd.",R282-Z90,"Aug 28, 2019",1,Oracle Corporation,AMD EPYC 7742,2250,2,128,256,256,13008786,492,133,18748,,,,,,,
-Lenovo Global Technology,Think System SR655,"Sep 19, 2019",1,Oracle Corporation,AMD EPYC 7742,2250,1,64,128,128,6647681,240,66.1,20176,,,,,,,
-Lenovo Global Technology,Think System SR635,"Sep 19, 2019",1,Oracle Corporation,AMD EPYC 7742,2250,1,64,128,128,6668200,254,63.2,19422,,,,,,,
+"GIGA-BYTE Technology Co., Ltd.",R282-Z90,"Aug 28, 2019",1,Oracle Corporation,EPYC 7742,2250,2,128,256,256,13008786,492,133,18748,,,,,,,
+Lenovo Global Technology,Think System SR655,"Sep 19, 2019",1,Oracle Corporation,EPYC 7742,2250,1,64,128,128,6647681,240,66.1,20176,,,,,,,
+Lenovo Global Technology,Think System SR635,"Sep 19, 2019",1,Oracle Corporation,EPYC 7742,2250,1,64,128,128,6668200,254,63.2,19422,,,,,,,
 Fujitsu,FUJITSU Server PRIMERGY RX2520 M5,"Sep 19, 2019",1,Oracle Corporation,Intel Xeon Gold 5220,2200,2,36,72,192,3872265,318,61.5,10765,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
 Fujitsu,FUJITSU Server PRIMERGY TX2550 M5,"Sep 19, 2019",1,Oracle Corporation,Intel Xeon Gold 6252 Processor,2100,2,48,96,96,4507558,342,54.8,11901,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
-Supermicro Inc.,Server 1123US-TR4,"Sep 26, 2019",1,Oracle Corporation,AMD EPYC 7702,2000,2,128,256,512,11335181,412,99.2,19391,,,,,,,
+Supermicro Inc.,Server 1123US-TR4,"Sep 26, 2019",1,Oracle Corporation,EPYC 7702,2000,2,128,256,512,11335181,412,99.2,19391,,,,,,,
 Inspur Corporation,Inspur NF5280M5,"Oct 9, 2019",1,Oracle Corporation,Intel Xeon Platinum 8276L,2200,2,56,112,192,4864136,347,48.3,12385,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
 Fujitsu,FUJITSU Server PRIMERGY TX1320 M4,"Nov 6, 2019",1,Oracle Corporation,Intel Xeon E-2288G,3700,1,8,16,16,797225,56,16.3,12364,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
 Fujitsu,FUJITSU Server PRIMERGY TX1330 M4,"Nov 6, 2019",1,Oracle Corporation,Intel Xeon E-2288G,3700,1,8,16,16,776812,53.2,15.9,12631,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
-Fujitsu,FUJITSU Server PRIMERGY LX1430 M1,"Dec 18, 2019",1,Oracle Corporation,AMD EPYC 7742,2250,1,64,128,256,5816214,250,60.8,17278,,,,,,,
+Fujitsu,FUJITSU Server PRIMERGY LX1430 M1,"Dec 18, 2019",1,Oracle Corporation,EPYC 7742,2250,1,64,128,256,5816214,250,60.8,17278,,,,,,,
 Fujitsu,FUJITSU Server PRIMERGY RX1330 M4,"Dec 18, 2019",1,Oracle Corporation,Intel Xeon E-2288G,3700,1,8,16,16,786578,57.4,16.8,11660,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
-ASUSTeK Computer Inc.,RS500A-E10-PS4,"Jan 21, 2020",1,Oracle,AMD EPYC 7742,2250,1,64,128,128,6064779,214,51.4,20908,,,,,,,
-ASUSTeK Computer Inc.,RS500A-E10-PS4,"Jan 21, 2020",1,Oracle,AMD EPYC 7742,2250,1,64,128,128,5879510,206,56.4,21168,,,,,,,
+ASUSTeK Computer Inc.,RS500A-E10-PS4,"Jan 21, 2020",1,Oracle,EPYC 7742,2250,1,64,128,128,6064779,214,51.4,20908,,,,,,,
+ASUSTeK Computer Inc.,RS500A-E10-PS4,"Jan 21, 2020",1,Oracle,EPYC 7742,2250,1,64,128,128,5879510,206,56.4,21168,,,,,,,
 Nokia Corporation,AE-SER1U-A Nokia AirFrame Open Edge,"Feb 14, 2020",5,Oracle Corporation,Intel(R) Xeon(R) Gold 6210U,2500,5,100,200,320,7411713,877,247,6183,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-Dell Inc.,"PowerEdge R6525 (AMD EPYC 7702,)","Mar 25, 2020",1,Oracle Corporation,AMD EPYC 7702,2000,2,128,256,128,11115782,404,81.6,20184,,,,,,,
-Dell Inc.,"PowerEdge R7525 (AMD EPYC 7702,)","Apr 8, 2020",1,Oracle Corporation,AMD EPYC 7702,2000,2,128,256,128,11118115,393,72.3,20910,,,,,,,
-ASUSTeK Computer Inc.,RS700A-E9-RS4V2,"Apr 8, 2020",1,Oracle,AMD EPYC 7742,2250,2,128,256,256,11702137,430,106,20214,,,,,,,
-ASUSTeK Computer Inc.,RS700A-E9-RS4V2,"Apr 8, 2020",1,Oracle,AMD EPYC 7742,2250,2,128,256,256,11945201,425,92.9,20350,,,,,,,
-Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus HPE Apollo 2000 Gen10 Plus,"Apr 22, 2020",3,Oracle Corporation,AMD EPYC 7702,2000,6,384,768,768,31966408,1281,524,17076,,,,,,,
-Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus HPE Apollo 2000 Gen10 Plus,"Apr 22, 2020",2,Oracle Corporation,AMD EPYC 7702,2000,4,256,512,512,21298319,894,403,16000,,,,,,,
-Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus HPE Apollo 2000 Gen10 Plus,"Apr 22, 2020",4,Oracle Corporation,AMD EPYC 7702,2000,8,512,1024,1024,42615750,1687,700,17436,,,,,,,
-Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus HPE Apollo 2000 Gen10 Plus,"Apr 22, 2020",4,Oracle Corporation,AMD EPYC 7742,2250,8,512,1024,1024,43715840,1721,678,17530,,,,,,,
-Lenovo Global Technology,Think System SR665,"May 11, 2020",1,Oracle Corporation,AMD EPYC 7742,2250,2,128,256,256,12150181,395,82.3,23191,,,,,,,
-Lenovo Global Technology,Think System SR665,"May 11, 2020",1,Oracle Corporation,AMD EPYC 7742,2250,2,128,256,256,11986479,394,92.4,22879,,,,,,,
-Lenovo Global Technology,Think System SR645,"May 11, 2020",1,Oracle Corporation,AMD EPYC 7742,2250,2,128,256,256,12003050,403,99.5,22467,,,,,,,
-Lenovo Global Technology,Think System SR645,"May 11, 2020",1,Oracle Corporation,AMD EPYC 7742,2250,2,128,256,256,12181243,404,82.5,22877,,,,,,,
+Dell Inc.,"PowerEdge R6525 (EPYC 7702,)","Mar 25, 2020",1,Oracle Corporation,EPYC 7702,2000,2,128,256,128,11115782,404,81.6,20184,,,,,,,
+Dell Inc.,"PowerEdge R7525 (EPYC 7702,)","Apr 8, 2020",1,Oracle Corporation,EPYC 7702,2000,2,128,256,128,11118115,393,72.3,20910,,,,,,,
+ASUSTeK Computer Inc.,RS700A-E9-RS4V2,"Apr 8, 2020",1,Oracle,EPYC 7742,2250,2,128,256,256,11702137,430,106,20214,,,,,,,
+ASUSTeK Computer Inc.,RS700A-E9-RS4V2,"Apr 8, 2020",1,Oracle,EPYC 7742,2250,2,128,256,256,11945201,425,92.9,20350,,,,,,,
+Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus HPE Apollo 2000 Gen10 Plus,"Apr 22, 2020",3,Oracle Corporation,EPYC 7702,2000,6,384,768,768,31966408,1281,524,17076,,,,,,,
+Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus HPE Apollo 2000 Gen10 Plus,"Apr 22, 2020",2,Oracle Corporation,EPYC 7702,2000,4,256,512,512,21298319,894,403,16000,,,,,,,
+Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus HPE Apollo 2000 Gen10 Plus,"Apr 22, 2020",4,Oracle Corporation,EPYC 7702,2000,8,512,1024,1024,42615750,1687,700,17436,,,,,,,
+Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus HPE Apollo 2000 Gen10 Plus,"Apr 22, 2020",4,Oracle Corporation,EPYC 7742,2250,8,512,1024,1024,43715840,1721,678,17530,,,,,,,
+Lenovo Global Technology,Think System SR665,"May 11, 2020",1,Oracle Corporation,EPYC 7742,2250,2,128,256,256,12150181,395,82.3,23191,,,,,,,
+Lenovo Global Technology,Think System SR665,"May 11, 2020",1,Oracle Corporation,EPYC 7742,2250,2,128,256,256,11986479,394,92.4,22879,,,,,,,
+Lenovo Global Technology,Think System SR645,"May 11, 2020",1,Oracle Corporation,EPYC 7742,2250,2,128,256,256,12003050,403,99.5,22467,,,,,,,
+Lenovo Global Technology,Think System SR645,"May 11, 2020",1,Oracle Corporation,EPYC 7742,2250,2,128,256,256,12181243,404,82.5,22877,,,,,,,
 Inspur Corporation,Inspur NF5280M5,"Jun 3, 2020",1,Oracle Corporation,Intel Xeon Platinum 8280,2700,2,56,112,192,5853828,410,48.6,14365,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
-Lenovo Global Technology,Think System SR665,"Jun 10, 2020",1,Oracle Corporation,AMD EPYC 7742,2250,2,128,256,256,12166530,391,82.8,23428,,,,,,,
-Lenovo Global Technology,Think System SR665,"Jun 10, 2020",1,Oracle Corporation,AMD EPYC 7742,2250,2,128,256,256,11944946,392,93.9,22903,,,,,,,
-Lenovo Global Technology,Think System SR645,"Jun 10, 2020",1,Oracle Corporation,AMD EPYC 7742,2250,2,128,256,256,11962483,398,94,22642,,,,,,,
-Lenovo Global Technology,Think System SR645,"Jun 10, 2020",1,Oracle Corporation,AMD EPYC 7742,2250,2,128,256,256,12184530,400,84,23082,,,,,,,
+Lenovo Global Technology,Think System SR665,"Jun 10, 2020",1,Oracle Corporation,EPYC 7742,2250,2,128,256,256,12166530,391,82.8,23428,,,,,,,
+Lenovo Global Technology,Think System SR665,"Jun 10, 2020",1,Oracle Corporation,EPYC 7742,2250,2,128,256,256,11944946,392,93.9,22903,,,,,,,
+Lenovo Global Technology,Think System SR645,"Jun 10, 2020",1,Oracle Corporation,EPYC 7742,2250,2,128,256,256,11962483,398,94,22642,,,,,,,
+Lenovo Global Technology,Think System SR645,"Jun 10, 2020",1,Oracle Corporation,EPYC 7742,2250,2,128,256,256,12184530,400,84,23082,,,,,,,
 Inspur Corporation,Inspur NF5180M5,"Jul 2, 2020",1,Oracle Corporation,Intel Xeon Platinum 8280,2700,2,56,112,192,5814232,414,48.2,14223,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
-Lenovo Global Technology,Think System SR655,"Aug 6, 2020",1,Oracle Corporation,AMD EPYC 7742,2250,1,64,128,128,6617761,224,63.8,21603,,,,,,,
-Lenovo Global Technology,Think System SR655,"Aug 6, 2020",1,Oracle Corporation,AMD EPYC 7742,2250,1,64,128,128,6446460,221,64.6,21074,,,,,,,
-Dell Inc.,"PowerEdge R6515 (AMD EPYC 7702P,)","Aug 12, 2020",1,Oracle Corporation,AMD EPYC 7702P,2000,1,64,128,64,6124305,231,54.5,18463,,,,,,,
+Lenovo Global Technology,Think System SR655,"Aug 6, 2020",1,Oracle Corporation,EPYC 7742,2250,1,64,128,128,6617761,224,63.8,21603,,,,,,,
+Lenovo Global Technology,Think System SR655,"Aug 6, 2020",1,Oracle Corporation,EPYC 7742,2250,1,64,128,128,6446460,221,64.6,21074,,,,,,,
+Dell Inc.,"PowerEdge R6515 (EPYC 7702P,)","Aug 12, 2020",1,Oracle Corporation,EPYC 7702P,2000,1,64,128,64,6124305,231,54.5,18463,,,,,,,
 LSDtech Telecommunications Technology Association,L224S-D/F/V-1,"Sep 23, 2020",1,Oracle Corporation,Intel(R) Xeon(R) Gold 6136,3000,2,24,48,196,2297344,432,131,4130,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
-ASUSTeK Computer Inc.,RS620SA-E10-RS12 RS620SA-E10,"Oct 7, 2020",6,Oracle,AMD EPYC 7742,2250,6,384,768,768,36876127,1140,228,24238,,,,,,,
-ASUSTeK Computer Inc.,RS620SA-E10-RS12 RS620SA-E10,"Oct 7, 2020",6,Oracle,AMD EPYC 7742,2250,6,384,768,768,36645962,1141,250,24507,,,,,,,
+ASUSTeK Computer Inc.,RS620SA-E10-RS12 RS620SA-E10,"Oct 7, 2020",6,Oracle,EPYC 7742,2250,6,384,768,768,36876127,1140,228,24238,,,,,,,
+ASUSTeK Computer Inc.,RS620SA-E10-RS12 RS620SA-E10,"Oct 7, 2020",6,Oracle,EPYC 7742,2250,6,384,768,768,36645962,1141,250,24507,,,,,,,
 Inspur Corporation,Inspur Yingxin NF8480M5,"Oct 7, 2020",1,Oracle Corporation,Intel Xeon Platinum 8280,2700,4,112,224,384,11896061,919,102,13013,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
 Fujitsu,FUJITSU Server PRIMERGY RX4770 M6,"Nov 4, 2020",1,Oracle Corporation,Intel Xeon Platinum 8380H,2900,4,112,224,384,9904110,834,129,11077,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Hewlett Packard Enterprise,Superdome Flex 280 - 4 Socket,"Nov 4, 2020",1,Oracle Corporation,Intel Xeon Platinum 8380HL,2900,4,112,224,768,10102176,1117,258,7550,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
@@ -733,27 +733,27 @@ Hewlett Packard Enterprise,Superdome Flex 280 - 4 Socket,"Nov 4, 2020",1,Oracle 
 Hewlett Packard Enterprise,Superdome Flex 280 - 8 Socket,"Nov 4, 2020",1,Oracle Corporation,Intel Xeon Platinum 8380HL,2900,8,224,448,1536,19501160,2132,503,7369,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 "New H3C Technologies Co., Ltd.",H3C UniServer R6900 G5,"Dec 2, 2020",1,Oracle Corporation,Intel Xeon Platinum 8380HL,2900,4,112,224,384,10793473,1005,89.2,11159,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Lenovo Global Technology,ThinkSystem SR860V2,"Dec 16, 2020",1,Oracle Corporation,Intel Xeon Platinum 8376HL,2600,4,112,224,384,9383160,721,138,11300,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-Dell Inc.,"PowerEdge R7515 (AMD EPYC 7742,)",,,Oracle Corporation,AMD EPYC 7742,2250,1,64,128,128,5676534,246,99.5,16501,,,,,,,
+Dell Inc.,"PowerEdge R7515 (EPYC 7742,)",,,Oracle Corporation,EPYC 7742,2250,1,64,128,128,5676534,246,99.5,16501,,,,,,,
 UNIWIDE  Telecommunications Technology Association,RC2212,"Feb 26, 2021",1,Oracle Corporation,Intel(R) Xeon(R) Silver 4210,2200,2,20,40,768,1321867,291,127,2901,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
-Lenovo Global Technology,ThinkSystem SR645,"Mar 24, 2021",1,Oracle Corporation,AMD EPYC 7763,2450,2,128,256,256,12283667,459,104,22963,,,,,,,
-Hewlett Packard Enterprise,ProLiant DL385 Gen10 Plus,"Mar 15, 2021",1,Oracle Corporation,AMD EPYC 7763,2450,2,128,256,256,12550024,546,120,18329,,,,,,,
-Hewlett Packard Enterprise,ProLiant DL365 Gen10 Plus,"Mar 15, 2021",1,Oracle Corporation,AMD EPYC 7713,2000,2,128,256,256,11174699,468,109,18268,,,,,,,
-Hewlett Packard Enterprise,ProLiant DL345 Gen10 Plus,"Mar 15, 2021",1,Oracle Corporation,AMD EPYC 7763,2450,1,64,128,128,6319281,272,58,18260,,,,,,,
-Hewlett Packard Enterprise,ProLiant DL325 Gen10 Plus,"Mar 15, 2021",1,Oracle Corporation,AMD EPYC 7763,2450,1,64,128,128,6343544,268,56.8,18845,,,,,,,
-Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus Apollo 2000 Gen10 Plus,"Mar 15, 2021",3,Oracle Corporation,AMD EPYC 7763,2450,6,384,768,768,37367143,1731,430,17266,,,,,,,
-Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus Apollo 2000 Gen10 Plus,"Mar 15, 2021",2,Oracle Corporation,AMD EPYC 7763,2450,4,256,512,512,24847419,1192,331,16320,,,,,,,
-Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus Apollo 2000 Gen10 Plus,"Mar 15, 2021",3,Oracle Corporation,AMD EPYC 7763,2450,6,384,768,768,34394737,1694,352,16205,,,,,,,
-Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus Apollo 2000 Gen10 Plus,"Mar 15, 2021",2,Oracle Corporation,AMD EPYC 7763,2450,4,256,512,512,22957212,1173,257,15574,,,,,,,
-Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus Apollo 2000 Gen10 Plus,"Mar 15, 2021",4,Oracle Corporation,AMD EPYC 7763,2450,8,512,1024,1024,49655346,2260,523,17696,,,,,,,
-Hewlett Packard Enterprise,ProLiant DL345 Gen10 Plus,"Mar 15, 2021",1,Oracle Corporation,AMD EPYC 7763,2450,1,64,128,128,5797203,270,53.7,16823,,,,,,,
+Lenovo Global Technology,ThinkSystem SR645,"Mar 24, 2021",1,Oracle Corporation,EPYC 7763,2450,2,128,256,256,12283667,459,104,22963,,,,,,,
+Hewlett Packard Enterprise,ProLiant DL385 Gen10 Plus,"Mar 15, 2021",1,Oracle Corporation,EPYC 7763,2450,2,128,256,256,12550024,546,120,18329,,,,,,,
+Hewlett Packard Enterprise,ProLiant DL365 Gen10 Plus,"Mar 15, 2021",1,Oracle Corporation,EPYC 7713,2000,2,128,256,256,11174699,468,109,18268,,,,,,,
+Hewlett Packard Enterprise,ProLiant DL345 Gen10 Plus,"Mar 15, 2021",1,Oracle Corporation,EPYC 7763,2450,1,64,128,128,6319281,272,58,18260,,,,,,,
+Hewlett Packard Enterprise,ProLiant DL325 Gen10 Plus,"Mar 15, 2021",1,Oracle Corporation,EPYC 7763,2450,1,64,128,128,6343544,268,56.8,18845,,,,,,,
+Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus Apollo 2000 Gen10 Plus,"Mar 15, 2021",3,Oracle Corporation,EPYC 7763,2450,6,384,768,768,37367143,1731,430,17266,,,,,,,
+Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus Apollo 2000 Gen10 Plus,"Mar 15, 2021",2,Oracle Corporation,EPYC 7763,2450,4,256,512,512,24847419,1192,331,16320,,,,,,,
+Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus Apollo 2000 Gen10 Plus,"Mar 15, 2021",3,Oracle Corporation,EPYC 7763,2450,6,384,768,768,34394737,1694,352,16205,,,,,,,
+Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus Apollo 2000 Gen10 Plus,"Mar 15, 2021",2,Oracle Corporation,EPYC 7763,2450,4,256,512,512,22957212,1173,257,15574,,,,,,,
+Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus Apollo 2000 Gen10 Plus,"Mar 15, 2021",4,Oracle Corporation,EPYC 7763,2450,8,512,1024,1024,49655346,2260,523,17696,,,,,,,
+Hewlett Packard Enterprise,ProLiant DL345 Gen10 Plus,"Mar 15, 2021",1,Oracle Corporation,EPYC 7763,2450,1,64,128,128,5797203,270,53.7,16823,,,,,,,
 Inspur Corporation,Inspur NF8480M6,"Jan 28, 0201",1,Oracle Corporation,Intel Xeon Platinum 8380HL,2900,4,112,224,384,11556864,1008,104,11344,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-Lenovo Global Technology,ThinkSystem SR645,"Mar 24, 2021",1,Oracle Corporation,AMD EPYC 7763,2450,2,128,256,256,12386273,460,75.6,23332,,,,,,,
-Lenovo Global Technology,ThinkSystem SR645,"Mar 24, 2021",1,Oracle Corporation,AMD EPYC 7763,2450,2,128,256,256,12283667,459,104,22963,,,,,,,
+Lenovo Global Technology,ThinkSystem SR645,"Mar 24, 2021",1,Oracle Corporation,EPYC 7763,2450,2,128,256,256,12386273,460,75.6,23332,,,,,,,
+Lenovo Global Technology,ThinkSystem SR645,"Mar 24, 2021",1,Oracle Corporation,EPYC 7763,2450,2,128,256,256,12283667,459,104,22963,,,,,,,
 Fujitsu,PRIMERGY RX2530 M6,"Apr 28, 2021",1,Oracle Corporation,Intel Xeon Platinum 8380,2300,2,80,160,256,7573884,580,131,11533,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Fujitsu,PRIMERGY RX2530 M6,"Apr 28, 2021",1,Oracle Corporation,Intel Xeon Platinum 8380,2300,2,80,160,256,7967827,568,132,12066,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-Lenovo Global Technology,ThinkSystem SR665,"Apr 8, 2021",1,Oracle Corporation,AMD EPYC 7763,2450,2,128,256,256,12412812,454,79.3,23505,,,,,,,
-Lenovo Global Technology,ThinkSystem SR665,"May 6, 2021",1,Oracle Corporation,AMD EPYC 7763,2450,2,128,256,256,12301551,455,108,23120,,,,,,,
-Lenovo Global Technology,ThinkSystem SR645,"May 6, 2021",1,Oracle Corporation,AMD EPYC 7763,2450,2,128,256,256,12303077,461,102,23036,,,,,,,
+Lenovo Global Technology,ThinkSystem SR665,"Apr 8, 2021",1,Oracle Corporation,EPYC 7763,2450,2,128,256,256,12412812,454,79.3,23505,,,,,,,
+Lenovo Global Technology,ThinkSystem SR665,"May 6, 2021",1,Oracle Corporation,EPYC 7763,2450,2,128,256,256,12301551,455,108,23120,,,,,,,
+Lenovo Global Technology,ThinkSystem SR645,"May 6, 2021",1,Oracle Corporation,EPYC 7763,2450,2,128,256,256,12303077,461,102,23036,,,,,,,
 Inspur Corporation,Inspur NF5180M6,"Jul 29, 2021",1,Oracle Corporation,Intel Xeon Platinum 8352Y,2200,2,64,128,512,"6,652,024",680,156,"9,100",,,,,,,
 Inspur Corporation,Inspur NF5180M6,"Jul 29, 2021",1,Oracle Corporation,Intel Xeon Gold 6336Y,2400,2,48,96,256,"5,414,537",650,176,"7,915",,,,,,,
 Nettrix,R620 G40,"Jul 29, 2021",1,Oracle Corporation,Intel Xeon Platinum 8380,2300,2,80,160,256,"7,623,108",468,110,"13,223",,,,,,,

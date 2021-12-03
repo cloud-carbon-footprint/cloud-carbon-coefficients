@@ -8,7 +8,9 @@ Each instance type is available to cloud customers deployed on one or more CPU
 architectures. These files list all the architectures that each instance type
 supports.
 
-- [AWS Instance Types](https://aws.amazon.com/ec2/instance-types/)
+- [AWS Instance Types](https://aws.amazon.com/ec2/instance-types/) based on
+  [Teads Carbon Footprint
+  Dataset](https://docs.google.com/spreadsheets/d/1YhtGO_UU9Hc162m7eQKYFQOnV4_yEK5_lgHYfl02JPE/edit#gid=504755275).
 - [Azure Machine
   Types](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/)
 - [GCP Machine Types](https://cloud.google.com/compute/docs/machine-types)
