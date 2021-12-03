@@ -1,0 +1,24 @@
+CPU Name,Platform Total Number of vCPU,Platform Number of CPU Socket(s),Total Number of vCPU per socket
+Xeon E5-2666 v3,40,2,20
+Xeon E5-2676 v3,48,2,24
+Xeon E5-2686 v4,72,2,36
+Xeon E5-2650,32,2,16
+Xeon E5-2665,32,2,16
+Xeon E5-2670,32,2,16
+Xeon E5-2651 v2,48,2,24
+Xeon E5-2670 v2,40,2,20
+Xeon E5-2680 v2,40,2,20
+Xeon E7-8880 v3,128,4,32
+Xeon Platinum 8124M,72,2,36
+Xeon Platinum 8151,48,2,24
+Xeon Platinum 8175M,96,2,48
+Xeon Platinum 8176M,448,8,56
+Xeon Platinum 8252C,48,2,24
+Xeon Platinum 8259CL,96,2,48
+Xeon Platinum 8275CL,96,2,48
+Xeon Platinum 8375C,128,2,64
+EPYC 7571,96,2,48
+EPYC 7R32,96,1,96
+Graviton,16,1,16
+Graviton2,64,1,64
+Core i7-8700B,12,1,12
