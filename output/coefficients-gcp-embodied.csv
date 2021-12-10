@@ -1,0 +1,278 @@
+,family,type,microarchitecture,additional_memory,additional_storage,additional_cpus,additional_gpus,total
+0,e2,e2-standard-2,Skylake,155.46,0.0,100.0,0.0,1255.46
+1,e2,e2-standard-2,Broadwell,155.46,0.0,100.0,0.0,1255.46
+2,e2,e2-standard-2,Haswell,155.46,0.0,100.0,0.0,1255.46
+3,e2,e2-standard-2,EPYC 2nd Gen,155.46,0.0,0.0,0.0,1155.46
+4,e2,e2-standard-4,Skylake,155.46,0.0,100.0,0.0,1255.46
+5,e2,e2-standard-4,Broadwell,155.46,0.0,100.0,0.0,1255.46
+6,e2,e2-standard-4,Haswell,155.46,0.0,100.0,0.0,1255.46
+7,e2,e2-standard-4,EPYC 2nd Gen,155.46,0.0,0.0,0.0,1155.46
+8,e2,e2-standard-8,Skylake,155.46,0.0,100.0,0.0,1255.46
+9,e2,e2-standard-8,Broadwell,155.46,0.0,100.0,0.0,1255.46
+10,e2,e2-standard-8,Haswell,155.46,0.0,100.0,0.0,1255.46
+11,e2,e2-standard-8,EPYC 2nd Gen,155.46,0.0,0.0,0.0,1155.46
+12,e2,e2-standard-16,Skylake,155.46,0.0,100.0,0.0,1255.46
+13,e2,e2-standard-16,Broadwell,155.46,0.0,100.0,0.0,1255.46
+14,e2,e2-standard-16,Haswell,155.46,0.0,100.0,0.0,1255.46
+15,e2,e2-standard-16,EPYC 2nd Gen,155.46,0.0,0.0,0.0,1155.46
+16,e2,e2-standard-32,Skylake,155.46,0.0,100.0,0.0,1255.46
+17,e2,e2-standard-32,Broadwell,155.46,0.0,100.0,0.0,1255.46
+18,e2,e2-standard-32,Haswell,155.46,0.0,100.0,0.0,1255.46
+19,e2,e2-standard-32,EPYC 2nd Gen,155.46,0.0,0.0,0.0,1155.46
+20,e2,e2-highmem-2,Skylake,155.46,0.0,100.0,0.0,1255.46
+21,e2,e2-highmem-2,Broadwell,155.46,0.0,100.0,0.0,1255.46
+22,e2,e2-highmem-2,Haswell,155.46,0.0,100.0,0.0,1255.46
+23,e2,e2-highmem-2,EPYC 2nd Gen,155.46,0.0,0.0,0.0,1155.46
+24,e2,e2-highmem-4,Skylake,155.46,0.0,100.0,0.0,1255.46
+25,e2,e2-highmem-4,Broadwell,155.46,0.0,100.0,0.0,1255.46
+26,e2,e2-highmem-4,Haswell,155.46,0.0,100.0,0.0,1255.46
+27,e2,e2-highmem-4,EPYC 2nd Gen,155.46,0.0,0.0,0.0,1155.46
+28,e2,e2-highmem-8,Skylake,155.46,0.0,100.0,0.0,1255.46
+29,e2,e2-highmem-8,Broadwell,155.46,0.0,100.0,0.0,1255.46
+30,e2,e2-highmem-8,Haswell,155.46,0.0,100.0,0.0,1255.46
+31,e2,e2-highmem-8,EPYC 2nd Gen,155.46,0.0,0.0,0.0,1155.46
+32,e2,e2-highmem-16,Skylake,155.46,0.0,100.0,0.0,1255.46
+33,e2,e2-highmem-16,Broadwell,155.46,0.0,100.0,0.0,1255.46
+34,e2,e2-highmem-16,Haswell,155.46,0.0,100.0,0.0,1255.46
+35,e2,e2-highmem-16,EPYC 2nd Gen,155.46,0.0,0.0,0.0,1155.46
+36,e2,e2-highcpu-2,Skylake,22.21,0.0,100.0,0.0,1122.21
+37,e2,e2-highcpu-2,Broadwell,22.21,0.0,100.0,0.0,1122.21
+38,e2,e2-highcpu-2,Haswell,22.21,0.0,100.0,0.0,1122.21
+39,e2,e2-highcpu-2,EPYC 2nd Gen,22.21,0.0,0.0,0.0,1022.21
+40,e2,e2-highcpu-4,Skylake,22.21,0.0,100.0,0.0,1122.21
+41,e2,e2-highcpu-4,Broadwell,22.21,0.0,100.0,0.0,1122.21
+42,e2,e2-highcpu-4,Haswell,22.21,0.0,100.0,0.0,1122.21
+43,e2,e2-highcpu-4,EPYC 2nd Gen,22.21,0.0,0.0,0.0,1022.21
+44,e2,e2-highcpu-8,Skylake,22.21,0.0,100.0,0.0,1122.21
+45,e2,e2-highcpu-8,Broadwell,22.21,0.0,100.0,0.0,1122.21
+46,e2,e2-highcpu-8,Haswell,22.21,0.0,100.0,0.0,1122.21
+47,e2,e2-highcpu-8,EPYC 2nd Gen,22.21,0.0,0.0,0.0,1022.21
+48,e2,e2-highcpu-16,Skylake,22.21,0.0,100.0,0.0,1122.21
+49,e2,e2-highcpu-16,Broadwell,22.21,0.0,100.0,0.0,1122.21
+50,e2,e2-highcpu-16,Haswell,22.21,0.0,100.0,0.0,1122.21
+51,e2,e2-highcpu-16,EPYC 2nd Gen,22.21,0.0,0.0,0.0,1022.21
+52,e2,e2-highcpu-32,Skylake,22.21,0.0,100.0,0.0,1122.21
+53,e2,e2-highcpu-32,Broadwell,22.21,0.0,100.0,0.0,1122.21
+54,e2,e2-highcpu-32,Haswell,22.21,0.0,100.0,0.0,1122.21
+55,e2,e2-highcpu-32,EPYC 2nd Gen,22.21,0.0,0.0,0.0,1022.21
+56,e2 Shared-core,e2-micro,Skylake,155.46,0.0,100.0,0.0,1255.46
+57,e2 Shared-core,e2-micro,Broadwell,155.46,0.0,100.0,0.0,1255.46
+58,e2 Shared-core,e2-micro,Haswell,155.46,0.0,100.0,0.0,1255.46
+59,e2 Shared-core,e2-micro,EPYC 2nd Gen,155.46,0.0,0.0,0.0,1155.46
+60,e2 Shared-core,e2-small,Skylake,155.46,0.0,100.0,0.0,1255.46
+61,e2 Shared-core,e2-small,Broadwell,155.46,0.0,100.0,0.0,1255.46
+62,e2 Shared-core,e2-small,Haswell,155.46,0.0,100.0,0.0,1255.46
+63,e2 Shared-core,e2-small,EPYC 2nd Gen,155.46,0.0,0.0,0.0,1155.46
+64,e2 Shared-core,e2-medium,Skylake,155.46,0.0,100.0,0.0,1255.46
+65,e2 Shared-core,e2-medium,Broadwell,155.46,0.0,100.0,0.0,1255.46
+66,e2 Shared-core,e2-medium,Haswell,155.46,0.0,100.0,0.0,1255.46
+67,e2 Shared-core,e2-medium,EPYC 2nd Gen,155.46,0.0,0.0,0.0,1155.46
+68,n2,n2-standard-2,Cascade Lake,688.46,100.0,100.0,0.0,1888.46
+69,n2,n2-standard-4,Cascade Lake,688.46,100.0,100.0,0.0,1888.46
+70,n2,n2-standard-8,Cascade Lake,688.46,100.0,100.0,0.0,1888.46
+71,n2,n2-standard-16,Cascade Lake,688.46,100.0,100.0,0.0,1888.46
+72,n2,n2-standard-32,Cascade Lake,688.46,100.0,100.0,0.0,1888.46
+73,n2,n2-standard-48,Cascade Lake,688.46,100.0,100.0,0.0,1888.46
+74,n2,n2-standard-64,Cascade Lake,688.46,100.0,100.0,0.0,1888.46
+75,n2,n2-standard-80,Cascade Lake,688.46,100.0,100.0,0.0,1888.46
+76,n2,n2-standard-96,Cascade Lake,688.46,100.0,100.0,0.0,1888.46
+77,n2,n2-standard-128,Cascade Lake,688.46,100.0,100.0,0.0,1888.46
+78,n2,n2-highmem-2,Cascade Lake,1177.04,100.0,100.0,0.0,2377.04
+79,n2,n2-highmem-4,Cascade Lake,1177.04,100.0,100.0,0.0,2377.04
+80,n2,n2-highmem-8,Cascade Lake,1177.04,100.0,100.0,0.0,2377.04
+81,n2,n2-highmem-16,Cascade Lake,1177.04,100.0,100.0,0.0,2377.04
+82,n2,n2-highmem-32,Cascade Lake,1177.04,100.0,100.0,0.0,2377.04
+83,n2,n2-highmem-48,Cascade Lake,1177.04,100.0,100.0,0.0,2377.04
+84,n2,n2-highmem-64,Cascade Lake,1177.04,100.0,100.0,0.0,2377.04
+85,n2,n2-highmem-80,Cascade Lake,1177.04,100.0,100.0,0.0,2377.04
+86,n2,n2-highmem-96,Cascade Lake,1177.04,100.0,100.0,0.0,2377.04
+87,n2,n2-highmem-128,Cascade Lake,1177.04,100.0,100.0,0.0,2377.04
+88,n2,n2-highcpu-2,Cascade Lake,111.04,100.0,100.0,0.0,1311.04
+89,n2,n2-highcpu-4,Cascade Lake,111.04,100.0,100.0,0.0,1311.04
+90,n2,n2-highcpu-8,Cascade Lake,111.04,100.0,100.0,0.0,1311.04
+91,n2,n2-highcpu-16,Cascade Lake,111.04,100.0,100.0,0.0,1311.04
+92,n2,n2-highcpu-32,Cascade Lake,111.04,100.0,100.0,0.0,1311.04
+93,n2,n2-highcpu-48,Cascade Lake,111.04,100.0,100.0,0.0,1311.04
+94,n2,n2-highcpu-64,Cascade Lake,111.04,100.0,100.0,0.0,1311.04
+95,n2,n2-highcpu-80,Cascade Lake,111.04,100.0,100.0,0.0,1311.04
+96,n2,n2-highcpu-96,Cascade Lake,111.04,100.0,100.0,0.0,1311.04
+97,n2d,n2d-standard-2,EPYC 2nd Gen,1221.46,100.0,0.0,0.0,2321.46
+98,n2d,n2d-standard-4,EPYC 2nd Gen,1221.46,100.0,0.0,0.0,2321.46
+99,n2d,n2d-standard-8,EPYC 2nd Gen,1221.46,100.0,0.0,0.0,2321.46
+100,n2d,n2d-standard-16,EPYC 2nd Gen,1221.46,100.0,0.0,0.0,2321.46
+101,n2d,n2d-standard-32,EPYC 2nd Gen,1221.46,100.0,0.0,0.0,2321.46
+102,n2d,n2d-standard-48,EPYC 2nd Gen,1221.46,100.0,0.0,0.0,2321.46
+103,n2d,n2d-standard-64,EPYC 2nd Gen,1221.46,100.0,0.0,0.0,2321.46
+104,n2d,n2d-standard-80,EPYC 2nd Gen,1221.46,100.0,0.0,0.0,2321.46
+105,n2d,n2d-standard-96,EPYC 2nd Gen,1221.46,100.0,0.0,0.0,2321.46
+106,n2d,n2d-standard-128,EPYC 2nd Gen,1221.46,100.0,0.0,0.0,2321.46
+107,n2d,n2d-standard-224,EPYC 2nd Gen,1221.46,100.0,0.0,0.0,2321.46
+108,n2d,n2d-highmem-2,EPYC 2nd Gen,1043.79,100.0,0.0,0.0,2143.79
+109,n2d,n2d-highmem-4,EPYC 2nd Gen,1043.79,100.0,0.0,0.0,2143.79
+110,n2d,n2d-highmem-8,EPYC 2nd Gen,1043.79,100.0,0.0,0.0,2143.79
+111,n2d,n2d-highmem-16,EPYC 2nd Gen,1043.79,100.0,0.0,0.0,2143.79
+112,n2d,n2d-highmem-32,EPYC 2nd Gen,1043.79,100.0,0.0,0.0,2143.79
+113,n2d,n2d-highmem-48,EPYC 2nd Gen,1043.79,100.0,0.0,0.0,2143.79
+114,n2d,n2d-highmem-64,EPYC 2nd Gen,1043.79,100.0,0.0,0.0,2143.79
+115,n2d,n2d-highmem-80,EPYC 2nd Gen,1043.79,100.0,0.0,0.0,2143.79
+116,n2d,n2d-highmem-96,EPYC 2nd Gen,1043.79,100.0,0.0,0.0,2143.79
+117,n2d,n2d-highcpu-2,EPYC 2nd Gen,288.71,100.0,0.0,0.0,1388.71
+118,n2d,n2d-highcpu-4,EPYC 2nd Gen,288.71,100.0,0.0,0.0,1388.71
+119,n2d,n2d-highcpu-8,EPYC 2nd Gen,288.71,100.0,0.0,0.0,1388.71
+120,n2d,n2d-highcpu-16,EPYC 2nd Gen,288.71,100.0,0.0,0.0,1388.71
+121,n2d,n2d-highcpu-32,EPYC 2nd Gen,288.71,100.0,0.0,0.0,1388.71
+122,n2d,n2d-highcpu-48,EPYC 2nd Gen,288.71,100.0,0.0,0.0,1388.71
+123,n2d,n2d-highcpu-64,EPYC 2nd Gen,288.71,100.0,0.0,0.0,1388.71
+124,n2d,n2d-highcpu-80,EPYC 2nd Gen,288.71,100.0,0.0,0.0,1388.71
+125,n2d,n2d-highcpu-96,EPYC 2nd Gen,288.71,100.0,0.0,0.0,1388.71
+126,n2d,n2d-highcpu-128,EPYC 2nd Gen,288.71,100.0,0.0,0.0,1388.71
+127,n2d,n2d-highcpu-224,EPYC 2nd Gen,288.71,100.0,0.0,0.0,1388.71
+128,t2d,t2d-standard-1,EPYC 3rd Gen,310.92,0.0,0.0,0.0,1310.92
+129,t2d,t2d-standard-2,EPYC 3rd Gen,310.92,0.0,0.0,0.0,1310.92
+130,t2d,t2d-standard-4,EPYC 3rd Gen,310.92,0.0,0.0,0.0,1310.92
+131,t2d,t2d-standard-8,EPYC 3rd Gen,310.92,0.0,0.0,0.0,1310.92
+132,t2d,t2d-standard-16,EPYC 3rd Gen,310.92,0.0,0.0,0.0,1310.92
+133,t2d,t2d-standard-32,EPYC 3rd Gen,310.92,0.0,0.0,0.0,1310.92
+134,t2d,t2d-standard-48,EPYC 3rd Gen,310.92,0.0,0.0,0.0,1310.92
+135,t2d,t2d-standard-60,EPYC 3rd Gen,310.92,0.0,0.0,0.0,1310.92
+136,n1,n1-standard-1,Skylake,477.48,100.0,100.0,0.0,1677.48
+137,n1,n1-standard-1,Broadwell,477.48,100.0,100.0,0.0,1677.48
+138,n1,n1-standard-1,Haswell,477.48,100.0,100.0,0.0,1677.48
+139,n1,n1-standard-1,Ivy Bridge,477.48,100.0,100.0,0.0,1677.48
+140,n1,n1-standard-1,Sandy Bridge,477.48,100.0,100.0,0.0,1677.48
+141,n1,n1-standard-2,Skylake,477.48,100.0,100.0,0.0,1677.48
+142,n1,n1-standard-2,Broadwell,477.48,100.0,100.0,0.0,1677.48
+143,n1,n1-standard-2,Haswell,477.48,100.0,100.0,0.0,1677.48
+144,n1,n1-standard-2,Ivy Bridge,477.48,100.0,100.0,0.0,1677.48
+145,n1,n1-standard-2,Sandy Bridge,477.48,100.0,100.0,0.0,1677.48
+146,n1,n1-standard-4,Skylake,477.48,100.0,100.0,0.0,1677.48
+147,n1,n1-standard-4,Broadwell,477.48,100.0,100.0,0.0,1677.48
+148,n1,n1-standard-4,Haswell,477.48,100.0,100.0,0.0,1677.48
+149,n1,n1-standard-4,Ivy Bridge,477.48,100.0,100.0,0.0,1677.48
+150,n1,n1-standard-4,Sandy Bridge,477.48,100.0,100.0,0.0,1677.48
+151,n1,n1-standard-8,Skylake,477.48,100.0,100.0,0.0,1677.48
+152,n1,n1-standard-8,Broadwell,477.48,100.0,100.0,0.0,1677.48
+153,n1,n1-standard-8,Haswell,477.48,100.0,100.0,0.0,1677.48
+154,n1,n1-standard-8,Ivy Bridge,477.48,100.0,100.0,0.0,1677.48
+155,n1,n1-standard-8,Sandy Bridge,477.48,100.0,100.0,0.0,1677.48
+156,n1,n1-standard-16,Skylake,477.48,100.0,100.0,0.0,1677.48
+157,n1,n1-standard-16,Broadwell,477.48,100.0,100.0,0.0,1677.48
+158,n1,n1-standard-16,Haswell,477.48,100.0,100.0,0.0,1677.48
+159,n1,n1-standard-16,Ivy Bridge,477.48,100.0,100.0,0.0,1677.48
+160,n1,n1-standard-16,Sandy Bridge,477.48,100.0,100.0,0.0,1677.48
+161,n1,n1-standard-32,Skylake,477.48,100.0,100.0,0.0,1677.48
+162,n1,n1-standard-32,Broadwell,477.48,100.0,100.0,0.0,1677.48
+163,n1,n1-standard-32,Haswell,477.48,100.0,100.0,0.0,1677.48
+164,n1,n1-standard-32,Ivy Bridge,477.48,100.0,100.0,0.0,1677.48
+165,n1,n1-standard-32,Sandy Bridge,477.48,100.0,100.0,0.0,1677.48
+166,n1,n1-standard-64,Skylake,477.48,100.0,100.0,0.0,1677.48
+167,n1,n1-standard-64,Broadwell,477.48,100.0,100.0,0.0,1677.48
+168,n1,n1-standard-64,Haswell,477.48,100.0,100.0,0.0,1677.48
+169,n1,n1-standard-64,Ivy Bridge,477.48,100.0,100.0,0.0,1677.48
+170,n1,n1-standard-64,Sandy Bridge,477.48,100.0,100.0,0.0,1677.48
+171,n1,n1-standard-96,Skylake,477.48,100.0,100.0,0.0,1677.48
+172,n1,n1-standard-96,Broadwell,477.48,100.0,100.0,0.0,1677.48
+173,n1,n1-standard-96,Haswell,477.48,100.0,100.0,0.0,1677.48
+174,n1,n1-standard-96,Ivy Bridge,477.48,100.0,100.0,0.0,1677.48
+175,n1,n1-standard-96,Sandy Bridge,477.48,100.0,100.0,0.0,1677.48
+176,n1,n1-highmem-2,Skylake,843.92,100.0,100.0,0.0,2043.92
+177,n1,n1-highmem-2,Broadwell,843.92,100.0,100.0,0.0,2043.92
+178,n1,n1-highmem-2,Haswell,843.92,100.0,100.0,0.0,2043.92
+179,n1,n1-highmem-2,Ivy Bridge,843.92,100.0,100.0,0.0,2043.92
+180,n1,n1-highmem-2,Sandy Bridge,843.92,100.0,100.0,0.0,2043.92
+181,n1,n1-highmem-4,Skylake,843.92,100.0,100.0,0.0,2043.92
+182,n1,n1-highmem-4,Broadwell,843.92,100.0,100.0,0.0,2043.92
+183,n1,n1-highmem-4,Haswell,843.92,100.0,100.0,0.0,2043.92
+184,n1,n1-highmem-4,Ivy Bridge,843.92,100.0,100.0,0.0,2043.92
+185,n1,n1-highmem-4,Sandy Bridge,843.92,100.0,100.0,0.0,2043.92
+186,n1,n1-highmem-8,Skylake,843.92,100.0,100.0,0.0,2043.92
+187,n1,n1-highmem-8,Broadwell,843.92,100.0,100.0,0.0,2043.92
+188,n1,n1-highmem-8,Haswell,843.92,100.0,100.0,0.0,2043.92
+189,n1,n1-highmem-8,Ivy Bridge,843.92,100.0,100.0,0.0,2043.92
+190,n1,n1-highmem-8,Sandy Bridge,843.92,100.0,100.0,0.0,2043.92
+191,n1,n1-highmem-16,Skylake,843.92,100.0,100.0,0.0,2043.92
+192,n1,n1-highmem-16,Broadwell,843.92,100.0,100.0,0.0,2043.92
+193,n1,n1-highmem-16,Haswell,843.92,100.0,100.0,0.0,2043.92
+194,n1,n1-highmem-16,Ivy Bridge,843.92,100.0,100.0,0.0,2043.92
+195,n1,n1-highmem-16,Sandy Bridge,843.92,100.0,100.0,0.0,2043.92
+196,n1,n1-highmem-32,Skylake,843.92,100.0,100.0,0.0,2043.92
+197,n1,n1-highmem-32,Broadwell,843.92,100.0,100.0,0.0,2043.92
+198,n1,n1-highmem-32,Haswell,843.92,100.0,100.0,0.0,2043.92
+199,n1,n1-highmem-32,Ivy Bridge,843.92,100.0,100.0,0.0,2043.92
+200,n1,n1-highmem-32,Sandy Bridge,843.92,100.0,100.0,0.0,2043.92
+201,n1,n1-highmem-64,Skylake,843.92,100.0,100.0,0.0,2043.92
+202,n1,n1-highmem-64,Broadwell,843.92,100.0,100.0,0.0,2043.92
+203,n1,n1-highmem-64,Haswell,843.92,100.0,100.0,0.0,2043.92
+204,n1,n1-highmem-64,Ivy Bridge,843.92,100.0,100.0,0.0,2043.92
+205,n1,n1-highmem-64,Sandy Bridge,843.92,100.0,100.0,0.0,2043.92
+206,n1,n1-highmem-96,Skylake,843.92,100.0,100.0,0.0,2043.92
+207,n1,n1-highmem-96,Broadwell,843.92,100.0,100.0,0.0,2043.92
+208,n1,n1-highmem-96,Haswell,843.92,100.0,100.0,0.0,2043.92
+209,n1,n1-highmem-96,Ivy Bridge,843.92,100.0,100.0,0.0,2043.92
+210,n1,n1-highmem-96,Sandy Bridge,843.92,100.0,100.0,0.0,2043.92
+211,n1,n1-highcpu-2,Skylake,97.72,100.0,100.0,0.0,1297.72
+212,n1,n1-highcpu-2,Broadwell,97.72,100.0,100.0,0.0,1297.72
+213,n1,n1-highcpu-2,Haswell,97.72,100.0,100.0,0.0,1297.72
+214,n1,n1-highcpu-2,Ivy Bridge,97.72,100.0,100.0,0.0,1297.72
+215,n1,n1-highcpu-2,Sandy Bridge,97.72,100.0,100.0,0.0,1297.72
+216,n1,n1-highcpu-4,Skylake,97.72,100.0,100.0,0.0,1297.72
+217,n1,n1-highcpu-4,Broadwell,97.72,100.0,100.0,0.0,1297.72
+218,n1,n1-highcpu-4,Haswell,97.72,100.0,100.0,0.0,1297.72
+219,n1,n1-highcpu-4,Ivy Bridge,97.72,100.0,100.0,0.0,1297.72
+220,n1,n1-highcpu-4,Sandy Bridge,97.72,100.0,100.0,0.0,1297.72
+221,n1,n1-highcpu-8,Skylake,97.72,100.0,100.0,0.0,1297.72
+222,n1,n1-highcpu-8,Broadwell,97.72,100.0,100.0,0.0,1297.72
+223,n1,n1-highcpu-8,Haswell,97.72,100.0,100.0,0.0,1297.72
+224,n1,n1-highcpu-8,Ivy Bridge,97.72,100.0,100.0,0.0,1297.72
+225,n1,n1-highcpu-8,Sandy Bridge,97.72,100.0,100.0,0.0,1297.72
+226,n1,n1-highcpu-16,Skylake,97.72,100.0,100.0,0.0,1297.72
+227,n1,n1-highcpu-16,Broadwell,97.72,100.0,100.0,0.0,1297.72
+228,n1,n1-highcpu-16,Haswell,97.72,100.0,100.0,0.0,1297.72
+229,n1,n1-highcpu-16,Ivy Bridge,97.72,100.0,100.0,0.0,1297.72
+230,n1,n1-highcpu-16,Sandy Bridge,97.72,100.0,100.0,0.0,1297.72
+231,n1,n1-highcpu-32,Skylake,97.72,100.0,100.0,0.0,1297.72
+232,n1,n1-highcpu-32,Broadwell,97.72,100.0,100.0,0.0,1297.72
+233,n1,n1-highcpu-32,Haswell,97.72,100.0,100.0,0.0,1297.72
+234,n1,n1-highcpu-32,Ivy Bridge,97.72,100.0,100.0,0.0,1297.72
+235,n1,n1-highcpu-32,Sandy Bridge,97.72,100.0,100.0,0.0,1297.72
+236,n1,n1-highcpu-64,Skylake,97.72,100.0,100.0,0.0,1297.72
+237,n1,n1-highcpu-64,Broadwell,97.72,100.0,100.0,0.0,1297.72
+238,n1,n1-highcpu-64,Haswell,97.72,100.0,100.0,0.0,1297.72
+239,n1,n1-highcpu-64,Ivy Bridge,97.72,100.0,100.0,0.0,1297.72
+240,n1,n1-highcpu-64,Sandy Bridge,97.72,100.0,100.0,0.0,1297.72
+241,n1,n1-highcpu-96,Skylake,97.72,100.0,100.0,0.0,1297.72
+242,n1,n1-highcpu-96,Broadwell,97.72,100.0,100.0,0.0,1297.72
+243,n1,n1-highcpu-96,Haswell,97.72,100.0,100.0,0.0,1297.72
+244,n1,n1-highcpu-96,Ivy Bridge,97.72,100.0,100.0,0.0,1297.72
+245,n1,n1-highcpu-96,Sandy Bridge,97.72,100.0,100.0,0.0,1297.72
+246,n1 Shared-core,f1-micro,Skylake,477.48,0.0,100.0,0.0,1577.48
+247,n1 Shared-core,f1-micro,Broadwell,477.48,0.0,100.0,0.0,1577.48
+248,n1 Shared-core,f1-micro,Haswell,477.48,0.0,100.0,0.0,1577.48
+249,n1 Shared-core,f1-micro,Ivy Bridge,477.48,0.0,100.0,0.0,1577.48
+250,n1 Shared-core,f1-micro,Sandy Bridge,477.48,0.0,100.0,0.0,1577.48
+251,n1 Shared-core,g1-small,Skylake,477.48,0.0,100.0,0.0,1577.48
+252,n1 Shared-core,g1-small,Broadwell,477.48,0.0,100.0,0.0,1577.48
+253,n1 Shared-core,g1-small,Haswell,477.48,0.0,100.0,0.0,1577.48
+254,n1 Shared-core,g1-small,Ivy Bridge,477.48,0.0,100.0,0.0,1577.48
+255,n1 Shared-core,g1-small,Sandy Bridge,477.48,0.0,100.0,0.0,1577.48
+256,Compute-optimized,c2-standard-4,Cascade Lake,310.92,100.0,100.0,0.0,1510.92
+257,Compute-optimized,c2-standard-8,Cascade Lake,310.92,100.0,100.0,0.0,1510.92
+258,Compute-optimized,c2-standard-16,Cascade Lake,310.92,100.0,100.0,0.0,1510.92
+259,Compute-optimized,c2-standard-30,Cascade Lake,310.92,100.0,100.0,0.0,1510.92
+260,Compute-optimized,c2-standard-60,Cascade Lake,310.92,100.0,100.0,0.0,1510.92
+261,m1,m1-ultramem-40,Skylake,1967.66,0.0,100.0,0.0,3067.66
+262,m1,m1-ultramem-40,Broadwell,1967.66,0.0,100.0,0.0,3067.66
+263,m1,m1-ultramem-80,Skylake,1967.66,0.0,100.0,0.0,3067.66
+264,m1,m1-ultramem-80,Broadwell,1967.66,0.0,100.0,0.0,3067.66
+265,m1,m1-ultramem-160,Skylake,1967.66,0.0,100.0,0.0,3067.66
+266,m1,m1-ultramem-160,Broadwell,1967.66,0.0,100.0,0.0,3067.66
+267,m1,m1-megamem-96,Skylake,1967.66,100.0,100.0,0.0,3167.66
+268,m1,m1-megamem-96,Broadwell,1967.66,100.0,100.0,0.0,3167.66
+269,m2,m2-ultramem-208,Cascade Lake,0.0,0.0,100.0,0.0,1100.0
+270,m2,m2-ultramem-416,Cascade Lake,0.0,0.0,100.0,0.0,1100.0
+271,m2,m2-megamem-416,Cascade Lake,0.0,0.0,100.0,0.0,1100.0
+272,Accelorator-optimized highgpu,a2-highgpu-1g,Cascade Lake,1865.5,100.0,100.0,2400.0,5465.5
+273,Accelorator-optimized highgpu,a2-highgpu-2g,Cascade Lake,1865.5,100.0,100.0,2400.0,5465.5
+274,Accelorator-optimized highgpu,a2-highgpu-4g,Cascade Lake,1865.5,100.0,100.0,2400.0,5465.5
+275,Accelorator-optimized highgpu,a2-highgpu-8g,Cascade Lake,1865.5,100.0,100.0,2400.0,5465.5
+276,Accelorator-optimized megagpu,a2-megagpu-16g,Cascade Lake,1865.5,100.0,100.0,2400.0,5465.5
