@@ -1,0 +1,596 @@
+,family,type,microarchitecture,additional_memory,additional_storage,additional_cpus,additional_gpus,total
+0,Av2 Standard,A1 v2,Unknown,66.62,50.0,100.0,0.0,1216.62
+1,Av2 Standard,A2 v2,Unknown,66.62,50.0,100.0,0.0,1216.62
+2,Av2 Standard,A2m v2,Unknown,66.62,50.0,100.0,0.0,1216.62
+3,Av2 Standard,A4 v2,Unknown,66.62,50.0,100.0,0.0,1216.62
+4,Av2 Standard,A4m v2,Unknown,66.62,50.0,100.0,0.0,1216.62
+5,Av2 Standard,A8 v2,Unknown,66.62,50.0,100.0,0.0,1216.62
+6,Av2 Standard,A8m v2,Unknown,66.62,50.0,100.0,0.0,1216.62
+7,Bs-series,B12MS,Unknown,88.83,50.0,100.0,0.0,1238.83
+8,Bs-series,B16MS,Unknown,88.83,50.0,100.0,0.0,1238.83
+9,Bs-series,B1LS,Unknown,88.83,50.0,100.0,0.0,1238.83
+10,Bs-series,B1MS,Unknown,88.83,50.0,100.0,0.0,1238.83
+11,Bs-series,B1S,Unknown,88.83,50.0,100.0,0.0,1238.83
+12,Bs-series,B20MS,Unknown,88.83,50.0,100.0,0.0,1238.83
+13,Bs-series,B2MS,Unknown,88.83,50.0,100.0,0.0,1238.83
+14,Bs-series,B2S,Unknown,88.83,50.0,100.0,0.0,1238.83
+15,Bs-series,B4MS,Unknown,88.83,50.0,100.0,0.0,1238.83
+16,Bs-series,B8MS,Unknown,88.83,50.0,100.0,0.0,1238.83
+17,Constrained vCPUs capable,DS11-1 v2,Unknown,0.0,50.0,100.0,0.0,1150.0
+18,Constrained vCPUs capable,DS12-1 v2,Unknown,16.66,50.0,100.0,0.0,1166.66
+19,Constrained vCPUs capable,DS12-2 v2,Unknown,16.66,50.0,100.0,0.0,1166.66
+20,Constrained vCPUs capable,DS13-2 v2,Unknown,55.52,50.0,100.0,0.0,1205.52
+21,Constrained vCPUs capable,DS13-4 v2,Unknown,55.52,50.0,100.0,0.0,1205.52
+22,Constrained vCPUs capable,DS14-4 v2,Unknown,133.25,50.0,100.0,0.0,1283.25
+23,Constrained vCPUs capable,DS14-8 v2,Unknown,133.25,50.0,100.0,0.0,1283.25
+24,Constrained vCPUs capable,E16-4as v4,Unknown,155.46,50.0,100.0,0.0,1305.46
+25,Constrained vCPUs capable,E16-4ds v4,Unknown,155.46,50.0,100.0,0.0,1305.46
+26,Constrained vCPUs capable,E16-4s v3,Unknown,155.46,50.0,100.0,0.0,1305.46
+27,Constrained vCPUs capable,E16-4s v4,Unknown,155.46,0.0,100.0,0.0,1255.46
+28,Constrained vCPUs capable,E16-8as v4,Unknown,155.46,50.0,100.0,0.0,1305.46
+29,Constrained vCPUs capable,E16-8ds v4,Unknown,155.46,50.0,100.0,0.0,1305.46
+30,Constrained vCPUs capable,E16-8s v3,Unknown,155.46,50.0,100.0,0.0,1305.46
+31,Constrained vCPUs capable,E16-8s v4,Unknown,155.46,0.0,100.0,0.0,1255.46
+32,Constrained vCPUs capable,E32-16as v4,Unknown,333.12,50.0,100.0,0.0,1483.12
+33,Constrained vCPUs capable,E32-16ds v4,Unknown,333.12,50.0,100.0,0.0,1483.12
+34,Constrained vCPUs capable,E32-16s v3,Unknown,333.12,50.0,100.0,0.0,1483.12
+35,Constrained vCPUs capable,E32-16s v4,Unknown,333.12,0.0,100.0,0.0,1433.12
+36,Constrained vCPUs capable,E32-8as v4,Unknown,333.12,50.0,100.0,0.0,1483.12
+37,Constrained vCPUs capable,E32-8ds v4,Unknown,333.12,50.0,100.0,0.0,1483.12
+38,Constrained vCPUs capable,E32-8s v3,Unknown,333.12,50.0,100.0,0.0,1483.12
+39,Constrained vCPUs capable,E32-8s v4,Unknown,333.12,0.0,100.0,0.0,1433.12
+40,Constrained vCPUs capable,E4-2as v4,Unknown,22.21,50.0,100.0,0.0,1172.21
+41,Constrained vCPUs capable,E4-2ds v4,Unknown,22.21,50.0,100.0,0.0,1172.21
+42,Constrained vCPUs capable,E4-2s v3,Unknown,22.21,50.0,100.0,0.0,1172.21
+43,Constrained vCPUs capable,E4-2s v4,Unknown,22.21,0.0,100.0,0.0,1122.21
+44,Constrained vCPUs capable,E64-16as v4,Unknown,688.46,50.0,100.0,0.0,1838.46
+45,Constrained vCPUs capable,E64-16ds v4,Unknown,677.35,50.0,100.0,0.0,1827.35
+46,Constrained vCPUs capable,E64-16s v3,Unknown,577.42,50.0,100.0,0.0,1727.42
+47,Constrained vCPUs capable,E64-16s v4,Unknown,677.35,0.0,100.0,0.0,1777.35
+48,Constrained vCPUs capable,E64-32as v4,Unknown,688.46,50.0,100.0,0.0,1838.46
+49,Constrained vCPUs capable,E64-32ds v4,Unknown,677.35,50.0,100.0,0.0,1827.35
+50,Constrained vCPUs capable,E64-32s v3,Unknown,577.42,50.0,100.0,0.0,1727.42
+51,Constrained vCPUs capable,E64-32s v4,Unknown,677.35,0.0,100.0,0.0,1777.35
+52,Constrained vCPUs capable,E8-2as v4,Unknown,66.62,50.0,100.0,0.0,1216.62
+53,Constrained vCPUs capable,E8-2ds v4,Unknown,66.62,50.0,100.0,0.0,1216.62
+54,Constrained vCPUs capable,E8-2s v3,Unknown,66.62,50.0,100.0,0.0,1216.62
+55,Constrained vCPUs capable,E8-2s v4,Unknown,66.62,0.0,100.0,0.0,1166.62
+56,Constrained vCPUs capable,E8-4as v4,Unknown,66.62,50.0,100.0,0.0,1216.62
+57,Constrained vCPUs capable,E8-4ds v4,Unknown,66.62,50.0,100.0,0.0,1216.62
+58,Constrained vCPUs capable,E8-4s v3,Unknown,66.62,50.0,100.0,0.0,1216.62
+59,Constrained vCPUs capable,E8-4s v4,Unknown,66.62,0.0,100.0,0.0,1166.62
+60,Constrained vCPUs capable,E96-24as v4,Unknown,910.54,50.0,100.0,0.0,2060.54
+61,Constrained vCPUs capable,E96-48as v4,Unknown,910.54,50.0,100.0,0.0,2060.54
+62,Constrained vCPUs capable,Gs4-4,Unknown,288.71,50.0,100.0,0.0,1438.71
+63,Constrained vCPUs capable,Gs4-8,Unknown,288.71,50.0,100.0,0.0,1438.71
+64,Constrained vCPUs capable,Gs5-16,Unknown,599.62,50.0,100.0,0.0,1749.62
+65,Constrained vCPUs capable,Gs5-8,Unknown,599.62,50.0,100.0,0.0,1749.62
+66,Constrained vCPUs capable,HB120-16rs v3,EPYC 3rd Gen,599.62,100.0,0.0,0.0,1699.62
+67,Constrained vCPUs capable,HB120-32rs v3,EPYC 3rd Gen,599.62,100.0,0.0,0.0,1699.62
+68,Constrained vCPUs capable,HB120-64rs v3,EPYC 3rd Gen,599.62,100.0,0.0,0.0,1699.62
+69,Constrained vCPUs capable,HB120-96rs v3,EPYC 3rd Gen,599.62,100.0,0.0,0.0,1699.62
+70,Constrained vCPUs capable,M128-32ms,Unknown,5252.27,50.0,100.0,0.0,6402.27
+71,Constrained vCPUs capable,M128-64ms,Unknown,5252.27,50.0,100.0,0.0,6402.27
+72,Constrained vCPUs capable,M16-4ms,Unknown,585.74,50.0,100.0,0.0,1735.74
+73,Constrained vCPUs capable,M16-8ms,Unknown,585.74,50.0,100.0,0.0,1735.74
+74,Constrained vCPUs capable,M32-16ms,Unknown,1192.31,50.0,100.0,0.0,2342.31
+75,Constrained vCPUs capable,M32-8ms,Unknown,1192.31,50.0,100.0,0.0,2342.31
+76,Constrained vCPUs capable,M64-16ms,Unknown,2406.83,50.0,100.0,0.0,3556.83
+77,Constrained vCPUs capable,M64-32ms,Unknown,2406.83,50.0,100.0,0.0,3556.83
+78,Constrained vCPUs capable,M8-2ms,Unknown,281.77,50.0,100.0,0.0,1431.77
+79,Constrained vCPUs capable,M8-4ms,Unknown,281.77,50.0,100.0,0.0,1431.77
+80,D1-5 v2,D1 v2,Haswell,55.52,50.0,100.0,0.0,1205.52
+81,D1-5 v2,D1 v2,Cascade Lake,55.52,50.0,100.0,0.0,1205.52
+82,D1-5 v2,D1 v2,Skylake,55.52,50.0,100.0,0.0,1205.52
+83,D1-5 v2,D1 v2,Broadwell,55.52,50.0,100.0,0.0,1205.52
+84,D1-5 v2,D2 v2,Haswell,55.52,50.0,100.0,0.0,1205.52
+85,D1-5 v2,D2 v2,Cascade Lake,55.52,50.0,100.0,0.0,1205.52
+86,D1-5 v2,D2 v2,Skylake,55.52,50.0,100.0,0.0,1205.52
+87,D1-5 v2,D2 v2,Broadwell,55.52,50.0,100.0,0.0,1205.52
+88,D1-5 v2,D3 v2,Haswell,55.52,50.0,100.0,0.0,1205.52
+89,D1-5 v2,D3 v2,Cascade Lake,55.52,50.0,100.0,0.0,1205.52
+90,D1-5 v2,D3 v2,Skylake,55.52,50.0,100.0,0.0,1205.52
+91,D1-5 v2,D3 v2,Broadwell,55.52,50.0,100.0,0.0,1205.52
+92,D1-5 v2,D4 v2,Haswell,55.52,50.0,100.0,0.0,1205.52
+93,D1-5 v2,D4 v2,Cascade Lake,55.52,50.0,100.0,0.0,1205.52
+94,D1-5 v2,D4 v2,Skylake,55.52,50.0,100.0,0.0,1205.52
+95,D1-5 v2,D4 v2,Broadwell,55.52,50.0,100.0,0.0,1205.52
+96,D1-5 v2,D5 v2,Haswell,55.52,50.0,100.0,0.0,1205.52
+97,D1-5 v2,D5 v2,Cascade Lake,55.52,50.0,100.0,0.0,1205.52
+98,D1-5 v2,D5 v2,Skylake,55.52,50.0,100.0,0.0,1205.52
+99,D1-5 v2,D5 v2,Broadwell,55.52,50.0,100.0,0.0,1205.52
+100,D11-15 v2,D11 v2,Haswell,172.11,50.0,100.0,0.0,1322.11
+101,D11-15 v2,D11 v2,Cascade Lake,172.11,50.0,100.0,0.0,1322.11
+102,D11-15 v2,D11 v2,Skylake,172.11,50.0,100.0,0.0,1322.11
+103,D11-15 v2,D11 v2,Broadwell,172.11,50.0,100.0,0.0,1322.11
+104,D11-15 v2,D12 v2,Haswell,172.11,50.0,100.0,0.0,1322.11
+105,D11-15 v2,D12 v2,Cascade Lake,172.11,50.0,100.0,0.0,1322.11
+106,D11-15 v2,D12 v2,Skylake,172.11,50.0,100.0,0.0,1322.11
+107,D11-15 v2,D12 v2,Broadwell,172.11,50.0,100.0,0.0,1322.11
+108,D11-15 v2,D13 v2,Haswell,172.11,50.0,100.0,0.0,1322.11
+109,D11-15 v2,D13 v2,Cascade Lake,172.11,50.0,100.0,0.0,1322.11
+110,D11-15 v2,D13 v2,Skylake,172.11,50.0,100.0,0.0,1322.11
+111,D11-15 v2,D13 v2,Broadwell,172.11,50.0,100.0,0.0,1322.11
+112,D11-15 v2,D14 v2,Haswell,172.11,50.0,100.0,0.0,1322.11
+113,D11-15 v2,D14 v2,Cascade Lake,172.11,50.0,100.0,0.0,1322.11
+114,D11-15 v2,D14 v2,Skylake,172.11,50.0,100.0,0.0,1322.11
+115,D11-15 v2,D14 v2,Broadwell,172.11,50.0,100.0,0.0,1322.11
+116,D11-15 v2,D15 v2,Haswell,172.11,50.0,100.0,0.0,1322.11
+117,D11-15 v2,D15 v2,Cascade Lake,172.11,50.0,100.0,0.0,1322.11
+118,D11-15 v2,D15 v2,Skylake,172.11,50.0,100.0,0.0,1322.11
+119,D11-15 v2,D15 v2,Broadwell,172.11,50.0,100.0,0.0,1322.11
+120,D11-15 v2,D15i v2 1,Haswell,172.11,50.0,100.0,0.0,1322.11
+121,D11-15 v2,D15i v2 1,Cascade Lake,172.11,50.0,100.0,0.0,1322.11
+122,D11-15 v2,D15i v2 1,Skylake,172.11,50.0,100.0,0.0,1322.11
+123,D11-15 v2,D15i v2 1,Broadwell,172.11,50.0,100.0,0.0,1322.11
+124,D11S-15S v2,DS11 v2,Haswell,172.11,50.0,100.0,0.0,1322.11
+125,D11S-15S v2,DS11 v2,Cascade Lake,172.11,50.0,100.0,0.0,1322.11
+126,D11S-15S v2,DS11 v2,Skylake,172.11,50.0,100.0,0.0,1322.11
+127,D11S-15S v2,DS11 v2,Broadwell,172.11,50.0,100.0,0.0,1322.11
+128,D11S-15S v2,DS12 v2,Haswell,172.11,50.0,100.0,0.0,1322.11
+129,D11S-15S v2,DS12 v2,Cascade Lake,172.11,50.0,100.0,0.0,1322.11
+130,D11S-15S v2,DS12 v2,Skylake,172.11,50.0,100.0,0.0,1322.11
+131,D11S-15S v2,DS12 v2,Broadwell,172.11,50.0,100.0,0.0,1322.11
+132,D11S-15S v2,DS13 v2,Haswell,172.11,50.0,100.0,0.0,1322.11
+133,D11S-15S v2,DS13 v2,Cascade Lake,172.11,50.0,100.0,0.0,1322.11
+134,D11S-15S v2,DS13 v2,Skylake,172.11,50.0,100.0,0.0,1322.11
+135,D11S-15S v2,DS13 v2,Broadwell,172.11,50.0,100.0,0.0,1322.11
+136,D11S-15S v2,DS14 v2,Haswell,172.11,50.0,100.0,0.0,1322.11
+137,D11S-15S v2,DS14 v2,Cascade Lake,172.11,50.0,100.0,0.0,1322.11
+138,D11S-15S v2,DS14 v2,Skylake,172.11,50.0,100.0,0.0,1322.11
+139,D11S-15S v2,DS14 v2,Broadwell,172.11,50.0,100.0,0.0,1322.11
+140,D11S-15S v2,DS15 v2,Haswell,172.11,50.0,100.0,0.0,1322.11
+141,D11S-15S v2,DS15 v2,Cascade Lake,172.11,50.0,100.0,0.0,1322.11
+142,D11S-15S v2,DS15 v2,Skylake,172.11,50.0,100.0,0.0,1322.11
+143,D11S-15S v2,DS15 v2,Broadwell,172.11,50.0,100.0,0.0,1322.11
+144,D11S-15S v2,DS15i v2 1,Haswell,172.11,50.0,100.0,0.0,1322.11
+145,D11S-15S v2,DS15i v2 1,Cascade Lake,172.11,50.0,100.0,0.0,1322.11
+146,D11S-15S v2,DS15i v2 1,Skylake,172.11,50.0,100.0,0.0,1322.11
+147,D11S-15S v2,DS15i v2 1,Broadwell,172.11,50.0,100.0,0.0,1322.11
+148,D1s-5s v2,DS1 v2,Haswell,55.52,100.0,100.0,0.0,1255.52
+149,D1s-5s v2,DS1 v2,Cascade Lake,55.52,100.0,100.0,0.0,1255.52
+150,D1s-5s v2,DS1 v2,Skylake,55.52,100.0,100.0,0.0,1255.52
+151,D1s-5s v2,DS1 v2,Broadwell,55.52,100.0,100.0,0.0,1255.52
+152,D1s-5s v2,DS2 v2,Haswell,55.52,100.0,100.0,0.0,1255.52
+153,D1s-5s v2,DS2 v2,Cascade Lake,55.52,100.0,100.0,0.0,1255.52
+154,D1s-5s v2,DS2 v2,Skylake,55.52,100.0,100.0,0.0,1255.52
+155,D1s-5s v2,DS2 v2,Broadwell,55.52,100.0,100.0,0.0,1255.52
+156,D1s-5s v2,DS3 v2,Haswell,55.52,100.0,100.0,0.0,1255.52
+157,D1s-5s v2,DS3 v2,Cascade Lake,55.52,100.0,100.0,0.0,1255.52
+158,D1s-5s v2,DS3 v2,Skylake,55.52,100.0,100.0,0.0,1255.52
+159,D1s-5s v2,DS3 v2,Broadwell,55.52,100.0,100.0,0.0,1255.52
+160,D1s-5s v2,DS4 v2,Haswell,55.52,100.0,100.0,0.0,1255.52
+161,D1s-5s v2,DS4 v2,Cascade Lake,55.52,100.0,100.0,0.0,1255.52
+162,D1s-5s v2,DS4 v2,Skylake,55.52,100.0,100.0,0.0,1255.52
+163,D1s-5s v2,DS4 v2,Broadwell,55.52,100.0,100.0,0.0,1255.52
+164,D1s-5s v2,DS5 v2,Haswell,55.52,100.0,100.0,0.0,1255.52
+165,D1s-5s v2,DS5 v2,Cascade Lake,55.52,100.0,100.0,0.0,1255.52
+166,D1s-5s v2,DS5 v2,Skylake,55.52,100.0,100.0,0.0,1255.52
+167,D1s-5s v2,DS5 v2,Broadwell,55.52,100.0,100.0,0.0,1255.52
+168,D2 – D64 v4,D16 v4,Cascade Lake,333.12,0.0,100.0,0.0,1433.12
+169,D2 – D64 v4,D2 v4,Cascade Lake,333.12,0.0,100.0,0.0,1433.12
+170,D2 – D64 v4,D32 v4,Cascade Lake,333.12,0.0,100.0,0.0,1433.12
+171,D2 – D64 v4,D4 v4,Cascade Lake,333.12,0.0,100.0,0.0,1433.12
+172,D2 – D64 v4,D48 v4,Cascade Lake,333.12,0.0,100.0,0.0,1433.12
+173,D2 – D64 v4,D64 v4,Cascade Lake,333.12,0.0,100.0,0.0,1433.12
+174,D2 – D64 v4,D8 v4,Cascade Lake,333.12,0.0,100.0,0.0,1433.12
+175,D2-64 v3,D16 v3,Haswell,333.12,50.0,100.0,0.0,1483.12
+176,D2-64 v3,D16 v3,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+177,D2-64 v3,D16 v3,Skylake,333.12,50.0,100.0,0.0,1483.12
+178,D2-64 v3,D16 v3,Broadwell,333.12,50.0,100.0,0.0,1483.12
+179,D2-64 v3,D2 v3,Haswell,333.12,50.0,100.0,0.0,1483.12
+180,D2-64 v3,D2 v3,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+181,D2-64 v3,D2 v3,Skylake,333.12,50.0,100.0,0.0,1483.12
+182,D2-64 v3,D2 v3,Broadwell,333.12,50.0,100.0,0.0,1483.12
+183,D2-64 v3,D32 v3,Haswell,333.12,50.0,100.0,0.0,1483.12
+184,D2-64 v3,D32 v3,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+185,D2-64 v3,D32 v3,Skylake,333.12,50.0,100.0,0.0,1483.12
+186,D2-64 v3,D32 v3,Broadwell,333.12,50.0,100.0,0.0,1483.12
+187,D2-64 v3,D4 v3,Haswell,333.12,50.0,100.0,0.0,1483.12
+188,D2-64 v3,D4 v3,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+189,D2-64 v3,D4 v3,Skylake,333.12,50.0,100.0,0.0,1483.12
+190,D2-64 v3,D4 v3,Broadwell,333.12,50.0,100.0,0.0,1483.12
+191,D2-64 v3,D48 v3,Haswell,333.12,50.0,100.0,0.0,1483.12
+192,D2-64 v3,D48 v3,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+193,D2-64 v3,D48 v3,Skylake,333.12,50.0,100.0,0.0,1483.12
+194,D2-64 v3,D48 v3,Broadwell,333.12,50.0,100.0,0.0,1483.12
+195,D2-64 v3,D64 v3,Haswell,333.12,50.0,100.0,0.0,1483.12
+196,D2-64 v3,D64 v3,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+197,D2-64 v3,D64 v3,Skylake,333.12,50.0,100.0,0.0,1483.12
+198,D2-64 v3,D64 v3,Broadwell,333.12,50.0,100.0,0.0,1483.12
+199,D2-64 v3,D8 v3,Haswell,333.12,50.0,100.0,0.0,1483.12
+200,D2-64 v3,D8 v3,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+201,D2-64 v3,D8 v3,Skylake,333.12,50.0,100.0,0.0,1483.12
+202,D2-64 v3,D8 v3,Broadwell,333.12,50.0,100.0,0.0,1483.12
+203,D2a – D96a v4,D16a v4,EPYC 2nd Gen,510.79,50.0,0.0,0.0,1560.79
+204,D2a – D96a v4,D2a v4,EPYC 2nd Gen,510.79,50.0,0.0,0.0,1560.79
+205,D2a – D96a v4,D32a v4,EPYC 2nd Gen,510.79,50.0,0.0,0.0,1560.79
+206,D2a – D96a v4,D48a v4,EPYC 2nd Gen,510.79,50.0,0.0,0.0,1560.79
+207,D2a – D96a v4,D4a v4,EPYC 2nd Gen,510.79,50.0,0.0,0.0,1560.79
+208,D2a – D96a v4,D64a v4,EPYC 2nd Gen,510.79,50.0,0.0,0.0,1560.79
+209,D2a – D96a v4,D8a v4,EPYC 2nd Gen,510.79,50.0,0.0,0.0,1560.79
+210,D2a – D96a v4,D96a v4,EPYC 2nd Gen,510.79,50.0,0.0,0.0,1560.79
+211,D2as – D96as v4,D16as v4,EPYC 2nd Gen,510.79,50.0,0.0,0.0,1560.79
+212,D2as – D96as v4,D2as v4,EPYC 2nd Gen,510.79,50.0,0.0,0.0,1560.79
+213,D2as – D96as v4,D32as v4,EPYC 2nd Gen,510.79,50.0,0.0,0.0,1560.79
+214,D2as – D96as v4,D48as v4,EPYC 2nd Gen,510.79,50.0,0.0,0.0,1560.79
+215,D2as – D96as v4,D4as v4,EPYC 2nd Gen,510.79,50.0,0.0,0.0,1560.79
+216,D2as – D96as v4,D64as v4,EPYC 2nd Gen,510.79,50.0,0.0,0.0,1560.79
+217,D2as – D96as v4,D8as v4,EPYC 2nd Gen,510.79,50.0,0.0,0.0,1560.79
+218,D2as – D96as v4,D96as v4,EPYC 2nd Gen,510.79,50.0,0.0,0.0,1560.79
+219,D2d – D64d v4,D16d v4,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+220,D2d – D64d v4,D2d v4,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+221,D2d – D64d v4,D32d v4,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+222,D2d – D64d v4,D48d v4,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+223,D2d – D64d v4,D4d v4,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+224,D2d – D64d v4,D64d v4,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+225,D2d – D64d v4,D8d v4,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+226,D2ds – D64ds v4,D16ds v4,Cascade Lake,333.12,100.0,100.0,0.0,1533.12
+227,D2ds – D64ds v4,D2ds v4,Cascade Lake,333.12,100.0,100.0,0.0,1533.12
+228,D2ds – D64ds v4,D32ds v4,Cascade Lake,333.12,100.0,100.0,0.0,1533.12
+229,D2ds – D64ds v4,D48ds v4,Cascade Lake,333.12,100.0,100.0,0.0,1533.12
+230,D2ds – D64ds v4,D4ds v4,Cascade Lake,333.12,100.0,100.0,0.0,1533.12
+231,D2ds – D64ds v4,D64ds v4,Cascade Lake,333.12,100.0,100.0,0.0,1533.12
+232,D2ds – D64ds v4,D8ds v4,Cascade Lake,333.12,100.0,100.0,0.0,1533.12
+233,D2s – D64s v4,D16s v4,Haswell,333.12,0.0,100.0,0.0,1433.12
+234,D2s – D64s v4,D16s v4,Cascade Lake,333.12,0.0,100.0,0.0,1433.12
+235,D2s – D64s v4,D16s v4,Skylake,333.12,0.0,100.0,0.0,1433.12
+236,D2s – D64s v4,D16s v4,Broadwell,333.12,0.0,100.0,0.0,1433.12
+237,D2s – D64s v4,D2s v4,Haswell,333.12,0.0,100.0,0.0,1433.12
+238,D2s – D64s v4,D2s v4,Cascade Lake,333.12,0.0,100.0,0.0,1433.12
+239,D2s – D64s v4,D2s v4,Skylake,333.12,0.0,100.0,0.0,1433.12
+240,D2s – D64s v4,D2s v4,Broadwell,333.12,0.0,100.0,0.0,1433.12
+241,D2s – D64s v4,D32s v4,Haswell,333.12,0.0,100.0,0.0,1433.12
+242,D2s – D64s v4,D32s v4,Cascade Lake,333.12,0.0,100.0,0.0,1433.12
+243,D2s – D64s v4,D32s v4,Skylake,333.12,0.0,100.0,0.0,1433.12
+244,D2s – D64s v4,D32s v4,Broadwell,333.12,0.0,100.0,0.0,1433.12
+245,D2s – D64s v4,D48s v4,Haswell,333.12,0.0,100.0,0.0,1433.12
+246,D2s – D64s v4,D48s v4,Cascade Lake,333.12,0.0,100.0,0.0,1433.12
+247,D2s – D64s v4,D48s v4,Skylake,333.12,0.0,100.0,0.0,1433.12
+248,D2s – D64s v4,D48s v4,Broadwell,333.12,0.0,100.0,0.0,1433.12
+249,D2s – D64s v4,D4s v4,Haswell,333.12,0.0,100.0,0.0,1433.12
+250,D2s – D64s v4,D4s v4,Cascade Lake,333.12,0.0,100.0,0.0,1433.12
+251,D2s – D64s v4,D4s v4,Skylake,333.12,0.0,100.0,0.0,1433.12
+252,D2s – D64s v4,D4s v4,Broadwell,333.12,0.0,100.0,0.0,1433.12
+253,D2s – D64s v4,D64s v4,Haswell,333.12,0.0,100.0,0.0,1433.12
+254,D2s – D64s v4,D64s v4,Cascade Lake,333.12,0.0,100.0,0.0,1433.12
+255,D2s – D64s v4,D64s v4,Skylake,333.12,0.0,100.0,0.0,1433.12
+256,D2s – D64s v4,D64s v4,Broadwell,333.12,0.0,100.0,0.0,1433.12
+257,D2s – D64s v4,D8s v4,Haswell,333.12,0.0,100.0,0.0,1433.12
+258,D2s – D64s v4,D8s v4,Cascade Lake,333.12,0.0,100.0,0.0,1433.12
+259,D2s – D64s v4,D8s v4,Skylake,333.12,0.0,100.0,0.0,1433.12
+260,D2s – D64s v4,D8s v4,Broadwell,333.12,0.0,100.0,0.0,1433.12
+261,D2s-64s v3,D16s v3,Haswell,333.12,50.0,100.0,0.0,1483.12
+262,D2s-64s v3,D16s v3,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+263,D2s-64s v3,D16s v3,Skylake,333.12,50.0,100.0,0.0,1483.12
+264,D2s-64s v3,D16s v3,Broadwell,333.12,50.0,100.0,0.0,1483.12
+265,D2s-64s v3,D2s v3,Haswell,333.12,50.0,100.0,0.0,1483.12
+266,D2s-64s v3,D2s v3,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+267,D2s-64s v3,D2s v3,Skylake,333.12,50.0,100.0,0.0,1483.12
+268,D2s-64s v3,D2s v3,Broadwell,333.12,50.0,100.0,0.0,1483.12
+269,D2s-64s v3,D32s v3,Haswell,333.12,50.0,100.0,0.0,1483.12
+270,D2s-64s v3,D32s v3,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+271,D2s-64s v3,D32s v3,Skylake,333.12,50.0,100.0,0.0,1483.12
+272,D2s-64s v3,D32s v3,Broadwell,333.12,50.0,100.0,0.0,1483.12
+273,D2s-64s v3,D48s v3,Haswell,333.12,50.0,100.0,0.0,1483.12
+274,D2s-64s v3,D48s v3,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+275,D2s-64s v3,D48s v3,Skylake,333.12,50.0,100.0,0.0,1483.12
+276,D2s-64s v3,D48s v3,Broadwell,333.12,50.0,100.0,0.0,1483.12
+277,D2s-64s v3,D4s v3,Haswell,333.12,50.0,100.0,0.0,1483.12
+278,D2s-64s v3,D4s v3,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+279,D2s-64s v3,D4s v3,Skylake,333.12,50.0,100.0,0.0,1483.12
+280,D2s-64s v3,D4s v3,Broadwell,333.12,50.0,100.0,0.0,1483.12
+281,D2s-64s v3,D64s v3,Haswell,333.12,50.0,100.0,0.0,1483.12
+282,D2s-64s v3,D64s v3,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+283,D2s-64s v3,D64s v3,Skylake,333.12,50.0,100.0,0.0,1483.12
+284,D2s-64s v3,D64s v3,Broadwell,333.12,50.0,100.0,0.0,1483.12
+285,D2s-64s v3,D8s v3,Haswell,333.12,50.0,100.0,0.0,1483.12
+286,D2s-64s v3,D8s v3,Cascade Lake,333.12,50.0,100.0,0.0,1483.12
+287,D2s-64s v3,D8s v3,Skylake,333.12,50.0,100.0,0.0,1483.12
+288,D2s-64s v3,D8s v3,Broadwell,333.12,50.0,100.0,0.0,1483.12
+289,DCsv2-series,DC1s v2,Coffee Lake,22.21,50.0,100.0,0.0,1172.21
+290,DCsv2-series,DC2s v2,Coffee Lake,22.21,50.0,100.0,0.0,1172.21
+291,DCsv2-series,DC4s v2,Coffee Lake,22.21,50.0,100.0,0.0,1172.21
+292,DCsv2-series,DC8 v2,Coffee Lake,22.21,50.0,100.0,0.0,1172.21
+293,E2 – E64 v4,E16 v4,Cascade Lake,910.54,0.0,100.0,0.0,2010.54
+294,E2 – E64 v4,E2 v4,Cascade Lake,910.54,0.0,100.0,0.0,2010.54
+295,E2 – E64 v4,E32 v4,Cascade Lake,910.54,0.0,100.0,0.0,2010.54
+296,E2 – E64 v4,E4 v4,Cascade Lake,910.54,0.0,100.0,0.0,2010.54
+297,E2 – E64 v4,E48 v4,Cascade Lake,910.54,0.0,100.0,0.0,2010.54
+298,E2 – E64 v4,E64 v4,Cascade Lake,910.54,0.0,100.0,0.0,2010.54
+299,E2 – E64 v4,E8 v4,Cascade Lake,910.54,0.0,100.0,0.0,2010.54
+300,E2 – E96 v5,E16 v5,Unknown,910.54,0.0,100.0,0.0,2010.54
+301,E2 – E96 v5,E2 v5,Unknown,910.54,0.0,100.0,0.0,2010.54
+302,E2 – E96 v5,E20 v5,Unknown,910.54,0.0,100.0,0.0,2010.54
+303,E2 – E96 v5,E32 v5,Unknown,910.54,0.0,100.0,0.0,2010.54
+304,E2 – E96 v5,E4 v5,Unknown,910.54,0.0,100.0,0.0,2010.54
+305,E2 – E96 v5,E48 v5,Unknown,910.54,0.0,100.0,0.0,2010.54
+306,E2 – E96 v5,E64 v5,Unknown,910.54,0.0,100.0,0.0,2010.54
+307,E2 – E96 v5,E8 v5,Unknown,910.54,0.0,100.0,0.0,2010.54
+308,E2 – E96 v5,E96 v5,Unknown,910.54,0.0,100.0,0.0,2010.54
+309,E2-64 v3,E16 v3,Broadwell,577.42,50.0,100.0,0.0,1727.42
+310,E2-64 v3,E16 v3,Cascade Lake,577.42,50.0,100.0,0.0,1727.42
+311,E2-64 v3,E16 v3,Skylake,577.42,50.0,100.0,0.0,1727.42
+312,E2-64 v3,E2 v3,Broadwell,577.42,50.0,100.0,0.0,1727.42
+313,E2-64 v3,E2 v3,Cascade Lake,577.42,50.0,100.0,0.0,1727.42
+314,E2-64 v3,E2 v3,Skylake,577.42,50.0,100.0,0.0,1727.42
+315,E2-64 v3,E20 v3,Broadwell,577.42,50.0,100.0,0.0,1727.42
+316,E2-64 v3,E20 v3,Cascade Lake,577.42,50.0,100.0,0.0,1727.42
+317,E2-64 v3,E20 v3,Skylake,577.42,50.0,100.0,0.0,1727.42
+318,E2-64 v3,E32 v3,Broadwell,577.42,50.0,100.0,0.0,1727.42
+319,E2-64 v3,E32 v3,Cascade Lake,577.42,50.0,100.0,0.0,1727.42
+320,E2-64 v3,E32 v3,Skylake,577.42,50.0,100.0,0.0,1727.42
+321,E2-64 v3,E4 v3,Broadwell,577.42,50.0,100.0,0.0,1727.42
+322,E2-64 v3,E4 v3,Cascade Lake,577.42,50.0,100.0,0.0,1727.42
+323,E2-64 v3,E4 v3,Skylake,577.42,50.0,100.0,0.0,1727.42
+324,E2-64 v3,E48 v3,Broadwell,577.42,50.0,100.0,0.0,1727.42
+325,E2-64 v3,E48 v3,Cascade Lake,577.42,50.0,100.0,0.0,1727.42
+326,E2-64 v3,E48 v3,Skylake,577.42,50.0,100.0,0.0,1727.42
+327,E2-64 v3,E64 v3,Broadwell,577.42,50.0,100.0,0.0,1727.42
+328,E2-64 v3,E64 v3,Cascade Lake,577.42,50.0,100.0,0.0,1727.42
+329,E2-64 v3,E64 v3,Skylake,577.42,50.0,100.0,0.0,1727.42
+330,E2-64 v3,E64i v3 1,Broadwell,577.42,50.0,100.0,0.0,1727.42
+331,E2-64 v3,E64i v3 1,Cascade Lake,577.42,50.0,100.0,0.0,1727.42
+332,E2-64 v3,E64i v3 1,Skylake,577.42,50.0,100.0,0.0,1727.42
+333,E2-64 v3,E8 v3,Broadwell,577.42,50.0,100.0,0.0,1727.42
+334,E2-64 v3,E8 v3,Cascade Lake,577.42,50.0,100.0,0.0,1727.42
+335,E2-64 v3,E8 v3,Skylake,577.42,50.0,100.0,0.0,1727.42
+336,E2a – E96a v4,E16a v4,EPYC 2nd Gen,910.54,50.0,0.0,0.0,1960.54
+337,E2a – E96a v4,E20a v4,EPYC 2nd Gen,910.54,50.0,0.0,0.0,1960.54
+338,E2a – E96a v4,E2a v4,EPYC 2nd Gen,910.54,50.0,0.0,0.0,1960.54
+339,E2a – E96a v4,E32a v4,EPYC 2nd Gen,910.54,50.0,0.0,0.0,1960.54
+340,E2a – E96a v4,E48a v4,EPYC 2nd Gen,910.54,50.0,0.0,0.0,1960.54
+341,E2a – E96a v4,E4a v4,EPYC 2nd Gen,910.54,50.0,0.0,0.0,1960.54
+342,E2a – E96a v4,E64a v4,EPYC 2nd Gen,910.54,50.0,0.0,0.0,1960.54
+343,E2a – E96a v4,E8a v4,EPYC 2nd Gen,910.54,50.0,0.0,0.0,1960.54
+344,E2a – E96a v4,E96a v4,EPYC 2nd Gen,910.54,50.0,0.0,0.0,1960.54
+345,E2as – E96as v4,E16as v4,EPYC 2nd Gen,910.54,100.0,0.0,0.0,2010.54
+346,E2as – E96as v4,E20as v4,EPYC 2nd Gen,910.54,100.0,0.0,0.0,2010.54
+347,E2as – E96as v4,E2as v4,EPYC 2nd Gen,910.54,100.0,0.0,0.0,2010.54
+348,E2as – E96as v4,E32as v4,EPYC 2nd Gen,910.54,100.0,0.0,0.0,2010.54
+349,E2as – E96as v4,E48as v4,EPYC 2nd Gen,910.54,100.0,0.0,0.0,2010.54
+350,E2as – E96as v4,E4as v4,EPYC 2nd Gen,910.54,100.0,0.0,0.0,2010.54
+351,E2as – E96as v4,E64as v4,EPYC 2nd Gen,910.54,100.0,0.0,0.0,2010.54
+352,E2as – E96as v4,E8as v4,EPYC 2nd Gen,910.54,100.0,0.0,0.0,2010.54
+353,E2as – E96as v4,E96as v4,EPYC 2nd Gen,910.54,100.0,0.0,0.0,2010.54
+354,E2d – E64d v4,E16d v4,Cascade Lake,677.35,100.0,100.0,0.0,1877.35
+355,E2d – E64d v4,E20d v4,Cascade Lake,677.35,100.0,100.0,0.0,1877.35
+356,E2d – E64d v4,E2d v4,Cascade Lake,677.35,100.0,100.0,0.0,1877.35
+357,E2d – E64d v4,E32d v4,Cascade Lake,677.35,100.0,100.0,0.0,1877.35
+358,E2d – E64d v4,E48d v4,Cascade Lake,677.35,100.0,100.0,0.0,1877.35
+359,E2d – E64d v4,E4d v4,Cascade Lake,677.35,100.0,100.0,0.0,1877.35
+360,E2d – E64d v4,E64d v4,Cascade Lake,677.35,100.0,100.0,0.0,1877.35
+361,E2d – E64d v4,E8d v4,Cascade Lake,677.35,100.0,100.0,0.0,1877.35
+362,E2ds – E64ds v4,E16ds v4,Cascade Lake,677.35,100.0,100.0,0.0,1877.35
+363,E2ds – E64ds v4,E20ds v4,Cascade Lake,677.35,100.0,100.0,0.0,1877.35
+364,E2ds – E64ds v4,E2ds v4,Cascade Lake,677.35,100.0,100.0,0.0,1877.35
+365,E2ds – E64ds v4,E32ds v4,Cascade Lake,677.35,100.0,100.0,0.0,1877.35
+366,E2ds – E64ds v4,E48ds v4,Cascade Lake,677.35,100.0,100.0,0.0,1877.35
+367,E2ds – E64ds v4,E4ds v4,Cascade Lake,677.35,100.0,100.0,0.0,1877.35
+368,E2ds – E64ds v4,E64ds v4,Cascade Lake,677.35,100.0,100.0,0.0,1877.35
+369,E2ds – E64ds v4,E80ids v4 1,Cascade Lake,677.35,100.0,100.0,0.0,1877.35
+370,E2ds – E64ds v4,E8ds v4,Cascade Lake,677.35,100.0,100.0,0.0,1877.35
+371,E2s – E64s v4,E16s v4,Cascade Lake,677.35,0.0,100.0,0.0,1777.35
+372,E2s – E64s v4,E20s v4,Cascade Lake,677.35,0.0,100.0,0.0,1777.35
+373,E2s – E64s v4,E2s v4,Cascade Lake,677.35,0.0,100.0,0.0,1777.35
+374,E2s – E64s v4,E32s v4,Cascade Lake,677.35,0.0,100.0,0.0,1777.35
+375,E2s – E64s v4,E48s v4,Cascade Lake,677.35,0.0,100.0,0.0,1777.35
+376,E2s – E64s v4,E4s v4,Cascade Lake,677.35,0.0,100.0,0.0,1777.35
+377,E2s – E64s v4,E64s v4,Cascade Lake,677.35,0.0,100.0,0.0,1777.35
+378,E2s – E64s v4,E80is v4 1,Cascade Lake,677.35,50.0,100.0,0.0,1827.35
+379,E2s – E64s v4,E8s v4,Cascade Lake,677.35,0.0,100.0,0.0,1777.35
+380,E2s-64s v3,E16s v3,Broadwell,577.42,100.0,100.0,0.0,1777.42
+381,E2s-64s v3,E16s v3,Cascade Lake,577.42,100.0,100.0,0.0,1777.42
+382,E2s-64s v3,E16s v3,Skylake,577.42,100.0,100.0,0.0,1777.42
+383,E2s-64s v3,E20s v3,Broadwell,577.42,100.0,100.0,0.0,1777.42
+384,E2s-64s v3,E20s v3,Cascade Lake,577.42,100.0,100.0,0.0,1777.42
+385,E2s-64s v3,E20s v3,Skylake,577.42,100.0,100.0,0.0,1777.42
+386,E2s-64s v3,E2s v3,Broadwell,577.42,100.0,100.0,0.0,1777.42
+387,E2s-64s v3,E2s v3,Cascade Lake,577.42,100.0,100.0,0.0,1777.42
+388,E2s-64s v3,E2s v3,Skylake,577.42,100.0,100.0,0.0,1777.42
+389,E2s-64s v3,E32s v3,Broadwell,577.42,100.0,100.0,0.0,1777.42
+390,E2s-64s v3,E32s v3,Cascade Lake,577.42,100.0,100.0,0.0,1777.42
+391,E2s-64s v3,E32s v3,Skylake,577.42,100.0,100.0,0.0,1777.42
+392,E2s-64s v3,E48s v3,Broadwell,577.42,100.0,100.0,0.0,1777.42
+393,E2s-64s v3,E48s v3,Cascade Lake,577.42,100.0,100.0,0.0,1777.42
+394,E2s-64s v3,E48s v3,Skylake,577.42,100.0,100.0,0.0,1777.42
+395,E2s-64s v3,E4s v3,Broadwell,577.42,100.0,100.0,0.0,1777.42
+396,E2s-64s v3,E4s v3,Cascade Lake,577.42,100.0,100.0,0.0,1777.42
+397,E2s-64s v3,E4s v3,Skylake,577.42,100.0,100.0,0.0,1777.42
+398,E2s-64s v3,E64is v3 1,Broadwell,577.42,100.0,100.0,0.0,1777.42
+399,E2s-64s v3,E64is v3 1,Cascade Lake,577.42,100.0,100.0,0.0,1777.42
+400,E2s-64s v3,E64is v3 1,Skylake,577.42,100.0,100.0,0.0,1777.42
+401,E2s-64s v3,E64s v3,Broadwell,577.42,100.0,100.0,0.0,1777.42
+402,E2s-64s v3,E64s v3,Cascade Lake,577.42,100.0,100.0,0.0,1777.42
+403,E2s-64s v3,E64s v3,Skylake,577.42,100.0,100.0,0.0,1777.42
+404,E2s-64s v3,E8s v3,Broadwell,577.42,100.0,100.0,0.0,1777.42
+405,E2s-64s v3,E8s v3,Cascade Lake,577.42,100.0,100.0,0.0,1777.42
+406,E2s-64s v3,E8s v3,Skylake,577.42,100.0,100.0,0.0,1777.42
+407,F-series,F1,Haswell,22.21,100.0,100.0,0.0,1222.21
+408,F-series,F1,Cascade Lake,22.21,100.0,100.0,0.0,1222.21
+409,F-series,F1,Skylake,22.21,100.0,100.0,0.0,1222.21
+410,F-series,F1,Broadwell,22.21,100.0,100.0,0.0,1222.21
+411,F-series,F16,Haswell,22.21,100.0,100.0,0.0,1222.21
+412,F-series,F16,Cascade Lake,22.21,100.0,100.0,0.0,1222.21
+413,F-series,F16,Skylake,22.21,100.0,100.0,0.0,1222.21
+414,F-series,F16,Broadwell,22.21,100.0,100.0,0.0,1222.21
+415,F-series,F2,Haswell,22.21,100.0,100.0,0.0,1222.21
+416,F-series,F2,Cascade Lake,22.21,100.0,100.0,0.0,1222.21
+417,F-series,F2,Skylake,22.21,100.0,100.0,0.0,1222.21
+418,F-series,F2,Broadwell,22.21,100.0,100.0,0.0,1222.21
+419,F-series,F4,Haswell,22.21,100.0,100.0,0.0,1222.21
+420,F-series,F4,Cascade Lake,22.21,100.0,100.0,0.0,1222.21
+421,F-series,F4,Skylake,22.21,100.0,100.0,0.0,1222.21
+422,F-series,F4,Broadwell,22.21,100.0,100.0,0.0,1222.21
+423,F-series,F8,Haswell,22.21,100.0,100.0,0.0,1222.21
+424,F-series,F8,Cascade Lake,22.21,100.0,100.0,0.0,1222.21
+425,F-series,F8,Skylake,22.21,100.0,100.0,0.0,1222.21
+426,F-series,F8,Broadwell,22.21,100.0,100.0,0.0,1222.21
+427,Fs-Series,F16s,Unknown,22.21,100.0,100.0,0.0,1222.21
+428,Fs-Series,F1s,Unknown,22.21,100.0,100.0,0.0,1222.21
+429,Fs-Series,F2s,Unknown,22.21,100.0,100.0,0.0,1222.21
+430,Fs-Series,F4s,Unknown,22.21,100.0,100.0,0.0,1222.21
+431,Fs-Series,F8s,Unknown,22.21,100.0,100.0,0.0,1222.21
+432,Fsv2-series,F16s v2,Skylake,177.67,100.0,100.0,0.0,1377.67
+433,Fsv2-series,F16s v2,Cascade Lake,177.67,100.0,100.0,0.0,1377.67
+434,Fsv2-series,F2s v2,Skylake,177.67,100.0,100.0,0.0,1377.67
+435,Fsv2-series,F2s v2,Cascade Lake,177.67,100.0,100.0,0.0,1377.67
+436,Fsv2-series,F32s v2,Skylake,177.67,100.0,100.0,0.0,1377.67
+437,Fsv2-series,F32s v2,Cascade Lake,177.67,100.0,100.0,0.0,1377.67
+438,Fsv2-series,F48s v2,Skylake,177.67,100.0,100.0,0.0,1377.67
+439,Fsv2-series,F48s v2,Cascade Lake,177.67,100.0,100.0,0.0,1377.67
+440,Fsv2-series,F4s v2,Skylake,177.67,100.0,100.0,0.0,1377.67
+441,Fsv2-series,F4s v2,Cascade Lake,177.67,100.0,100.0,0.0,1377.67
+442,Fsv2-series,F64s v2,Skylake,177.67,100.0,100.0,0.0,1377.67
+443,Fsv2-series,F64s v2,Cascade Lake,177.67,100.0,100.0,0.0,1377.67
+444,Fsv2-series,F72s v2,Skylake,177.67,100.0,100.0,0.0,1377.67
+445,Fsv2-series,F72s v2,Cascade Lake,177.67,100.0,100.0,0.0,1377.67
+446,Fsv2-series,F8s v2,Skylake,599.62,100.0,100.0,0.0,1799.62
+447,Fsv2-series,F8s v2,Cascade Lake,599.62,100.0,100.0,0.0,1799.62
+448,G-series,G1,Haswell,599.62,50.0,100.0,0.0,1749.62
+449,G-series,G2,Haswell,599.62,50.0,100.0,0.0,1749.62
+450,G-series,G3,Haswell,599.62,50.0,100.0,0.0,1749.62
+451,G-series,G4,Haswell,599.62,50.0,100.0,0.0,1749.62
+452,G-series,G5,Haswell,599.62,50.0,100.0,0.0,1749.62
+453,Gs-Series,Gs1,Unknown,599.62,50.0,100.0,0.0,1749.62
+454,Gs-Series,Gs2,Unknown,599.62,50.0,100.0,0.0,1749.62
+455,Gs-Series,Gs3,Unknown,599.62,50.0,100.0,0.0,1749.62
+456,Gs-Series,Gs4,Unknown,599.62,50.0,100.0,0.0,1749.62
+457,Gs-Series,Gs5,Unknown,599.62,50.0,100.0,0.0,1749.62
+458,H-series,H16,Haswell,288.71,50.0,100.0,0.0,1438.71
+459,H-series,H16m,Haswell,288.71,50.0,100.0,0.0,1438.71
+460,H-series,H16mr,Haswell,288.71,50.0,100.0,0.0,1438.71
+461,H-series,H16r,Haswell,288.71,50.0,100.0,0.0,1438.71
+462,H-series,H8,Haswell,288.71,50.0,100.0,0.0,1438.71
+463,H-series,H8m,Haswell,288.71,50.0,100.0,0.0,1438.71
+464,H-series promo,H16 Promo,Haswell,288.71,50.0,100.0,0.0,1438.71
+465,H-series promo,H16m Promo,Haswell,288.71,50.0,100.0,0.0,1438.71
+466,H-series promo,H16mr Promo,Haswell,288.71,50.0,100.0,0.0,1438.71
+467,H-series promo,H16r Promo,Haswell,288.71,50.0,100.0,0.0,1438.71
+468,H-series promo,H8 Promo,Haswell,288.71,50.0,100.0,0.0,1438.71
+469,H-series promo,H8m Promo,Haswell,288.71,50.0,100.0,0.0,1438.71
+470,HBv2-series,HB120rs v2,EPYC 2nd Gen,644.04,50.0,0.0,0.0,1694.04
+471,HBv3-series,HB120rs v3,EPYC 3rd Gen,599.62,100.0,0.0,0.0,1699.62
+472,Ls-series,L16s,Haswell,333.12,100.0,100.0,0.0,1533.12
+473,Ls-series,L32s,Haswell,333.12,100.0,100.0,0.0,1533.12
+474,Ls-series,L4s,Haswell,333.12,100.0,100.0,0.0,1533.12
+475,Ls-series,L8s,Haswell,333.12,100.0,100.0,0.0,1533.12
+476,Lsv2-series,L16s v2,EPYC 1st Gen,866.12,50.0,100.0,0.0,2016.12
+477,Lsv2-series,L32s v2,EPYC 1st Gen,866.12,50.0,100.0,0.0,2016.12
+478,Lsv2-series,L48s v2,EPYC 1st Gen,866.12,50.0,100.0,0.0,2016.12
+479,Lsv2-series,L64s v2,EPYC 1st Gen,866.12,50.0,100.0,0.0,2016.12
+480,Lsv2-series,L80s v2,EPYC 1st Gen,866.12,50.0,100.0,0.0,2016.12
+481,Lsv2-series,L8s v2,EPYC 1st Gen,866.12,50.0,100.0,0.0,2016.12
+482,M-series,M128 1,Cascade Lake,5379.97,50.0,100.0,0.0,6529.97
+483,M-series,M128 1,Haswell,5379.97,50.0,100.0,0.0,6529.97
+484,M-series,M128m 1,Cascade Lake,5379.97,50.0,100.0,0.0,6529.97
+485,M-series,M128m 1,Haswell,5379.97,50.0,100.0,0.0,6529.97
+486,M-series,M128ms,Cascade Lake,5379.97,50.0,100.0,0.0,6529.97
+487,M-series,M128ms,Haswell,5379.97,50.0,100.0,0.0,6529.97
+488,M-series,M128s,Cascade Lake,5379.97,50.0,100.0,0.0,6529.97
+489,M-series,M128s,Haswell,5379.97,50.0,100.0,0.0,6529.97
+490,M-series,M16ms,Cascade Lake,5379.97,50.0,100.0,0.0,6529.97
+491,M-series,M16ms,Haswell,5379.97,50.0,100.0,0.0,6529.97
+492,M-series,M32ls,Cascade Lake,5379.97,50.0,100.0,0.0,6529.97
+493,M-series,M32ls,Haswell,5379.97,50.0,100.0,0.0,6529.97
+494,M-series,M32ms,Cascade Lake,5379.97,50.0,100.0,0.0,6529.97
+495,M-series,M32ms,Haswell,5379.97,50.0,100.0,0.0,6529.97
+496,M-series,M32ts,Cascade Lake,5379.97,50.0,100.0,0.0,6529.97
+497,M-series,M32ts,Haswell,5379.97,50.0,100.0,0.0,6529.97
+498,M-series,M64 1,Cascade Lake,5379.97,50.0,100.0,0.0,6529.97
+499,M-series,M64 1,Haswell,5379.97,50.0,100.0,0.0,6529.97
+500,M-series,M64ls,Cascade Lake,5379.97,50.0,100.0,0.0,6529.97
+501,M-series,M64ls,Haswell,5379.97,50.0,100.0,0.0,6529.97
+502,M-series,M64m 1,Cascade Lake,5379.97,50.0,100.0,0.0,6529.97
+503,M-series,M64m 1,Haswell,5379.97,50.0,100.0,0.0,6529.97
+504,M-series,M64ms,Cascade Lake,5379.97,50.0,100.0,0.0,6529.97
+505,M-series,M64ms,Haswell,5379.97,50.0,100.0,0.0,6529.97
+506,M-series,M64s,Cascade Lake,5379.97,50.0,100.0,0.0,6529.97
+507,M-series,M64s,Haswell,5379.97,50.0,100.0,0.0,6529.97
+508,M-series,M8ms,Cascade Lake,5663.12,50.0,100.0,0.0,6813.12
+509,M-series,M8ms,Haswell,5379.97,50.0,100.0,0.0,6529.97
+510,Mdsv2-series,M128dms v2,Cascade Lake,5663.12,50.0,100.0,0.0,6813.12
+511,Mdsv2-series,M128ds v2,Cascade Lake,5663.12,50.0,100.0,0.0,6813.12
+512,Mdsv2-series,M192idms v2,Cascade Lake,5663.12,50.0,100.0,0.0,6813.12
+513,Mdsv2-series,M192ids v2,Cascade Lake,5663.12,50.0,100.0,0.0,6813.12
+514,Mdsv2-series,M32dms v2,Cascade Lake,5663.12,50.0,100.0,0.0,6813.12
+515,Mdsv2-series,M64dms v2,Cascade Lake,5663.12,50.0,100.0,0.0,6813.12
+516,Mdsv2-series,M64ds v2,Cascade Lake,5663.12,50.0,100.0,0.0,6813.12
+517,Msv2-series,M128ms v2,Cascade Lake,5663.12,0.0,100.0,0.0,6763.12
+518,Msv2-series,M128s v2,Cascade Lake,5663.12,0.0,100.0,0.0,6763.12
+519,Msv2-series,M192ims v2,Cascade Lake,5663.12,0.0,100.0,0.0,6763.12
+520,Msv2-series,M192is v2,Cascade Lake,5663.12,0.0,100.0,0.0,6763.12
+521,Msv2-series,M32ms v2,Cascade Lake,5663.12,0.0,100.0,0.0,6763.12
+522,Msv2-series,M64ms v2,Cascade Lake,5663.12,0.0,100.0,0.0,6763.12
+523,Msv2-series,M64s v2,Cascade Lake,15801.23,0.0,100.0,0.0,16901.23
+524,Mv2-series,M208ms v2,Skylake,15801.23,50.0,100.0,0.0,16951.23
+525,Mv2-series,M208s v2,Skylake,15801.23,50.0,100.0,0.0,16951.23
+526,Mv2-series,M416ms v2,Skylake,15801.23,50.0,100.0,0.0,16951.23
+527,Mv2-series,M416s v2,Skylake,15801.23,50.0,100.0,0.0,16951.23
+528,NC-series,NC12,Unknown,288.71,50.0,100.0,600.0,2038.71
+529,NC-series,NC24,Unknown,288.71,50.0,100.0,600.0,2038.71
+530,NC-series,NC24r,Unknown,288.71,50.0,100.0,600.0,2038.71
+531,NC-series,NC6,Unknown,288.71,50.0,100.0,600.0,2038.71
+532,NC-series Promo,NC12 Promo,Unknown,288.71,50.0,100.0,600.0,2038.71
+533,NC-series Promo,NC24 Promo,Unknown,288.71,50.0,100.0,600.0,2038.71
+534,NC-series Promo,NC24r Promo,Unknown,288.71,50.0,100.0,600.0,2038.71
+535,NC-series Promo,NC6 Promo,Unknown,288.71,50.0,100.0,600.0,2038.71
+536,NCas_T4_v3 Series,NC16as T4 v3,Unknown,599.62,50.0,100.0,600.0,2349.62
+537,NCas_T4_v3 Series,NC4as T4 v3,Unknown,599.62,50.0,100.0,600.0,2349.62
+538,NCas_T4_v3 Series,NC64as T4 v3,Unknown,599.62,50.0,100.0,600.0,2349.62
+539,NCas_T4_v3 Series,NC8as T4 v3,Unknown,599.62,50.0,100.0,600.0,2349.62
+540,NCsv2-series,NC12s v2,Unknown,599.62,50.0,100.0,600.0,2349.62
+541,NCsv2-series,NC24rs v2,Unknown,599.62,50.0,100.0,600.0,2349.62
+542,NCsv2-series,NC24s v2,Unknown,599.62,50.0,100.0,600.0,2349.62
+543,NCsv2-series,NC6s v2,Unknown,599.62,50.0,100.0,600.0,2349.62
+544,NCsv3-series,NC12s v3,Unknown,599.62,50.0,100.0,600.0,2349.62
+545,NCsv3-series,NC24rs v3,Unknown,599.62,50.0,100.0,600.0,2349.62
+546,NCsv3-series,NC24s v3,Unknown,599.62,50.0,100.0,600.0,2349.62
+547,NCsv3-series,NC6s v3,Unknown,599.62,50.0,100.0,600.0,2349.62
+548,NDs-series,ND12s,Unknown,599.62,50.0,100.0,600.0,2349.62
+549,NDs-series,ND24rs,Unknown,599.62,50.0,100.0,600.0,2349.62
+550,NDs-series,ND24s,Unknown,599.62,50.0,100.0,600.0,2349.62
+551,NDs-series,ND6s,Unknown,599.62,50.0,100.0,600.0,2349.62
+552,NDv2 Series,ND40rs v2,Unknown,910.54,50.0,100.0,1200.0,3260.54
+553,NP-Series,NP10s,Unknown,1043.79,50.0,100.0,0.0,2193.79
+554,NP-Series,NP20s,Unknown,1043.79,50.0,100.0,0.0,2193.79
+555,NP-Series,NP40s,Unknown,1043.79,50.0,100.0,0.0,2193.79
+556,NV-series,NV12,Unknown,288.71,50.0,100.0,600.0,2038.71
+557,NV-series,NV24,Unknown,288.71,50.0,100.0,600.0,2038.71
+558,NV-series,NV6,Unknown,288.71,50.0,100.0,600.0,2038.71
+559,NVv3-series,NV12s v3,Unknown,599.62,50.0,100.0,600.0,2349.62
+560,NVv3-series,NV24s v3,Unknown,599.62,50.0,100.0,600.0,2349.62
+561,NVv3-series,NV48s v3,Unknown,599.62,50.0,100.0,600.0,2349.62
+562,SAP HANA on Azure Large Instances,S192,Broadwell,16634.04,50.0,100.0,0.0,17784.04
+563,SAP HANA on Azure Large Instances,S192m,Broadwell,16634.04,50.0,100.0,0.0,17784.04
+564,SAP HANA on Azure Large Instances,S192xm,Broadwell,16634.04,50.0,100.0,0.0,17784.04
+565,SAP HANA on Azure Large Instances,S384,Broadwell,16634.04,50.0,100.0,0.0,17784.04
+566,SAP HANA on Azure Large Instances,S384m,Broadwell,16634.04,50.0,100.0,0.0,17784.04
+567,SAP HANA on Azure Large Instances,S384xm,Broadwell,16634.04,50.0,100.0,0.0,17784.04
+568,SAP HANA on Azure Large Instances,S384xxm,Broadwell,16634.04,50.0,100.0,0.0,17784.04
+569,SAP HANA on Azure Large Instances,S576m,Broadwell,16634.04,50.0,100.0,0.0,17784.04
+570,SAP HANA on Azure Large Instances,S96,Broadwell,16634.04,50.0,100.0,0.0,17784.04
+571,SAP HANA on Azure Large Instances (second generation),S224,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+572,SAP HANA on Azure Large Instances (second generation),S224m,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+573,SAP HANA on Azure Large Instances (second generation),S224om,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+574,SAP HANA on Azure Large Instances (second generation),S224oo,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+575,SAP HANA on Azure Large Instances (second generation),S224oom,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+576,SAP HANA on Azure Large Instances (second generation),S224ooo,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+577,SAP HANA on Azure Large Instances (second generation),S448,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+578,SAP HANA on Azure Large Instances (second generation),S448m,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+579,SAP HANA on Azure Large Instances (second generation),S448om,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+580,SAP HANA on Azure Large Instances (second generation),S448oo,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+581,SAP HANA on Azure Large Instances (second generation),S448oom,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+582,SAP HANA on Azure Large Instances (second generation),S448ooo,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+583,SAP HANA on Azure Large Instances (second generation),S672,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+584,SAP HANA on Azure Large Instances (second generation),S672m,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+585,SAP HANA on Azure Large Instances (second generation),S672om,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+586,SAP HANA on Azure Large Instances (second generation),S672oo,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+587,SAP HANA on Azure Large Instances (second generation),S672oom,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+588,SAP HANA on Azure Large Instances (second generation),S672ooo,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+589,SAP HANA on Azure Large Instances (second generation),S896,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+590,SAP HANA on Azure Large Instances (second generation),S896m,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+591,SAP HANA on Azure Large Instances (second generation),S896om,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+592,SAP HANA on Azure Large Instances (second generation),S896oo,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+593,SAP HANA on Azure Large Instances (second generation),S896oom,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79
+594,SAP HANA on Azure Large Instances (second generation),S896ooo,Cascade Lake,51145.79,50.0,100.0,0.0,52295.79

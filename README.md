@@ -8,12 +8,23 @@ from public cloud provider utilization.
 These values are based on the [SPECpower_ssj2008
 results](https://www.spec.org/power_ssj2008/results/). New data is released
 every quarter so [the notebook](coefficients.ipynb) helps calculate updated
-coefficients. The full results are in [data/](data/).
+coefficients.
 
-## Setup - Deepnote (recommended)
+## Outputs
 
-The recommended way to use this notebook is in Deepnote, which provides free
-environments and has a good UI. 
+[The notebook](coefficients.ipynb) outputs two sets of values:
+
+1. **Use stage coefficients:** Values are calculated within the notebook and
+   output in-line for Azure (min watts, max watts, GB/chip), AWS (min watts, max
+   watts, GB/chip) and GCP (min watts, max watts). The file to drop them into in
+   CCF is indicated in the notebook. A CSV is created in `output/` with the
+   values for each CPU architecture, currently for reference only.
+
+2. **Embodied emissions coefficients:** Values are calculated within the
+   notebook and output to CSV in `output/` for each instance type for each cloud
+   platform.
+
+## Setup - Deepnote
 
 1. Click the button below to create a a copy of the project in Deepnote.
 2. Press the "Run notebook" button at the top (open `coefficients.ipynb`
@@ -31,7 +42,7 @@ the `Run all cells` button.
 
 ## Setup - Manual
 
-The notebook requires Python 3.9 and [Jupyter (Lab or
+The notebook requires Python 3.9+ and [Jupyter (Lab or
 Notebook)](https://jupyter.org/install). Install both of these for your platform
 and then open `coefficients.ipynb`.
 
@@ -39,12 +50,11 @@ and then open `coefficients.ipynb`.
 
 1. Copy the new lines from the [full
    results](https://www.spec.org/power_ssj2008/results/power_ssj2008.html) table
-   into the CSV.
+   into `data/SPECpower-full-results.csv`
 2. Ensure the "CPU Description" column is clean by following the instructions in
    [the notebook](coefficients.ipynb).
 3. Run the notebook to calculate the new values.
-4. The final three sections of the notebook - Azure, AWS, GCP - explain where to
-   place the values from the output tables.
+4. See the output notes above for what to do with the values.
 
 ## Tests
 
