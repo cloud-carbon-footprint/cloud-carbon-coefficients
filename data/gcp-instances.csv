@@ -1,22 +1,278 @@
-Machine types,Microarchitecture
-E2,Skylake
-N2,Cascade Lake
-N2D,AMD EPYC 2nd Gen
-N1,Skylake
-Compute-optimized,Cascade Lake
-Memory-optimized ultramem,Broadwell
-Memory-optimized megamem,Broadwell
-Accelerator-optimized high-gpu,Cascade Lake
-Accelerator-optimized mega-gpu,Cascade Lake
-E2 shared-core,Unknown
-N1 shared-core,Unknown
-E2,Broadwell
-E2,Haswell
-E2,AMD EPYC 2nd Gen
-N1,Broadwell
-N1,Haswell
-N1,Sandy Bridge
-N1,Ivy Bridge
-Memory-optimized ultramem,Cascade Lake
-Memory-optimized megamem,Skylake
-T2D,AMD EPYC 3rd Gen
+Machine Family,Machine type,Microarchitecture,Instance vCPUs,Instance Memory,Platform vCPUs (highest vCPU possible),Platform Memory,Platform Storage Info (SSD?),Platform Storage Type,Platform (largest instance) Storage Drive quantity,Instance GPUs,Platform GPU
+e2,e2-standard-2,Skylake,2,8,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-2,Broadwell,2,8,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-2,Haswell,2,8,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-2,EPYC 2nd Gen,2,8,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-4,Skylake,4,16,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-4,Broadwell,4,16,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-4,Haswell,4,16,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-4,EPYC 2nd Gen,4,16,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-8,Skylake,8,32,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-8,Broadwell,8,32,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-8,Haswell,8,32,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-8,EPYC 2nd Gen,8,32,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-16,Skylake,16,64,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-16,Broadwell,16,64,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-16,Haswell,16,64,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-16,EPYC 2nd Gen,16,64,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-32,Skylake,32,128,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-32,Broadwell,32,128,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-32,Haswell,32,128,32,128,No,Non-SSD,0,0,0
+e2,e2-standard-32,EPYC 2nd Gen,32,128,32,128,No,Non-SSD,0,0,0
+e2,e2-highmem-2,Skylake,2,16,16,128,No,Non-SSD,0,0,0
+e2,e2-highmem-2,Broadwell,2,16,16,128,No,Non-SSD,0,0,0
+e2,e2-highmem-2,Haswell,2,16,16,128,No,Non-SSD,0,0,0
+e2,e2-highmem-2,EPYC 2nd Gen,2,16,16,128,No,Non-SSD,0,0,0
+e2,e2-highmem-4,Skylake,4,32,16,128,No,Non-SSD,0,0,0
+e2,e2-highmem-4,Broadwell,4,32,16,128,No,Non-SSD,0,0,0
+e2,e2-highmem-4,Haswell,4,32,16,128,No,Non-SSD,0,0,0
+e2,e2-highmem-4,EPYC 2nd Gen,4,32,16,128,No,Non-SSD,0,0,0
+e2,e2-highmem-8,Skylake,8,64,16,128,No,Non-SSD,0,0,0
+e2,e2-highmem-8,Broadwell,8,64,16,128,No,Non-SSD,0,0,0
+e2,e2-highmem-8,Haswell,8,64,16,128,No,Non-SSD,0,0,0
+e2,e2-highmem-8,EPYC 2nd Gen,8,64,16,128,No,Non-SSD,0,0,0
+e2,e2-highmem-16,Skylake,16,128,16,128,No,Non-SSD,0,0,0
+e2,e2-highmem-16,Broadwell,16,128,16,128,No,Non-SSD,0,0,0
+e2,e2-highmem-16,Haswell,16,128,16,128,No,Non-SSD,0,0,0
+e2,e2-highmem-16,EPYC 2nd Gen,16,128,16,128,No,Non-SSD,0,0,0
+e2,e2-highcpu-2,Skylake,2,2,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-2,Broadwell,2,2,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-2,Haswell,2,2,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-2,EPYC 2nd Gen,2,2,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-4,Skylake,4,4,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-4,Broadwell,4,4,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-4,Haswell,4,4,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-4,EPYC 2nd Gen,4,4,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-8,Skylake,8,8,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-8,Broadwell,8,8,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-8,Haswell,8,8,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-8,EPYC 2nd Gen,8,8,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-16,Skylake,16,16,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-16,Broadwell,16,16,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-16,Haswell,16,16,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-16,EPYC 2nd Gen,16,16,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-32,Skylake,32,32,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-32,Broadwell,32,32,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-32,Haswell,32,32,32,32,No,Non-SSD,0,0,0
+e2,e2-highcpu-32,EPYC 2nd Gen,32,32,32,32,No,Non-SSD,0,0,0
+e2 Shared-core,e2-micro,Skylake,2,1,32,128,no,Non-SSD,0,0,0
+e2 Shared-core,e2-micro,Broadwell,2,1,32,128,no,Non-SSD,0,0,0
+e2 Shared-core,e2-micro,Haswell,2,1,32,128,no,Non-SSD,0,0,0
+e2 Shared-core,e2-micro,EPYC 2nd Gen,2,1,32,128,no,Non-SSD,0,0,0
+e2 Shared-core,e2-small,Skylake,2,2,32,128,no,Non-SSD,0,0,0
+e2 Shared-core,e2-small,Broadwell,2,2,32,128,no,Non-SSD,0,0,0
+e2 Shared-core,e2-small,Haswell,2,2,32,128,no,Non-SSD,0,0,0
+e2 Shared-core,e2-small,EPYC 2nd Gen,2,2,32,128,no,Non-SSD,0,0,0
+e2 Shared-core,e2-medium,Skylake,2,4,32,128,no,Non-SSD,0,0,0
+e2 Shared-core,e2-medium,Broadwell,2,4,32,128,no,Non-SSD,0,0,0
+e2 Shared-core,e2-medium,Haswell,2,4,32,128,no,Non-SSD,0,0,0
+e2 Shared-core,e2-medium,EPYC 2nd Gen,2,4,32,128,no,Non-SSD,0,0,0
+n2,n2-standard-2,Cascade Lake,2,8,128,512,Yes,SSD,1,0,0
+n2,n2-standard-4,Cascade Lake,4,16,128,512,Yes,SSD,1,0,0
+n2,n2-standard-8,Cascade Lake,8,32,128,512,Yes,SSD,1,0,0
+n2,n2-standard-16,Cascade Lake,16,64,128,512,Yes,SSD,1,0,0
+n2,n2-standard-32,Cascade Lake,32,128,128,512,Yes,SSD,1,0,0
+n2,n2-standard-48,Cascade Lake,48,192,128,512,Yes,SSD,1,0,0
+n2,n2-standard-64,Cascade Lake,64,256,128,512,Yes,SSD,1,0,0
+n2,n2-standard-80,Cascade Lake,80,320,128,512,Yes,SSD,1,0,0
+n2,n2-standard-96,Cascade Lake,96,384,128,512,Yes,SSD,1,0,0
+n2,n2-standard-128,Cascade Lake,128,512,128,512,Yes,SSD,1,0,0
+n2,n2-highmem-2,Cascade Lake,2,16,128,864,Yes,SSD,1,0,0
+n2,n2-highmem-4,Cascade Lake,4,32,128,864,Yes,SSD,1,0,0
+n2,n2-highmem-8,Cascade Lake,8,64,128,864,Yes,SSD,1,0,0
+n2,n2-highmem-16,Cascade Lake,16,128,128,864,Yes,SSD,1,0,0
+n2,n2-highmem-32,Cascade Lake,32,256,128,864,Yes,SSD,1,0,0
+n2,n2-highmem-48,Cascade Lake,48,384,128,864,Yes,SSD,1,0,0
+n2,n2-highmem-64,Cascade Lake,64,512,128,864,Yes,SSD,1,0,0
+n2,n2-highmem-80,Cascade Lake,80,640,128,864,Yes,SSD,1,0,0
+n2,n2-highmem-96,Cascade Lake,96,768,128,864,Yes,SSD,1,0,0
+n2,n2-highmem-128,Cascade Lake,128,864,128,864,Yes,SSD,1,0,0
+n2,n2-highcpu-2,Cascade Lake,2,2,96,96,Yes,SSD,1,0,0
+n2,n2-highcpu-4,Cascade Lake,4,4,96,96,Yes,SSD,1,0,0
+n2,n2-highcpu-8,Cascade Lake,8,8,96,96,Yes,SSD,1,0,0
+n2,n2-highcpu-16,Cascade Lake,16,16,96,96,Yes,SSD,1,0,0
+n2,n2-highcpu-32,Cascade Lake,32,32,96,96,Yes,SSD,1,0,0
+n2,n2-highcpu-48,Cascade Lake,48,48,96,96,Yes,SSD,1,0,0
+n2,n2-highcpu-64,Cascade Lake,64,64,96,96,Yes,SSD,1,0,0
+n2,n2-highcpu-80,Cascade Lake,80,80,96,96,Yes,SSD,1,0,0
+n2,n2-highcpu-96,Cascade Lake,96,96,96,96,Yes,SSD,1,0,0
+n2d,n2d-standard-2,EPYC 2nd Gen,2,8,224,896,Yes,SSD,1,0,0
+n2d,n2d-standard-4,EPYC 2nd Gen,4,16,224,896,Yes,SSD,1,0,0
+n2d,n2d-standard-8,EPYC 2nd Gen,8,32,224,896,Yes,SSD,1,0,0
+n2d,n2d-standard-16,EPYC 2nd Gen,16,64,224,896,Yes,SSD,1,0,0
+n2d,n2d-standard-32,EPYC 2nd Gen,32,128,224,896,Yes,SSD,1,0,0
+n2d,n2d-standard-48,EPYC 2nd Gen,48,192,224,896,Yes,SSD,1,0,0
+n2d,n2d-standard-64,EPYC 2nd Gen,64,256,224,896,Yes,SSD,1,0,0
+n2d,n2d-standard-80,EPYC 2nd Gen,80,320,224,896,Yes,SSD,1,0,0
+n2d,n2d-standard-96,EPYC 2nd Gen,96,384,224,896,Yes,SSD,1,0,0
+n2d,n2d-standard-128,EPYC 2nd Gen,128,512,224,896,Yes,SSD,1,0,0
+n2d,n2d-standard-224,EPYC 2nd Gen,224,896,224,896,Yes,SSD,1,0,0
+n2d,n2d-highmem-2,EPYC 2nd Gen,2,16,96,768,Yes,SSD,1,0,0
+n2d,n2d-highmem-4,EPYC 2nd Gen,4,32,96,768,Yes,SSD,1,0,0
+n2d,n2d-highmem-8,EPYC 2nd Gen,8,64,96,768,Yes,SSD,1,0,0
+n2d,n2d-highmem-16,EPYC 2nd Gen,16,128,96,768,Yes,SSD,1,0,0
+n2d,n2d-highmem-32,EPYC 2nd Gen,32,256,96,768,Yes,SSD,1,0,0
+n2d,n2d-highmem-48,EPYC 2nd Gen,48,384,96,768,Yes,SSD,1,0,0
+n2d,n2d-highmem-64,EPYC 2nd Gen,64,512,96,768,Yes,SSD,1,0,0
+n2d,n2d-highmem-80,EPYC 2nd Gen,80,640,96,768,Yes,SSD,1,0,0
+n2d,n2d-highmem-96,EPYC 2nd Gen,96,768,96,768,Yes,SSD,1,0,0
+n2d,n2d-highcpu-2,EPYC 2nd Gen,2,2,224,224,Yes,SSD,1,0,0
+n2d,n2d-highcpu-4,EPYC 2nd Gen,4,4,224,224,Yes,SSD,1,0,0
+n2d,n2d-highcpu-8,EPYC 2nd Gen,8,8,224,224,Yes,SSD,1,0,0
+n2d,n2d-highcpu-16,EPYC 2nd Gen,16,16,224,224,Yes,SSD,1,0,0
+n2d,n2d-highcpu-32,EPYC 2nd Gen,32,32,224,224,Yes,SSD,1,0,0
+n2d,n2d-highcpu-48,EPYC 2nd Gen,48,48,224,224,Yes,SSD,1,0,0
+n2d,n2d-highcpu-64,EPYC 2nd Gen,64,64,224,224,Yes,SSD,1,0,0
+n2d,n2d-highcpu-80,EPYC 2nd Gen,80,80,224,224,Yes,SSD,1,0,0
+n2d,n2d-highcpu-96,EPYC 2nd Gen,96,96,224,224,Yes,SSD,1,0,0
+n2d,n2d-highcpu-128,EPYC 2nd Gen,128,128,224,224,Yes,SSD,1,0,0
+n2d,n2d-highcpu-224,EPYC 2nd Gen,224,224,224,224,Yes,SSD,1,0,0
+t2d,t2d-standard-1,EPYC 3rd Gen,1,4,60,240,No,Non-SSD,0,0,0
+t2d,t2d-standard-2,EPYC 3rd Gen,2,8,60,240,No,Non-SSD,0,0,0
+t2d,t2d-standard-4,EPYC 3rd Gen,4,16,60,240,No,Non-SSD,0,0,0
+t2d,t2d-standard-8,EPYC 3rd Gen,8,32,60,240,No,Non-SSD,0,0,0
+t2d,t2d-standard-16,EPYC 3rd Gen,16,64,60,240,No,Non-SSD,0,0,0
+t2d,t2d-standard-32,EPYC 3rd Gen,32,128,60,240,No,Non-SSD,0,0,0
+t2d,t2d-standard-48,EPYC 3rd Gen,48,192,60,240,No,Non-SSD,0,0,0
+t2d,t2d-standard-60,EPYC 3rd Gen,60,240,60,240,No,Non-SSD,0,0,0
+n1,n1-standard-1,Skylake,1,3.75,96,360,Yes,SSD,1,0,0
+n1,n1-standard-1,Broadwell,1,3.75,96,360,Yes,SSD,1,0,0
+n1,n1-standard-1,Haswell,1,3.75,96,360,Yes,SSD,1,0,0
+n1,n1-standard-1,Ivy Bridge,1,3.75,96,360,Yes,SSD,1,0,0
+n1,n1-standard-1,Sandy Bridge,1,3.75,96,360,Yes,SSD,1,0,0
+n1,n1-standard-2,Skylake,2,7.50,96,360,Yes,SSD,1,0,0
+n1,n1-standard-2,Broadwell,2,7.50,96,360,Yes,SSD,1,0,0
+n1,n1-standard-2,Haswell,2,7.50,96,360,Yes,SSD,1,0,0
+n1,n1-standard-2,Ivy Bridge,2,7.50,96,360,Yes,SSD,1,0,0
+n1,n1-standard-2,Sandy Bridge,2,7.50,96,360,Yes,SSD,1,0,0
+n1,n1-standard-4,Skylake,4,15,96,360,Yes,SSD,1,0,0
+n1,n1-standard-4,Broadwell,4,15,96,360,Yes,SSD,1,0,0
+n1,n1-standard-4,Haswell,4,15,96,360,Yes,SSD,1,0,0
+n1,n1-standard-4,Ivy Bridge,4,15,96,360,Yes,SSD,1,0,0
+n1,n1-standard-4,Sandy Bridge,4,15,96,360,Yes,SSD,1,0,0
+n1,n1-standard-8,Skylake,8,30,96,360,Yes,SSD,1,0,0
+n1,n1-standard-8,Broadwell,8,30,96,360,Yes,SSD,1,0,0
+n1,n1-standard-8,Haswell,8,30,96,360,Yes,SSD,1,0,0
+n1,n1-standard-8,Ivy Bridge,8,30,96,360,Yes,SSD,1,0,0
+n1,n1-standard-8,Sandy Bridge,8,30,96,360,Yes,SSD,1,0,0
+n1,n1-standard-16,Skylake,16,60,96,360,Yes,SSD,1,0,0
+n1,n1-standard-16,Broadwell,16,60,96,360,Yes,SSD,1,0,0
+n1,n1-standard-16,Haswell,16,60,96,360,Yes,SSD,1,0,0
+n1,n1-standard-16,Ivy Bridge,16,60,96,360,Yes,SSD,1,0,0
+n1,n1-standard-16,Sandy Bridge,16,60,96,360,Yes,SSD,1,0,0
+n1,n1-standard-32,Skylake,32,120,96,360,Yes,SSD,1,0,0
+n1,n1-standard-32,Broadwell,32,120,96,360,Yes,SSD,1,0,0
+n1,n1-standard-32,Haswell,32,120,96,360,Yes,SSD,1,0,0
+n1,n1-standard-32,Ivy Bridge,32,120,96,360,Yes,SSD,1,0,0
+n1,n1-standard-32,Sandy Bridge,32,120,96,360,Yes,SSD,1,0,0
+n1,n1-standard-64,Skylake,64,240,96,360,Yes,SSD,1,0,0
+n1,n1-standard-64,Broadwell,64,240,96,360,Yes,SSD,1,0,0
+n1,n1-standard-64,Haswell,64,240,96,360,Yes,SSD,1,0,0
+n1,n1-standard-64,Ivy Bridge,64,240,96,360,Yes,SSD,1,0,0
+n1,n1-standard-64,Sandy Bridge,64,240,96,360,Yes,SSD,1,0,0
+n1,n1-standard-96,Skylake,96,360,96,360,Yes,SSD,1,0,0
+n1,n1-standard-96,Broadwell,96,360,96,360,Yes,SSD,1,0,0
+n1,n1-standard-96,Haswell,96,360,96,360,Yes,SSD,1,0,0
+n1,n1-standard-96,Ivy Bridge,96,360,96,360,Yes,SSD,1,0,0
+n1,n1-standard-96,Sandy Bridge,96,360,96,360,Yes,SSD,1,0,0
+n1,n1-highmem-2,Skylake,2,13,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-2,Broadwell,2,13,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-2,Haswell,2,13,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-2,Ivy Bridge,2,13,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-2,Sandy Bridge,2,13,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-4,Skylake,4,26,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-4,Broadwell,4,26,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-4,Haswell,4,26,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-4,Ivy Bridge,4,26,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-4,Sandy Bridge,4,26,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-8,Skylake,8,52,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-8,Broadwell,8,52,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-8,Haswell,8,52,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-8,Ivy Bridge,8,52,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-8,Sandy Bridge,8,52,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-16,Skylake,16,104,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-16,Broadwell,16,104,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-16,Haswell,16,104,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-16,Ivy Bridge,16,104,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-16,Sandy Bridge,16,104,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-32,Skylake,32,208,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-32,Broadwell,32,208,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-32,Haswell,32,208,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-32,Ivy Bridge,32,208,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-32,Sandy Bridge,32,208,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-64,Skylake,64,416,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-64,Broadwell,64,416,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-64,Haswell,64,416,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-64,Ivy Bridge,64,416,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-64,Sandy Bridge,64,416,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-96,Skylake,96,624,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-96,Broadwell,96,624,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-96,Haswell,96,624,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-96,Ivy Bridge,96,624,96,624,Yes,SSD,1,0,0
+n1,n1-highmem-96,Sandy Bridge,96,624,96,624,Yes,SSD,1,0,0
+n1,n1-highcpu-2,Skylake,2,1.80,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-2,Broadwell,2,1.80,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-2,Haswell,2,1.80,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-2,Ivy Bridge,2,1.80,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-2,Sandy Bridge,2,1.80,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-4,Skylake,4,3.60,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-4,Broadwell,4,3.60,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-4,Haswell,4,3.60,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-4,Ivy Bridge,4,3.60,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-4,Sandy Bridge,4,3.60,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-8,Skylake,8,7.20,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-8,Broadwell,8,7.20,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-8,Haswell,8,7.20,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-8,Ivy Bridge,8,7.20,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-8,Sandy Bridge,8,7.20,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-16,Skylake,16,14.4,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-16,Broadwell,16,14.4,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-16,Haswell,16,14.4,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-16,Ivy Bridge,16,14.4,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-16,Sandy Bridge,16,14.4,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-32,Skylake,32,28.8,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-32,Broadwell,32,28.8,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-32,Haswell,32,28.8,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-32,Ivy Bridge,32,28.8,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-32,Sandy Bridge,32,28.8,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-64,Skylake,64,57.6,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-64,Broadwell,64,57.6,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-64,Haswell,64,57.6,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-64,Ivy Bridge,64,57.6,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-64,Sandy Bridge,64,57.6,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-96,Skylake,96,86.4,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-96,Broadwell,96,86.4,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-96,Haswell,96,86.4,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-96,Ivy Bridge,96,86.4,96,86.40,Yes,SSD,1,0,0
+n1,n1-highcpu-96,Sandy Bridge,96,86.4,96,86.40,Yes,SSD,1,0,0
+n1 Shared-core,f1-micro,Skylake,1,0.60,96,360,No,Non-SSD,0,0,0
+n1 Shared-core,f1-micro,Broadwell,1,0.60,96,360,No,Non-SSD,0,0,0
+n1 Shared-core,f1-micro,Haswell,1,0.60,96,360,No,Non-SSD,0,0,0
+n1 Shared-core,f1-micro,Ivy Bridge,1,0.60,96,360,No,Non-SSD,0,0,0
+n1 Shared-core,f1-micro,Sandy Bridge,1,0.60,96,360,No,Non-SSD,0,0,0
+n1 Shared-core,g1-small,Skylake,1,1.70,96,360,No,Non-SSD,0,0,0
+n1 Shared-core,g1-small,Broadwell,1,1.70,96,360,No,Non-SSD,0,0,0
+n1 Shared-core,g1-small,Haswell,1,1.70,96,360,No,Non-SSD,0,0,0
+n1 Shared-core,g1-small,Ivy Bridge,1,1.70,96,360,No,Non-SSD,0,0,0
+n1 Shared-core,g1-small,Sandy Bridge,1,1.70,96,360,No,Non-SSD,0,0,0
+Compute-optimized,c2-standard-4,Cascade Lake,4,16,60,240,Yes,SSD,1,0,0
+Compute-optimized,c2-standard-8,Cascade Lake,8,32,60,240,Yes,SSD,1,0,0
+Compute-optimized,c2-standard-16,Cascade Lake,16,64,60,240,Yes,SSD,1,0,0
+Compute-optimized,c2-standard-30,Cascade Lake,30,120,60,240,Yes,SSD,1,0,0
+Compute-optimized,c2-standard-60,Cascade Lake,60,240,60,240,Yes,SSD,1,0,0
+m1,m1-ultramem-40,Skylake,40,961,160,1433.6,No,Non-SSD,0,0,0
+m1,m1-ultramem-40,Broadwell,40,961,160,1433.6,No,Non-SSD,0,0,0
+m1,m1-ultramem-80,Skylake,80,1922,160,1433.6,No,Non-SSD,0,0,0
+m1,m1-ultramem-80,Broadwell,80,1922,160,1433.6,No,Non-SSD,0,0,0
+m1,m1-ultramem-160,Skylake,160,3844,160,1433.6,No,Non-SSD,0,0,0
+m1,m1-ultramem-160,Broadwell,160,3844,160,1433.6,No,Non-SSD,0,0,0
+m1,m1-megamem-96,Skylake,96,1433.6,160,1433.6,Yes,SSD,1,0,0
+m1,m1-megamem-96,Broadwell,96,1433.6,160,1433.6,Yes,SSD,1,0,0
+m2,m2-ultramem-208,Cascade Lake,208,5.888,416,11.776,No,Non-SSD,0,0,0
+m2,m2-ultramem-416,Cascade Lake,416,11.776,416,11.776,No,Non-SSD,0,0,0
+m2,m2-megamem-416,Cascade Lake,416,5.888,416,11.776,No,Non-SSD,0,0,0
+Accelorator-optimized highgpu,a2-highgpu-1g,Cascade Lake,12,85,96,1360,Yes,SSD,1,1,16
+Accelorator-optimized highgpu,a2-highgpu-2g,Cascade Lake,24,170,96,1360,Yes,SSD,1,2,16
+Accelorator-optimized highgpu,a2-highgpu-4g,Cascade Lake,48,340,96,1360,Yes,SSD,1,4,16
+Accelorator-optimized highgpu,a2-highgpu-8g,Cascade Lake,96,680,96,1360,Yes,SSD,1,8,16
+Accelorator-optimized megagpu,a2-megagpu-16g,Cascade Lake,96,1360,96,1360,Yes,SSD,1,16,16

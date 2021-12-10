@@ -1,0 +1,12 @@
+Microarchitecture,Platform vCPUs,CPU Sockets
+EPYC 1st Gen,,2
+EPYC 2nd Gen,,1
+EPYC 3rd Gen,,1
+Broadwell,,2
+Cascade Lake,,2
+Coffee Lake,,2
+Haswell,,2
+Skylake,,2
+Unknown,,2
+Ivy Bridge,,2
+Sandy Bridge,,2

@@ -15,7 +15,9 @@ supports.
   sheet](https://docs.google.com/spreadsheets/d/1YhtGO_UU9Hc162m7eQKYFQOnV4_yEK5_lgHYfl02JPE/edit#gid=1695769209).
 - [Azure Machine
   Types](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/)
-- [GCP Machine Types](https://cloud.google.com/compute/docs/machine-types)
+- [GCP Machine Types](https://cloud.google.com/compute/docs/machine-types) based
+  on [Teads Carbon Footprint
+  Dataset](https://docs.google.com/spreadsheets/d/1YhtGO_UU9Hc162m7eQKYFQOnV4_yEK5_lgHYfl02JPE/edit#gid=725673372).
 
 ## CPU architectures
 
