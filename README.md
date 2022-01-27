@@ -22,7 +22,7 @@ coefficients.
 
 2. **Embodied emissions coefficients:** Values are calculated within the
    notebook and output to CSV in `output/` for each instance type for each cloud
-   platform.
+   platform in `kgCO2e`.
 
 ## Setup - Deepnote
 
