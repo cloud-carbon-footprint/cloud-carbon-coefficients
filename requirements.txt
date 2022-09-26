@@ -1,2 +1,2 @@
-nbdev==1.2.9
+nbdev==2.3.7
 pandas==1.4.2
