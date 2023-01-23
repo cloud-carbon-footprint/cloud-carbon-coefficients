@@ -507,7 +507,7 @@
 505,M-series,M64ms,Haswell,5379.97,50.0,100.0,0.0,6529.97
 506,M-series,M64s,Cascade Lake,5379.97,50.0,100.0,0.0,6529.97
 507,M-series,M64s,Haswell,5379.97,50.0,100.0,0.0,6529.97
-508,M-series,M8ms,Cascade Lake,5663.12,50.0,100.0,0.0,6813.12
+508,M-series,M8ms,Cascade Lake,5379.97,50.0,100.0,0.0,6529.97
 509,M-series,M8ms,Haswell,5379.97,50.0,100.0,0.0,6529.97
 510,Mdsv2-series,M128dms v2,Cascade Lake,5663.12,50.0,100.0,0.0,6813.12
 511,Mdsv2-series,M128ds v2,Cascade Lake,5663.12,50.0,100.0,0.0,6813.12
