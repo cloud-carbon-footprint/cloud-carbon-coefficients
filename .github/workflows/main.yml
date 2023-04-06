@@ -11,6 +11,7 @@ jobs:
       - name: Install the library
         run: |
           pip install jupyter
+          pip install nbdev
           pip install -r requirements.txt
       - name: Check if all notebooks are cleaned
         run: |
