@@ -68,9 +68,9 @@ nbdev_test_nbs
 
 Git hooks from [`nbdev`](https://nbdev.fast.ai/) are used to clean notebooks
 before they're committed. This avoids committing all the metadata that changes
-on each run. See the [`nbdev` Git hooks
-docs](https://nbdev.fast.ai/cli.html#Git-hooks) for more details.
+on each run. See the [`nbdev` API
+docs](https://nbdev.fast.ai/api/cli.html) for more details.
 
-Cleaning the notebook before commit can be done with `nbdev_clean_nbs`. 
-Installing the Git hooks using `nbdev_install_git_hooks` will do this 
+Cleaning the notebook before commit can be done with `nbdev_clean`.
+Installing the Git hooks using `nbdev_install_hooks` will do this
 automatically on commit.
