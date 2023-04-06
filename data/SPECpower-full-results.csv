@@ -570,7 +570,7 @@ DEPO Computers,"DEPO Race X340H
 
  Dec 19 2014 | 
     HTML | 
-    Text",1,Oracle Corporation,Intel Core i5-4570,3200,1,4,4,16,322 278,131,832,1469
+    Text",1,Oracle Corporation,Intel Core i5-4570,3200,1,4,4,16,322 278,131,83.2,1469
 Dell Inc.,"PowerEdge 2950 III (Intel Xeon E5440)
 
  Dec 11 2007 | 
@@ -674,7 +674,7 @@ Dell PowerEdge M1000e
 
  Aug  2 2011 | 
     HTML | 
-    Text",8,IBM Corporation,AMD Opteron 6176,2300,32,384,384,256,14793524,4219,1068,2716
+    Text",8,IBM Corporation,AMD Opteron 6176,2300,32,384,384,256,14793524,4219,1.068,2716
 Dell Inc.,"PowerEdge M710HD
 Dell PowerEdge M1000e
 
@@ -705,7 +705,7 @@ Dell PowerEdge M1000e
 
  Nov 16 2011 | 
     HTML | 
-    Text",8,IBM Corporation,AMD Opteron 6276,2300,32,512,512,512,17898948,4847,1107,2919
+    Text",8,IBM Corporation,AMD Opteron 6276,2300,32,512,512,512,17898948,4847,1.107,2919
 Dell Inc.,"PowerEdge R620 (Intel Xeon E5-2670 2.6 GHz)
 
  Mar 21 2012 | 
@@ -763,7 +763,7 @@ Dell PowerEdge M1000e
 
  Jul 11 2012 | 
     HTML | 
-    Text",32,Oracle Corporation,Intel Xeon E5-2470,2300,64,512,1024,768,36985454,6854,1773,4535
+    Text",32,Oracle Corporation,Intel Xeon E5-2470,2300,64,512,1024,768,36985454,6854,1.773,4535
 
 
 Dell Inc.,"PowerEdge R815 (AMD Opteron 6278 2.40 GHz)
@@ -1110,7 +1110,7 @@ PRIMERGY CX1000 S1
 
  Mar 24 2010 | 
     HTML | 
-    Text",38,IBM Corporation,Intel Xeon L5530,2400,76,304,608,304,19939326,6303,1842,2320
+    Text",38,IBM Corporation,Intel Xeon L5530,2400,76,304,608,304,19939326,6303,1.842,2320
 Fujitsu,"PRIMERGY RX300 S6 (Intel Xeon X5670)
 
  Apr  7 2010 | 
@@ -1163,7 +1163,7 @@ PRIMERGY BX900 S1
 
  Oct  6 2011 | 
     HTML | 
-    Text",18,Oracle Corporation,Intel Xeon X5675,3067,36,216,432,216,17108146,4272,1032,3221
+    Text",18,Oracle Corporation,Intel Xeon X5675,3067,36,216,432,216,17108146,4272,1.032,3221
 Fujitsu,"PRIMERGY RX300 S7 (Intel Xeon E5-2660)
 
  Mar 21 2012 | 
@@ -1179,7 +1179,7 @@ PRIMERGY BX900 S2
 
  May 30 2012 | 
     HTML | 
-    Text",18,Oracle Corporation,Intel Xeon E5-2470,2300,36,288,576,432,23884347,4965,1014,4677
+    Text",18,Oracle Corporation,Intel Xeon E5-2470,2300,36,288,576,432,23884347,4965,1.014,4677
 Fujitsu,"PRIMERGY RX100 S7p (Intel Xeon E3-1265LV2)
 
  May 30 2012 | 
@@ -2313,25 +2313,25 @@ HPE Synergy 12000 Frame
 
  Feb  3 2022 | 
     HTML | 
-    Text",8,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,16,640,1280,2048,67771076,5282,1107,11621
+    Text",8,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,16,640,1280,2048,67771076,5282,1.107,11621
 Hewlett Packard Enterprise,"Synergy 480 Gen10 Plus Compute Module
 HPE Synergy 12000 Frame
 
  Feb  3 2022 | 
     HTML | 
-    Text",9,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,18,720,1440,2304,76183750,5912,1218,11716
+    Text",9,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,18,720,1440,2304,76183750,5912,1.218,11716
 Hewlett Packard Enterprise,"Synergy 480 Gen10 Plus Compute Module
 HPE Synergy 12000 Frame
 
  Feb  3 2022 | 
     HTML | 
-    Text",11,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,22,880,1760,2816,93154613,7210,1447,11807
+    Text",11,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,22,880,1760,2816,93154613,7210,1.447,11807
 Hewlett Packard Enterprise,"Synergy 480 Gen10 Plus Compute Module
 HPE Synergy 12000 Frame
 
  Feb  3 2022 | 
     HTML | 
-    Text",10,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,20,800,1600,2560,84647457,6559,1335,11765
+    Text",10,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,20,800,1600,2560,84647457,6559,1.335,11765
 
 
 Hewlett Packard Enterprise,"Synergy 480 Gen10 Plus Compute Module
@@ -2339,7 +2339,7 @@ HPE Synergy 12000 Frame
 
  Feb  3 2022 | 
     HTML | 
-    Text",12,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,24,960,1920,3072,101627781,7865,1563,11849
+    Text",12,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,24,960,1920,3072,101627781,7865,1.563,11849
 Hewlett Packard Enterprise,"Synergy 480 Gen10 Plus Compute Module
 HPE Synergy 12000 Frame
 
@@ -2351,43 +2351,43 @@ HPE Synergy 12000 Frame
 
  Feb 16 2022 | 
     HTML | 
-    Text",6,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,12,480,960,1536,50162414,4005,1038,11470
+    Text",6,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,12,480,960,1536,50162414,4005,1.038,11470
 Hewlett Packard Enterprise,"Synergy 480 Gen10 Plus Compute Module
 HPE Synergy 12000 Frame
 
  Feb 16 2022 | 
     HTML | 
-    Text",10,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,20,800,1600,2560,83725673,6594,1607,11819
+    Text",10,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,20,800,1600,2560,83725673,6594,1.607,11819
 Hewlett Packard Enterprise,"Synergy 480 Gen10 Plus Compute Module
 HPE Synergy 12000 Frame
 
  Feb 16 2022 | 
     HTML | 
-    Text",9,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,18,720,1440,2304,75292367,5947,1464,11761
+    Text",9,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,18,720,1440,2304,75292367,5947,1.464,11761
 Hewlett Packard Enterprise,"Synergy 480 Gen10 Plus Compute Module
 HPE Synergy 12000 Frame
 
  Feb 16 2022 | 
     HTML | 
-    Text",8,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,16,640,1280,2048,67000991,5313,1324,11670
+    Text",8,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,16,640,1280,2048,67000991,5313,1.324,11670
 Hewlett Packard Enterprise,"Synergy 480 Gen10 Plus Compute Module
 HPE Synergy 12000 Frame
 
  Feb 16 2022 | 
     HTML | 
-    Text",7,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,14,560,1120,1792,58639526,4667,1183,11590
+    Text",7,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,14,560,1120,1792,58639526,4667,1.183,11590
 Hewlett Packard Enterprise,"Synergy 480 Gen10 Plus Compute Module
 HPE Synergy 12000 Frame
 
  Feb 16 2022 | 
     HTML | 
-    Text",12,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,24,960,1920,3072,100578173,7920,1892,11894
+    Text",12,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,24,960,1920,3072,100578173,7920,1.892,11894
 Hewlett Packard Enterprise,"Synergy 480 Gen10 Plus Compute Module
 HPE Synergy 12000 Frame
 
  Feb 16 2022 | 
     HTML | 
-    Text",11,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,22,880,1760,2816,92114977,7262,1749,11845
+    Text",11,Oracle Corporation,Intel Xeon Platinum 8380 CPU,2300,22,880,1760,2816,92114977,7262,1.749,11845
 Hewlett Packard Enterprise,"ProLiant DL325 Gen10 Plus
 
  Mar 24 2022 | 
@@ -2655,7 +2655,7 @@ HP BladeSystem c7000 Enclosure
 
  Nov 18 2009 | 
     HTML | 
-    Text",32,IBM Corporation,Intel Xeon L5520,2266,64,256,512,256,16445126,5547,1696,2113
+    Text",32,IBM Corporation,Intel Xeon L5520,2266,64,256,512,256,16445126,5547,1.696,2113
 Hewlett-Packard Company,"ProLiant DL170h G6 (2.4 GHz Intel Xeon L5530)
 ProLiant h1000 G6
 
@@ -2825,7 +2825,7 @@ Server Chassis BS320A
 
  Feb 23 2011 | 
     HTML | 
-    Text",10,IBM Corporation,Intel Xeon X5675,3067,20,120,240,240,9283341,2799,1278,2377
+    Text",10,IBM Corporation,Intel Xeon X5675,3067,20,120,240,240,9283341,2799,1.278,2377
 Hitachi Ltd.,"HA8000/TS20 (LK1)
 
  Mar  9 2011 | 
@@ -2848,7 +2848,7 @@ Server Chassis BS2000A
 
  Mar  9 2011 | 
     HTML | 
-    Text",8,IBM Corporation,Intel Xeon X5675,3067,16,96,192,192,7437040,2507,1048,2059
+    Text",8,IBM Corporation,Intel Xeon X5675,3067,16,96,192,192,7437040,2507,1.048,2059
 Hitachi Ltd.,"HA8000-bd/BD10X1
 HA8000-bd 5U Base Unit
 
@@ -2895,7 +2895,7 @@ Server Chassis BS2000A
 
  Nov  9 2011 | 
     HTML | 
-    Text",8,IBM Corporation,Intel Xeon processor E7-8870,2400,16,160,320,256,9644336,3948,2024,1586
+    Text",8,IBM Corporation,Intel Xeon processor E7-8870,2400,16,160,320,256,9644336,3948,2.024,1586
 Hitachi Ltd.,"HA8000/TS20BM
 
  Aug 22 2012 | 
@@ -3198,13 +3198,13 @@ Huawei FusionServer E9000
 
  Dec 21 2016 | 
     HTML | 
-    Text",8,Oracle Corporation,Intel Xeon E5-2683 V4,2100,16,256,512,4096,24662648,3868,1080,5316
+    Text",8,Oracle Corporation,Intel Xeon E5-2683 V4,2100,16,256,512,4096,24662648,3868,1.080,5316
 Huawei Technologies Co. Ltd,"FusionServer CH121 V3
 Huawei FusionServer E9000
 
  Dec 21 2016 | 
     HTML | 
-    Text",10,Oracle Corporation,Intel Xeon E5-2683 V4,2100,20,320,640,5120,30620865,4425,1250,5555
+    Text",10,Oracle Corporation,Intel Xeon E5-2683 V4,2100,20,320,640,5120,30620865,4425,1.250,5555
 Huawei Technologies Co. Ltd,"FusionServer XH321 V3
 Huawei FusionServer X6000
 
@@ -3721,7 +3721,7 @@ Lenovo Flex System Enterprise Chassis with CMM2 (00FJ669) standard (Model 8721)
 
  Oct 25 2017 | 
     HTML | 
-    Text",14,Oracle Corporation,Intel Xeon Platinum 8176,2100,28,784,1568,2688,69444875,5288,1446,10738
+    Text",14,Oracle Corporation,Intel Xeon Platinum 8176,2100,28,784,1568,2688,69444875,5288,1.446,10738
 Lenovo Global Technology,"ThinkSystem SD530
 ThinkSystem D2 Enclosure
 
@@ -3797,7 +3797,7 @@ Lenovo Flex System Enterprise Chassis with CMM2 (00FJ669) standard (Model 8721)
 
  Aug 21 2019 | 
     HTML | 
-    Text",7,Oracle Corporation,Intel Xeon Platinum 8276L,2200,28,784,1568,2688,71032994,4985,1052,12295
+    Text",7,Oracle Corporation,Intel Xeon Platinum 8276L,2200,28,784,1568,2688,71032994,4985,1.052,12295
 Lenovo Global Technology,"Think System SR655
 
  Sep 19 2019 | 
@@ -3912,7 +3912,7 @@ Lenovo Flex System Enterprise Chassis with CMM2 (00FJ669) standard (Model 8721)
 
  May 24 2022 | 
     HTML | 
-    Text",14,Oracle Corporation,Intel Xeon Platinum 8352M,2300,28,896,1792,3584,75968958,5637,2115,9878
+    Text",14,Oracle Corporation,Intel Xeon Platinum 8352M,2300,28,896,1792,3584,75968958,5637,2.115,9878
 Lenovo Global Technology,"Think System SR665 V3
 
  Nov 14 2022 | 
@@ -3985,7 +3985,7 @@ Express5800/A1080a-D
 
  Jul 28 2010 | 
     HTML | 
-    Text",2,Oracle Corporation,Intel Xeon X7560,2266,8,64,128,128,3385385,2003,1178,1069
+    Text",2,Oracle Corporation,Intel Xeon X7560,2266,8,64,128,128,3385385,2003,1.178,1069
 NEC Corporation,"Express5800/B120b
 SIGMABLADE-H v2
 
