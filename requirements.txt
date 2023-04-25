@@ -1,2 +1,2 @@
 nbdev==2.3.12
-pandas==2.0.0
+pandas==2.0.1
