@@ -1,5 +1,5 @@
 from abc import ABC
 
 
-class Instances(ABC):
+class Coefficients(ABC):
     pass
