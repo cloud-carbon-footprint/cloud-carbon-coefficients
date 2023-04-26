@@ -9,6 +9,7 @@ from ccfcoef.azure.coefficients import AzureCoefficients
 from ccfcoef.cpu_info import CPUInfo
 from ccfcoef.cpu_power import CPUPower
 from ccfcoef.family import Family
+from ccfcoef.gcp.coefficients import GCPCoefficients
 from ccfcoef.specpower import SPECPower
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
@@ -67,10 +68,14 @@ def average(cpu_family):
 def usage_coefficients():
     cpus_power = calculate_cpus_families_power(CPU_FAMILIES)
 
+    click.secho('Azure', fg='green')
     azure = AzureCoefficients.instantiate(DATA_DIR.joinpath('azure-instances.csv'))
-
     coefficients = to_unique_dataframe(azure.create_coefficients(cpus_power))
+    click.echo(coefficients)
 
+    click.secho('GCP', fg='green')
+    gcp = GCPCoefficients.instantiate(DATA_DIR.joinpath('gcp-instances.csv'))
+    coefficients = to_unique_dataframe(gcp.create_coefficients(cpus_power))
     click.echo(coefficients)
 
 
