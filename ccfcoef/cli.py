@@ -5,7 +5,9 @@ import click
 import pandas as pd
 
 import ccfcoef.constants as const
+from ccfcoef.azure.coefficients import AzureCoefficients
 from ccfcoef.cpu_info import CPUInfo
+from ccfcoef.cpu_power import CPUPower
 from ccfcoef.family import Family
 from ccfcoef.specpower import SPECPower
 
@@ -20,7 +22,9 @@ CPU_FAMILIES = [
     Family(name='Ivy Bridge', short='intel-ivybridge'),
     Family(name='Haswell', short='intel-haswell'),
     Family(name='Broadwell', short='intel-broadwell'),
-    Family(name='Skylake', short='intel-skylake')]
+    Family(name='Skylake', short='intel-skylake'),
+    Family(name='Cascade Lake', short='intel-cascadelake'),
+    Family(name='Coffee Lake', short='intel-coffeelake')]
 
 
 @click.group()
@@ -50,34 +54,53 @@ def average(cpu_family):
     if cpu_family == 'all':
         families = CPU_FAMILIES
     else:
-        families = [cpu_family]
+        # find which family by its short name
+        families = [f for f in CPU_FAMILIES if f.short == cpu_family]
 
-    spec = SPECPower.instantiate(DATA_DIR.joinpath('SPECpower-full-results.csv'))
-
-    for cpu_family in families:
-        cpu_info = CPUInfo.instantiate(DATA_DIR.joinpath(f'{cpu_family.short}.csv'))
-        cpu_power = spec.get_cpu_power(cpu_info)
-        click.secho(f'Averages for: {cpu_family.name}', fg='green')
-        display_cpu_power(cpu_power)
+    cpus_power = calculate_cpus_families_power(families)
+    for name, power in cpus_power.items():
+        click.secho(f'Averages for: {name}', fg='green')
+        display_cpu_power(power)
 
 
 @cli.command()
 def usage_coefficients():
-    azure_instances = pd.read_csv(DATA_DIR.joinpath('azure-instances.csv'), na_values=['NC'])
-    azure_architectures = azure_instances['Microarchitecture'].unique()
-    click.echo(azure_architectures)
+    cpus_power = calculate_cpus_families_power(CPU_FAMILIES)
+
+    azure = AzureCoefficients.instantiate(DATA_DIR.joinpath('azure-instances.csv'))
+
+    coefficients = to_unique_dataframe(azure.create_coefficients(cpus_power))
+
+    click.echo(coefficients)
+
+
+def to_unique_dataframe(coefficients):
+    coefficients = pd.DataFrame(coefficients)
+    coefficients = coefficients.drop_duplicates(ignore_index=True)
+    return coefficients
+
+
+def calculate_cpus_families_power(families):
+    spec = SPECPower.instantiate(DATA_DIR.joinpath('SPECpower-full-results.csv'))
+    cpus_power = {}
+    for cpu_family in families:
+        cpu_info = CPUInfo.instantiate(DATA_DIR.joinpath(f'{cpu_family.short}.csv'))
+        spec_power = spec.get_cpu_power(cpu_info)
+
+        cpus_power[cpu_family.name] = CPUPower(
+            min_watts=spec_power.idle_watts(),
+            max_watts=spec_power.max_watts(),
+            max_watts_gcp_adjusted=spec_power.max_watts_gcp_adjusted(),
+            gb_chip=spec_power.gb_chip())
+
+    return cpus_power
 
 
 def display_cpu_power(cpu_power):
-    click.echo(f'Average: Min Watts = {cpu_power.idle_watts():,.2f}')
-    click.echo(f'Average: Max Watts = {cpu_power.max_watts():,.2f}')
-    click.echo(f'Average: Max Watts (GCP) = {cpu_power.max_watts_gcp_adjusted():,.2f}')
-    click.echo(f'Average: GB/chip = {cpu_power.gb_chip():,.2f}')
-
-
-@cli.command()
-def test():
-    click.echo('Test!')
+    click.echo(f'Average: Min Watts = {cpu_power.min_watts:,.2f}')
+    click.echo(f'Average: Max Watts = {cpu_power.max_watts:,.2f}')
+    click.echo(f'Average: Max Watts (GCP) = {cpu_power.max_watts_gcp_adjusted:,.2f}')
+    click.echo(f'Average: GB/chip = {cpu_power.gb_chip:,.2f}')
 
 
 if __name__ == '__main__':
