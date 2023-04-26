@@ -1,17 +1,25 @@
-import pprint
+import inspect
 from pathlib import Path
 
 import click
-import inspect
 import pandas as pd
 
 import ccfcoef.constants as const
-from ccfcoef import cpu_info
 from ccfcoef.cpu_info import CPUInfo
-from ccfcoef.servers import Servers
+from ccfcoef.specpower import SPECPower
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_DIR.joinpath('data')
+
+CPU_FAMILIES = ['amd-epyc-gen1',
+                'amd-epyc-gen2',
+                'amd-epyc-gen3',
+                'intel-broadwell',
+                'intel-cascadelake',
+                'intel-haswell',
+                'intel-ivybridge',
+                'intel-sandybridge',
+                'intel-skylake']
 
 
 @click.group()
@@ -21,7 +29,6 @@ def cli():
 
 @cli.command()
 def constants():
-    c_list = []
     click.secho('Constants in use:', fg='green')
     for name, value in inspect.getmembers(const):
         if name.isupper():
@@ -32,26 +39,32 @@ def constants():
 def generate():
     click.echo('generating data')
     svs = pd.read_csv(DATA_DIR.joinpath('SPECpower-full-results.csv'), na_values=['NC'])
-    servers = Servers(svs)
+    servers = SPECPower(svs)
     click.echo(servers)
 
 
 @cli.command()
-@click.argument('cpu_family')
+@click.option('-f', '--cpu-family', default='all', help='CPU family to display')
 def average(cpu_family):
-    family_file = DATA_DIR.joinpath(f'{cpu_family}.csv')
-    if not family_file.exists():
-        click.secho(f'No data for {cpu_family}', fg='red')
-        return
-    cpus = cpu_info.load_append_list(family_file)
-    cpu = CPUInfo(cpus)
-    servers = Servers.instantiate(DATA_DIR.joinpath('SPECpower-full-results.csv'), cpu.cpu_re)
+    if cpu_family == 'all':
+        families = CPU_FAMILIES
+    else:
+        families = [cpu_family]
 
-    click.echo(f'Average: Min Watts = {servers.idle_watts():,.2f}')
-    click.echo(f'Average: Max Watts = {servers.max_watts():,.2f}')
-    click.echo(f'Average: Max Watts (GCP) = {servers.max_watts_gcp_adjusted():,.2f}')
-    click.echo(f'Average: GB/chip = {servers.gb_chip():,.2f}')
+    spec = SPECPower.instantiate(DATA_DIR.joinpath('SPECpower-full-results.csv'))
 
+    for cpu_family in families:
+        cpu_info = CPUInfo.instantiate(DATA_DIR.joinpath(f'{cpu_family}.csv'))
+        cpu_power = spec.get_cpu_power(cpu_info)
+        click.secho(f'Averages for: {cpu_family}', fg='green')
+        display_cpu_power(cpu_power)
+
+
+def display_cpu_power(cpu_power):
+    click.echo(f'Average: Min Watts = {cpu_power.idle_watts():,.2f}')
+    click.echo(f'Average: Max Watts = {cpu_power.max_watts():,.2f}')
+    click.echo(f'Average: Max Watts (GCP) = {cpu_power.max_watts_gcp_adjusted():,.2f}')
+    click.echo(f'Average: GB/chip = {cpu_power.gb_chip():,.2f}')
 
 
 @cli.command()
