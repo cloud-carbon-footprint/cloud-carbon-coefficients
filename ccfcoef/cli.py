@@ -16,6 +16,7 @@ from ccfcoef.specpower import SPECPower
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_DIR.joinpath('data')
+OUTPUT_DIR = PROJECT_DIR.joinpath('output')
 
 CPU_FAMILIES = [
     Family(name='EPYC 1st Gen', short='amd-epyc-gen1'),
@@ -78,23 +79,27 @@ def cpu_averages(family):
 
 
 @cli.command()
-def usage_coefficients():
+@click.option('-w', '--write', is_flag=True, help='Write the output to a file')
+def usage_coefficients(write):
+    """Calculate the usage coefficients for each cloud provider."""
+    output = {True: write_dataframes, False: display_dataframes }
+
     cpus_power = calculate_cpus_families_power(CPU_FAMILIES)
 
     click.secho('Azure', fg='green')
     azure = AzureCoefficients.instantiate(DATA_DIR.joinpath('azure-instances.csv'))
     coefficients = to_dataframe(azure.use_coefficients(cpus_power))
-    click.echo(coefficients)
+    output[write](coefficients, 'coefficients-azure-use.csv')
 
     click.secho('GCP', fg='green')
     gcp = GCPCoefficients.instantiate(DATA_DIR.joinpath('gcp-instances.csv'))
     coefficients = to_dataframe(gcp.use_coefficients(cpus_power))
-    click.echo(coefficients)
+    output[write](coefficients, 'coefficients-gcp-use.csv')
 
     click.secho('AWS', fg='green')
     aws = AWSCoefficients.instantiate(DATA_DIR.joinpath('aws-instances.csv'))
     coefficients = to_dataframe(aws.use_coefficients(cpus_power))
-    click.echo(coefficients)
+    output[write](coefficients, 'coefficients-aws-use.csv')
 
 
 @cli.command()
@@ -119,6 +124,14 @@ def embodied_coefficients():
     click.secho('AWS', fg='green')
     aws = AWSCoefficients.instantiate(DATA_DIR.joinpath('aws-instances.csv'))
     click.echo(to_dataframe(aws.embodied_coefficients(aws_cpus)))
+
+
+def display_dataframes(df, filename=None):
+    click.echo(df)
+
+
+def write_dataframes(df, filename):
+    df.to_csv(OUTPUT_DIR.joinpath(filename))
 
 
 def to_dataframe(coefficients):

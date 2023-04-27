@@ -1,4 +1,4 @@
-from ccfcoef.coefficients import Coefficients
+from ccfcoef.coefficients import *
 from ccfcoef.constants import BASE_MANUFACTURING_EMISSIONS
 
 
@@ -9,34 +9,35 @@ class GCPCoefficients(Coefficients):
 
         for key, instance in self.instances.iterrows():
             # Call our calculation methods for each of the additional components
-            additional_memory = self.additional_memory(
+            add_memory = additional_memory(
                 instance['Platform Memory'])
 
-            additional_storage = self.additional_storage(
+            add_storage = additional_storage(
                 instance['Platform Storage Type'],
                 instance['Platform (largest instance) Storage Drive quantity'])
 
-            additional_cpus = self.additional_cpu(cpus, instance['Microarchitecture'])
+            additional_cpus = additional_cpu(cpus, instance['Microarchitecture'])
 
-            additional_gpus = self.additional_gpu(instance['Platform GPU'])
+            additional_gpus = additional_gpu(instance['Platform GPU'])
 
             # Build a dictionary of the instance emissions
             instances_embodied.append({
                 'family': instance['Machine Family'],
                 'type': instance['Machine type'],
                 'microarchitecture': instance['Microarchitecture'],
-                'additional_memory': round(additional_memory, 2),
-                'additional_storage': round(additional_storage, 2),
+                'additional_memory': round(add_memory, 2),
+                'additional_storage': round(add_storage, 2),
                 'additional_cpus': round(additional_cpus, 2),
                 'additional_gpus': round(additional_gpus, 2),
                 'total': round(
-                    BASE_MANUFACTURING_EMISSIONS + additional_memory +
-                    additional_storage + additional_cpus + additional_gpus,
+                    BASE_MANUFACTURING_EMISSIONS + add_memory +
+                    add_storage + additional_cpus + additional_gpus,
                     2)
             })
         return instances_embodied
 
-    def embodied_coefficients_mean(self, embodied_coefficients):
+    @staticmethod
+    def embodied_coefficients_mean(embodied_coefficients):
         # Second iteration to aggregate by instance type and output the mean
         instance_types = embodied_coefficients.drop_duplicates(subset="type")
 
@@ -52,13 +53,10 @@ class GCPCoefficients(Coefficients):
 
     def add_cpu_power(self, name, power):
         """Add CPU for GCP differs from Azure and AWS because Max Watts is adjusted for GCP"""
-        self._cpus_power.append({
-            'Architecture': name,
-            'Min Watts': power.min_watts,
-            'Max Watts': power.max_watts_gcp_adjusted,
-            'GB/chip': power.gb_chip
-        })
+        self._cpus_power.append(
+            cpu_power(name, power.min_watts, power.max_watts_gcp_adjusted, power.gb_chip)
+        )
 
     @staticmethod
     def instantiate(file):
-        return GCPCoefficients(Coefficients.load_instances(file))
+        return GCPCoefficients(load_instances(file))

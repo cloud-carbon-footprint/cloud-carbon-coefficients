@@ -1,6 +1,5 @@
-from ccfcoef.coefficients import Coefficients
+from ccfcoef.coefficients import *
 from ccfcoef.constants import CPU_MANUFACTURING_EMISSIONS, BASE_MANUFACTURING_EMISSIONS
-from ccfcoef.cpu_power import CPUPower
 
 
 class AWSCoefficients(Coefficients):
@@ -42,27 +41,27 @@ class AWSCoefficients(Coefficients):
 
         for key, instance in self.instances.iterrows():
             # Call our calculation methods for each of the additional components
-            additional_memory = self.additional_memory(
+            add_memory = additional_memory(
                 instance['Platform Memory (in GB)'])
 
-            additional_storage = self.additional_storage(
+            add_storage = additional_storage(
                 instance['Storage Type'],
                 instance['Platform Storage Drive Quantity'])
 
             additional_cpus = self.additional_cpu(cpus, instance['Platform CPU Name'])
 
-            additional_gpus = self.additional_gpu(instance['Platform GPU Quantity'])
+            additional_gpus = additional_gpu(instance['Platform GPU Quantity'])
 
             # Build a dictionary of the instance emissions
             instances_embodied.append({
                 'type': instance['Instance type'],
-                'additional_memory': round(additional_memory, 2),
-                'additional_storage': round(additional_storage, 2),
+                'additional_memory': round(add_memory, 2),
+                'additional_storage': round(add_storage, 2),
                 'additional_cpus': round(additional_cpus, 2),
                 'additional_gpus': round(additional_gpus, 2),
                 'total': round(
-                    BASE_MANUFACTURING_EMISSIONS + additional_memory +
-                    additional_storage + additional_cpus + additional_gpus,
+                    BASE_MANUFACTURING_EMISSIONS + add_memory +
+                    add_storage + additional_cpus + additional_gpus,
                     2)})
 
         return instances_embodied
@@ -86,4 +85,4 @@ class AWSCoefficients(Coefficients):
 
     @staticmethod
     def instantiate(file):
-        return AWSCoefficients(Coefficients.load_instances(file))
+        return AWSCoefficients(load_instances(file))
