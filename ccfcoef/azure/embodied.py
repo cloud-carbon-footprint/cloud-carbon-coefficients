@@ -1,9 +1,8 @@
 from ccfcoef.constants import CPU_MANUFACTURING_EMISSIONS
-from ccfcoef.emissions import Emissions
+from ccfcoef.embodied import Embodied
 
 
-class GCPEmissions(Emissions):
-
+class AzureEmbodied(Embodied):
     def additional_cpu(self, cpu_name):
         cpus = self.cpus
         cpu = cpus.query(f'`Microarchitecture` == \"{cpu_name}\"')

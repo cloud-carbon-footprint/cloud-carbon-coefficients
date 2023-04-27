@@ -89,6 +89,11 @@ def usage_coefficients():
     click.echo(coefficients)
 
 
+@cli.command()
+def embodied_coefficients():
+    pass
+
+
 def to_unique_dataframe(coefficients):
     coefficients = pd.DataFrame(coefficients)
     coefficients = coefficients.drop_duplicates(ignore_index=True)

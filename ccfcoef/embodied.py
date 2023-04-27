@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 import ccfcoef.constants as const
 
 
-class Emissions(ABC):
+class Embodied(ABC):
 
     def __init__(self, cpus):
         self.cpus = cpus
