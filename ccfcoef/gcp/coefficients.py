@@ -3,7 +3,8 @@ from ccfcoef.coefficients import Coefficients
 
 class GCPCoefficients(Coefficients):
 
-    def _add_cpu(self, name, power):
+    def add_cpu(self, name, power):
+        """Add CPU for GCP differs from Azure and AWS because Max Watts is adjusted for GCP"""
         self._cpus_power.append({
             'Architecture': name,
             'Min Watts': power.min_watts,

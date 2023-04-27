@@ -1,15 +1,17 @@
 import inspect
+import sys
 from pathlib import Path
 
 import click
 import pandas as pd
 
 import ccfcoef.constants as const
+from ccfcoef.aws.coefficients import AWSCoefficients
 from ccfcoef.azure.coefficients import AzureCoefficients
+from ccfcoef.gcp.coefficients import GCPCoefficients
 from ccfcoef.cpu_info import CPUInfo
 from ccfcoef.cpu_power import CPUPower
 from ccfcoef.family import Family
-from ccfcoef.gcp.coefficients import GCPCoefficients
 from ccfcoef.specpower import SPECPower
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
@@ -34,7 +36,7 @@ def cli():
 
 
 @cli.command()
-def constants():
+def show_constants():
     click.secho('Constants in use:', fg='green')
     for name, value in inspect.getmembers(const):
         if name.isupper():
@@ -42,21 +44,24 @@ def constants():
 
 
 @cli.command()
-def generate():
-    click.echo('generating data')
-    svs = pd.read_csv(DATA_DIR.joinpath('SPECpower-full-results.csv'), na_values=['NC'])
-    servers = SPECPower(svs)
-    click.echo(servers)
+def show_families():
+    click.secho('CPU families in use:', fg='green')
+    for family in CPU_FAMILIES:
+        click.secho(f'{click.style(family.name, fg="white")} = {click.style(family.short, fg="yellow")}')
 
 
 @cli.command()
-@click.option('-f', '--cpu-family', default='all', help='CPU family to display')
-def average(cpu_family):
-    if cpu_family == 'all':
+@click.option('-f', '--family', default='all', help='CPU family to display')
+def average(family):
+    if family == 'all':
         families = CPU_FAMILIES
     else:
         # find which family by its short name
-        families = [f for f in CPU_FAMILIES if f.short == cpu_family]
+        families = [f for f in CPU_FAMILIES if f.short == family]
+    # handle invalid family
+    if len(families) == 0:
+        click.secho(f'Family "{family}" not found in CPU_FAMILIES, use "ccfcoef show-families" to list them.', fg='red')
+        sys.exit(1)
 
     cpus_power = calculate_cpus_families_power(families)
     for name, power in cpus_power.items():
@@ -78,6 +83,11 @@ def usage_coefficients():
     coefficients = to_unique_dataframe(gcp.create_coefficients(cpus_power))
     click.echo(coefficients)
 
+    click.secho('AWS', fg='green')
+    aws = AWSCoefficients.instantiate(DATA_DIR.joinpath('aws-instances.csv'))
+    coefficients = to_unique_dataframe(aws.create_coefficients(cpus_power))
+    click.echo(coefficients)
+
 
 def to_unique_dataframe(coefficients):
     coefficients = pd.DataFrame(coefficients)
@@ -96,7 +106,9 @@ def calculate_cpus_families_power(families):
             min_watts=spec_power.idle_watts(),
             max_watts=spec_power.max_watts(),
             max_watts_gcp_adjusted=spec_power.max_watts_gcp_adjusted(),
-            gb_chip=spec_power.gb_chip())
+            gb_chip=spec_power.gb_chip(),
+            cpu_info=cpu_info
+        )
 
     return cpus_power
 
