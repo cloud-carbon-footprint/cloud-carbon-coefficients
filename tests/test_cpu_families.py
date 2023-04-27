@@ -3,6 +3,7 @@ from ccfcoef.cli import DATA_DIR
 
 
 def test_load_instances():
+    """This is just a sampling check and not a full test."""
     cpus_amd_epyc_gen1 = ccfcoef.cpu_info.CPUInfo.instantiate(DATA_DIR.joinpath('amd-epyc-gen1.csv'))
     assert 'EPYC 7601' in cpus_amd_epyc_gen1
     cpus_amd_epyc_gen2 = ccfcoef.cpu_info.CPUInfo.instantiate(DATA_DIR.joinpath('amd-epyc-gen2.csv'))
