@@ -37,7 +37,6 @@ class AzureCoefficients(Coefficients):
 
         return instances_embodied
 
-
     @staticmethod
     def instantiate(file):
         return AzureCoefficients(load_instances(file))

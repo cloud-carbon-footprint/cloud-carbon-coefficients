@@ -3,6 +3,9 @@ class CPUInfo:
         self.cpus = cpus
         self.cpu_re = [rf'\b{string}$' for string in self.cpus]
 
+    def __iter__(self):
+        return iter(self.cpus)
+
     @staticmethod
     def instantiate(file_name):
         with open(file_name, 'r') as f:
