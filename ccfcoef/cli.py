@@ -37,6 +37,9 @@ def cli():
 
 @cli.command()
 def show_constants():
+    """Display all constants available to ccfcoef.
+    For details on each constant, see the 'constants.py' file.
+    """
     click.secho('Constants in use:', fg='green')
     for name, value in inspect.getmembers(const):
         if name.isupper():
@@ -45,20 +48,25 @@ def show_constants():
 
 @cli.command()
 def show_families():
+    """Display all CPU families available to ccfcoef.
+    These families are stored in the 'data/' directory and contain
+    the list of micro-architectures for each family.
+    """
     click.secho('CPU families in use:', fg='green')
     for family in CPU_FAMILIES:
         click.secho(f'{click.style(family.name, fg="white")} = {click.style(family.short, fg="yellow")}')
 
 
 @cli.command()
-@click.option('-f', '--family', default='all', help='CPU family to display')
-def average(family):
+@click.option('-f', '--family', default='all', help='CPU family to display, ex: intel-skylake')
+def cpu_average(family):
+    """List the average power consumption of CPUs in a family."""
     if family == 'all':
         families = CPU_FAMILIES
     else:
         # find which family by its short name
         families = [f for f in CPU_FAMILIES if f.short == family]
-    # handle invalid family
+    # handle invalid family selection
     if len(families) == 0:
         click.secho(f'Family "{family}" not found in CPU_FAMILIES, use "ccfcoef show-families" to list them.', fg='red')
         sys.exit(1)
@@ -75,23 +83,31 @@ def usage_coefficients():
 
     click.secho('Azure', fg='green')
     azure = AzureCoefficients.instantiate(DATA_DIR.joinpath('azure-instances.csv'))
-    coefficients = to_unique_dataframe(azure.create_coefficients(cpus_power))
+    coefficients = to_unique_dataframe(azure.use_coefficients(cpus_power))
     click.echo(coefficients)
 
     click.secho('GCP', fg='green')
     gcp = GCPCoefficients.instantiate(DATA_DIR.joinpath('gcp-instances.csv'))
-    coefficients = to_unique_dataframe(gcp.create_coefficients(cpus_power))
+    coefficients = to_unique_dataframe(gcp.use_coefficients(cpus_power))
     click.echo(coefficients)
 
     click.secho('AWS', fg='green')
     aws = AWSCoefficients.instantiate(DATA_DIR.joinpath('aws-instances.csv'))
-    coefficients = to_unique_dataframe(aws.create_coefficients(cpus_power))
+    coefficients = to_unique_dataframe(aws.use_coefficients(cpus_power))
     click.echo(coefficients)
 
 
 @cli.command()
 def embodied_coefficients():
-    pass
+    gcp_cpus = pd.read_csv(DATA_DIR.joinpath('gcp-instances-cpus.csv'))
+    aws_cpus = pd.read_csv(DATA_DIR.joinpath('aws-instances-cpus.csv'))
+
+    click.secho('Azure', fg='green')
+    azure = AzureCoefficients.instantiate(DATA_DIR.joinpath('azure-instances.csv'))
+    click.echo(to_unique_dataframe(azure.embodied_coefficients(gcp_cpus)))
+    click.secho('GCP', fg='green')
+    gcp = GCPCoefficients.instantiate(DATA_DIR.joinpath('gcp-instances.csv'))
+    click.echo(to_unique_dataframe(gcp.embodied_coefficients(gcp_cpus)))
 
 
 def to_unique_dataframe(coefficients):
