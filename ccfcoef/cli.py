@@ -59,20 +59,9 @@ def show_families():
 
 
 @cli.command()
-@click.option('-f', '--family', default='all', help='CPU family to display, ex: intel-skylake')
-def cpu_averages(family):
-    """List the averages of power consumption by CPUs in a family."""
-    if family == 'all':
-        families = CPU_FAMILIES
-    else:
-        # find which family by its short name
-        families = [f for f in CPU_FAMILIES if f.short == family]
-    # handle invalid family selection
-    if len(families) == 0:
-        click.secho(f'Family "{family}" not found in CPU_FAMILIES, use "ccfcoef show-families" to list them.', fg='red')
-        sys.exit(1)
-
-    cpus_power = calculate_cpus_families_power(families)
+def cpu_averages():
+    """Display the calculated power usage averages for each CPU family."""
+    cpus_power = calculate_cpus_families_power(CPU_FAMILIES)
     for name, power in cpus_power.items():
         click.secho(f'Averages for: {name}', fg='green')
         display_cpu_power(power)
@@ -82,6 +71,7 @@ def cpu_averages(family):
 @click.option('-w', '--write', is_flag=True, help='Write the output to a file')
 def usage_coefficients(write):
     """Calculate the usage coefficients for each cloud provider."""
+    click.secho('Calculating usage coefficients...', fg='cyan')
     output = {True: write_dataframes, False: display_dataframes}
 
     cpus_power = calculate_cpus_families_power(CPU_FAMILIES)
@@ -105,6 +95,8 @@ def usage_coefficients(write):
 @cli.command()
 @click.option('-w', '--write', is_flag=True, help='Write the output to a file')
 def embodied_coefficients(write):
+    """Calculate the embodied coefficients for each cloud provider."""
+    click.secho('Calculating embodied coefficients...', fg='cyan')
     output = {True: write_dataframes, False: display_dataframes}
 
     gcp_cpus = pd.read_csv(DATA_DIR.joinpath('gcp-instances-cpus.csv'))
@@ -135,7 +127,9 @@ def display_dataframes(df, filename=None):
 
 
 def write_dataframes(df, filename):
-    df.to_csv(OUTPUT_DIR.joinpath(filename))
+    output_file = OUTPUT_DIR.joinpath(filename)
+    click.secho(f'Writing to {output_file.relative_to(OUTPUT_DIR.parent)}, {len(df)} entries.', fg='white')
+    df.to_csv(output_file)
 
 
 def to_dataframe(coefficients):
