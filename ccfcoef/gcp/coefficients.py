@@ -36,6 +36,20 @@ class GCPCoefficients(Coefficients):
             })
         return instances_embodied
 
+    def embodied_coefficients_mean(self, embodied_coefficients):
+        # Second iteration to aggregate by instance type and output the mean
+        instance_types = embodied_coefficients.drop_duplicates(subset="type")
+
+        embodied_mean = []
+        for key, instance in instance_types.iterrows():
+            instance_type = str(instance['type'])
+            result = embodied_coefficients.query(f'`type` == "{instance_type}"')
+            embodied_mean.append({
+                'type': instance_type,
+                'total_mean': result['total'].mean()})
+
+        return embodied_mean
+
     def add_cpu_power(self, name, power):
         """Add CPU for GCP differs from Azure and AWS because Max Watts is adjusted for GCP"""
         self._cpus_power.append({

@@ -83,17 +83,17 @@ def usage_coefficients():
 
     click.secho('Azure', fg='green')
     azure = AzureCoefficients.instantiate(DATA_DIR.joinpath('azure-instances.csv'))
-    coefficients = to_unique_dataframe(azure.use_coefficients(cpus_power))
+    coefficients = to_dataframe(azure.use_coefficients(cpus_power))
     click.echo(coefficients)
 
     click.secho('GCP', fg='green')
     gcp = GCPCoefficients.instantiate(DATA_DIR.joinpath('gcp-instances.csv'))
-    coefficients = to_unique_dataframe(gcp.use_coefficients(cpus_power))
+    coefficients = to_dataframe(gcp.use_coefficients(cpus_power))
     click.echo(coefficients)
 
     click.secho('AWS', fg='green')
     aws = AWSCoefficients.instantiate(DATA_DIR.joinpath('aws-instances.csv'))
-    coefficients = to_unique_dataframe(aws.use_coefficients(cpus_power))
+    coefficients = to_dataframe(aws.use_coefficients(cpus_power))
     click.echo(coefficients)
 
 
@@ -104,16 +104,24 @@ def embodied_coefficients():
 
     click.secho('Azure', fg='green')
     azure = AzureCoefficients.instantiate(DATA_DIR.joinpath('azure-instances.csv'))
-    click.echo(to_unique_dataframe(azure.embodied_coefficients(gcp_cpus)))
+    # Azure uses GCP CPUs for embodied coefficients, the original comments about was:
+    # 'For Azure & GCP we only know the general CPU architecture'
+    click.echo(to_dataframe(azure.embodied_coefficients(gcp_cpus)))
+
     click.secho('GCP', fg='green')
     gcp = GCPCoefficients.instantiate(DATA_DIR.joinpath('gcp-instances.csv'))
-    click.echo(to_unique_dataframe(gcp.embodied_coefficients(gcp_cpus)))
+    gcp_embodied_coefficients_df = to_dataframe(gcp.embodied_coefficients(gcp_cpus))
+    click.echo(gcp_embodied_coefficients_df)
+
+    click.secho('GCP (mean)', fg='green')
+    click.echo(to_dataframe(gcp.embodied_coefficients_mean(gcp_embodied_coefficients_df)))
+
     click.secho('AWS', fg='green')
     aws = AWSCoefficients.instantiate(DATA_DIR.joinpath('aws-instances.csv'))
-    click.echo(to_unique_dataframe(aws.embodied_coefficients(aws_cpus)))
+    click.echo(to_dataframe(aws.embodied_coefficients(aws_cpus)))
 
 
-def to_unique_dataframe(coefficients):
+def to_dataframe(coefficients):
     coefficients = pd.DataFrame(coefficients)
     coefficients = coefficients.drop_duplicates(ignore_index=True)
     return coefficients
