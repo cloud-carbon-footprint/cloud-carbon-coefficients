@@ -82,7 +82,7 @@ def cpu_averages(family):
 @click.option('-w', '--write', is_flag=True, help='Write the output to a file')
 def usage_coefficients(write):
     """Calculate the usage coefficients for each cloud provider."""
-    output = {True: write_dataframes, False: display_dataframes }
+    output = {True: write_dataframes, False: display_dataframes}
 
     cpus_power = calculate_cpus_families_power(CPU_FAMILIES)
 
@@ -103,7 +103,10 @@ def usage_coefficients(write):
 
 
 @cli.command()
-def embodied_coefficients():
+@click.option('-w', '--write', is_flag=True, help='Write the output to a file')
+def embodied_coefficients(write):
+    output = {True: write_dataframes, False: display_dataframes}
+
     gcp_cpus = pd.read_csv(DATA_DIR.joinpath('gcp-instances-cpus.csv'))
     aws_cpus = pd.read_csv(DATA_DIR.joinpath('aws-instances-cpus.csv'))
 
@@ -111,19 +114,20 @@ def embodied_coefficients():
     azure = AzureCoefficients.instantiate(DATA_DIR.joinpath('azure-instances.csv'))
     # Azure uses GCP CPUs for embodied coefficients, the original comments about was:
     # 'For Azure & GCP we only know the general CPU architecture'
-    click.echo(to_dataframe(azure.embodied_coefficients(gcp_cpus)))
+    output[write](to_dataframe(azure.embodied_coefficients(gcp_cpus)), 'coefficients-azure-embodied.csv')
 
     click.secho('GCP', fg='green')
     gcp = GCPCoefficients.instantiate(DATA_DIR.joinpath('gcp-instances.csv'))
     gcp_embodied_coefficients_df = to_dataframe(gcp.embodied_coefficients(gcp_cpus))
-    click.echo(gcp_embodied_coefficients_df)
+    output[write](gcp_embodied_coefficients_df, 'coefficients-gcp-embodied.csv')
 
     click.secho('GCP (mean)', fg='green')
-    click.echo(to_dataframe(gcp.embodied_coefficients_mean(gcp_embodied_coefficients_df)))
+    output[write](to_dataframe(gcp.embodied_coefficients_mean(gcp_embodied_coefficients_df)),
+                  'coefficients-gcp-embodied-mean.csv')
 
     click.secho('AWS', fg='green')
     aws = AWSCoefficients.instantiate(DATA_DIR.joinpath('aws-instances.csv'))
-    click.echo(to_dataframe(aws.embodied_coefficients(aws_cpus)))
+    output[write](to_dataframe(aws.embodied_coefficients(aws_cpus)), 'coefficients-aws-embodied.csv')
 
 
 def display_dataframes(df, filename=None):
