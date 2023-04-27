@@ -37,8 +37,39 @@ class AWSCoefficients(Coefficients):
 
         return self._cpus_power
 
-    def additional_cpu(self, cpu_name):
-        cpu = self.instances.query(f'`CPU Name` == \"{cpu_name}\"')
+    def embodied_coefficients(self, cpus):
+        instances_embodied = []
+
+        for key, instance in self.instances.iterrows():
+            # Call our calculation methods for each of the additional components
+            additional_memory = self.additional_memory(
+                instance['Platform Memory (in GB)'])
+
+            additional_storage = self.additional_storage(
+                instance['Storage Type'],
+                instance['Platform Storage Drive Quantity'])
+
+            additional_cpus = self.additional_cpu(cpus, instance['Platform CPU Name'])
+
+            additional_gpus = self.additional_gpu(instance['Platform GPU Quantity'])
+
+            # Build a dictionary of the instance emissions
+            instances_embodied.append({
+                'type': instance['Instance type'],
+                'additional_memory': round(additional_memory, 2),
+                'additional_storage': round(additional_storage, 2),
+                'additional_cpus': round(additional_cpus, 2),
+                'additional_gpus': round(additional_gpus, 2),
+                'total': round(
+                    BASE_MANUFACTURING_EMISSIONS + additional_memory +
+                    additional_storage + additional_cpus + additional_gpus,
+                    2)})
+
+        return instances_embodied
+
+    @staticmethod
+    def additional_cpu(cpus, cpu_name):
+        cpu = cpus.query(f'`CPU Name` == \"{cpu_name}\"')
         sockets = int(cpu['Platform Number of CPU Socket(s)'].iloc[0])
         if sockets > 0:
             return float((sockets - 1) * CPU_MANUFACTURING_EMISSIONS)

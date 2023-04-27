@@ -108,6 +108,9 @@ def embodied_coefficients():
     click.secho('GCP', fg='green')
     gcp = GCPCoefficients.instantiate(DATA_DIR.joinpath('gcp-instances.csv'))
     click.echo(to_unique_dataframe(gcp.embodied_coefficients(gcp_cpus)))
+    click.secho('AWS', fg='green')
+    aws = AWSCoefficients.instantiate(DATA_DIR.joinpath('aws-instances.csv'))
+    click.echo(to_unique_dataframe(aws.embodied_coefficients(aws_cpus)))
 
 
 def to_unique_dataframe(coefficients):
