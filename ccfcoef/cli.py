@@ -59,8 +59,8 @@ def show_families():
 
 @cli.command()
 @click.option('-f', '--family', default='all', help='CPU family to display, ex: intel-skylake')
-def cpu_average(family):
-    """List the average power consumption of CPUs in a family."""
+def cpu_averages(family):
+    """List the averages of power consumption by CPUs in a family."""
     if family == 'all':
         families = CPU_FAMILIES
     else:
