@@ -16,7 +16,6 @@ class AWSCoefficients(Coefficients):
         by looking at the CPU name list in CPUInfo.
         """
         for arch in self.architectures:
-
             arch = arch.replace('Xeon Platinum', '')
             arch = arch.replace('Xeon', '')
             arch = arch.strip()
