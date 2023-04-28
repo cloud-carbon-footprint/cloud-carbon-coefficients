@@ -1,4 +1,4 @@
-Hardware Vendor Test Sponsor,System Enclosure (if applicable),Date Submitted,Nodes,JVM Vendor,CPU Description,MHz,Chips,Cores,Total Threads,Total Memory (GB),ssj_ops @ 100%,avg. watts @ 100%,avg. watts @ active idle,Result (Overall ssj_ops/watt),Sandy Bridge,Ivy Bridge,Haswell,Broadwell,Skylake,Cascade Lake,Coffee Lake
+Hardware Vendor Test Sponsor,System,Date Submitted,Nodes,JVM Vendor,CPU Description,MHz,Chips,Cores,Total Threads,Total Memory (GB),ssj_ops @ 100%,avg. watts @ 100%,avg. watts @ active idle,Result (Overall ssj_ops/watt),Sandy Bridge,Ivy Bridge,Haswell,Broadwell,Skylake,Cascade Lake,Coffee Lake
 Colfax International Advanced Micro Devices,CX2266-N2,"Dec 11, 2007",1,"BEA Systems, Inc",AMD Opteron 2216HE,2400,2,4,4,16,95853,276,164,203,,,,,,,
 Fujitsu Siemens Computers,PRIMERGY TX120 (Intel Xeon 3070),"Dec 11, 2007",1,"BEA Systems, Inc.",Intel Xeon 3070,2666,1,2,2,4,79171,109,66.8,454,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Fujitsu Siemens Computers,PRIMERGY TX150 S5 (Intel Xeon 3070),"Dec 11, 2007",1,"BEA Systems, Inc.",Intel Xeon 3070,2666,1,2,2,4,78685,131,90.8,356,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE

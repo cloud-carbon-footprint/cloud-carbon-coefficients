@@ -159,6 +159,26 @@ def update_specpower():
     results.to_csv(DATA_DIR.joinpath(filename))
 
 
+@cli.command()
+@click.argument('family')
+def filter_spec(family):
+    """
+    Filter SPECpower file by CPU family.
+
+    FAMILY: CPU family short name to filter by (e.g. 'intel-skylake', 'amd-epyc-gen1'),
+    use "ccfcoef show-families" to see the list of available families.
+
+    """
+    click.secho(f'Filtering SPECpower data for {family}...', fg='cyan')
+    click.secho(f'Using SPECpower results file: {click.style(SPEC_RESULTS_FILE.name, fg="yellow")}', fg='white')
+    spec = SPECPower.instantiate(SPEC_RESULTS_FILE)
+    cpu_info = CPUInfo.instantiate(DATA_DIR.joinpath(f'{family}.csv'))
+    spec_power_info = spec.get_cpu_power(cpu_info)
+    click.echo(spec_power_info.servers[['System', 'avg. watts @ 100%',
+                                        'avg. watts @ active idle',
+                                        'Total Threads']])
+
+
 def display_dataframes(df, filename=None):
     click.echo(df)
 
