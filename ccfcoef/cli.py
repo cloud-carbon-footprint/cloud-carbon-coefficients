@@ -174,7 +174,8 @@ def update_specpower():
 
 @cli.command()
 @click.argument('family')
-def filter_spec(family):
+@click.option('-w', '--write', is_flag=True, help='Write the output to a file')
+def filter_spec(family, write):
     """
     Filter SPECpower file by CPU family.
 
@@ -184,12 +185,18 @@ def filter_spec(family):
     """
     click.secho(f'Filtering SPECpower data for {family}...', fg='cyan')
     click.secho(f'Using SPECpower results file: {click.style(SPEC_RESULTS_FILE.name, fg="yellow")}', fg='white')
+
+    output = {True: write_dataframes, False: display_dataframes}
+
     spec = SPECPower.instantiate(SPEC_RESULTS_FILE)
     cpu_info = CPUInfo.instantiate(DATA_DIR.joinpath(f'{family}.csv'))
     spec_power_info = spec.get_cpu_power(cpu_info)
-    click.echo(spec_power_info.servers[['System', 'avg. watts @ 100%',
-                                        'avg. watts @ active idle',
-                                        'Total Threads']])
+
+    filename = f'{SPEC_RESULTS_FILE.stem}-{family}.csv'
+
+    output[write](spec_power_info.servers[['System', 'avg. watts @ 100%',
+                                           'avg. watts @ active idle',
+                                           'Total Threads']], filename)
 
 
 def display_dataframes(df, filename=None):

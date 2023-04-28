@@ -94,7 +94,7 @@ ZT Systems ZT Systems,1224Ra Datacenter Server,"May 20, 2009",1,IBM Corporation,
 Dell Inc.,"PowerEdge R610 (Intel Xeon X5570, 2.93 GHz)","May 20, 2009",1,Oracle Corporation,Intel Xeon X5570,2933,2,8,16,12,550081,236,63.2,1844,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 IBM Corporation,IBM System x3650 M2,"May 20, 2009",1,IBM Corporation,Intel Xeon X5570,2933,2,8,16,8,617957,236,72.2,1929,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 IBM Corporation,IBM System x3550 M2,"May 20, 2009",1,IBM Corporation,Intel Xeon X5570,2933,2,8,16,8,623736,244,74.3,1892,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-"Verari Systems, Inc.",RB1305,"May 20, 2009",1,Oracle Corporation,"Intel Xeon X5570, 2.933 GHz",2930,2,8,16,8,551440,224,53.7,1927,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Verari Systems, Inc.",RB1305,"May 20, 2009",1,Oracle Corporation,"Intel Xeon X5570",2930,2,8,16,8,551440,224,53.7,1927,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Hewlett-Packard Company,"ProLiant DL785 G5 (2.50GHz, AMD Opteron 8381 HE)","Jun 3, 2009",1,Oracle,AMD Opteron(r) Processor 8381 HE,2500,8,32,32,32,1136736,793,430,905,,,,,,,
 Hewlett-Packard Company,"ProLiant DL785 G5 (2.50GHz, AMD Opteron 8381 HE)","Jun 3, 2009",1,Oracle,AMD Opteron(r) Processor 8381 HE,2500,8,32,32,32,1123158,792,418,927,,,,,,,
 IBM Corporation,IBM System x3400 M2,"Jun 3, 2009",1,IBM Corporation,Intel Xeon E5540,2533,2,8,16,8,548091,223,70.9,1750,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
@@ -103,14 +103,14 @@ IBM Corporation,IBM System x iDataPlex dx360 M2 IBM iDataPlex 2U Flex chassis,"J
 IBM Corporation,IBM System x3550 M2,"Jun 3, 2009",1,IBM Corporation,Intel Xeon X5570,2933,2,8,16,8,639516,243,74.1,1938,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 IBM Corporation,IBM System x3650 M2,"Jun 3, 2009",1,IBM Corporation,Intel Xeon X5570,2933,2,8,16,8,640447,237,72.5,1977,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Plat'Home,TRQX-1/50SA,"Jun 10, 2009",1,Oracle,Xeon L5420,2500,2,4,4,16,276488,268,178,628,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-Hewlett-Packard Hewlett-Packard Company,"ProLiant DL385 G6 (2.6GHz, AMD Opteron 2435 processor)","Jul 2, 2009",1,Oracle Corporation,2.6 GHz AMD Opteron 2435,2600,2,12,12,16,491305,258,120,1307,,,,,,,
+Hewlett-Packard Hewlett-Packard Company,"ProLiant DL385 G6","Jul 2, 2009",1,Oracle Corporation AMD Opteron 2435,2600,2,12,12,16,491305,258,120,1307,,,,,,,
 Hewlett-Packard Company,ProLiant SL2x170z G6 ProLiant SL6000,"Jul 2, 2009",4,Oracle Corporation,Intel Xeon L5520,2267,8,32,64,32,NC,NC,NC,NC,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Fujitsu,PRIMERGY TX100 S1 (Intel Xeon L3360),"Jul 15, 2009",1,Oracle Corporation,Intel Xeon L3360,2833,1,4,4,8,212779,94.7,46.2,1500,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Hewlett-Packard Company,ProLiant BL280c G6 HP BladeSystem c7000 Enclosure,"Jul 15, 2009",16,Oracle Corporation,Intel Xeon L5520,2267,32,128,256,128,7210418,2783,802,1877,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Hewlett Packard Hewlett-Packard Company,ProLiant DL170h G6 ProLiant h1000 G6,"Jul 29, 2009",4,Oracle Corporation,Intel Xeon L5520,2267,8,32,64,32,1787585,652,267,1909,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Hewlett-Packard Company,ProLiant DL360 G6,"Aug 5, 2009",1,Oracle Corporation,Intel Xeon L5520,2267,2,8,16,8,NC,NC,NC,NC,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 Plat'Home,Cloud Station E,"Aug 24, 2009",1,Oracle Corporation,Intel Xeon L5520,2260,2,8,16,8,443893,169,56.7,1846,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-Hewlett-Packard Company,"ProLiant DL385 G6 (2.6GHz, AMD Opteron 2435 processor)","Aug 26, 2009",1,IBM Corporation,2.6 GHz AMD Opteron 2435,2600,2,12,12,16,535814,260,124,1394,,,,,,,
+Hewlett-Packard Company,"ProLiant DL385 G6","Aug 26, 2009",1,IBM Corporation AMD Opteron 2435,2600,2,12,12,16,535814,260,124,1394,,,,,,,
 ZT Systems Advanced Micro Devices,1224Ra Datacenter Server,"Aug 26, 2009",1,IBM Corporation,AMD Opteron 2419 EE,1800,2,12,12,8,406954,178,74.6,1614,,,,,,,
 ZT Systems Advanced Micro Devices,1224Ra Datacenter Server,"Aug 26, 2009",1,IBM Corporation,AMD Opteron 2425 HE,2100,2,12,12,16,462215,218,80.4,1532,,,,,,,
 IBM Corporation,IBM System x iDataPlex dx360 M2 IBM iDataPlex 2U Flex chassis,"Aug 27, 2009",2,IBM Corporation,Intel Xeon L5530,2400,4,16,32,16,1069123,339,98.9,2231,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE

@@ -43,6 +43,10 @@ def spec_results():
     # 'Total Threads' will be 0
     df = df[df['Chips'] != 0]
 
+    # Remove all results that are non-compliant, in the CSV format this is
+    # represented by a '0' in the 'Result' column
+    df = df[df['Result'] != 0]
+
     # Memory information comes with some HTML links, remove them
     df['Total Memory (GB)'] = df['Total Memory (GB)'].str.extract(r'(\d+)').astype(int)
 
@@ -51,7 +55,8 @@ def spec_results():
 
     # Remove any row which the ratio between idle power and threads is too high
     # We spotted some outliers with this ratio being 200+
-    df = df[df['avg. watts @ active idle'] / df['Total Threads'] < 10]
+    filter_ratio = 100
+    df = df[df['avg. watts @ active idle'] / df['Total Threads'] < filter_ratio]
 
     # Clean the processor description so that it can be matched later against
     # the CPU families
@@ -81,6 +86,10 @@ The following is all parameters used in the search form of SPEC website.
 Strangely enough, omitting entries with =0 will sometimes fetch them anyway. While
 this is not a big problem we try to keep the file small and manageable if needs
 to be inspected manually.
+
+To check what the parameters means, create the URL and replace
+'format=csvdump' with just 'format=csv' SPECpower website will
+show the form and the parameters selected.
 '''
 SPEC_FETCH_PARAMS = '''
 conf=power_ssj2008
@@ -91,7 +100,7 @@ proj-SYSTEM=256
 proj-NODES=0
 proj-FORMFACTOR=0
 proj-TESTMETHOD=0
-proj-PEAK=0
+proj-PEAK=256
 proj-OPSAT100=0
 proj-OPSAT90=0
 proj-OPSAT80=0

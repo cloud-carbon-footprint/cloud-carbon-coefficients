@@ -1,7 +1,6 @@
 import re
 
 import pandas as pd
-from regex import regex
 
 from ccfcoef.constants import MEMORY_COEFFICIENT
 from ccfcoef.cpu_info import CPUInfo
@@ -9,8 +8,10 @@ from ccfcoef.cpu_info import CPUInfo
 
 class SPECPower:
     def __init__(self, servers):
-        if len(servers[servers['CPU Description'].str.contains('Ghz')]) > 0:
-            raise ValueError('Data not clean, servers contains Ghz')
+        cpu_desc_check = servers[servers['CPU Description'].str.contains(r'\bghz\b', case=False)]
+        if len(cpu_desc_check) > 0:
+            cpu_desc_check.to_csv('invalid_cpu_descriptions.csv')
+            raise ValueError('Data not clean, servers contains Ghz, check: invalid_cpu_descriptions.csv')
         self.servers = servers
 
     def get_cpu_power(self, cpu: CPUInfo):
