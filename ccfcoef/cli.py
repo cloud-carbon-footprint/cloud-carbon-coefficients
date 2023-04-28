@@ -49,12 +49,17 @@ def cli(spec_version):
 
 
 @cli.command()
-def list_specs():
+@click.option('-r', '--raw', is_flag=True, default=False, help='Display one version per line.')
+def list_specs(raw):
     """Display all available SPECpower results files."""
     click.secho('Available SPECpower results files:', fg='green')
     for spec in list_spec_results_files():
-        click.secho(f'file: {click.style(spec.name, fg="white")} '
-                    f'version:{click.style(spec.stem.replace("SPECpower-", ""), fg="yellow")}')
+        version = spec.stem.replace('SPECpower-', '')  # select just the date in filename
+        if raw:
+            click.secho(version)
+        else:
+            click.secho(f'file: {click.style(spec.name, fg="white")} '
+                        f'version:{click.style(version, fg="yellow")}')
 
 
 @cli.command()
@@ -80,11 +85,18 @@ def show_families():
 
 
 @cli.command()
-def cpu_averages():
+@click.option('-f', '--family', default='all',
+              help='Family to show, use "ccfcoef show-families" to see available families.')
+def cpu_averages(family):
     """Display the calculated power usage averages for each CPU family."""
-    cpus_power = calculate_cpus_families_power(CPU_FAMILIES)
+    if family == 'all':
+        family = CPU_FAMILIES
+    else:
+        family = list(filter(lambda f: f.short == family, CPU_FAMILIES))
+
+    cpus_power = calculate_cpus_families_power(family)
     for name, power in cpus_power.items():
-        click.secho(f'Averages for: {name}', fg='green')
+        click.secho(f'\nAverages for: {name}', fg='green')
         display_cpu_power(power)
 
 
@@ -97,19 +109,19 @@ def usage_coefficients(write):
 
     cpus_power = calculate_cpus_families_power(CPU_FAMILIES)
 
-    click.secho('Azure', fg='green')
+    click.secho('\nAzure', fg='green')
     azure = AzureCoefficients.instantiate(DATA_DIR.joinpath('azure-instances.csv'))
-    coefficients = to_dataframe(azure.use_coefficients(cpus_power))
+    coefficients = to_dataframe(azure.use_coefficients(cpus_power), sort_by='Architecture')
     output[write](coefficients, 'coefficients-azure-use.csv')
 
-    click.secho('GCP', fg='green')
+    click.secho('\nGCP', fg='green')
     gcp = GCPCoefficients.instantiate(DATA_DIR.joinpath('gcp-instances.csv'))
-    coefficients = to_dataframe(gcp.use_coefficients(cpus_power))
+    coefficients = to_dataframe(gcp.use_coefficients(cpus_power), sort_by='Architecture')
     output[write](coefficients, 'coefficients-gcp-use.csv')
 
-    click.secho('AWS', fg='green')
+    click.secho('\nAWS', fg='green')
     aws = AWSCoefficients.instantiate(DATA_DIR.joinpath('aws-instances.csv'))
-    coefficients = to_dataframe(aws.use_coefficients(cpus_power))
+    coefficients = to_dataframe(aws.use_coefficients(cpus_power), sort_by='Architecture')
     output[write](coefficients, 'coefficients-aws-use.csv')
 
 
@@ -189,9 +201,13 @@ def write_dataframes(df, filename):
     df.to_csv(output_file)
 
 
-def to_dataframe(coefficients):
+def to_dataframe(coefficients, sort_by=None):
     coefficients = pd.DataFrame(coefficients)
     coefficients = coefficients.drop_duplicates(ignore_index=True)
+
+    if sort_by:
+        coefficients = coefficients.sort_values(by=sort_by, ignore_index=True)
+
     return coefficients
 
 
