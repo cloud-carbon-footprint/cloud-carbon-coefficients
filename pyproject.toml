@@ -12,6 +12,7 @@ click = "^8.1.3"
 pytest = "^7.3.1"
 pandas = "^2.0.1"
 regex = "^2023.3.23"
+requests = "^2.29.0"
 
 [tool.poetry.scripts]
 ccfcoef = "ccfcoef.cli:cli"

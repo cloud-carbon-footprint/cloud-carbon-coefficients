@@ -1,17 +1,18 @@
 import inspect
-import sys
+from datetime import datetime
 from pathlib import Path
 
 import click
 import pandas as pd
 
 import ccfcoef.constants as const
+from ccfcoef import specfetch
 from ccfcoef.aws.coefficients import AWSCoefficients
 from ccfcoef.azure.coefficients import AzureCoefficients
-from ccfcoef.gcp.coefficients import GCPCoefficients
 from ccfcoef.cpu_info import CPUInfo
 from ccfcoef.cpu_power import CPUPower
 from ccfcoef.family import Family
+from ccfcoef.gcp.coefficients import GCPCoefficients
 from ccfcoef.specpower import SPECPower
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
@@ -30,10 +31,30 @@ CPU_FAMILIES = [
     Family(name='Cascade Lake', short='intel-cascadelake'),
     Family(name='Coffee Lake', short='intel-coffeelake')]
 
+# Defaults to the original SPECpower results file
+SPEC_RESULTS_FILE = DATA_DIR.joinpath('SPECpower-2022-03-01.csv')
+
 
 @click.group()
-def cli():
-    pass
+@click.option('--spec-version', default='latest',
+              help='The SPECpower version to use, use "ccfcoef list-specs" to see available versions.')
+def cli(spec_version):
+    # global option to decide which SPECpower results file to use
+    global SPEC_RESULTS_FILE
+
+    if spec_version == 'latest':
+        SPEC_RESULTS_FILE = list_spec_results_files()[0]
+    else:
+        SPEC_RESULTS_FILE = DATA_DIR.joinpath(f'SPECpower-{spec_version}.csv')
+
+
+@cli.command()
+def list_specs():
+    """Display all available SPECpower results files."""
+    click.secho('Available SPECpower results files:', fg='green')
+    for spec in list_spec_results_files():
+        click.secho(f'file: {click.style(spec.name, fg="white")} '
+                    f'version:{click.style(spec.stem.replace("SPECpower-", ""), fg="yellow")}')
 
 
 @cli.command()
@@ -122,6 +143,22 @@ def embodied_coefficients(write):
     output[write](to_dataframe(aws.embodied_coefficients(aws_cpus)), 'coefficients-aws-embodied.csv')
 
 
+@cli.command()
+def update_specpower():
+    """Will fetch a new version of the SPECpower database, clean it and save it in data/"""
+    click.secho("Updating SPECpower data...", fg='cyan')
+
+    results = specfetch.spec_results()
+    click.secho(f'Found {len(results)} results', fg='white')
+
+    # keep a history of past SPECpower results if the coefficients
+    # need to be recalculated and/or verified
+    filename = f'SPECpower-{datetime.now().strftime("%Y-%m-%d")}.csv'
+
+    click.secho(f'Writing {filename}', fg='white')
+    results.to_csv(DATA_DIR.joinpath(filename))
+
+
 def display_dataframes(df, filename=None):
     click.echo(df)
 
@@ -138,8 +175,14 @@ def to_dataframe(coefficients):
     return coefficients
 
 
+def list_spec_results_files():
+    spec_results = DATA_DIR.glob('SPECpower-*.csv')
+    return sorted(spec_results, key=lambda f: f.name, reverse=True)
+
+
 def calculate_cpus_families_power(families):
-    spec = SPECPower.instantiate(DATA_DIR.joinpath('SPECpower-full-results.csv'))
+    click.secho(f'Using SPECpower results file: {click.style(SPEC_RESULTS_FILE.name, fg="yellow")}', fg='white')
+    spec = SPECPower.instantiate(SPEC_RESULTS_FILE)
     cpus_power = {}
     for cpu_family in families:
         cpu_info = CPUInfo.instantiate(DATA_DIR.joinpath(f'{cpu_family.short}.csv'))

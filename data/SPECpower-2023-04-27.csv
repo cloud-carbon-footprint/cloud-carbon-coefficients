@@ -1,0 +1,767 @@
+,Benchmark,Hardware Vendor,System,avg. watts @ 100%,avg. watts @ active idle,Chips,# Cores Per Chip,# Threads Per Core,CPU Description,Processor MHz,Total Memory (GB),Total Threads
+3,power_ssj2008,ASUSTeK Computer Inc.,RS500A-E10-PS4,214.0,51.4,1,64,2,AMD EPYC 7742,2250,128,128
+4,power_ssj2008,ASUSTeK Computer Inc.,RS500A-E10-PS4,206.0,56.4,1,64,2,AMD EPYC 7742,2250,128,128
+5,power_ssj2008,ASUSTeK Computer Inc.,RS620SA-E10-RS12,1140.0,228.0,6,64,2,AMD EPYC 7742,2250,768,768
+6,power_ssj2008,ASUSTeK Computer Inc.,RS620SA-E10-RS12,1141.0,250.0,6,64,2,AMD EPYC 7742,2250,768,768
+7,power_ssj2008,ASUSTeK Computer Inc.,RS700A-E11-RS4U,408.0,94.6,2,64,2,AMD EPYC 7763,2450,256,256
+8,power_ssj2008,ASUSTeK Computer Inc.,RS700A-E11-RS4U,406.0,122.0,2,64,2,AMD EPYC 7763,2450,256,256
+9,power_ssj2008,ASUSTeK Computer Inc.,RS700A-E9-RS4V2,430.0,106.0,2,64,2,AMD EPYC 7742,2250,256,256
+10,power_ssj2008,ASUSTeK Computer Inc.,RS700A-E9-RS4V2,425.0,92.9,2,64,2,AMD EPYC 7742,2250,256,256
+11,power_ssj2008,ASUSTeK Computer Inc.,RS720-E10-R12,623.0,110.0,2,40,2,Intel Xeon Platinum 8380,2300,256,160
+12,power_ssj2008,ASUSTeK Computer Inc.,RS720-E9-RS8,405.0,47.4,2,28,2,Intel Xeon Platinum 8280L,2700,192,112
+13,power_ssj2008,ASUSTeK Computer Inc.,RS720-E9-RS8,412.0,62.4,2,28,2,Intel Xeon Platinum 8280L,2700,192,112
+14,power_ssj2008,ASUSTeK Computer Inc.,RS720-E9/RS8,385.0,48.2,2,28,2,Intel Xeon Platinum 8180,2500,192,112
+15,power_ssj2008,ASUSTeK Computer Inc.,RS720A-E12-RS12,817.0,128.0,2,96,2,AMD EPYC 9654,2400,384,384
+16,power_ssj2008,ASUSTeK Computer Inc.,RS720A-E12-RS12,827.0,126.0,2,96,2,AMD EPYC 9654,2400,384,384
+17,power_ssj2008,ASUSTeK Computer Inc.,RS720Q-E9-RS8,1417.0,193.0,8,28,2,Intel Xeon Platinum 8176M,2100,768,448
+18,power_ssj2008,Acer Incoporated,Acer AR360 F2,315.0,69.4,2,8,2,Intel Xeon E5-2660,2200,24,32
+20,power_ssj2008,Acer Incorporated,Acer AC100,58.0,21.5,1,4,2,Intel Xeon E3-1260L,2400,8,8
+21,power_ssj2008,Acer Incorporated,"Acer AR160 F1(Intel Xeon X5670, 2.93 GHz)",267.0,76.9,2,6,2,Intel Xeon X5670,2933,12,24
+22,power_ssj2008,Acer Incorporated,"Acer AR180 F1(Intel Xeon X5670, 2.93 GHz)",265.0,76.4,2,6,2,Intel Xeon X5670,2933,12,24
+23,power_ssj2008,Acer Incorporated,"Acer AR320 F1 (Intel Xeon X3470, 2.93 GHz)",124.0,39.6,1,4,2,Intel Xeon X3470,2933,8,8
+24,power_ssj2008,Acer Incorporated,"Acer AR360 F1 (Intel Xeon X5670, 2.93 GHz)",272.0,73.6,2,6,2,Intel Xeon X5670,2933,12,24
+25,power_ssj2008,Acer Incorporated,Acer AR380 F1,197.0,88.1,2,4,2,Intel Xeon L5530,2400,8,16
+26,power_ssj2008,Acer Incorporated,"Acer AR380 F1 (Intel Xeon X5670, 2.93 GHz)",259.0,76.6,2,6,2,Intel Xeon X5670,2933,12,24
+27,power_ssj2008,Acer Incorporated,Acer AR380 F2,325.0,99.6,2,6,2,Intel Xeon E5-2630,2300,128,24
+28,power_ssj2008,Acer Incorporated,Acer AR380 F2,307.0,99.5,2,6,2,Intel Xeon E5-2640,2500,128,24
+29,power_ssj2008,Acer Incorporated,Acer AR380 F2,409.0,103.0,2,8,2,Intel Xeon E5-2665,2400,128,32
+30,power_ssj2008,Acer Incorporated,Acer AR380 F2,254.0,81.9,2,6,2,Intel Xeon E5-2640,2500,32,24
+31,power_ssj2008,Acer Incorporated,Acer AR385 F1,307.0,94.9,2,16,1,AMD Opteron 6276,2300,32,32
+32,power_ssj2008,Acer Incorporated,Acer AR385 F1,290.0,89.8,2,12,1,AMD Opteron 6238,2600,32,24
+33,power_ssj2008,Acer Incorporated,"Acer AR385 F1 (AMD Opteron 6174, 2.20 GHz)",273.0,86.7,2,12,1,AMD Opteron 6174,2200,16,24
+34,power_ssj2008,Acer Incorporated,Acer AR580 F2,368.0,109.0,4,6,2,Intel Xeon E5-4607,2200,64,48
+35,power_ssj2008,Acer Incorporated,Acer AR580 F2,667.0,134.0,4,8,2,Intel Xeon E5-4650,2700,32,64
+36,power_ssj2008,Acer Incorporated,Acer AR585 F1,511.0,145.0,4,12,1,AMD Opteron 6344,2600,64,48
+37,power_ssj2008,Acer Incorporated,Acer AR585 F1,581.0,149.0,4,16,1,AMD Opteron 6380,2500,64,64
+38,power_ssj2008,Acer Incorporated,Acer AR585 F1,584.0,127.0,4,16,1,AMD Opteron 6278,2400,64,64
+39,power_ssj2008,Acer Incorporated,Acer AR585 F1,786.0,186.0,4,16,1,AMD Opteron 6278,2400,256,64
+40,power_ssj2008,Acer Incorporated,Acer AR585 F1,713.0,176.0,4,16,1,AMD Opteron 6278,2400,256,64
+41,power_ssj2008,Acer Incorporated,Acer AR585 F1,779.0,187.0,4,16,1,AMD Opteron 6276,2300,256,64
+42,power_ssj2008,Acer Incorporated,Acer AR585 F1,713.0,177.0,4,16,1,AMD Opteron 6276,2300,256,64
+43,power_ssj2008,Acer Incorporated,Acer AR585 F1,588.0,130.0,4,16,1,AMD Opteron 6276,2300,64,64
+44,power_ssj2008,Acer Incorporated,Acer AR585 F1,559.0,127.0,4,12,1,AMD Opteron 6238,2600,64,48
+45,power_ssj2008,Acer Incorporated,Acer AR585 F1,518.0,143.0,4,12,1,AMD Opteron 6174,2200,32,48
+47,power_ssj2008,Acer Incorporated,Acer AT110 F2 (Intel Xeon E3-1270),102.0,21.3,1,4,2,Intel Xeon E3-1270,3400,8,8
+48,power_ssj2008,Acer Incorporated,"Acer AT115 F1 (AMD Opteron 4164EE, 1.80 GHz)",70.2,31.9,1,6,1,AMD Opteron 4164EE,1800,8,6
+49,power_ssj2008,Acer Incorporated,"Acer AT150 F1(Intel Xeon X5670, 2.93 GHz)",244.0,65.4,2,6,2,Intel Xeon X5670,2933,12,24
+50,power_ssj2008,Acer Incorporated,Acer AT350 F1,193.0,88.5,2,4,2,Intel Xeon L5530,2400,8,16
+51,power_ssj2008,Acer Incorporated,"Acer AT350 F1 (Intel Xeon X5670, 2.93 GHz)",259.0,78.8,2,6,2,Intel Xeon X5670,2933,12,24
+52,power_ssj2008,Acer Incorporated,Acer AT350 F2,255.0,83.5,2,6,2,Intel Xeon E5-2640,2500,32,24
+53,power_ssj2008,Acer Incorporated,Acer AT350 F2,414.0,96.6,2,8,2,Intel Xeon E5-2665,2400,128,32
+54,power_ssj2008,Acer Incorporated,Acer AT350 F2,323.0,96.0,2,6,2,Intel Xeon E5-2630,2300,128,24
+55,power_ssj2008,Acer Incorporated,Acer AT350 F2,327.0,98.2,2,6,2,Intel Xeon E5-2640,2500,128,24
+56,power_ssj2008,Acer Incorporated,Acer AT350 F2,409.0,103.0,2,8,2,Intel Xeon E5-2665,2400,128,32
+57,power_ssj2008,Acer Incorporated,Acer AW2000h-AW170h F1,1016.0,282.0,8,6,2,Intel Xeon X5675,3067,96,96
+58,power_ssj2008,Acer Incorporated,Acer AW2000h-AW170h F2,1275.0,331.0,8,8,2,Intel Xeon E5-2660,2200,128,128
+59,power_ssj2008,Acer Incorporated,Acer AW2000h-AW175h F1,1113.0,284.0,8,12,1,AMD Opteron 6174,2200,64,96
+60,power_ssj2008,Acer Incorporated,Acer AW2000h-Aw170h F2,1700.0,364.0,8,8,2,Intel Xeon E5-2670,2600,512,128
+61,power_ssj2008,Acer Incorporated,Acer AW2000ht-AW170ht F1,597.0,205.0,4,6,2,Intel Xeon X5670,2933,24,48
+62,power_ssj2008,Acer Incorporated,Altos G540 M2,254.0,121.0,2,4,2,Intel Xeon X5570,2930,8,16
+63,power_ssj2008,Acer Incorporated,Altos R360 F2,258.0,72.4,2,8,2,Intel Xeon E5-2660,2200,24,32
+64,power_ssj2008,Acer Incorporated,Altos R360 F2,223.0,64.0,2,8,2,Intel Xeon E5-2650,2000,24,32
+65,power_ssj2008,Acer Incorporated,Altos R360 F2,275.0,80.4,2,8,2,Intel Xeon E5-2660,2200,24,32
+66,power_ssj2008,Acer Incorporated,Altos R380 F2,215.0,52.9,2,8,2,Intel Xeon E5-2650,2200,32,32
+67,power_ssj2008,Acer Incorporated,Altos R380 F2,252.0,63.7,2,8,2,Intel Xeon E5-2660,2200,32,32
+68,power_ssj2008,Acer Incorporated,Altos R380 F2,316.0,71.5,2,8,2,Intel Xeon E5-2660,2200,24,32
+72,power_ssj2008,Acer Incorporated,Altos T350 F2,219.0,56.1,2,8,2,Intel Xeon E5-2650,2000,24,32
+73,power_ssj2008,Acer Incorporated,Altos T350 F2,255.0,68.5,2,8,2,Intel Xeon E5-2660,2200,24,32
+74,power_ssj2008,Acer Incorporated,Gateway GR160 F1,196.0,81.4,2,4,2,Intel Xeon L5520,2266,8,16
+75,power_ssj2008,Acer Incorporated,"Gateway GR160 F1(Intel Xeon X5670, 2.93 GHz)",267.0,76.9,2,6,2,Intel Xeon X5670,2933,12,24
+76,power_ssj2008,Acer Incorporated,"Gateway GR180 F1(Intel Xeon X5670, 2.93 GHz)",265.0,76.5,2,6,2,Intel Xeon X5670,2933,12,24
+77,power_ssj2008,Acer Incorporated,"Gateway GR320 F1 (Intel Xeon X3470, 2.93 GHz)",125.0,39.6,1,4,2,Intel Xeon X3470,2933,8,8
+78,power_ssj2008,Acer Incorporated,"Gateway GR360 F1 (Intel Xeon X5670, 2.93 GHz)",272.0,73.3,2,6,2,Intel Xeon X5670,2933,12,24
+79,power_ssj2008,Acer Incorporated,Gateway GR380 F1,198.0,88.2,2,4,2,Intel Xeon L5530,2400,8,16
+80,power_ssj2008,Acer Incorporated,"Gateway GR380 F1 (Intel Xeon X5670, 2.93 GHz)",260.0,76.6,2,6,2,Intel Xeon X5670,2933,12,24
+81,power_ssj2008,Acer Incorporated,Gateway GR385 F1,295.0,97.3,2,12,1,AMD Opteron 6176,2300,16,24
+82,power_ssj2008,Acer Incorporated,"Gateway GR385 F1 (AMD Opteron 6174, 2.20 GHz)",273.0,86.5,2,12,1,AMD Opteron 6174,2200,16,24
+83,power_ssj2008,Acer Incorporated,Gateway GR585 F1,524.0,192.0,4,12,1,AMD Opteron 6168,1900,32,48
+84,power_ssj2008,Acer Incorporated,Gateway GR585 F1,571.0,185.0,4,12,1,AMD Opteron 6176,2300,32,48
+85,power_ssj2008,Acer Incorporated,Gateway GR585 F1,518.0,142.0,4,12,1,AMD Opteron 6174,2200,32,48
+87,power_ssj2008,Acer Incorporated,Gateway GT110 F2 (Intel Xeon E3-1270),102.0,21.4,1,4,2,Intel Xeon E3-1270,3400,8,8
+88,power_ssj2008,Acer Incorporated,"Gateway GT115 F1 (AMD Opteron 4164EE, 1.80 GHz)",70.3,32.0,1,6,1,AMD Opteron 4164EE,1800,8,6
+89,power_ssj2008,Acer Incorporated,"Gateway GT150 F1(Intel Xeon X5670, 2.93 GHz)",245.0,65.5,2,6,2,Intel Xeon X5670,2933,12,24
+90,power_ssj2008,Acer Incorporated,"Gateway GT310 F1 (Intel Xeon X3470, 2.93 GHz)",127.0,34.6,1,4,2,Intel Xeon X3470,2933,8,8
+91,power_ssj2008,Acer Incorporated,Gateway GT350 F1,264.0,79.5,2,6,2,Intel Xeon X5675,3067,12,24
+92,power_ssj2008,Acer Incorporated,Gateway GT350 F1,192.0,87.7,2,4,2,Intel Xeon L5530,2400,8,16
+93,power_ssj2008,Acer Incorporated,"Gateway GT350 F1(Intel Xeon X5670, 2.93 GHz)",257.0,78.4,2,6,2,Intel Xeon X5670,2933,12,24
+94,power_ssj2008,Acer Incorporated,Gateway GW1000-GW170 F1,386.0,145.0,4,4,2,Intel Xeon L5520,2266,16,32
+95,power_ssj2008,Acer Incorporated,Gateway GW2000h-GW170h F1,1025.0,270.0,8,6,2,Intel Xeon X5675,3067,48,96
+96,power_ssj2008,Acer Incorporated,Gateway GW2000h-GW170h F1,1014.0,269.0,8,6,2,Intel Xeon X5675,3067,96,96
+97,power_ssj2008,Acer Incorporated,Gateway GW2000h-GW170h F1,748.0,260.0,8,4,2,Intel Xeon L5520,2266,32,64
+98,power_ssj2008,Acer Incorporated,Gateway GW2000h-GW175h F1,1111.0,284.0,8,12,1,AMD Opteron 6174,2200,64,96
+99,power_ssj2008,Acer Incorporated,Gateway GW2000ht-GW170ht F1,596.0,204.0,4,6,2,Intel Xeon X5670,2933,24,48
+100,power_ssj2008,Apple Inc.,"Xserve2,1",353.0,213.0,2,4,4,Intel(R) Xeon(R) CPU E5472,3000,16,32
+102,power_ssj2008,Bull SAS,"NovaScale R440 F2 (Intel Xeon X5670, 2.93 GHz)",247.0,60.4,2,6,2,Intel Xeon X5670,2933,12,24
+103,power_ssj2008,"Cisco Systems, Inc.",UCS C220 M3,261.0,59.5,2,8,2,Intel Xeon E5-2660,2200,24,32
+106,power_ssj2008,DEPO Computers,DEPO Storm 3350V2,232.0,97.1,2,10,2,Intel Xeon E5-2660 v2,2200,32,40
+107,power_ssj2008,Dell Inc.,"Dell PowerEdge R710 (Intel Xeon X5675, 3.06 GHz)",227.0,62.2,2,6,2,Intel Xeon X5675,3066,24,24
+113,power_ssj2008,Dell Inc.,PowerEdge C5220 (Intel Xeon E3-1265LV2),672.0,194.0,12,4,2,Intel Xeon E3-1265LV2,2500,96,96
+114,power_ssj2008,Dell Inc.,"PowerEdge C6100 (Intel Xeon X5675, 3.06 GHz)",895.0,227.0,8,6,2,Intel Xeon 5675,3067,64,96
+115,power_ssj2008,Dell Inc.,"PowerEdge C6105 (AMD Opteron 4376HE, 2.6 GHz)",573.0,106.0,8,8,1,AMD Opteron 4376HE,2600,64,64
+116,power_ssj2008,Dell Inc.,"PowerEdge C6145 (AMD Opteron 6380, 2.50 GHz)",1105.0,196.0,8,16,1,AMD Opteron 6380,2500,128,128
+117,power_ssj2008,Dell Inc.,PowerEdge C6320 (Intel Xeon E5-2699 v3 2.30 GHz),1229.0,210.0,8,18,2,Intel Xeon E5-2699 v3,2300,256,288
+119,power_ssj2008,Dell Inc.,PowerEdge FC630 (Intel Xeon E5-2699 v3 2.30 GHz),1256.0,228.0,8,18,2,Intel Xeon E5-2699 v3,2300,256,288
+120,power_ssj2008,Dell Inc.,PowerEdge M420,6854.0,1773.0,64,8,2,Intel Xeon E5-2470,2300,768,1024
+121,power_ssj2008,Dell Inc.,PowerEdge M520,4026.0,713.0,32,8,2,Intel Xeon E5-2470,2300,384,512
+122,power_ssj2008,Dell Inc.,PowerEdge M520 (Intel Xeon E5-2470 (2.30 GHz),4078.0,732.0,32,8,2,Intel Xeon E5-2470,2300,256,512
+123,power_ssj2008,Dell Inc.,PowerEdge M520 (Intel Xeon E5-2470 v2 2.40 GHz),3429.0,595.0,32,10,2,Intel Xeon E5-2470 v2,2400,384,640
+124,power_ssj2008,Dell Inc.,PowerEdge M610,3504.0,873.0,32,6,2,Intel Xeon X5675,3060,384,384
+125,power_ssj2008,Dell Inc.,PowerEdge M610,3716.0,877.0,32,6,2,Intel Xeon X5670,2933,192,384
+126,power_ssj2008,Dell Inc.,"PowerEdge M620 (Intel Xeon E5-2660 v2, 2.20 GHz)",3239.0,688.0,32,10,2,Intel Xeon E5-2660 v2,2200,384,640
+127,power_ssj2008,Dell Inc.,"PowerEdge M620 (Intel Xeon E5-2670, 2.6 GHz)",3881.0,828.0,32,8,2,Intel Xeon E5-2670,2600,384,512
+128,power_ssj2008,Dell Inc.,"PowerEdge M620 (Intel Xeon E5-2670, 2.60 GHz)",4057.0,833.0,32,8,2,Intel Xeon E5-2670,2600,384,512
+129,power_ssj2008,Dell Inc.,"PowerEdge M630 (Intel Xeon E5-2699 v4, 2.20 GHz)",4918.0,878.0,32,22,2,Intel Xeon E5-2699 v4,2200,2048,1408
+130,power_ssj2008,Dell Inc.,PowerEdge M710HD,3780.0,972.0,32,6,2,Intel Xeon X5675,3060,384,384
+131,power_ssj2008,Dell Inc.,PowerEdge M820,3997.0,832.0,32,8,2,Intel Xeon E5-4650L,2600,384,512
+132,power_ssj2008,Dell Inc.,"PowerEdge M820 (Intel Xeon E5-4650 v2, 2.40 GHz)",3448.0,734.0,32,10,2,Intel Xeon E5-4650 v2,2400,384,640
+133,power_ssj2008,Dell Inc.,"PowerEdge M830 (Intel Xeon E5-4669 v3, 2.10 GHz)",5429.0,839.0,32,18,2,Intel Xeon E5-4669 v3,2100,1024,1152
+134,power_ssj2008,Dell Inc.,PowerEdge M915,4847.0,1107.0,32,16,1,AMD Opteron 6276,2300,512,512
+135,power_ssj2008,Dell Inc.,PowerEdge M915,4219.0,1068.0,32,12,1,AMD Opteron 6176,2300,256,384
+136,power_ssj2008,Dell Inc.,"PowerEdge M915 (AMD Opteron 6380, 2.50 GHz)",4562.0,976.0,32,16,1,AMD Opteron 6380,2500,512,512
+137,power_ssj2008,Dell Inc.,"PowerEdge R240 (Intel Xeon E-2176G, 3.70 GHz)",93.1,20.0,1,6,2,Intel Xeon E-2176G,3700,32,12
+139,power_ssj2008,Dell Inc.,"PowerEdge R420 (Intel Xeon E5-2470, 2.30 GHz)",205.0,51.2,2,8,2,Intel Xeon E5-2470,2300,24,32
+140,power_ssj2008,Dell Inc.,"PowerEdge R420 (Intel Xeon E5-2470, 2.30 GHz)",263.0,53.3,2,8,2,Intel Xeon E5-2470,2300,24,32
+141,power_ssj2008,Dell Inc.,PowerEdge R510,266.0,56.9,2,6,2,Intel Xeon X5670,2933,12,24
+142,power_ssj2008,Dell Inc.,"PowerEdge R520 (Intel Xeon E5-2470, 2.30 GHz)",264.0,47.9,2,8,2,Intel Xeon E5-2470,2300,24,32
+143,power_ssj2008,Dell Inc.,"PowerEdge R610 (Intel Xeon L5530, 2.40 GHz)",172.0,60.0,2,4,2,Intel Xeon L5530,2400,8,16
+144,power_ssj2008,Dell Inc.,"PowerEdge R610 (Intel Xeon X5570, 2.93 GHz)",236.0,63.2,2,4,2,Intel Xeon X5570,2933,12,16
+145,power_ssj2008,Dell Inc.,"PowerEdge R610 (Intel Xeon X5670, 2.93 GHz)",242.0,61.9,2,6,2,Intel Xeon X5670,2933,12,24
+146,power_ssj2008,Dell Inc.,"PowerEdge R610 (Intel Xeon X5670, 2.93 GHz)",244.0,62.3,2,6,2,Intel Xeon X5670,2933,12,24
+147,power_ssj2008,Dell Inc.,PowerEdge R620 (Intel Xeon E5-2660 v2 2.20 GHz),184.0,45.2,2,10,2,Intel Xeon E5-2660 v2,2200,24,40
+148,power_ssj2008,Dell Inc.,"PowerEdge R620 (Intel Xeon E5-2660, 2.2 GHz)",263.0,56.1,2,8,2,Intel Xeon E5-2660,2200,24,32
+149,power_ssj2008,Dell Inc.,"PowerEdge R620 (Intel Xeon E5-2660, 2.2 GHz)",258.0,56.1,2,8,2,Intel Xeon E5-2660,2200,24,32
+150,power_ssj2008,Dell Inc.,"PowerEdge R620 (Intel Xeon E5-2660, 2.20 GHz)",248.0,54.9,2,8,2,Intel Xeon E5-2660,2200,24,32
+151,power_ssj2008,Dell Inc.,"PowerEdge R620 (Intel Xeon E5-2660, 2.20 GHz)",259.0,56.3,2,8,2,Intel Xeon E5-2660,2200,24,32
+152,power_ssj2008,Dell Inc.,"PowerEdge R620 (Intel Xeon E5-2670, 2.6 GHz)",243.0,54.1,2,8,2,Intel Xeon E5-2670,2600,24,32
+153,power_ssj2008,Dell Inc.,PowerEdge R630 (Intel Xeon E5-2699 v3 2.30 GHz),287.0,51.2,2,18,2,Intel Xeon E5-2699 v3,2300,64,72
+154,power_ssj2008,Dell Inc.,PowerEdge R630 (Intel Xeon E5-2699 v4 2.20 GHz),279.0,46.7,2,22,2,Intel Xeon E5-2699 v4,2200,128,88
+155,power_ssj2008,Dell Inc.,PowerEdge R640,469.0,55.0,2,28,2,Intel Xeon Platinum 8180,2500,192,112
+156,power_ssj2008,Dell Inc.,"PowerEdge R6515 (AMD EPYC 7702P, 2.00 GHz)",231.0,54.5,1,64,2,AMD EPYC 7702P,2000,64,128
+157,power_ssj2008,Dell Inc.,"PowerEdge R6525 (AMD EPYC 7702, 2.00 GHz)",404.0,81.6,2,64,2,AMD EPYC 7702,2000,128,256
+158,power_ssj2008,Dell Inc.,"PowerEdge R710 (Intel Xeon L5530, 2.40 GHz)",172.0,62.8,2,4,2,Intel Xeon L5530,2400,8,16
+159,power_ssj2008,Dell Inc.,"PowerEdge R710 (Intel Xeon X5570, 2.93 GHz)",220.0,65.0,2,4,2,Intel Xeon X5570,2933,8,16
+160,power_ssj2008,Dell Inc.,"PowerEdge R710 (Intel Xeon X5570, 2.93 GHz)",237.0,75.6,2,4,2,Intel Xeon X5570,2933,12,16
+161,power_ssj2008,Dell Inc.,"PowerEdge R710 (Intel Xeon X5670, 2.93 GHz)",232.0,64.0,2,6,2,Intel Xeon X5670,2933,12,24
+162,power_ssj2008,Dell Inc.,"PowerEdge R710 (Intel Xeon X5670, 2.93 GHz)",236.0,64.6,2,6,2,Intel Xeon X5670,2933,12,24
+163,power_ssj2008,Dell Inc.,"PowerEdge R720 (Intel Xeon E5-2660 v2, 2.20 GHz)",173.0,43.9,2,10,2,"Intel Xeon E5-2660 v2,",2200,24,40
+164,power_ssj2008,Dell Inc.,"PowerEdge R720 (Intel Xeon E5-2660, 2.2 GHz)",250.0,52.7,2,8,2,Intel Xeon E5-2660,2200,24,32
+165,power_ssj2008,Dell Inc.,"PowerEdge R720 (Intel Xeon E5-2660, 2.20 GHz)",231.0,52.3,2,8,2,Intel Xeon E5-2660,2200,24,32
+166,power_ssj2008,Dell Inc.,"PowerEdge R720 (Intel Xeon E5-2660, 2.20 GHz)",230.0,53.8,2,8,2,Intel Xeon E5-2660,2200,24,32
+167,power_ssj2008,Dell Inc.,"PowerEdge R720 (Intel Xeon E5-2660, 2.20 GHz)",244.0,52.2,2,8,2,Intel Xeon E5-2660,2200,24,32
+168,power_ssj2008,Dell Inc.,"PowerEdge R720 (Intel Xeon E5-2670, 2.6 GHz)",231.0,51.0,2,8,2,Intel Xeon E5-2670,2600,24,32
+169,power_ssj2008,Dell Inc.,PowerEdge R730 (Intel Xeon E5-2699 v3 2.30 GHz),272.0,46.9,2,18,2,Intel Xeon E5-2699 v3,2300,64,72
+170,power_ssj2008,Dell Inc.,PowerEdge R730 (Intel Xeon E5-2699 v4 2.20 GHz),272.0,44.6,2,22,2,Intel Xeon E5-2699 v4,2200,128,88
+171,power_ssj2008,Dell Inc.,PowerEdge R730 (Intel Xeon E5-2699 v4 2.20 GHz),269.0,44.9,2,22,2,Intel Xeon E5-2699 v4,2200,128,88
+172,power_ssj2008,Dell Inc.,PowerEdge R740,457.0,52.3,2,28,2,Intel Xeon Platinum 8180,2500,192,112
+173,power_ssj2008,Dell Inc.,"PowerEdge R740 (Intel Xeon Platinum 8280, 2.70 GHz)",432.0,49.8,2,28,2,"Intel Xeon Platinum 8280,",2700,192,112
+174,power_ssj2008,Dell Inc.,PowerEdge R7425 (AMD EPYC 7601 2.20 GHz),268.0,77.5,2,32,2,AMD EPYC 7601 Dell SKU [338-BNCG],2200,128,128
+175,power_ssj2008,Dell Inc.,PowerEdge R7425 (AMD EPYC 7601 2.20 GHz),287.0,84.9,2,32,2,AMD EPYC 7601,2200,128,128
+176,power_ssj2008,Dell Inc.,"PowerEdge R7515 (AMD EPYC 7742, 2.25 GHz)",246.0,99.5,1,64,2,AMD EPYC 7742,2250,128,128
+177,power_ssj2008,Dell Inc.,"PowerEdge R7525 (AMD EPYC 7702, 2.00 GHz)",393.0,72.3,2,64,2,AMD EPYC 7702,2000,128,256
+178,power_ssj2008,Dell Inc.,"PowerEdge R815 (AMD Opteron 6174, 2.20 GHz)",279.0,100.0,2,12,1,AMD Opteron 6174,2200,16,24
+179,power_ssj2008,Dell Inc.,"PowerEdge R815 (AMD Opteron 6174, 2.20 GHz)",509.0,142.0,4,12,1,AMD Opteron 6174,2200,32,48
+180,power_ssj2008,Dell Inc.,"PowerEdge R815 (AMD Opteron 6278, 2.40 GHz)",593.0,118.0,4,16,1,AMD Opteron 6278,2400,64,64
+181,power_ssj2008,Dell Inc.,PowerEdge R820 (Intel Xeon E5-4650 v2 2.40 GHz),374.0,71.8,4,10,2,Intel Xeon E5-4650 v2,2400,48,80
+182,power_ssj2008,Dell Inc.,"PowerEdge R820 (Intel Xeon E5-4650L, 2.60 GHz)",457.0,108.0,4,8,2,Intel Xeon E5-4650L,2600,48,64
+183,power_ssj2008,Dell Inc.,"PowerEdge R820 (Intel Xeon E5-4650L, 2.60 GHz)",458.0,106.0,4,8,2,Intel Xeon E5-4650L,2600,48,64
+184,power_ssj2008,Dell Inc.,"PowerEdge R820 (Intel Xeon E5-4650L, 2.60 GHz)",446.0,110.0,4,8,2,Intel Xeon E5-4650L,2600,48,64
+185,power_ssj2008,Dell Inc.,PowerEdge R830 (Intel Xeon E5-4669 v4 2.20 GHz),562.0,86.4,4,22,2,Intel Xeon E5-4669 v4,2200,256,176
+186,power_ssj2008,Dell Inc.,PowerEdge R840 (Intel Xeon Platinum 8180 2.50 GHz),923.0,85.6,4,28,2,Intel Xeon Platinum 8180,2500,384,224
+187,power_ssj2008,Dell Inc.,PowerEdge R840 (Intel Xeon Platinum 8180 2.50 GHz),939.0,89.8,4,28,2,Intel Xeon Platinum 8180,2500,384,224
+188,power_ssj2008,Dell Inc.,PowerEdge R940,915.0,106.0,4,28,2,Intel Xeon Platinum 8180,2500,384,224
+189,power_ssj2008,Dell Inc.,PowerEdge T620 (Intel Xeon E5-2660 v2 2.20 GHz),172.0,40.3,2,10,2,Intel Xeon E5-2660 v2,2200,24,40
+190,power_ssj2008,Dell Inc.,"PowerEdge T620 (Intel Xeon E5-2660, 2.2 GHz)",246.0,51.3,2,8,2,Intel Xeon E5-2660,2200,24,32
+191,power_ssj2008,Dell Inc.,"PowerEdge T620 (Intel Xeon E5-2660, 2.2 GHz)",240.0,50.3,2,8,2,Intel Xeon E5-2660,2200,24,32
+192,power_ssj2008,Dell Inc.,"PowerEdge T620 (Intel Xeon E5-2660, 2.20 GHz)",242.0,51.0,2,8,2,Intel Xeon E5-2660,2200,24,32
+193,power_ssj2008,Dell Inc.,"PowerEdge T620 (Intel Xeon E5-2660, 2.20 GHz)",246.0,51.9,2,8,2,Intel Xeon E5-2660,2200,24,32
+194,power_ssj2008,Dell Inc.,"PowerEdge T620 (Intel Xeon E5-2670, 2.6 GHz)",227.0,50.2,2,8,2,Intel Xeon E5-2670,2600,24,32
+195,power_ssj2008,Dell Inc.,PowerEdge T630 (Intel Xeon E5-2699 v3 2.30 GHz),273.0,48.1,2,18,2,Intel Xeon E5-2699 v3,2300,64,72
+196,power_ssj2008,Dell Inc.,PowerEdge T640,469.0,56.0,2,28,2,Intel Xeon Platinum 8180,2500,192,112
+197,power_ssj2008,Dell Inc.,"PowerEdge XR4510c (Intel Xeon D-2776NT, 2.10 GHz)",561.0,200.0,4,16,2,Intel Xeon-D 2776NT,2100,128,128
+198,power_ssj2008,Dell Inc.,"PowerEdge XR8620T (Intel Xeon Gold 6421N, 1.80 GHz)",487.0,170.0,2,32,2,Intel Xeon Gold 6421N,1800,256,128
+199,power_ssj2008,"FALINUX, Inc.",AnyStor-700EC,250.0,125.0,2,64,1,Ampere® Altra® 64-Bit Multi-Core Processor Q64-30,3000,64,128
+200,power_ssj2008,"FALINUX, Inc.",AnyStor-700EC,123.0,73.1,1,64,1,Ampere® Altra® 64-Bit Multi-Core Processor Q64-30,3000,32,64
+201,power_ssj2008,Five9 Network Systems,Five9 N1200 Carrier Grade Server,190.0,76.5,2,6,2,Intel Xeon X5670,2930,12,24
+202,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY CX2550 M1,1152.0,171.0,8,18,2,Intel Xeon E5-2699 v3,2300,256,288
+203,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY CX2560 M5,1412.0,329.0,8,24,2,Intel Xeon Platinum 6252,2100,768,384
+204,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY CX2560 M6,1906.0,472.0,8,24,2,Intel Xeon Gold 5318Y,2100,1,384
+205,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY CX2560 M6,1600.0,482.0,8,24,2,Intel Xeon Gold 5318Y,2100,1,384
+206,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY CX2560 M7,2336.0,541.0,8,32,2,Intel Xeon Gold 6428N,1800,1,512
+207,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY LX1430 M1,250.0,60.8,1,64,2,AMD EPYC 7742,2250,256,128
+208,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX1330 M1,63.9,16.0,1,4,2,Intel Xeon E3-1275Lv3,2700,16,8
+209,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX1330 M1,63.7,13.8,1,4,2,Intel Xeon E3-1275Lv3,2500,16,8
+210,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX1330 M2,47.7,16.0,1,4,2,Intel Xeon E3-1260L v5,2900,16,8
+211,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX1330 M3,56.1,13.1,1,4,2,Intel Xeon E3-1230 v6,3500,16,8
+212,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX1330 M4,73.9,12.8,1,6,2,Intel Xeon E-2176G,3700,16,12
+213,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX1330 M4,57.4,16.8,1,8,2,Intel Xeon E-2288G,3700,16,16
+214,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX1330 M5,70.5,17.9,1,8,2,Intel Xeon E-2388G,3200,16,16
+215,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX1330 M5,72.7,20.5,1,8,2,Intel Xeon E-2388G,3200,16,16
+216,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX2520 M5,318.0,61.5,2,18,2,Intel Xeon Gold 5220,2200,192,72
+217,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX2530 M1,289.0,47.3,2,18,2,Intel Xeon E5-2699 v3,2300,64,72
+218,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX2530 M2,266.0,49.6,2,22,2,Intel Xeon E5-2699 v4,2200,64,88
+219,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX2530 M5,367.0,53.6,2,28,2,Intel Xeon Platinum 8276L,2200,192,112
+220,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX2530 M7,1036.0,186.0,2,60,2,Intel Xeon Platinum 8490H,1900,512,240
+221,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX2540 M1,271.0,39.0,2,18,2,Intel Xeon E5-2699 v3,2300,64,72
+222,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX2540 M2,255.0,43.6,2,22,2,Intel Xeon E5-2699 v4,2200,64,88
+223,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX2540 M4,355.0,57.3,2,28,2,Intel Xeon Platinum 8176M,2100,192,112
+224,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX2540 M5,388.0,58.3,2,28,2,Intel Xeon Platinum 8280L,2700,192,112
+225,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX2540 M5,332.0,58.2,2,28,2,Intel Xeon Platinum 8276L,2300,192,112
+226,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX2540 M7,1043.0,184.0,2,60,2,Intel Xeon Platinum 8490H,1900,512,240
+227,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX2540 M7,989.0,182.0,2,56,2,Intel Xeon Platinum 8480+,2000,512,224
+228,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX2560 M1,267.0,40.1,2,18,2,Intel Xeon E5-2699 v3,2300,64,72
+229,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX2560 M2,243.0,41.7,2,22,2,Intel Xeon E5-2699 v4,2200,64,88
+230,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX4770 M4,733.0,94.9,4,28,2,Intel Xeon Platinum 8176M,2100,192,224
+231,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX4770 M4,773.0,146.0,4,28,2,Intel Xeon Platinum 8176M,2100,192,224
+232,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX4770 M4,785.0,148.0,4,28,2,Intel Xeon Platinum 8176M,2100,192,224
+233,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX4770 M5,808.0,120.0,4,28,2,Intel Xeon Platinum 8280L,2700,384,224
+234,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX4770 M5,710.0,113.0,4,28,2,Intel Xeon Platinum 8276L,2300,384,224
+235,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY RX4770 M6,834.0,129.0,4,28,2,Intel Xeon Platinum 8380H,2900,384,224
+236,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1310 M5 (D3930-A100),55.5,11.7,1,6,2,Intel Xeon E-2356G,3200,16,12
+237,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1310 M5 (D3930-A100),59.4,11.7,1,6,2,Intel Xeon E-2356G,3200,16,12
+238,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1310 M5 (D3931-C100),58.9,15.6,1,6,2,Intel Xeon E-2356G,3200,16,12
+239,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1310 M5 (D3931-C100),61.9,18.6,1,6,2,Intel Xeon E-2356G,3200,16,12
+240,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1320 M1,60.0,13.3,1,4,2,Intel Xeon E3-1275Lv3,2700,16,8
+241,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1320 M2,44.7,11.6,1,4,2,Intel Xeon E3-1260L v5,2900,16,8
+242,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1320 M3,51.8,9.33,1,4,2,Intel Xeon E3-1230 v6,3500,16,8
+243,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1320 M4,61.8,11.7,1,6,2,Intel Xeon E-2176G,3700,16,12
+244,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1320 M4,71.7,10.0,1,6,2,Intel Xeon E-2176G,3700,16,12
+245,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1320 M4,56.0,16.3,1,8,2,Intel Xeon E-2288G,3700,16,16
+246,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1320 M5,62.5,17.6,1,8,2,Intel Xeon E-2388G,3200,16,16
+247,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1320 M5,80.4,21.2,1,8,2,Intel Xeon E-2388G,3200,16,16
+248,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1330 M2,47.2,16.1,1,4,2,Intel Xeon E3-1240L v5,2100,16,8
+249,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1330 M3,51.2,12.4,1,4,2,Intel Xeon E3-1230 v6,3500,16,8
+250,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1330 M4,53.2,15.9,1,8,2,Intel Xeon E-2288G,3700,16,16
+251,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1330 M4,72.9,14.9,1,6,2,Intel Xeon E-2176G,3700,16,12
+252,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1330 M5,73.6,18.0,1,8,2,Intel Xeon E-2388G,3200,16,16
+253,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX1330 M5,75.7,20.6,1,8,2,Intel Xeon E-2388G,3200,16,16
+254,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX2540 M1,196.0,36.0,2,10,2,Intel Xeon E5-2470 v2,2400,48,40
+255,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX2550 M5,342.0,54.8,2,24,2,Intel Xeon Gold 6252 Processor,2100,96,96
+256,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX2550 M7,563.0,120.0,2,32,2,Intel Xeon Gold 6438Y+,2000,512,128
+257,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX2560 M1,264.0,40.0,2,18,2,Intel Xeon E5-2699 v3,2300,64,72
+258,power_ssj2008,Fujitsu,FUJITSU Server PRIMERGY TX2560 M2,241.0,41.8,2,22,2,Intel Xeon E5-2699 v4,2200,64,88
+259,power_ssj2008,Fujitsu,PRIMERGY BX920 S2 (Intel Xeon X5675),4272.0,1032.0,36,6,2,Intel Xeon X5675,3067,216,432
+260,power_ssj2008,Fujitsu,PRIMERGY BX920 S3 (Intel Xeon E5-2470),4965.0,1014.0,36,8,2,Intel Xeon E5-2470,2300,432,576
+261,power_ssj2008,Fujitsu,PRIMERGY BX920 S4 (Intel Xeon E5-2470 v2),4745.0,949.0,36,10,2,Intel Xeon E5-2470 v2,2400,864,720
+262,power_ssj2008,Fujitsu,PRIMERGY CX120 S1 (Intel Xeon L5530),6303.0,1842.0,76,4,2,Intel Xeon L5530,2400,304,608
+264,power_ssj2008,Fujitsu,PRIMERGY RX100 S6 (Intel Xeon X3470),130.0,35.0,1,4,2,Intel Xeon X3470,2933,4,8
+265,power_ssj2008,Fujitsu,PRIMERGY RX100 S6 (Intel Xeon X3480),127.0,33.4,1,4,2,Intel Xeon X3480,3067,4,8
+266,power_ssj2008,Fujitsu,PRIMERGY RX100 S7 (Intel Xeon E3-1260L),57.2,17.8,1,4,2,Intel Xeon E3-1260L,2400,8,8
+267,power_ssj2008,Fujitsu,PRIMERGY RX100 S7p (Intel Xeon E3-1265LV2),59.5,19.1,1,4,2,Intel Xeon E3-1265LV2,2500,8,8
+268,power_ssj2008,Fujitsu,PRIMERGY RX100 S8 (Intel Xeon E3-1265Lv3),69.8,17.7,1,4,2,Intel Xeon E3-1265Lv3,2500,8,8
+270,power_ssj2008,Fujitsu,PRIMERGY RX200 S6 (Intel Xeon X5670),242.0,76.2,2,6,2,Intel Xeon X5670,2933,12,24
+271,power_ssj2008,Fujitsu,PRIMERGY RX200 S7 (Intel Xeon E5-2660),258.0,59.8,2,8,2,Intel Xeon E5-2660,2200,24,32
+272,power_ssj2008,Fujitsu,PRIMERGY RX200 S7 (Intel Xeon E5-2660),257.0,58.6,2,8,2,Intel Xeon E5-2660,2200,32,32
+273,power_ssj2008,Fujitsu,PRIMERGY RX200 S8 (Intel Xeon E5-2660 v2),193.0,45.7,2,10,2,Intel Xeon E5-2660 v2,2200,48,40
+274,power_ssj2008,Fujitsu,PRIMERGY RX2530 M6,580.0,131.0,2,40,2,Intel Xeon Platinum 8380,2300,256,160
+275,power_ssj2008,Fujitsu,PRIMERGY RX2530 M6,568.0,132.0,2,40,2,Intel Xeon Platinum 8380,2300,256,160
+276,power_ssj2008,Fujitsu,PRIMERGY RX2540 M6,564.0,135.0,2,40,2,Intel Xeon Platinum 8380,2300,256,160
+277,power_ssj2008,Fujitsu,PRIMERGY RX2540 M6,550.0,137.0,2,40,2,Intel Xeon Platinum 8380,2300,256,160
+279,power_ssj2008,Fujitsu,PRIMERGY RX300 S6 (Intel Xeon X5670),245.0,77.9,2,6,2,Intel Xeon X5670,2933,12,24
+280,power_ssj2008,Fujitsu,PRIMERGY RX300 S7 (Intel Xeon E5-2660),245.0,54.0,2,8,2,Intel Xeon E5-2660,2200,24,32
+281,power_ssj2008,Fujitsu,PRIMERGY RX300 S7 (Intel Xeon E5-2660),245.0,53.1,2,8,2,Intel Xeon E5-2660,2200,32,32
+282,power_ssj2008,Fujitsu,PRIMERGY RX300 S8 (Intel Xeon E5-2660 v2),185.0,40.8,2,10,2,Intel Xeon E5-2660 v2,2200,48,40
+283,power_ssj2008,Fujitsu,PRIMERGY RX350 S7 (Intel Xeon E5-2660),245.0,55.2,2,8,2,Intel Xeon E5-2660,2200,24,32
+284,power_ssj2008,Fujitsu,PRIMERGY RX350 S7 (Intel Xeon E5-2660),240.0,52.3,2,8,2,Intel Xeon E5-2660,2200,24,32
+285,power_ssj2008,Fujitsu,PRIMERGY RX350 S8 (Intel Xeon E5-2660 v2),185.0,40.8,2,10,2,Intel Xeon E5-2660 v2,2200,48,40
+286,power_ssj2008,Fujitsu,PRIMERGY RX500 S7 (Intel Xeon E5-4640),420.0,97.1,4,8,2,Intel Xeon E5-4640,2400,48,64
+287,power_ssj2008,Fujitsu,PRIMERGY RX500 S7 (Intel Xeon E5-4640),402.0,94.6,4,8,2,Intel Xeon E5-4640,2400,48,64
+289,power_ssj2008,Fujitsu,PRIMERGY TX100 S3p (Intel Xeon E3-1240V2),72.5,14.1,1,4,2,Intel Xeon E3-1240V2,3400,8,8
+290,power_ssj2008,Fujitsu,PRIMERGY TX120 S3 (Intel Xeon E3-1260L),54.0,14.9,1,4,2,Intel Xeon E3-1260L,2400,8,8
+291,power_ssj2008,Fujitsu,PRIMERGY TX120 S3p (Intel Xeon E3-1265LV2),56.2,15.7,1,4,2,Intel Xeon E3-1265LV2,2500,8,8
+292,power_ssj2008,Fujitsu,PRIMERGY TX140 S1 (Intel Xeon E3-1260L),53.6,16.8,1,4,2,Intel Xeon E3-1260L,2400,8,8
+293,power_ssj2008,Fujitsu,PRIMERGY TX140 S1p (Intel Xeon E3-1265LV2),55.3,18.9,1,4,2,Intel Xeon E3-1265LV2,2500,8,8
+294,power_ssj2008,Fujitsu,PRIMERGY TX140 S2 (Intel Xeon E3-1265Lv3),58.5,19.0,1,4,2,Intel Xeon E3-1265Lv3,2500,8,8
+296,power_ssj2008,Fujitsu,PRIMERGY TX150 S7 (Intel Xeon X3470),112.0,24.3,1,4,2,Intel Xeon X3470,2933,4,8
+297,power_ssj2008,Fujitsu,PRIMERGY TX150 S7 (Intel Xeon X3480),113.0,24.8,1,4,2,Intel Xeon X3480,3067,4,8
+298,power_ssj2008,Fujitsu,PRIMERGY TX200 S7 (Intel Xeon E5-2470),252.0,50.7,2,8,2,Intel Xeon E5-2470,2300,24,32
+299,power_ssj2008,Fujitsu,PRIMERGY TX200 S7 (Intel Xeon E5-2470),252.0,51.4,2,8,2,Intel Xeon E5-2470,2300,24,32
+301,power_ssj2008,Fujitsu,PRIMERGY TX300 S6 (Intel Xeon X5670),236.0,78.5,2,6,2,Intel Xeon X5670,2933,12,24
+302,power_ssj2008,Fujitsu,PRIMERGY TX300 S6 (Intel Xeon X5675),236.0,74.8,2,6,2,Intel Xeon X5675,3066,12,24
+303,power_ssj2008,Fujitsu,PRIMERGY TX300 S7 (Intel Xeon E5-2660),246.0,55.1,2,8,2,Intel Xeon E5-2660,2200,24,32
+304,power_ssj2008,Fujitsu,PRIMERGY TX300 S7 (Intel Xeon E5-2660),240.0,52.6,2,8,2,Intel Xeon E5-2660,2200,24,32
+305,power_ssj2008,Fujitsu,PRIMERGY TX300 S8 (Intel Xeon E5-2660 v2),185.0,40.8,2,10,2,Intel Xeon E5-2660 v2,2200,48,40
+322,power_ssj2008,"GIGA-BYTE TECHNOLOGY CO., LTD.",R181-Z90,296.0,95.5,2,32,2,AMD EPYC 7601,2200,128,128
+323,power_ssj2008,"GIGA-BYTE TECHNOLOGY CO., LTD.",R272-Z30,261.0,89.8,1,64,2,AMD EPYC 7773X,2200,256,128
+324,power_ssj2008,"GIGA-BYTE TECHNOLOGY CO., LTD.",R282-Z90,515.0,112.0,2,64,2,AMD EPYC 7773X,2200,256,256
+325,power_ssj2008,"GIGA-BYTE TECHNOLOGY CO., LTD.",R282-Z90,501.0,156.0,2,64,2,AMD EPYC 7773X,2200,256,256
+326,power_ssj2008,"GIGA-BYTE Technology Co., Ltd.",R282-Z90,492.0,133.0,2,64,2,AMD EPYC 7742,2250,256,256
+327,power_ssj2008,H3C,UIS R390x G2,252.0,40.1,2,22,2,Intel Xeon E5-2699 v4,2200,64,88
+328,power_ssj2008,Hewlett Packard,ProLiant DL170h G6,652.0,267.0,8,4,2,Intel Xeon L5520,2267,32,64
+329,power_ssj2008,Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus,1731.0,430.0,6,64,2,AMD EPYC 7763,2450,768,768
+330,power_ssj2008,Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus,1192.0,331.0,4,64,2,AMD EPYC 7763,2450,512,512
+331,power_ssj2008,Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus,1694.0,352.0,6,64,2,AMD EPYC 7763,2450,768,768
+332,power_ssj2008,Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus,1173.0,257.0,4,64,2,AMD EPYC 7763,2450,512,512
+333,power_ssj2008,Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus,2260.0,523.0,8,64,2,AMD EPYC 7763,2450,1024,1024
+334,power_ssj2008,Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus,1281.0,524.0,6,64,2,AMD EPYC 7702,2000,768,768
+335,power_ssj2008,Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus,894.0,403.0,4,64,2,AMD EPYC 7702,2000,512,512
+336,power_ssj2008,Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus,1687.0,700.0,8,64,2,AMD EPYC 7702,2000,1024,1024
+337,power_ssj2008,Hewlett Packard Enterprise,Apollo XL225n Gen10 Plus,1721.0,678.0,8,64,2,AMD EPYC 7742,2250,1024,1024
+338,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL110 Gen10 Plus,299.0,94.1,1,32,2,Intel Xeon Gold 6314U CPU,2300,64,64
+339,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL110 Gen10 Plus,307.0,93.8,1,32,2,Intel Xeon Gold 6314U CPU,2300,64,64
+340,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL20 Gen10 Plus,81.5,21.5,1,8,2,Intel(R) Xeon(R) E-2388G CPU,3200,16,16
+341,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL20 Gen10 Plus,82.8,21.7,1,8,2,Intel(R) Xeon(R) E-2388G CPU,3200,16,16
+342,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL325 Gen10,231.0,79.5,1,64,2,AMD EPYC 7702P,2000,128,128
+343,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL325 Gen10,230.0,78.7,1,64,2,AMD EPYC 7702P,2000,128,128
+344,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL325 Gen10,224.0,70.3,1,64,2,AMD EPYC 7702P,2000,128,128
+345,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL325 Gen10,181.0,61.7,1,32,2,AMD EPYC 7551P,2000,128,64
+346,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL325 Gen10 Plus,269.0,53.2,1,64,2,AMD EPYC 7773X,2200,128,128
+347,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL325 Gen10 Plus,268.0,56.8,1,64,2,AMD EPYC 7763,2450,128,128
+348,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL325 Gen11,416.0,74.5,1,96,2,AMD EPYC 9654P,2400,192,192
+349,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL325 Gen11,381.0,72.5,1,96,2,AMD EPYC 9654P,2400,192,192
+350,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL345 Gen10 Plus,272.0,58.0,1,64,2,AMD EPYC 7763,2450,128,128
+351,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL345 Gen10 Plus,270.0,53.7,1,64,2,AMD EPYC 7763,2450,128,128
+352,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL345 Gen11,373.0,72.2,1,96,2,AMD EPYC 9654P,2400,192,192
+353,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL345 Gen11,346.0,72.0,1,96,2,AMD EPYC 9654P,2400,192,192
+354,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL360 Gen10,235.0,37.3,1,28,2,Intel Xeon Platinum 8280,2700,48,56
+355,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL360 Gen10,217.0,39.4,1,28,2,Intel Xeon Platinum 8280,2700,48,56
+356,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL360 Gen10,237.0,38.9,1,28,2,Intel Xeon Platinum 8180,2500,48,56
+357,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL360 Gen10,457.0,52.4,2,28,2,Intel Xeon Platinum 8180,2500,96,112
+358,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL360 Gen10,233.0,38.7,1,28,2,Intel Xeon Platinum 8180,2500,48,56
+359,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL360 Gen10,448.0,50.0,2,28,2,Intel Xeon Platinum 8180,2500,96,112
+360,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL360 Gen10,451.0,48.7,2,28,2,Intel Xeon Platinum 8180,2500,96,112
+361,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL360 Gen10 Plus,651.0,119.0,2,40,2,Intel Xeon Platinum 8380,2300,256,160
+362,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL360 Gen10 Plus,623.0,110.0,2,40,2,Intel Xeon Platinum 8380,2300,256,160
+363,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL360 Gen11,616.0,179.0,2,56,2,Intel Xeon Platinum 8480+,2000,256,224
+364,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL360 Gen11,719.0,223.0,2,56,2,Intel Xeon Platinum 8480+,2000,256,224
+365,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL360 Gen9,276.0,45.0,2,18,2,Intel Xeon E5-2699 v3,2300,64,72
+366,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL365 Gen10 Plus,468.0,109.0,2,64,2,AMD EPYC 7713,2000,256,256
+367,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL365 Gen11,732.0,122.0,2,96,2,AMD EPYC 9654,2400,384,384
+368,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL365 Gen11,702.0,122.0,2,96,2,AMD EPYC 9654,2400,384,384
+369,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL380 Gen10,461.0,49.3,2,28,2,Intel Xeon Platinum 8180,2500,96,112
+370,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL380 Gen10 Plus,647.0,143.0,2,40,2,Intel Xeon Platinum 8380,2300,256,160
+371,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL380 Gen10 Plus,619.0,127.0,2,40,2,Intel Xeon Platinum 8380,2300,256,160
+372,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL380 Gen11,689.0,201.0,2,56,2,Intel Xeon Platinum 8480+,2000,256,224
+373,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL380 Gen11,594.0,158.0,2,56,2,Intel Xeon Platinum 8480+,2000,256,224
+374,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL385 Gen10,423.0,163.0,2,64,2,AMD EPYC 7702,2000,256,256
+375,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL385 Gen10,422.0,111.0,2,64,2,AMD EPYC 7702,2000,256,256
+376,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL385 Gen10,295.0,88.3,2,32,2,AMD EPYC 7601,2200,128,128
+377,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL385 Gen10,298.0,81.1,2,32,2,AMD EPYC 7601,2200,128,128
+378,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL385 Gen10 Plus,548.0,101.0,2,64,2,AMD EPYC 7773X,2200,256,256
+379,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL385 Gen10 Plus,546.0,120.0,2,64,2,AMD EPYC 7763,2450,256,256
+380,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL385 Gen11,720.0,125.0,2,96,2,AMD EPYC 9654,2400,384,384
+381,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL385 Gen11,679.0,121.0,2,96,2,AMD EPYC 9654,2400,384,384
+382,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL560 Gen10,849.0,103.0,4,28,2,Intel Xeon Platinum 8280,2700,192,224
+383,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL560 Gen10,942.0,90.1,4,28,2,Intel Xeon Platinum 8280,2700,192,224
+384,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL560 Gen10,942.0,88.6,4,28,2,Intel Xeon Platinum 8180,2500,192,224
+385,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL560 Gen10,944.0,82.9,4,28,2,Intel Xeon Platinum 8180,2500,192,224
+386,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL560 Gen10,936.0,88.9,4,28,2,Intel Xeon Platinum 8180,2500,192,224
+387,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL560 Gen9,557.0,86.3,4,18,2,Intel Xeon E5-4669 v3,2100,64,144
+388,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL580 Gen10,982.0,119.0,4,28,2,Intel Xeon Platinum 8280,2700,384,224
+389,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL580 Gen10,894.0,123.0,4,28,2,Intel Xeon Platinum 8280,2700,384,224
+390,power_ssj2008,Hewlett Packard Enterprise,ProLiant DL580 Gen10,963.0,110.0,4,28,2,Intel Xeon Platinum 8180,2500,192,224
+391,power_ssj2008,Hewlett Packard Enterprise,ProLiant ML30 Gen10 Plus,77.2,20.0,1,8,2,Intel(R) Xeon(R) E-2388G CPU,3200,16,16
+392,power_ssj2008,Hewlett Packard Enterprise,ProLiant ML30 Gen10 Plus,78.0,19.4,1,8,2,Intel(R) Xeon(R) E-2388G CPU,3200,16,16
+393,power_ssj2008,Hewlett Packard Enterprise,ProLiant ML350 Gen10,474.0,56.8,2,28,2,Intel Xeon Platinum 8280,2700,192,112
+394,power_ssj2008,Hewlett Packard Enterprise,ProLiant ML350 Gen10,435.0,64.2,2,28,2,Intel Xeon Platinum 8280,2700,192,112
+395,power_ssj2008,Hewlett Packard Enterprise,ProLiant ML350 Gen10,471.0,59.4,2,28,2,Intel Xeon Platinum 8180,2500,192,112
+396,power_ssj2008,Hewlett Packard Enterprise,ProLiant ML350 Gen10,459.0,58.1,2,28,2,Intel Xeon Platinum 8180,2500,192,112
+397,power_ssj2008,Hewlett Packard Enterprise,ProLiant ML350 Gen11,704.0,208.0,2,56,2,Intel Xeon Platinum 8480+,2000,256,224
+398,power_ssj2008,Hewlett Packard Enterprise,ProLiant ML350 Gen11,611.0,154.0,2,56,2,Intel Xeon Platinum 8480+,2000,256,224
+399,power_ssj2008,Hewlett Packard Enterprise,Superdome Flex 280 - 4 Socket,1117.0,258.0,4,28,2,Intel Xeon Platinum 8380HL,2900,768,224
+400,power_ssj2008,Hewlett Packard Enterprise,Superdome Flex 280 - 4 Socket,1158.0,254.0,4,28,2,Intel Xeon Platinum 8380HL,2900,768,224
+401,power_ssj2008,Hewlett Packard Enterprise,Superdome Flex 280 - 8 Socket,2148.0,500.0,8,28,2,Intel Xeon Platinum 8380HL,2900,1536,448
+402,power_ssj2008,Hewlett Packard Enterprise,Superdome Flex 280 - 8 Socket,2132.0,503.0,8,28,2,Intel Xeon Platinum 8380HL,2900,1536,448
+403,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,2295.0,459.0,10,28,2,Intel Xeon Platinum 8280,2700,960,560
+404,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,1860.0,398.0,8,28,2,Intel Xeon Platinum 8280,2700,768,448
+405,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,1418.0,328.0,6,28,2,Intel Xeon Platinum 8280,2700,576,336
+406,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,982.0,257.0,4,28,2,Intel Xeon Platinum 8280,2700,384,224
+407,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,4975.0,845.0,22,28,2,Intel Xeon Platinum 8280,2700,2112,1232
+408,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,4519.0,779.0,20,28,2,Intel Xeon Platinum 8280,2700,1920,1120
+409,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,4073.0,714.0,18,28,2,Intel Xeon Platinum 8280,2700,1728,1008
+410,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,3627.0,658.0,16,28,2,Intel Xeon Platinum 8280,2700,1536,896
+411,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,3182.0,585.0,14,28,2,Intel Xeon Platinum 8280,2700,1344,784
+412,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,2736.0,518.0,12,28,2,Intel Xeon Platinum 8280,2700,1152,672
+413,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,5384.0,922.0,24,28,2,Intel Xeon Platinum 8280,2700,2304,1344
+414,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,5938.0,807.0,24,28,2,Intel Xeon Platinum 8280,2700,2304,1344
+415,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,5431.0,756.0,22,28,2,Intel Xeon Platinum 8280,2700,2112,1232
+416,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,4940.0,700.0,20,28,2,Intel Xeon Platinum 8280,2700,1920,1120
+417,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,4444.0,645.0,18,28,2,Intel Xeon Platinum 8280,2700,1728,1008
+418,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,3958.0,598.0,16,28,2,Intel Xeon Platinum 8280,2700,1536,896
+419,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,3472.0,535.0,14,28,2,Intel Xeon Platinum 8280,2700,1344,784
+420,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,2980.0,477.0,12,28,2,Intel Xeon Platinum 8280,2700,1152,672
+421,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,2494.0,425.0,10,28,2,Intel Xeon Platinum 8280,2700,960,560
+422,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,5402.0,864.0,22,28,2,Intel Xeon Platinum 8180,2500,2,1232
+423,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,4918.0,814.0,20,28,2,Intel Xeon Platinum 8180,2500,1920,1120
+424,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,4444.0,746.0,18,28,2,Intel Xeon Platinum 8180,2500,1728,1008
+425,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,3971.0,695.0,16,28,2,Intel Xeon Platinum 8180,2500,1536,896
+426,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,3497.0,627.0,14,28,2,Intel Xeon Platinum 8180,2500,1344,784
+427,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,2999.0,553.0,12,28,2,Intel Xeon Platinum 8180,2500,1152,672
+428,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,2495.0,466.0,10,28,2,Intel Xeon Platinum 8180,2500,960,560
+429,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Compute Module,5816.0,901.0,24,28,2,Intel Xeon Platinum 8180,2500,2,1344
+430,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Plus Compute Module,3370.0,897.0,10,40,2,Intel Xeon Platinum 8380 CPU,2300,1,800
+431,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Plus Compute Module,4005.0,1038.0,12,40,2,Intel Xeon Platinum 8380 CPU,2300,1,960
+432,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Plus Compute Module,6594.0,1607.0,20,40,2,Intel Xeon Platinum 8380 CPU,2300,2,1600
+433,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Plus Compute Module,5947.0,1464.0,18,40,2,Intel Xeon Platinum 8380 CPU,2300,2,1440
+434,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Plus Compute Module,5313.0,1324.0,16,40,2,Intel Xeon Platinum 8380 CPU,2300,2,1280
+435,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Plus Compute Module,4667.0,1183.0,14,40,2,Intel Xeon Platinum 8380 CPU,2300,1,1120
+436,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Plus Compute Module,7920.0,1892.0,24,40,2,Intel Xeon Platinum 8380 CPU,2300,3,1920
+437,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Plus Compute Module,7262.0,1749.0,22,40,2,Intel Xeon Platinum 8380 CPU,2300,2,1760
+438,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Plus Compute Module,3344.0,759.0,10,40,2,Intel Xeon Platinum 8380 CPU,2300,1280,800
+439,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Plus Compute Module,5282.0,1107.0,16,40,2,Intel Xeon Platinum 8380 CPU,2300,2048,1280
+440,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Plus Compute Module,5912.0,1218.0,18,40,2,Intel Xeon Platinum 8380 CPU,2300,2304,1440
+441,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Plus Compute Module,7210.0,1447.0,22,40,2,Intel Xeon Platinum 8380 CPU,2300,2816,1760
+442,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Plus Compute Module,6559.0,1335.0,20,40,2,Intel Xeon Platinum 8380 CPU,2300,2560,1600
+443,power_ssj2008,Hewlett Packard Enterprise,Synergy 480 Gen10 Plus Compute Module,7865.0,1563.0,24,40,2,Intel Xeon Platinum 8380 CPU,2300,3072,1920
+444,power_ssj2008,Hewlett Packard Enterprise,Synergy 660 Gen10 Compute Module,5409.0,781.0,24,28,2,Intel Xeon Platinum 8280,2700,2304,1344
+445,power_ssj2008,Hewlett Packard Enterprise,Synergy 660 Gen10 Compute Module,4503.0,675.0,20,28,2,Intel Xeon Platinum 8280,2700,1920,1120
+446,power_ssj2008,Hewlett Packard Enterprise,Synergy 660 Gen10 Compute Module,3611.0,570.0,16,28,2,Intel Xeon Platinum 8280,2700,1536,896
+447,power_ssj2008,Hewlett Packard Enterprise,Synergy 660 Gen10 Compute Module,2731.0,465.0,12,28,2,Intel Xeon Platinum 8280,2700,1152,672
+448,power_ssj2008,Hewlett Packard Enterprise,Synergy 660 Gen10 Compute Module,1864.0,361.0,8,28,2,Intel Xeon Platinum 8280,2700,768,448
+449,power_ssj2008,Hewlett Packard Enterprise,Synergy 660 Gen10 Compute Module,5989.0,679.0,24,28,2,Intel Xeon Platinum 8280,2700,2304,1344
+450,power_ssj2008,Hewlett Packard Enterprise,Synergy 660 Gen10 Compute Module,4983.0,592.0,20,28,2,Intel Xeon Platinum 8280,2700,1920,1120
+451,power_ssj2008,Hewlett Packard Enterprise,Synergy 660 Gen10 Compute Module,3978.0,500.0,16,28,2,Intel Xeon Platinum 8280,2700,1536,896
+452,power_ssj2008,Hewlett Packard Enterprise,Synergy 660 Gen10 Compute Module,3004.0,421.0,12,28,2,Intel Xeon Platinum 8280,2700,1152,672
+453,power_ssj2008,Hewlett Packard Enterprise,Synergy 660 Gen10 Compute Module,2045.0,330.0,8,28,2,Intel Xeon Platinum 8280,2700,768,448
+454,power_ssj2008,Hewlett Packard Enterprise,Synergy 660 Gen10 Compute Module,5001.0,664.0,20,28,2,Intel Xeon Platinum 8180,2500,1920,1120
+455,power_ssj2008,Hewlett Packard Enterprise,Synergy 660 Gen10 Compute Module,4030.0,572.0,16,28,2,Intel Xeon Platinum 8180,2500,1536,896
+456,power_ssj2008,Hewlett Packard Enterprise,Synergy 660 Gen10 Compute Module,3048.0,478.0,12,28,2,Intel Xeon Platinum 8180,2500,1152,672
+457,power_ssj2008,Hewlett Packard Enterprise,Synergy 660 Gen10 Compute Module,2048.0,326.0,8,28,2,Intel Xeon Platinum 8180,2500,768,448
+458,power_ssj2008,Hewlett Packard Enterprise,Synergy 660 Gen10 Compute Module,5968.0,758.0,24,28,2,Intel Xeon Platinum 8180,2500,2304,1344
+460,power_ssj2008,Hewlett-Packard Company,ProLiant BL280c G6,2783.0,802.0,32,4,2,Intel Xeon L5520,2267,128,256
+461,power_ssj2008,Hewlett-Packard Company,ProLiant BL2x220c G6,5547.0,1696.0,64,4,2,Intel Xeon L5520,2266,256,512
+464,power_ssj2008,Hewlett-Packard Company,"ProLiant DL165 G7 (2.30 GHz, AMD Opteron 6276 processor)",308.0,68.9,2,16,1,AMD Opteron 6276,2300,32,32
+465,power_ssj2008,Hewlett-Packard Company,ProLiant DL170e G6,660.0,178.0,8,6,2,Intel Xeon L5640,2267,64,96
+466,power_ssj2008,Hewlett-Packard Company,"ProLiant DL170h G6 (2.4 GHz, Intel Xeon L5530)",680.0,217.0,8,4,2,Intel Xeon L5530,2400,32,64
+467,power_ssj2008,Hewlett-Packard Company,"ProLiant DL170h G6 (2.93 GHz, Intel Xeon X5670 processor)",883.0,216.0,8,6,2,Intel Xeon X5670,2933,64,96
+468,power_ssj2008,Hewlett-Packard Company,"ProLiant DL170h G6 (2.93 GHz, Intel Xeon X5670 processor)",952.0,219.0,8,6,2,Intel Xeon X5670,2933,64,96
+472,power_ssj2008,Hewlett-Packard Company,ProLiant DL360 G6,186.0,62.0,2,4,2,Intel Xeon L5530,2400,8,16
+473,power_ssj2008,Hewlett-Packard Company,ProLiant DL360 G6,175.0,70.8,2,4,2,Intel Xeon L5520,2267,8,16
+474,power_ssj2008,Hewlett-Packard Company,"ProLiant DL360 G6 (2.93 GHz, Intel Xeon X5670 processor)",250.0,68.9,2,6,2,Intel Xeon X5670,2933,16,24
+475,power_ssj2008,Hewlett-Packard Company,"ProLiant DL360 G6 (2.93GHz, Intel Xeon processor X5570)",245.0,88.4,2,4,2,Intel Xeon X5570,2933,8,16
+476,power_ssj2008,Hewlett-Packard Company,"ProLiant DL360 G7 (2.26 GHz, Intel Xeon L5640 processor)",178.0,54.6,2,6,2,Intel Xeon L5640,2266,16,24
+477,power_ssj2008,Hewlett-Packard Company,"ProLiant DL360 G7 (3.07 GHz, Intel Xeon X5675 processor)",216.0,55.6,2,6,2,Intel Xeon X5675,3067,16,24
+482,power_ssj2008,Hewlett-Packard Company,ProLiant DL380 G6,187.0,63.7,2,4,2,Intel Xeon L5530,2400,8,16
+483,power_ssj2008,Hewlett-Packard Company,"ProLiant DL380 G6 (2.26GHz, Intel Xeon L5520 processor)",170.0,66.3,2,4,2,Intel Xeon L5520,2266,8,16
+484,power_ssj2008,Hewlett-Packard Company,"ProLiant DL380 G6 (2.93 GHz, Intel Xeon X5670 processor)",249.0,68.1,2,6,2,Intel Xeon X5670,2933,16,24
+485,power_ssj2008,Hewlett-Packard Company,"ProLiant DL380 G7 (2.26 GHz, Intel Xeon L5640 processor)",172.0,53.6,2,6,2,Intel Xeon L5640,2266,16,24
+486,power_ssj2008,Hewlett-Packard Company,"ProLiant DL380 G7 (3.07 GHz, Intel Xeon X5675 processor)",222.0,52.3,2,6,2,Intel Xeon X5675,3067,16,24
+490,power_ssj2008,Hewlett-Packard Company,"ProLiant DL385 G7 (2.2GHz, AMD Opteron 6174)",271.0,101.0,2,12,1,AMD Opteron 6174,2200,16,24
+491,power_ssj2008,Hewlett-Packard Company,"ProLiant DL385p Gen8 (2.50 GHz, AMD Opteron 6380 processor)",306.0,66.6,2,16,1,AMD Opteron 6380,2500,64,32
+492,power_ssj2008,Hewlett-Packard Company,ProLiant DL560 Gen9,566.0,96.4,4,18,2,Intel Xeon E5-4669 v3,2100,128,144
+501,power_ssj2008,Hewlett-Packard Company,"ProLiant DL785 G6 (2.1 GHz, AMD Opteron 8425 HE)",852.0,468.0,8,6,1,Six-Core AMD Opteron(r) Processor 8425 HE,2100,32,48
+505,power_ssj2008,Hewlett-Packard Company,"ProLiant SL170s G6 (3.06 GHz, Intel Xeon X5675 processor)",1761.0,389.0,16,6,2,Intel Xeon X5675,3067,128,192
+506,power_ssj2008,Hewlett-Packard Company,ProLiant SL2X170z G6,858.0,194.0,8,6,2,Intel Xeon X5670,2933,64,96
+507,power_ssj2008,Hewlett-Packard Company,ProLiant SL2x170z G6,662.0,181.0,8,6,2,Intel Xeon L5640,2267,64,96
+508,power_ssj2008,Hewlett-Packard Company,ProLiant SL2x170z G6,656.0,179.0,8,4,2,Intel Xeon L5530,2400,32,64
+509,power_ssj2008,Hewlett-Packard Company,ProLiant SL2x170z G6,676.0,260.0,8,4,2,Intel Xeon L5520,2267,32,64
+510,power_ssj2008,Hewlett-Packard Company,"ProLiant SL2x170z G6 (2.4 GHz, Intel Xeon L5530)",664.0,191.0,8,4,2,Intel Xeon L5530,2400,32,64
+515,power_ssj2008,"Hitachi, Ltd.",BS2000 Server Blade E55A2,2507.0,1048.0,16,6,2,Intel Xeon X5675,3067,192,192
+516,power_ssj2008,"Hitachi, Ltd.",BS2000 Server Blade E57A2,3948.0,2024.0,16,10,2,Intel Xeon processor E7-8870,2400,256,320
+517,power_ssj2008,"Hitachi, Ltd.",BS320 Server Blade C51P5,2799.0,1278.0,20,6,2,Intel Xeon X5675,3067,240,240
+518,power_ssj2008,"Hitachi, Ltd.",HA8000-bd/BD10X1,1897.0,833.0,40,2,2,Intel Core i7 610E,2533,320,160
+519,power_ssj2008,"Hitachi, Ltd.",HA8000/RS110 (CK1),137.0,51.5,1,4,2,Intel Xeon X3480,3067,8,8
+520,power_ssj2008,"Hitachi, Ltd.",HA8000/RS110 (DL),114.0,37.6,1,4,2,Intel Xeon E3-1280,3500,8,8
+521,power_ssj2008,"Hitachi, Ltd.",HA8000/RS110 (DL2),94.0,45.8,1,4,2,Intel Xeon E3-1280v2,3600,8,8
+522,power_ssj2008,"Hitachi, Ltd.",HA8000/RS110-hHM,171.0,58.2,1,8,2,Intel Xeon E5-2470,2300,16,16
+523,power_ssj2008,"Hitachi, Ltd.",HA8000/RS210 (AL),293.0,118.0,2,6,2,Intel Xeon X5675,3066,48,24
+524,power_ssj2008,"Hitachi, Ltd.",HA8000/RS210 (LK1),302.0,136.0,2,6,2,Intel Xeon X5670,2933,24,24
+525,power_ssj2008,"Hitachi, Ltd.",HA8000/RS210-hHM,337.0,99.3,2,8,2,Intel Xeon E5-2670,2600,32,32
+526,power_ssj2008,"Hitachi, Ltd.",HA8000/RS210AM,297.0,92.9,2,8,2,Intel Xeon E5-2470,2300,32,32
+527,power_ssj2008,"Hitachi, Ltd.",HA8000/RS220 (AL),293.0,124.0,2,6,2,Intel Xeon X5675,3066,48,24
+528,power_ssj2008,"Hitachi, Ltd.",HA8000/RS220 (LK1),297.0,132.0,2,6,2,Intel Xeon X5670,2933,24,24
+529,power_ssj2008,"Hitachi, Ltd.",HA8000/RS220-hHM,325.0,104.0,2,8,2,Intel Xeon E5-2670,2600,32,32
+530,power_ssj2008,"Hitachi, Ltd.",HA8000/RS220AM,286.0,88.9,2,8,2,Intel Xeon E5-2470,2300,32,32
+531,power_ssj2008,"Hitachi, Ltd.",HA8000/RS440 (AK1),1103.0,575.0,4,8,2,Intel Xeon X7560,2260,128,64
+532,power_ssj2008,"Hitachi, Ltd.",HA8000/RS440 (AL),837.0,423.0,4,10,2,Intel Xeon E7-4870,2400,128,80
+533,power_ssj2008,"Hitachi, Ltd.",HA8000/SS10 (DK1),63.2,24.3,1,2,2,Intel Core i3-540,3067,8,4
+534,power_ssj2008,"Hitachi, Ltd.",HA8000/SS10 (DL),92.8,22.4,1,4,1,Intel Xeon E3-1220,3100,8,4
+535,power_ssj2008,"Hitachi, Ltd.",HA8000/SS10 (DL2),69.7,36.6,1,4,1,Intel Xeon E3-1220v2,3100,8,4
+536,power_ssj2008,"Hitachi, Ltd.",HA8000/TS10 (DL),98.4,24.2,1,4,2,Intel Xeon E3-1280,3500,8,8
+537,power_ssj2008,"Hitachi, Ltd.",HA8000/TS10 (DL2),85.2,37.2,1,4,2,Intel Xeon E3-1280v2,3600,8,8
+538,power_ssj2008,"Hitachi, Ltd.",HA8000/TS10 (FK1),124.0,43.5,1,4,2,Intel Xeon X3480,3067,8,8
+539,power_ssj2008,"Hitachi, Ltd.",HA8000/TS10-hJM,156.0,52.7,1,8,2,Intel Xeon E5-2470,2300,16,16
+540,power_ssj2008,"Hitachi, Ltd.",HA8000/TS20 (AL),301.0,125.0,2,6,2,Intel Xeon X5675,3066,48,24
+541,power_ssj2008,"Hitachi, Ltd.",HA8000/TS20 (LK1),304.0,132.0,2,6,2,Intel Xeon X5670,2933,24,24
+542,power_ssj2008,"Hitachi, Ltd.",HA8000/TS20BM,294.0,80.6,2,8,2,Intel Xeon E5-2470,2300,32,32
+543,power_ssj2008,"Huawei Technologies Co., Ltd",BH622 V2,1003.0,238.0,8,8,2,Intel Xeon E5-2660,2200,64,128
+544,power_ssj2008,"Huawei Technologies Co., Ltd",BH640 V2,1253.0,283.0,12,8,2,Intel Xeon E5-4640,2400,96,192
+545,power_ssj2008,"Huawei Technologies Co., Ltd",Fusion Server 1288H V5,421.0,51.7,2,28,2,Intel Xeon Platinum 8280,2700,192,112
+546,power_ssj2008,"Huawei Technologies Co., Ltd",Fusion Server 1288H V5,414.0,50.3,2,28,2,Intel Xeon Platinum 8280,2700,192,112
+547,power_ssj2008,"Huawei Technologies Co., Ltd",Fusion Server 2288H V5,415.0,49.9,2,28,2,Intel Xeon Platinum 8280,2700,192,112
+548,power_ssj2008,"Huawei Technologies Co., Ltd",Fusion Server 2288H V5,419.0,52.2,2,28,2,Intel Xeon Platinum 8280,2700,192,112
+549,power_ssj2008,"Huawei Technologies Co., Ltd",Fusion Server 2288H V5,437.0,50.3,2,28,2,Intel Xeon Platinum 8180,2500,192,112
+550,power_ssj2008,"Huawei Technologies Co., Ltd",Fusion Server 2288H V5,461.0,49.6,2,28,2,Intel Xeon Platinum 8176,2100,192,112
+551,power_ssj2008,"Huawei Technologies Co., Ltd",Fusion Server 2288H V5,423.0,48.9,2,28,2,Intel Xeon Platinum 8180,2500,192,112
+552,power_ssj2008,"Huawei Technologies Co., Ltd",Fusion Server 5288 V5,414.0,50.0,2,28,2,Intel Xeon Platinum 8280,2700,192,112
+553,power_ssj2008,"Huawei Technologies Co., Ltd",Fusion Server 5288 V5,422.0,51.5,2,28,2,Intel Xeon Platinum 8280,2700,192,112
+554,power_ssj2008,"Huawei Technologies Co., Ltd",Fusion Server RH2288H V3,329.0,43.5,2,20,2,Intel Xeon E5-2698 V4,2200,64,80
+555,power_ssj2008,"Huawei Technologies Co., Ltd",Fusion Server RH2288H V3,266.0,44.8,2,18,2,Intel Xeon E5-2699 v3,2300,64,72
+556,power_ssj2008,"Huawei Technologies Co., Ltd",Fusion Server XH620 V3,1419.0,217.0,8,20,2,Intel Xeon E5-2698 V4,2200,256,320
+557,power_ssj2008,"Huawei Technologies Co., Ltd",FusionServer CH121 V3,3868.0,1080.0,16,16,2,Intel Xeon E5-2683 V4,2100,4096,512
+558,power_ssj2008,"Huawei Technologies Co., Ltd",FusionServer CH121 V3,4425.0,1250.0,20,16,2,Intel Xeon E5-2683 V4,2100,5120,640
+559,power_ssj2008,"Huawei Technologies Co., Ltd",FusionServer RH2288 V3,263.0,51.6,2,18,2,Intel Xeon E5-2699V3,2300,64,72
+560,power_ssj2008,"Huawei Technologies Co., Ltd",FusionServer RH2288 V3,261.0,49.2,2,18,2,Intel Xeon E5-2699 V3,2300,64,72
+561,power_ssj2008,"Huawei Technologies Co., Ltd",FusionServer XH321 V3,1322.0,232.0,8,22,2,Intel Xeon E5-2699 v4,2200,256,352
+562,power_ssj2008,"Huawei Technologies Co., Ltd",RH2285,164.0,51.0,2,6,2,Intel Xeon L5640,2266,16,24
+563,power_ssj2008,"Huawei Technologies Co., Ltd",RH2285 V2,241.0,51.0,2,8,2,Intel Xeon E5-2470,2300,24,32
+564,power_ssj2008,"Huawei Technologies Co., Ltd",RH2285 V2,254.0,53.9,2,8,2,Intel Xeon E5-2470,2300,24,32
+565,power_ssj2008,"Huawei Technologies Co., Ltd",RH2285 V2,167.0,54.0,2,8,2,Intel Xeon E5-2450L,1800,16,32
+566,power_ssj2008,"Huawei Technologies Co., Ltd",RH2285 V2,249.0,53.0,2,8,2,Intel Xeon E5-2470,2300,16,32
+567,power_ssj2008,"Huawei Technologies Co., Ltd",RH2285 V2,231.0,53.4,2,8,2,Intel Xeon E5-2450,2100,16,32
+568,power_ssj2008,"Huawei Technologies Co., Ltd",RH2285 V2,207.0,55.1,2,6,2,Intel Xeon E5-2440,2400,16,24
+569,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288 V2,207.0,55.3,2,8,2,Intel Xeon E5-2650,2000,24,32
+570,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288 V2,231.0,52.4,2,8,2,Intel Xeon E5-2660,2200,16,32
+571,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288 V2,236.0,66.8,2,8,2,Intel Xeon E5-2680,2700,24,32
+572,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288 V2,239.0,51.5,2,8,2,Intel Xeon E5-2660,2200,24,32
+573,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288 V2,205.0,56.2,2,6,2,Intel Xeon E5-2630,2300,32,24
+574,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288 V2,275.0,56.2,2,8,2,Intel Xeon E5-2665,2400,32,32
+575,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288 V2,231.0,57.0,2,6,2,Intel Xeon E5-2640,2500,32,24
+576,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288 V2,239.0,54.0,2,8,2,Intel Xeon E5-2660,2200,16,32
+577,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288 V2,161.0,52.2,2,8,2,Intel Xeon E5-2650L,1800,16,32
+578,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288 V2,279.0,54.8,2,8,2,Intel Xeon E5-2670,2600,16,32
+579,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288 V2,243.0,54.7,2,8,2,Intel Xeon E5-2660,2200,32,32
+580,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288 V2,240.0,52.3,2,8,2,Intel Xeon E5-2660,2200,48,32
+581,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288 V2,239.0,51.6,2,8,2,Intel Xeon E5-2660,2200,48,32
+582,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288 V2,257.0,59.7,2,8,2,Intel Xeon E5-2660,2200,32,32
+583,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288 V2,178.0,57.5,2,8,2,Intel Xeon E5-2650L,1800,32,32
+584,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288 V2,282.0,55.6,2,8,2,Intel Xeon E5-2670,2600,32,32
+585,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288 V2,170.0,55.3,2,8,2,Intel Xeon E5-2650L,1800,32,32
+586,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288H V2,137.0,68.7,2,4,1,Intel Xeon E5-2609,2400,48,8
+587,power_ssj2008,"Huawei Technologies Co., Ltd",RH2288H V2-8 Rack Server,202.0,52.0,2,10,2,Intel Xeon E5-2660V2,2200,24,40
+588,power_ssj2008,"Huawei Technologies Co., Ltd",RH2485 V2,428.0,92.3,4,8,2,Intel Xeon E5-4640,2400,48,64
+589,power_ssj2008,"Huawei Technologies Co., Ltd",RH2485 V2,430.0,92.7,4,8,2,Intel Xeon E5-4640,2400,48,64
+590,power_ssj2008,"Huawei Technologies Co., Ltd",RH2485 V2,324.0,89.6,4,6,2,Intel Xeon E5-4607,2200,60,48
+591,power_ssj2008,"Huawei Technologies Co., Ltd",Tecal CH121,1310.0,334.0,12,10,2,Intel Xeon E5-2660 v2,2200,144,240
+592,power_ssj2008,"Huawei Technologies Co., Ltd",Tecal CH121,1732.0,417.0,16,10,2,Intel Xeon E5-2660 v2,2200,192,320
+593,power_ssj2008,"Huawei Technologies Co., Ltd",XH310,470.0,109.0,4,4,2,Intel Xeon X3480,3067,32,32
+594,power_ssj2008,"Huawei Technologies Co., Ltd",XH310,472.0,109.0,4,4,2,Intel Xeon X3470,2933,32,32
+595,power_ssj2008,"Huawei Technologies Co., Ltd",XH320 V2,1079.0,180.0,8,8,2,Intel Xeon E5-2470,2300,64,128
+596,power_ssj2008,"Huawei Technologies Co., Ltd",XH620,463.0,108.0,4,6,2,Intel Xeon X5675,3067,32,48
+597,power_ssj2008,"Huawei Technologies Co., Ltd",XH620,449.0,109.0,4,6,2,Intel Xeon X5670,2930,24,48
+598,power_ssj2008,"Huawei Technologies Co., Ltd",XH621 V2,386.0,142.0,4,8,2,Intel Xeon E5-2650L,1800,64,64
+599,power_ssj2008,"Huawei Technologies Co., Ltd",XH628 V3,935.0,171.0,6,18,2,Intel Xeon E5-2699 v3,2300,192,216
+600,power_ssj2008,IBM Corporation,IBM Flex System x440 Compute Node,3331.0,812.0,28,8,2,Intel Xeon E5-4640,2400,336,448
+601,power_ssj2008,IBM Corporation,IBM NeXtScale nx360 M4,2404.0,550.0,24,10,2,Intel Xeon E5-2660 v2,2200,288,480
+602,power_ssj2008,IBM Corporation,IBM NeXtScale nx360 M4 (Intel Xeon E5-2660 v2),2414.0,497.0,24,10,2,Intel Xeon E5-2660 v2,2200,288,480
+603,power_ssj2008,IBM Corporation,IBM System x iDataPlex dx360 M2,339.0,98.9,4,4,2,Intel Xeon L5530,2400,16,32
+604,power_ssj2008,IBM Corporation,IBM System x iDataPlex dx360 M2,475.0,116.0,4,4,2,Intel Xeon X5570,2933,24,32
+605,power_ssj2008,IBM Corporation,IBM System x iDataPlex dx360 M3,341.0,92.7,4,6,2,Intel Xeon L5640,2267,24,48
+606,power_ssj2008,IBM Corporation,IBM System x iDataPlex dx360 M3,475.0,101.0,4,6,2,Intel Xeon X5670,2933,24,48
+607,power_ssj2008,IBM Corporation,IBM System x iDataPlex dx360 M4,389.0,95.6,4,10,2,Intel Xeon E5-2660 v2,2200,48,80
+608,power_ssj2008,IBM Corporation,IBM System x iDataPlex dx360 M4,507.0,99.1,4,8,2,Intel Xeon E5-2660,2200,48,64
+609,power_ssj2008,IBM Corporation,IBM System x iDataPlex dx360 M4,379.0,96.5,4,8,2,Intel Xeon E5-2660,2200,48,64
+613,power_ssj2008,IBM Corporation,IBM System x3200 M3,115.0,45.4,1,4,2,Intel Xeon X3470,2933,8,8
+616,power_ssj2008,IBM Corporation,IBM System x3250 M3,113.0,41.6,1,4,2,Intel Xeon X3470,2933,8,8
+617,power_ssj2008,IBM Corporation,IBM System x3300 M4,260.0,50.8,2,8,2,Intel Xeon E5-2470,2300,24,32
+618,power_ssj2008,IBM Corporation,IBM System x3300 M4,259.0,52.1,2,8,2,Intel Xeon E5-2470,2300,24,32
+621,power_ssj2008,IBM Corporation,IBM System x3400 M2,218.0,67.0,2,4,2,Intel Xeon E5540,2533,8,16
+622,power_ssj2008,IBM Corporation,IBM System x3400 M2,223.0,70.9,2,4,2,Intel Xeon E5540,2533,8,16
+623,power_ssj2008,IBM Corporation,IBM System x3400 M3,246.0,63.2,2,6,2,Intel Xeon X5675,3067,12,24
+624,power_ssj2008,IBM Corporation,IBM System x3400 M3,258.0,69.2,2,6,2,Intel Xeon X5670,2933,12,24
+626,power_ssj2008,IBM Corporation,IBM System x3500 M4,197.0,48.5,2,10,2,Intel Xeon E5-2660 v2,2200,32,40
+627,power_ssj2008,IBM Corporation,IBM System x3500 M4,256.0,57.3,2,8,2,Intel Xeon E5-2660,2200,24,32
+628,power_ssj2008,IBM Corporation,IBM System x3500 M4,247.0,56.6,2,8,2,Intel Xeon E5-2680,2700,24,32
+629,power_ssj2008,IBM Corporation,IBM System x3530 M4,274.0,62.6,2,8,2,Intel Xeon E5-2470,2300,24,32
+630,power_ssj2008,IBM Corporation,IBM System x3550 M2,180.0,65.8,2,4,2,Intel Xeon L5530,2400,8,16
+631,power_ssj2008,IBM Corporation,IBM System x3550 M2,243.0,74.1,2,4,2,Intel Xeon X5570,2933,8,16
+632,power_ssj2008,IBM Corporation,IBM System x3550 M2,244.0,74.3,2,4,2,Intel Xeon X5570,2933,8,16
+633,power_ssj2008,IBM Corporation,IBM System x3550 M3,222.0,58.4,2,6,2,Intel Xeon X5675,3067,16,24
+634,power_ssj2008,IBM Corporation,IBM System x3550 M3,247.0,66.0,2,6,2,Intel Xeon X5670,2933,12,24
+635,power_ssj2008,IBM Corporation,IBM System x3550 M4,265.0,60.6,2,8,2,Intel Xeon E5-2660,2200,24,32
+636,power_ssj2008,IBM Corporation,IBM System x3550 M4,190.0,56.5,2,8,2,Intel Xeon E5-2660,2200,16,32
+637,power_ssj2008,IBM Corporation,IBM System x3550 M4,198.0,56.9,2,8,2,Intel Xeon E5-2660,2200,24,32
+638,power_ssj2008,IBM Corporation,IBM System x3620 M3,231.0,63.9,2,6,2,Intel Xeon X5675,3067,12,24
+639,power_ssj2008,IBM Corporation,IBM System x3630 M4,269.0,58.1,2,8,2,Intel Xeon E5-2470,2300,24,32
+640,power_ssj2008,IBM Corporation,IBM System x3650 M2,179.0,65.4,2,4,2,Intel Xeon L5530,2400,8,16
+641,power_ssj2008,IBM Corporation,IBM System x3650 M2,237.0,72.5,2,4,2,Intel Xeon X5570,2933,8,16
+642,power_ssj2008,IBM Corporation,IBM System x3650 M2,236.0,72.2,2,4,2,Intel Xeon X5570,2933,8,16
+643,power_ssj2008,IBM Corporation,IBM System x3650 M2,244.0,81.4,2,4,2,Intel Xeon X5570,2933,8,16
+644,power_ssj2008,IBM Corporation,IBM System x3650 M3,218.0,56.1,2,6,2,Intel Xeon X5675,3067,16,24
+645,power_ssj2008,IBM Corporation,IBM System x3650 M3,238.0,66.3,2,6,2,Intel Xeon X5670,2933,12,24
+646,power_ssj2008,IBM Corporation,IBM System x3650 M4,203.0,52.7,2,10,2,Intel Xeon E5-2660 v2,2200,64,40
+647,power_ssj2008,IBM Corporation,IBM System x3650 M4,262.0,57.2,2,8,2,Intel Xeon E5-2660,2200,24,32
+648,power_ssj2008,IBM Corporation,IBM System x3650 M4,196.0,56.1,2,8,2,Intel Xeon E5-2660,2200,24,32
+649,power_ssj2008,IBM Corporation,IBM System x3650 M4,196.0,56.1,2,8,2,Intel Xeon E5-2660,2200,24,32
+650,power_ssj2008,IBM Corporation,IBM System x3755 M3,580.0,122.0,4,16,1,AMD Opteron 6276,2300,64,64
+651,power_ssj2008,IBM Corporation,System x3200 M3,119.0,45.0,1,4,2,Intel Xeon X3480,3067,8,8
+652,power_ssj2008,IBM Corporation,System x3200 M3,118.0,45.8,1,4,2,Intel Xeon X3470,2933,8,8
+653,power_ssj2008,IBM Corporation,System x3250 M3,113.0,42.3,1,4,2,Intel Xeon X3480,3067,8,8
+654,power_ssj2008,IBM Corporation,System x3250 M3,115.0,43.0,1,4,2,Intel Xeon X3470,2933,8,8
+655,power_ssj2008,IBM Corporation,System x3620 M3,236.0,64.0,2,6,2,Intel Xeon X5670,2933,12,24
+656,power_ssj2008,IBM Corporation,System x3630 M3,251.0,80.2,2,6,2,Intel Xeon X5675,3067,12,24
+657,power_ssj2008,IBM Corporation,System x3630 M3,259.0,84.6,2,6,2,Intel Xeon X5670,2933,12,24
+658,power_ssj2008,Inspur Corporation,Inspur NF5180M5,414.0,48.2,2,28,2,Intel Xeon Platinum 8280,2700,192,112
+659,power_ssj2008,Inspur Corporation,Inspur NF5180M5,458.0,51.3,2,28,2,Intel Xeon Platinum 8176 CPU,2100,192,112
+660,power_ssj2008,Inspur Corporation,Inspur NF5180M6,625.0,129.0,2,40,2,Intel Xeon Platinum 8380,2300,256,160
+661,power_ssj2008,Inspur Corporation,Inspur NF5180M6,680.0,156.0,2,32,2,Intel Xeon Platinum 8352Y Processor,2200,512,128
+662,power_ssj2008,Inspur Corporation,Inspur NF5180M6,650.0,176.0,2,24,2,Intel Xeon Gold 6336Y Processor,2400,256,96
+663,power_ssj2008,Inspur Corporation,Inspur NF5280M5,289.0,112.0,2,12,2,Intel Xeon Silver 4214,2200,384,48
+664,power_ssj2008,Inspur Corporation,Inspur NF5280M5,277.0,92.5,1,28,2,Intel Xeon Gold 6238R,2200,384,56
+665,power_ssj2008,Inspur Corporation,Inspur NF5280M5,262.0,93.6,1,24,2,Intel Xeon Gold 6252,2100,384,48
+666,power_ssj2008,Inspur Corporation,Inspur NF5280M5,367.0,114.0,2,16,2,Intel Xeon Gold 5218,2300,384,64
+667,power_ssj2008,Inspur Corporation,Inspur NF5280M5,410.0,48.6,2,28,2,Intel Xeon Platinum 8280,2700,192,112
+668,power_ssj2008,Inspur Corporation,Inspur NF5280M5,347.0,48.3,2,28,2,Intel Xeon Platinum 8276L,2200,192,112
+669,power_ssj2008,Inspur Corporation,Inspur NF5280M5,432.0,49.5,2,28,2,Intel Xeon Platinum 8180,2500,192,112
+670,power_ssj2008,Inspur Corporation,Inspur NF5280M5,454.0,49.4,2,28,2,Intel Xeon Platinum 8176,2100,192,112
+671,power_ssj2008,Inspur Corporation,Inspur NF8480M6,1008.0,104.0,4,28,2,Intel Xeon Platinum 8380HL,2900,384,224
+672,power_ssj2008,Inspur Corporation,Inspur Yingxin NF8480M5,919.0,102.0,4,28,2,Intel Xeon Platinum 8280,2700,384,224
+673,power_ssj2008,Inspur Corporation,Inspur Yingxin NF8480M5,726.0,158.0,4,28,2,Intel Xeon Platinum 8176,2100,384,224
+674,power_ssj2008,Inspur Corporation,Inspur i24LM6,769.0,348.0,2,38,2,Intel Xeon Platinum 8368Q,2600,512,152
+675,power_ssj2008,Inspur Corporation,Inspur i24M6,689.0,221.0,2,36,2,Intel Xeon Platinum 8360Y,2400,256,144
+676,power_ssj2008,Inspur Corporation,NF5280 M4,245.0,45.7,2,22,2,Intel Xeon E5-2699 v4,2200,128,88
+677,power_ssj2008,Inspur Corporation,NF5280M4,301.0,44.4,2,18,2,Intel Xeon E5-2699 v3,2300,64,72
+680,power_ssj2008,LSDtech,L224S-D/F/V-1,432.0,131.0,2,12,2,Intel(R) Xeon(R) Gold 6136 CPU,3000,196,48
+681,power_ssj2008,"LTechKorea, Inc.",LKG-2212-C,377.0,96.6,2,16,2,Intel(R) Xeon(R) Gold 6226R,2900,512,64
+682,power_ssj2008,Lenovo Global Technology,Think System SR635,254.0,63.2,1,64,2,AMD EPYC 7742,2250,128,128
+683,power_ssj2008,Lenovo Global Technology,Think System SR635,255.0,74.6,1,64,2,AMD EPYC 7742,2250,128,128
+684,power_ssj2008,Lenovo Global Technology,Think System SR635 V3,369.0,67.5,1,96,2,AMD EPYC 9654,2400,192,192
+685,power_ssj2008,Lenovo Global Technology,Think System SR635 V3,372.0,66.9,1,96,2,AMD EPYC 9654,2400,192,192
+686,power_ssj2008,Lenovo Global Technology,Think System SR645,403.0,99.5,2,64,2,AMD EPYC 7742,2250,256,256
+687,power_ssj2008,Lenovo Global Technology,Think System SR645,404.0,82.5,2,64,2,AMD EPYC 7742,2250,256,256
+688,power_ssj2008,Lenovo Global Technology,Think System SR645,398.0,94.0,2,64,2,AMD EPYC 7742,2250,256,256
+689,power_ssj2008,Lenovo Global Technology,Think System SR645,400.0,84.0,2,64,2,AMD EPYC 7742,2250,256,256
+690,power_ssj2008,Lenovo Global Technology,Think System SR645 V3,658.0,126.0,2,96,2,AMD EPYC 9654,2400,384,384
+691,power_ssj2008,Lenovo Global Technology,Think System SR655,224.0,63.8,1,64,2,AMD EPYC 7742,2250,128,128
+692,power_ssj2008,Lenovo Global Technology,Think System SR655,221.0,64.6,1,64,2,AMD EPYC 7742,2250,128,128
+693,power_ssj2008,Lenovo Global Technology,Think System SR655,240.0,66.1,1,64,2,AMD EPYC 7742,2250,128,128
+694,power_ssj2008,Lenovo Global Technology,Think System SR655,243.0,76.8,1,64,2,AMD EPYC 7742,2250,128,128
+695,power_ssj2008,Lenovo Global Technology,Think System SR655 V3,351.0,63.2,1,96,2,AMD EPYC 9654,2400,192,192
+696,power_ssj2008,Lenovo Global Technology,Think System SR655 V3,356.0,62.8,1,96,2,AMD EPYC 9654,2400,192,192
+697,power_ssj2008,Lenovo Global Technology,Think System SR665,395.0,82.3,2,64,2,AMD EPYC 7742,2250,256,256
+698,power_ssj2008,Lenovo Global Technology,Think System SR665,394.0,92.4,2,64,2,AMD EPYC 7742,2250,256,256
+699,power_ssj2008,Lenovo Global Technology,Think System SR665,391.0,82.8,2,64,2,AMD EPYC 7742,2250,256,256
+700,power_ssj2008,Lenovo Global Technology,Think System SR665,392.0,93.9,2,64,2,AMD EPYC 7742,2250,256,256
+701,power_ssj2008,Lenovo Global Technology,Think System SR665 V3,634.0,117.0,2,96,2,AMD EPYC 9654,2400,384,384
+702,power_ssj2008,Lenovo Global Technology,Think System SR665 V3,630.0,115.0,2,96,2,AMD EPYC 9654,2400,384,384
+703,power_ssj2008,Lenovo Global Technology,ThinkSystem SD530,1324.0,315.0,8,28,2,Intel Xeon Platinum 8276L,2200,768,448
+704,power_ssj2008,Lenovo Global Technology,ThinkSystem SD530,1474.0,241.0,8,28,2,Intel Xeon Platinum 8176,2100,768,448
+705,power_ssj2008,Lenovo Global Technology,ThinkSystem SD530,1434.0,256.0,8,28,2,Intel Xeon Platinum 8176,2100,768,448
+706,power_ssj2008,Lenovo Global Technology,ThinkSystem SN550,5288.0,1446.0,28,28,2,Intel Xeon Platinum 8176,2100,2688,1568
+707,power_ssj2008,Lenovo Global Technology,ThinkSystem SN550 V2,5637.0,2115.0,28,32,2,Intel Xeon Platinum 8352M,2300,3584,1792
+708,power_ssj2008,Lenovo Global Technology,ThinkSystem SN850,4985.0,1052.0,28,28,2,Intel Xeon Platinum 8276L,2200,2,1568
+709,power_ssj2008,Lenovo Global Technology,ThinkSystem SN850,5366.0,820.0,28,28,2,Intel Xeon Platinum 8176,2100,2688,1568
+710,power_ssj2008,Lenovo Global Technology,ThinkSystem SR150,87.2,16.8,1,6,2,Intel Xeon E-2176G,3700,32,12
+711,power_ssj2008,Lenovo Global Technology,ThinkSystem SR630,355.0,72.3,2,28,2,Intel Xeon Platinum 8176,2100,192,112
+712,power_ssj2008,Lenovo Global Technology,ThinkSystem SR635,240.0,54.0,1,64,2,AMD EPYC 7763,2450,128,128
+713,power_ssj2008,Lenovo Global Technology,ThinkSystem SR645,461.0,102.0,2,64,2,AMD EPYC 7763,2450,256,256
+714,power_ssj2008,Lenovo Global Technology,ThinkSystem SR645,460.0,75.6,2,64,2,AMD EPYC 7763,2450,256,256
+715,power_ssj2008,Lenovo Global Technology,ThinkSystem SR645,459.0,104.0,2,64,2,AMD EPYC 7763,2450,256,256
+716,power_ssj2008,Lenovo Global Technology,ThinkSystem SR650,352.0,67.7,2,28,2,Intel Xeon Platinum 8176,2100,192,112
+717,power_ssj2008,Lenovo Global Technology,ThinkSystem SR650,183.0,45.6,1,28,2,Intel Xeon Platinum 8176 CPU,2100,96,56
+718,power_ssj2008,Lenovo Global Technology,ThinkSystem SR650 (Intel Xeon Platinum 8176 CPU 2.10 GHz),357.0,57.7,2,28,2,Intel Xeon Platinum 8176 CPU,2100,192,112
+719,power_ssj2008,Lenovo Global Technology,ThinkSystem SR650 (Intel Xeon Platinum 8280 CPU 2.70 GHz),177.0,50.0,1,28,2,Intel Xeon Platinum 8280 CPU,2700,96,56
+720,power_ssj2008,Lenovo Global Technology,ThinkSystem SR655,228.0,53.0,1,64,2,AMD EPYC 7763,2450,128,128
+721,power_ssj2008,Lenovo Global Technology,ThinkSystem SR655,228.0,52.5,1,64,2,AMD EPYC 7763,2450,128,128
+722,power_ssj2008,Lenovo Global Technology,ThinkSystem SR665,455.0,108.0,2,64,2,AMD EPYC 7763,2450,256,256
+723,power_ssj2008,Lenovo Global Technology,ThinkSystem SR665,454.0,79.3,2,64,2,AMD EPYC 7763,2450,256,256
+724,power_ssj2008,Lenovo Global Technology,ThinkSystem SR850,672.0,121.0,4,28,2,Intel Xeon Platinum 8276L,2200,384,224
+725,power_ssj2008,Lenovo Global Technology,ThinkSystem SR850,688.0,95.8,4,28,2,Intel Xeon Platinum 8176 CPU,2100,384,224
+726,power_ssj2008,Lenovo Global Technology,ThinkSystem SR850,711.0,119.0,4,28,2,Intel Xeon Platinum 8276L CPU,2200,384,224
+727,power_ssj2008,Lenovo Global Technology,ThinkSystem SR860V2,721.0,138.0,4,28,2,Intel Xeon Platinum 8376HL,2600,384,224
+728,power_ssj2008,Lenovo Global Technology,ThinkSystem SR950,1329.0,281.0,8,28,2,Intel Xeon Platinum 8276L,2200,768,448
+729,power_ssj2008,Lenovo Global Technology,ThinkSystem SR950,1479.0,182.0,8,28,2,Intel Xeon Platinum 8176,2100,768,448
+731,power_ssj2008,NEC Corporation,Express5800/A1080a-D,2003.0,1178.0,8,8,2,Intel Xeon X7560,2266,128,128
+732,power_ssj2008,NEC Corporation,Express5800/A1080a-E,1749.0,993.0,8,8,2,Intel Xeon X7560,2266,128,128
+733,power_ssj2008,NEC Corporation,Express5800/A1080a-S,938.0,553.0,4,8,2,Intel Xeon X7560,2266,128,64
+734,power_ssj2008,NEC Corporation,Express5800/B120b,902.0,360.0,6,6,2,Intel Xeon L5640,2266,48,72
+735,power_ssj2008,NEC Corporation,Express5800/E120b-1,200.0,63.1,2,6,2,Intel Xeon E5645,2400,16,24
+736,power_ssj2008,NEC Corporation,Express5800/E120b-1,138.0,60.7,2,4,2,Intel Xeon L5630,2133,16,16
+737,power_ssj2008,NEC Corporation,Express5800/GT110b,100.0,32.6,1,4,1,Intel Xeon X3430,2400,4,4
+738,power_ssj2008,NEC Corporation,Express5800/GT110b-S,60.9,24.8,1,2,2,Intel Core i3-540,3067,4,4
+739,power_ssj2008,NEC Corporation,Express5800/GT110b-S (Water Cooling),60.9,25.8,1,2,2,Intel Core i3-540,3067,4,4
+740,power_ssj2008,NEC Corporation,Express5800/GT110f-S,45.1,15.9,1,4,2,Intel Xeon E3-1265LV3,2500,8,8
+741,power_ssj2008,NEC Corporation,Express5800/R110c-1,118.0,46.5,1,4,2,Intel Xeon X3470,2933,8,8
+742,power_ssj2008,NEC Corporation,Express5800/R120b-1,259.0,82.9,2,6,2,Intel Xeon X5675,3066,24,24
+743,power_ssj2008,NEC Corporation,Express5800/R120b-1,255.0,84.3,2,6,2,Intel Xeon X5675,3066,24,24
+744,power_ssj2008,NEC Corporation,Express5800/R120b-1,257.0,79.0,2,6,2,Intel Xeon X5670,2933,16,24
+745,power_ssj2008,NEC Corporation,Express5800/R120b-2,250.0,80.1,2,6,2,Intel Xeon X5675,3066,24,24
+746,power_ssj2008,NEC Corporation,Express5800/R120b-2,246.0,80.4,2,6,2,Intel Xeon X5675,3066,24,24
+747,power_ssj2008,NEC Corporation,Express5800/R120b-2,249.0,74.5,2,6,2,Intel Xeon X5670,2933,16,24
+748,power_ssj2008,NEC Corporation,Express5800/R140b-4,913.0,498.0,4,8,2,Intel Xeon X7560,2266,128,64
+749,power_ssj2008,NEC Corporation,Express5800/T120b-E,258.0,80.1,2,6,2,Intel Xeon X5650,2666,24,24
+751,power_ssj2008,NEC Corporation,Express5800/iR120a-1E,176.0,64.1,2,4,2,Intel Xeon L5520,2267,8,16
+752,power_ssj2008,Nettrix,R620 G40,491.0,137.0,2,32,2,Intel Xeon Platinum 8352Y,2200,256,128
+753,power_ssj2008,Nettrix,R620 G40,591.0,142.0,2,38,2,Intel Xeon Platinum 8368Q,2600,256,152
+754,power_ssj2008,Nettrix,R620 G40,468.0,110.0,2,40,2,Intel Xeon Platinum 8380,2300,256,160
+755,power_ssj2008,Nettrix,R620 G50,718.0,149.0,2,60,2,Intel Xeon Platinum 8490H,1900,512,240
+756,power_ssj2008,Nettrix,R620 G50,802.0,152.0,2,60,2,Intel Xeon Platinum 8490H,1900,512,240
+757,power_ssj2008,Nettrix,R620 G50 LP,814.0,157.0,2,60,2,Intel Xeon Platinum 8490H,1900,512,240
+758,power_ssj2008,"New H3C Technologies Co., Ltd.",H3C UniServer B5700 G3,7561.0,891.0,30,28,2,Intel Xeon Platinum 8180,2500,2880,1680
+759,power_ssj2008,"New H3C Technologies Co., Ltd.",H3C UniServer B5700 G3,7967.0,959.0,32,28,2,Intel Xeon Platinum 8180,2500,3072,1792
+760,power_ssj2008,"New H3C Technologies Co., Ltd.",H3C UniServer B5700 G3,4993.0,631.0,20,28,2,Intel Xeon Platinum 8180,2500,1920,1120
+761,power_ssj2008,"New H3C Technologies Co., Ltd.",H3C UniServer B5700 G3,5479.0,681.0,22,28,2,Intel Xeon Platinum 8180,2500,2,1232
+762,power_ssj2008,"New H3C Technologies Co., Ltd.",H3C UniServer B5700 G3,5999.0,735.0,24,28,2,Intel Xeon Platinum 8180,2500,2,1344
+763,power_ssj2008,"New H3C Technologies Co., Ltd.",H3C UniServer B5700 G3,6532.0,787.0,26,28,2,Intel Xeon Platinum 8180,2500,2,1456
+764,power_ssj2008,"New H3C Technologies Co., Ltd.",H3C UniServer B5700 G3,7031.0,838.0,28,28,2,Intel Xeon Platinum 8180,2500,2,1568
+765,power_ssj2008,"New H3C Technologies Co., Ltd.",H3C UniServer B5700 G3,3982.0,498.0,16,28,2,Intel Xeon Platinum 8180,2500,1536,896
+766,power_ssj2008,"New H3C Technologies Co., Ltd.",H3C UniServer B5700 G3,4479.0,558.0,18,28,2,Intel Xeon Platinum 8180,2500,1728,1008
+767,power_ssj2008,"New H3C Technologies Co., Ltd.",H3C UniServer R4900 G5,609.0,119.0,2,40,2,Intel Xeon Platinum 8380,2300,256,160
+768,power_ssj2008,"New H3C Technologies Co., Ltd.",H3C UniServer R4900 G5,609.0,119.0,2,40,2,Intel Xeon Platinum 8380,2300,256,160
+769,power_ssj2008,"New H3C Technologies Co., Ltd.",H3C UniServer R4900 G6 Ultra,877.0,153.0,2,60,2,Intel Xeon Platinum 8490H,1900,512,240
+770,power_ssj2008,"New H3C Technologies Co., Ltd.",H3C UniServer R6700 G3,915.0,94.2,4,28,2,Intel Xeon Platinum 8280L,2700,384,224
+771,power_ssj2008,"New H3C Technologies Co., Ltd.",H3C UniServer R6700 G3,956.0,99.6,4,28,2,Intel Xeon Platinum 8180,2500,384,224
+772,power_ssj2008,"New H3C Technologies Co., Ltd.",H3C UniServer R6700 G3,963.0,95.5,4,28,2,Intel Xeon Platinum 8280L,2700,384,224
+773,power_ssj2008,"New H3C Technologies Co., Ltd.",H3C UniServer R6700 G3,957.0,99.8,4,28,2,Intel Xeon Platinum 8180,2500,384,224
+774,power_ssj2008,"New H3C Technologies Co., Ltd.",H3C UniServer R6900 G5,1005.0,89.2,4,28,2,Intel Xeon Platinum 8380HL,2900,384,224
+775,power_ssj2008,"New H3C Technologies Co., Ltd.",UniServer R4900 G3,430.0,58.4,2,28,2,Intel(R) Xeon(R) Platinum 8180 CPU,2500,96,112
+776,power_ssj2008,Nokia Corporation,AE-SER1U-A,877.0,247.0,5,20,2,Intel(R) Xeon(R) Gold 6210U CPU,2500,320,200
+777,power_ssj2008,Plat'Home,Cloud Station E,172.0,56.2,2,4,2,Intel Xeon L5530,2400,8,16
+778,power_ssj2008,Plat'Home,Cloud Station E,169.0,56.7,2,4,2,Intel Xeon L5520,2260,8,16
+781,power_ssj2008,Quanta Cloud Technology,QuantaGrid D43K-1U,453.0,78.5,2,64,2,AMD EPYC 7763,2450,256,256
+782,power_ssj2008,Quanta Cloud Technology,QuantaGrid D53XQ-2U,630.0,123.0,2,40,2,Intel Xeon Platinum 8380,2300,256,160
+783,power_ssj2008,Quanta Cloud Technology,QuantaGrid D54Q-2U,926.0,187.0,2,56,2,Intel Xeon 8480+,2000,512,224
+784,power_ssj2008,Quanta Cloud Technology,QuantaGrid D54Q-2U,982.0,192.0,2,56,2,Intel Xeon 8480+,2000,512,224
+785,power_ssj2008,Quanta Computer Inc.,QuantaGrid D43K-1U,471.0,85.5,2,64,2,AMD EPYC 7773X,2200,256,256
+786,power_ssj2008,Quanta Computer Inc.,QuantaGrid D51B-2U,247.0,46.6,2,22,2,Intel Xeon E5-2699 v4,2200,64,88
+787,power_ssj2008,Quanta Computer Inc.,QuantaGrid D51B-2U,272.0,49.6,2,18,2,Intel Xeon E5-2699 v3,2300,64,72
+788,power_ssj2008,Quanta Computer Inc.,QuantaGrid D52B-2U,454.0,40.3,2,28,2,Intel Xeon Platinum 8180,2500,192,112
+789,power_ssj2008,Quanta Computer Inc.,QuantaGrid D52BQ-2U,414.0,37.7,2,28,2,Intel Xeon Platinum 8280L,2700,96,112
+790,power_ssj2008,Quanta Computer Inc.,QuantaGrid D52BQ-2U,401.0,38.4,2,28,2,Intel Xeon Platinum 8180,2500,96,112
+791,power_ssj2008,Quanta Computer Inc.,QuantaGrid D52BQ-2U,426.0,39.5,2,28,2,Intel Xeon Platinum 8180,2500,192,112
+792,power_ssj2008,Quanta Computer Inc.,QuantaGrid S31A-1U,47.9,14.4,1,4,2,Intel E3-1260L v5,2900,16,8
+793,power_ssj2008,Quanta Computer Inc.,QuantaGrid T42S-2U,1478.0,206.0,8,28,2,Intel Xeon Platinum 8176,2100,768,448
+798,power_ssj2008,SGI,"Rackable C2005-TY6 (Intel Xeon X5670, 2.93 GHz)",226.0,59.1,2,6,2,Intel Xeon X5670,2933,12,24
+799,power_ssj2008,SGI,Rackable C2112-4G10,1387.0,265.0,8,16,1,AMD Opteron 6276,2300,128,128
+800,power_ssj2008,SGI,Rackable C2112-4RP4,1116.0,268.0,8,8,2,Intel Xeon E5-2660,2200,96,128
+801,power_ssj2008,SGI,Rackable C2112-4TY14,724.0,255.0,8,6,2,Intel Xeon L5640,2267,64,96
+802,power_ssj2008,Sugon,A620-G30,296.0,94.9,2,32,2,AMD EPYC 7601,2200,128,128
+803,power_ssj2008,Sugon,A620-G30(AMD EPYC 7351),278.0,103.0,2,16,2,AMD EPYC 7351,2400,128,64
+804,power_ssj2008,Sugon,A620-G30(AMD EPYC 7501),307.0,103.0,2,32,2,AMD EPYC 7501,2000,128,128
+805,power_ssj2008,Sugon,I620-G30 (Intel Xeon Gold 5117),245.0,51.9,2,14,2,Intel Xeon Gold 5117,2000,192,56
+806,power_ssj2008,Sugon,I620-G30 (Intel Xeon Gold 6140),343.0,52.4,2,18,2,Intel Xeon Gold 6140,2300,192,72
+807,power_ssj2008,Sugon,I620-G30 (Intel Xeon Gold 6152),364.0,53.1,2,22,2,Intel Xeon Gold 6152,2100,192,88
+808,power_ssj2008,Sugon,I620-G30 (Intel Xeon Platinum 8180),450.0,54.6,2,28,2,Intel Xeon Platinum 8180,2500,192,112
+809,power_ssj2008,Sugon,I620-G30(Intel Xeon Platinum 8160),387.0,53.4,2,24,2,Intel Xeon Platinum 8160,2100,192,96
+810,power_ssj2008,Sugon,I840-G25 (Intel Xeon E7-4850 v2 2.30GHz),567.0,213.0,4,12,2,Intel Xeon E7-4850 v2,2300,128,96
+811,power_ssj2008,Sugon,Sugon I620-G20,264.0,52.5,2,18,2,Intel Xeon E5-2699 v3,2300,128,72
+812,power_ssj2008,Sugon,Sugon I620-G30(Intel Xeon Platinum 8180 @2.50GHz),419.0,67.2,2,28,2,Intel Xeon Platinum 8180,2500,192,112
+824,power_ssj2008,Supermicro,SYS-6027R-72RF,347.0,115.0,2,8,2,Intel Xeon E5-2665,2400,128,32
+825,power_ssj2008,Supermicro,SYS-7047R-72RF,331.0,102.0,2,8,2,Intel Xeon E5-2665,2400,128,32
+826,power_ssj2008,Supermicro Computer Inc.,1022G-NTF,320.0,82.6,2,16,1,AMD Opteron 6278,2400,64,32
+827,power_ssj2008,Supermicro Computer Inc.,1022G-NTF,306.0,77.0,2,16,1,AMD Opteron 6276,2300,32,32
+828,power_ssj2008,Supermicro Computer Inc.,1022G-NTF,213.0,70.3,2,16,1,AMD Opteron 6262 HE,1600,32,32
+829,power_ssj2008,"Supermicro Computer, Inc.",1022G-NTF,308.0,77.9,2,16,1,AMD Opteron 6380,2500,64,32
+830,power_ssj2008,"Supermicro Computer, Inc.",1022G-NTF,216.0,72.7,2,16,1,AMD Opteron 6366 HE,1800,64,32
+831,power_ssj2008,Supermicro Inc,SuperServer 741GE-TNRT,957.0,194.0,2,60,2,Intel Xeon Platinum 8490H,1900,512,240
+832,power_ssj2008,Supermicro Inc,SuperServer SYS-521E-WR,482.0,93.9,1,60,2,Intel Xeon Platinum 8490H,1900,256,120
+833,power_ssj2008,Supermicro Inc,SuperServer SYS-621C-TN12R,988.0,163.0,2,60,2,Intel Xeon Platinum 8490H,1900,256,240
+835,power_ssj2008,Supermicro Inc.,1022G-NTF,257.0,76.0,2,16,1,AMD Opteron 6370P,2000,64,32
+839,power_ssj2008,Supermicro Inc.,SYS-1028R-WC1RT,302.0,75.9,2,18,2,Intel Xeon E5-2699 v3,2300,32,72
+840,power_ssj2008,Supermicro Inc.,SYS-1029U-TR4,426.0,61.8,2,28,2,Intel Xeon Platinum 8280L,2700,384,112
+841,power_ssj2008,Supermicro Inc.,SYS-1029U-TR4,423.0,64.2,2,56,2,Intel Xeon Platinum 8180,2500,192,224
+842,power_ssj2008,Supermicro Inc.,SYS-5019S-M(X11SSH-F),47.6,14.8,1,4,2,Intel E3-1260L v5,2900,16,8
+843,power_ssj2008,Supermicro Inc.,SYS-5019S-M(X11SSH-F),66.0,15.0,1,4,2,Intel E3-1270 v5,3600,16,8
+844,power_ssj2008,Supermicro Inc.,SYS-5019S-MR(X11SSH-F),51.1,19.9,1,4,2,Intel E3-1260L v5,2900,16,8
+846,power_ssj2008,Supermicro Inc.,Server 1123US-TR4,412.0,99.2,2,64,2,AMD EPYC 7702,2000,512,256
+847,power_ssj2008,Supermicro Inc.,Server 1123US-TR4,303.0,98.4,2,32,2,AMD EPYC 7501,2000,512,128
+848,power_ssj2008,Supermicro Inc.,Server 2024US-TRT,464.0,191.0,2,64,2,AMD EPYC 7773X,2200,512,256
+849,power_ssj2008,Supermicro Inc.,SuperServer SYS-6029P-WTR,385.0,48.6,2,28,2,Intel Xeon Platinum 8280,2700,192,112
+850,power_ssj2008,Supermicro Inc.,SuperServer SYS-6029P-WTR,416.0,48.1,2,28,2,Intel Xeon Platinum 8276M,2200,192,112
+851,power_ssj2008,Supermicro Inc.,SuperServer SYS-620C-TN12R,622.0,101.0,2,40,2,Intel Xeon Platinum 8380,2300,256,160
+852,power_ssj2008,Supermicro Inc.,SuperServer SYS-740GP-TNRT,633.0,118.0,2,40,2,Intel Xeon Platinum 8380,2300,512,160
+853,power_ssj2008,Supermicro Inc.,System 1027B-URF,285.0,62.4,2,8,2,Intel Xeon E5-2470,2300,24,32
+854,power_ssj2008,Supermicro Inc.,System 6027R-WRF,272.0,83.6,2,8,2,Intel Xeon E5-2660,2200,32,32
+855,power_ssj2008,Supermicro Inc.,System 7047GR-TRF,413.0,101.0,2,8,2,Intel Xeon E5-2670,2300,64,32
+858,power_ssj2008,Tyan Computer Corporation,B8228Y190X2-045V4H,186.0,59.5,2,8,1,AMD Opteron 4376 HE,2600,32,16
+859,power_ssj2008,Tyan Computer Corporation,B8228Y190X2-045V4H,256.0,60.9,2,8,1,AMD Opteron 4386,3100,32,16
+860,power_ssj2008,Tyan Computer Corporation,B8228Y190X2-045V4H,109.0,56.8,2,4,1,AMD Opteron 4310 EE,2200,32,8
+861,power_ssj2008,UNIWIDE,RC2212,291.0,127.0,2,10,2,Intel(R) Xeon(R) Silver 4210 CPU,2200,768,40
+862,power_ssj2008,"Verari Systems, Inc.",RB1305,224.0,53.7,2,4,2,"Intel Xeon X5570,",2930,8,16
+863,power_ssj2008,XSLAB,V-Raptor SQ,269.0,206.0,384,1,1,ARM Cortex-A53 24 Cores: SOCIONEXT SC2A11 ARM SoC,1000,256,384
+864,power_ssj2008,XSLAB,V-Raptor SQ,269.0,206.0,384,1,1,ARM Cortex A53 24 Cores: SOCIONEXT SC2A11 ARM SoC,1000,256,384
+865,power_ssj2008,ZT Systems,1224Ra Datacenter Server,172.0,73.1,2,4,1,AMD Opteron 2377 EE,2300,16,8
+866,power_ssj2008,ZT Systems,1224Ra Datacenter Server,178.0,74.6,2,6,1,AMD Opteron 2419 EE,1800,8,12
+867,power_ssj2008,ZT Systems,1224Ra Datacenter Server,218.0,80.4,2,6,1,AMD Opteron 2425 HE,2100,16,12
+868,power_ssj2008,ZT Systems,1253Ra Datacenter Server,126.0,56.6,2,6,1,AMD Opteron 4164 EE,1800,16,12
+869,power_ssj2008,"xFusion Digital Technologies Co., Ltd",FusionServer 2288H V7,836.0,147.0,2,56,2,Intel Xeon Platinum 8480+,2000,512,224
+870,power_ssj2008,"xFusion Digital Technologies Co., Ltd",FusionServer 5288 V7,835.0,147.0,2,56,2,Intel Xeon Platinum 8480+,2000,512,224
