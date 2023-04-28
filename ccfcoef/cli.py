@@ -32,6 +32,7 @@ CPU_FAMILIES = [
     Family(name='Coffee Lake', short='intel-coffeelake')]
 
 # Defaults to the original SPECpower results file
+# before the creation of this CLI
 SPEC_RESULTS_FILE = DATA_DIR.joinpath('SPECpower-2022-03-01.csv')
 
 
