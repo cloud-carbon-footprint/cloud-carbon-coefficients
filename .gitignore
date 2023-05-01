@@ -133,3 +133,6 @@ dmypy.json
 
 # Jupyter Lab Notebook
 .jupyter/
+
+# Ignore Finder
+.DS_Store
