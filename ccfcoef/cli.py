@@ -31,8 +31,8 @@ CPU_FAMILIES = [
     Family(name='Cascade Lake', short='intel-cascadelake'),
     Family(name='Coffee Lake', short='intel-coffeelake')]
 
-# Defaults to the original SPECpower results file
-# before the creation of this CLI
+# default SPECpower results file, it will be overwritten by the
+# global option --spec-version or latest version if not specified
 SPEC_RESULTS_FILE = DATA_DIR.joinpath('SPECpower-2022-03-01.csv')
 
 
@@ -40,6 +40,9 @@ SPEC_RESULTS_FILE = DATA_DIR.joinpath('SPECpower-2022-03-01.csv')
 @click.option('--spec-version', default='latest',
               help='The SPECpower version to use, use "ccfcoef list-specs" to see available versions.')
 def cli(spec_version):
+    """
+    ccfcoef is a tool to calculate coefficients for cloud providers based on SPECpower results.
+    """
     # global option to decide which SPECpower results file to use
     global SPEC_RESULTS_FILE
 
@@ -52,7 +55,9 @@ def cli(spec_version):
 @cli.command()
 @click.option('-r', '--raw', is_flag=True, default=False, help='Display one version per line.')
 def list_specs(raw):
-    """Display all available SPECpower results files."""
+    """
+    Display all available SPECpower results files.
+    """
     click.secho('Available SPECpower results files:', fg='green')
     for spec in list_spec_results_files():
         version = spec.stem.replace('SPECpower-', '')  # select just the date in filename
@@ -65,7 +70,8 @@ def list_specs(raw):
 
 @cli.command()
 def show_constants():
-    """Display all constants available to ccfcoef.
+    """
+    Display all constants available to ccfcoef.
     For details on each constant, see the 'constants.py' file.
     """
     click.secho('Constants in use:', fg='green')
@@ -76,7 +82,8 @@ def show_constants():
 
 @cli.command()
 def show_families():
-    """Display all CPU families available to ccfcoef.
+    """
+    Display all CPU families available to ccfcoef.
     These families are stored in the 'data/' directory and contain
     the list of micro-architectures for each family.
     """
@@ -87,9 +94,11 @@ def show_families():
 
 @cli.command()
 @click.option('-f', '--family', default='all',
-              help='Family to show, use "ccfcoef show-families" to see available families.')
+              help='Filter family otherwise show all. Use "ccfcoef show-families" to see available families.')
 def cpu_averages(family):
-    """Display the calculated power usage averages for each CPU family."""
+    """
+    Display the calculated power usage averages for each CPU family.
+    """
     if family == 'all':
         family = CPU_FAMILIES
     else:
@@ -104,7 +113,9 @@ def cpu_averages(family):
 @cli.command()
 @click.option('-w', '--write', is_flag=True, help='Write the output to a file')
 def usage_coefficients(write):
-    """Calculate the usage coefficients for each cloud provider."""
+    """
+    Calculate the usage coefficients for each cloud provider.
+    """
     click.secho('Calculating usage coefficients...', fg='cyan')
     output = {True: write_dataframes, False: display_dataframes}
 
@@ -127,9 +138,11 @@ def usage_coefficients(write):
 
 
 @cli.command()
-@click.option('-w', '--write', is_flag=True, help='Write the output to a file')
+@click.option('-w', '--write', is_flag=True, help='Write the output to a file.')
 def embodied_coefficients(write):
-    """Calculate the embodied coefficients for each cloud provider."""
+    """
+    Calculate the embodied coefficients for each cloud provider.
+    """
     click.secho('Calculating embodied coefficients...', fg='cyan')
     output = {True: write_dataframes, False: display_dataframes}
 
@@ -158,7 +171,11 @@ def embodied_coefficients(write):
 
 @cli.command()
 def update_specpower():
-    """Will fetch a new version of the SPECpower database, clean it and save it in data/"""
+    """
+    Will fetch a new version of the SPECpower database, clean it and save it in data/
+    with the current date as the filename. This will overwrite any existing file with the same name.
+    To know more details on what steps are taken to clean the data, check the specfetch module.
+    """
     click.secho("Updating SPECpower data...", fg='cyan')
 
     results = specfetch.spec_results()
@@ -174,14 +191,13 @@ def update_specpower():
 
 @cli.command()
 @click.argument('family')
-@click.option('-w', '--write', is_flag=True, help='Write the output to a file')
+@click.option('-w', '--write', is_flag=True, help='Write the output to a file.')
 def filter_spec(family, write):
     """
     Filter SPECpower file by CPU family.
 
-    FAMILY: CPU family short name to filter by (e.g. 'intel-skylake', 'amd-epyc-gen1'),
+    family: CPU family short name to filter by (e.g. 'intel-skylake', 'amd-epyc-gen1'),
     use "ccfcoef show-families" to see the list of available families.
-
     """
     click.secho(f'Filtering SPECpower data for {family}...', fg='cyan')
     click.secho(f'Using SPECpower results file: {click.style(SPEC_RESULTS_FILE.name, fg="yellow")}', fg='white')
@@ -200,11 +216,13 @@ def filter_spec(family, write):
 
 
 @cli.command()
-@click.option('-w', '--write', is_flag=True, help='Write the output to a file')
+@click.option('-w', '--write', is_flag=True, help='Write the output to a file.')
 def tag_spec(write):
     """
-    Tag SPECpower results with CPU family.
+    Tag SPECpower results with CPU family. This will parse the SPECpower data file
+    and add a column with the CPU family short name.
 
+    Use "ccfcoef show-families" to see the list of available families.
     """
     click.secho(f'Tagging SPECpower data...', fg='cyan')
     click.secho(f'Using SPECpower results file: {click.style(SPEC_RESULTS_FILE.name, fg="yellow")}', fg='white')

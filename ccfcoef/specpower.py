@@ -24,7 +24,7 @@ class SPECPower:
 
     def tag_cpu_family(self, cpus: dict[Family, CPUInfo]):
         for family, info in cpus.items():
-            self.servers.loc[self.filter_by_cpu(info).index, 'CPU Microarchitecture'] = family.name
+            self.servers.loc[self.filter_by_cpu(info).index, 'CPU Family'] = family.name
         return self.servers
 
     class CPUPower:
