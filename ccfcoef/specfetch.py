@@ -55,8 +55,12 @@ def spec_results():
 
     # Remove any row which the ratio between idle power and threads is too high
     # We spotted some outliers with this ratio being 200+
-    filter_ratio = 100
-    df = df[df['avg. watts @ active idle'] / df['Total Threads'] < filter_ratio]
+    #filter_ratio = 100
+    #df = df[df['avg. watts @ active idle'] / df['Total Threads'] < filter_ratio]
+
+    # Patch - SPECPower has an error in this entry, in their website it shows
+    # '83,2' watts but in the CSV it shows '832'.
+    df.loc[df['System'] == 'DEPO Race X340H', 'avg. watts @ active idle'] = 83.2
 
     # Clean the processor description so that it can be matched later against
     # the CPU families
