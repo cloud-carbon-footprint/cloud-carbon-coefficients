@@ -7,7 +7,7 @@ class CPUInfo:
         return iter(self.cpus)
 
     @staticmethod
-    def instantiate(file_name):
-        with open(file_name, 'r') as f:
+    def instantiate(file):
+        with open(file, 'r') as f:
             cpus = [line.strip() for line in f.readlines()]
             return CPUInfo(cpus)

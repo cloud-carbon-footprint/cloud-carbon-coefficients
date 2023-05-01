@@ -4,6 +4,7 @@ import pandas as pd
 
 from ccfcoef.constants import MEMORY_COEFFICIENT
 from ccfcoef.cpu_info import CPUInfo
+from ccfcoef.family import Family
 
 
 class SPECPower:
@@ -15,9 +16,16 @@ class SPECPower:
         self.servers = servers
 
     def get_cpu_power(self, cpu: CPUInfo):
-        re_list = cpu.cpu_re
-        full_re = re.compile('|'.join(re_list), re.I)  # re changed in 3.11, globals need to be defined only once
-        return SPECPower.CPUPower(self.servers[self.servers['CPU Description'].str.contains(full_re)])
+        return SPECPower.CPUPower(self.filter_by_cpu(cpu))
+
+    def filter_by_cpu(self, cpu: CPUInfo):
+        full_re = re.compile('|'.join(cpu.cpu_re), re.I)  # re changed in 3.11, globals need to be defined only once
+        return self.servers[self.servers['CPU Description'].str.contains(full_re)]
+
+    def tag_cpu_family(self, cpus: dict[Family, CPUInfo]):
+        for family, info in cpus.items():
+            self.servers.loc[self.filter_by_cpu(info).index, 'CPU Microarchitecture'] = family.name
+        return self.servers
 
     class CPUPower:
 

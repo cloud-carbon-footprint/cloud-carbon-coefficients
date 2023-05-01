@@ -199,6 +199,27 @@ def filter_spec(family, write):
                                            'Total Threads']], filename)
 
 
+@cli.command()
+@click.option('-w', '--write', is_flag=True, help='Write the output to a file')
+def tag_spec(write):
+    """
+    Tag SPECpower results with CPU family.
+
+    """
+    click.secho(f'Tagging SPECpower data...', fg='cyan')
+    click.secho(f'Using SPECpower results file: {click.style(SPEC_RESULTS_FILE.name, fg="yellow")}', fg='white')
+    output = {True: write_dataframes, False: display_dataframes}
+
+    cpus = {}
+    for family in CPU_FAMILIES:
+        cpus[family] = CPUInfo.instantiate(DATA_DIR.joinpath(f'{family.short}.csv'))
+
+    spec = SPECPower.instantiate(SPEC_RESULTS_FILE)
+    tagged = spec.tag_cpu_family(cpus)
+
+    output[write](tagged, f'{SPEC_RESULTS_FILE.stem}-tagged.csv')
+
+
 def display_dataframes(df, filename=None):
     click.echo(df)
 
