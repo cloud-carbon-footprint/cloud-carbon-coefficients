@@ -52,7 +52,13 @@ class GCPCoefficients(Coefficients):
         return embodied_mean
 
     def add_cpu_power(self, name, power):
-        """Add CPU for GCP differs from Azure and AWS because Max Watts is adjusted for GCP"""
+        """
+        Add CPU for GCP differs from Azure and AWS because Max Watts is adjusted for GCP
+        
+        ref: https://github.com/cloud-carbon-footprint/cloud-carbon-coefficients/pull/24
+        ref: https://github.com/cloud-carbon-footprint/cloud-carbon-footprint/issues/737
+
+        """
         self._cpus_power.append(
             cpu_power(name, power.min_watts, power.max_watts_gcp_adjusted, power.gb_chip)
         )
