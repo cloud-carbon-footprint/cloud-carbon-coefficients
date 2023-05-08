@@ -1,3 +1,12 @@
+# Archived - see [ccf-coefficients](https://github.com/cloud-carbon-footprint/ccf-coefficients)
+
+This repository is archived and the coefficient calculation was replaced with 
+[ccf-coefficients](https://github.com/cloud-carbon-footprint/ccf-coefficients). 
+We replicated the calculation in a command-line interface (CLI) with some added
+features for inspecting the coefficients and their calculation.
+
+We will keep this repository available as a reference for the original work.
+
 # Cloud Carbon Coefficients
 
 This notebook calculates the coefficients used in [Cloud Carbon
